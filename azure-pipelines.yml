@@ -49,37 +49,6 @@ steps:
     summaryFileLocation: 'src/**/coverage.cobertura.xml'
     pathToSources: '$(SolutionPath)'
 
-- task: DotNetCoreCLI@2
-  displayName: "dotnet pack"
-  inputs:
-    command: 'pack'
-    arguments: '--configuration $(BuildConfiguration)'    
-    packagesToPack: '$(SolutionPath).sln'
-    nobuild: true
-    versioningScheme: 'off'    
-
-- task: NuGetCommand@2
-  displayName: 'nuget internal push'
-  inputs:
-    command: 'push'
-    feedsToUse: 'select'
-    packagesToPush: '$(Build.ArtifactStagingDirectory)/**/*.nupkg;!$(Build.ArtifactStagingDirectory)/**/*.symbols.nupkg'
-    nuGetFeedType: 'internal'
-    publishVstsFeed: 'codegator'
-    versioningScheme: 'off'
-    allowPackageConflicts: true    
-        
-- task: NuGetCommand@2
-  displayName: 'nuget external push'
-  inputs:
-    command: 'push'
-    packagesToPush: '$(Build.ArtifactStagingDirectory)/**/*.nupkg;!$(Build.ArtifactStagingDirectory)/**/*.symbols.nupkg'
-    nuGetFeedType: 'external'
-    publishFeedCredentials: 'NUGET.ORG'
-    versioningScheme: 'off'
-    allowPackageConflicts: true 
-    arguments: -SkipDuplicate  
-
 - powershell: |
     choco install docfx -y
     if ($lastexitcode -ne 0) {
@@ -107,3 +76,35 @@ steps:
     git commit -m "CI Updates [skip ci]" -q
     git push origin gh-pages -q
   displayName: "Publish docs"  
+
+- task: DotNetCoreCLI@2
+  displayName: "dotnet pack"
+  inputs:
+    command: 'pack'
+    arguments: '--configuration $(BuildConfiguration)'    
+    packagesToPack: '$(SolutionPath).sln'
+    nobuild: true
+    versioningScheme: 'off'    
+  
+- task: NuGetCommand@2
+  displayName: 'nuget internal push'
+  inputs:
+    command: 'push'
+    feedsToUse: 'select'
+    packagesToPush: '$(Build.ArtifactStagingDirectory)/**/*.nupkg;!$(Build.ArtifactStagingDirectory)/**/*.symbols.nupkg'
+    nuGetFeedType: 'internal'
+    publishVstsFeed: 'codegator'
+    versioningScheme: 'off'
+    allowPackageConflicts: true    
+        
+- task: NuGetCommand@2
+  displayName: 'nuget external push'
+  inputs:
+    command: 'push'
+    packagesToPush: '$(Build.ArtifactStagingDirectory)/**/*.nupkg;!$(Build.ArtifactStagingDirectory)/**/*.symbols.nupkg'
+    nuGetFeedType: 'external'
+    publishFeedCredentials: 'NUGET.ORG'
+    versioningScheme: 'off'
+    allowPackageConflicts: true 
+    arguments: -SkipDuplicate  
+

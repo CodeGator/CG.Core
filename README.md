@@ -1,7 +1,7 @@
 # CG.Core: 
 ---
 [![Build Status](https://dev.azure.com/codegator/CG.Core/_apis/build/status/CodeGator.CG.Core?branchName=master)](https://dev.azure.com/codegator/CG.Core/_build/latest?definitionId=1&branchName=master)
-[![Github docs](https://img.shields.io/static/v1?label=Documentation&message=online&color=blue)](https://codegator.github.io/CG.Core/)
+[![Github docs](https://img.shields.io/static/v1?label=Documentation&message=online&color=blue)](https://codegator.github.io/CG.Core/index.html)
 [![NuGet downloads](https://img.shields.io/nuget/dt/CG.Core.svg?style=flat)](https://nuget.org/packages/CG.Core)
 ![Azure DevOps coverage](https://img.shields.io/azure-devops/coverage/codegator/CG.Core/3)
 

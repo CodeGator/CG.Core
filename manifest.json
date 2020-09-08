@@ -50,18 +50,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/CG.Class1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/CG.Class1.html",
-          "hash": "+H3VSDA24aiEk5aoK9p4TA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/CG.Collections.Generic.EnumerableExtensions.yml",
       "output": {
         ".html": {
@@ -366,7 +354,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CG.html",
-          "hash": "Sf5ODWKp7hLzQElOu4gmEw=="
+          "hash": "BJKmDo+VuQKcqHUS9EccxA=="
         }
       },
       "is_incremental": false,
@@ -390,7 +378,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "OG7F2wr48zzJ+/pvTO04ew=="
+          "hash": "O3v4n3B1mNYFE5Hip5GaxQ=="
         }
       },
       "is_incremental": false,
@@ -509,7 +497,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 30,
+          "total_file_count": 29,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

@@ -103,7 +103,7 @@ steps:
     git clone https://github.com/CodeGator/CG.Core.git -b gh-pages origin_site -q
     Copy-Item origin_site/.git _site -recurse
     CD _site
-    git all -A
+    git add -A
     git commit -m "CI Updates" -q
     git push origin gh-pages -q
   displayName: "Publish docs"  

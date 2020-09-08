@@ -1,0 +1,1120 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: CG
+  name: CG
+  href: api/CG.html
+  commentId: N:CG
+  fullName: CG
+  nameWithType: CG
+- uid: CG.ActionExtensions
+  name: ActionExtensions
+  href: api/CG.ActionExtensions.html
+  commentId: T:CG.ActionExtensions
+  fullName: CG.ActionExtensions
+  nameWithType: ActionExtensions
+- uid: CG.ActionExtensions.WaitAll(System.Collections.Generic.IEnumerable{System.Action},System.Int32,System.Threading.CancellationToken)
+  name: WaitAll(IEnumerable<Action>, Int32, CancellationToken)
+  href: api/CG.ActionExtensions.html#CG_ActionExtensions_WaitAll_System_Collections_Generic_IEnumerable_System_Action__System_Int32_System_Threading_CancellationToken_
+  commentId: M:CG.ActionExtensions.WaitAll(System.Collections.Generic.IEnumerable{System.Action},System.Int32,System.Threading.CancellationToken)
+  name.vb: WaitAll(IEnumerable(Of Action), Int32, CancellationToken)
+  fullName: CG.ActionExtensions.WaitAll(System.Collections.Generic.IEnumerable<System.Action>, System.Int32, System.Threading.CancellationToken)
+  fullName.vb: CG.ActionExtensions.WaitAll(System.Collections.Generic.IEnumerable(Of System.Action), System.Int32, System.Threading.CancellationToken)
+  nameWithType: ActionExtensions.WaitAll(IEnumerable<Action>, Int32, CancellationToken)
+  nameWithType.vb: ActionExtensions.WaitAll(IEnumerable(Of Action), Int32, CancellationToken)
+- uid: CG.ActionExtensions.WaitAll*
+  name: WaitAll
+  href: api/CG.ActionExtensions.html#CG_ActionExtensions_WaitAll_
+  commentId: Overload:CG.ActionExtensions.WaitAll
+  isSpec: "True"
+  fullName: CG.ActionExtensions.WaitAll
+  nameWithType: ActionExtensions.WaitAll
+- uid: CG.ActionExtensions.WhenAll(System.Collections.Generic.IEnumerable{System.Action},System.Int32,System.Threading.CancellationToken)
+  name: WhenAll(IEnumerable<Action>, Int32, CancellationToken)
+  href: api/CG.ActionExtensions.html#CG_ActionExtensions_WhenAll_System_Collections_Generic_IEnumerable_System_Action__System_Int32_System_Threading_CancellationToken_
+  commentId: M:CG.ActionExtensions.WhenAll(System.Collections.Generic.IEnumerable{System.Action},System.Int32,System.Threading.CancellationToken)
+  name.vb: WhenAll(IEnumerable(Of Action), Int32, CancellationToken)
+  fullName: CG.ActionExtensions.WhenAll(System.Collections.Generic.IEnumerable<System.Action>, System.Int32, System.Threading.CancellationToken)
+  fullName.vb: CG.ActionExtensions.WhenAll(System.Collections.Generic.IEnumerable(Of System.Action), System.Int32, System.Threading.CancellationToken)
+  nameWithType: ActionExtensions.WhenAll(IEnumerable<Action>, Int32, CancellationToken)
+  nameWithType.vb: ActionExtensions.WhenAll(IEnumerable(Of Action), Int32, CancellationToken)
+- uid: CG.ActionExtensions.WhenAll*
+  name: WhenAll
+  href: api/CG.ActionExtensions.html#CG_ActionExtensions_WhenAll_
+  commentId: Overload:CG.ActionExtensions.WhenAll
+  isSpec: "True"
+  fullName: CG.ActionExtensions.WhenAll
+  nameWithType: ActionExtensions.WhenAll
+- uid: CG.AppDomainExtensions
+  name: AppDomainExtensions
+  href: api/CG.AppDomainExtensions.html
+  commentId: T:CG.AppDomainExtensions
+  fullName: CG.AppDomainExtensions
+  nameWithType: AppDomainExtensions
+- uid: CG.AppDomainExtensions.FriendlyNameEx(System.AppDomain,System.Boolean)
+  name: FriendlyNameEx(AppDomain, Boolean)
+  href: api/CG.AppDomainExtensions.html#CG_AppDomainExtensions_FriendlyNameEx_System_AppDomain_System_Boolean_
+  commentId: M:CG.AppDomainExtensions.FriendlyNameEx(System.AppDomain,System.Boolean)
+  fullName: CG.AppDomainExtensions.FriendlyNameEx(System.AppDomain, System.Boolean)
+  nameWithType: AppDomainExtensions.FriendlyNameEx(AppDomain, Boolean)
+- uid: CG.AppDomainExtensions.FriendlyNameEx*
+  name: FriendlyNameEx
+  href: api/CG.AppDomainExtensions.html#CG_AppDomainExtensions_FriendlyNameEx_
+  commentId: Overload:CG.AppDomainExtensions.FriendlyNameEx
+  isSpec: "True"
+  fullName: CG.AppDomainExtensions.FriendlyNameEx
+  nameWithType: AppDomainExtensions.FriendlyNameEx
+- uid: CG.CGException
+  name: CGException
+  href: api/CG.CGException.html
+  commentId: T:CG.CGException
+  fullName: CG.CGException
+  nameWithType: CGException
+- uid: CG.CGException.#ctor
+  name: CGException()
+  href: api/CG.CGException.html#CG_CGException__ctor
+  commentId: M:CG.CGException.#ctor
+  fullName: CG.CGException.CGException()
+  nameWithType: CGException.CGException()
+- uid: CG.CGException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  name: CGException(SerializationInfo, StreamingContext)
+  href: api/CG.CGException.html#CG_CGException__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_
+  commentId: M:CG.CGException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  fullName: CG.CGException.CGException(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
+  nameWithType: CGException.CGException(SerializationInfo, StreamingContext)
+- uid: CG.CGException.#ctor(System.String)
+  name: CGException(String)
+  href: api/CG.CGException.html#CG_CGException__ctor_System_String_
+  commentId: M:CG.CGException.#ctor(System.String)
+  fullName: CG.CGException.CGException(System.String)
+  nameWithType: CGException.CGException(String)
+- uid: CG.CGException.#ctor(System.String,System.Exception)
+  name: CGException(String, Exception)
+  href: api/CG.CGException.html#CG_CGException__ctor_System_String_System_Exception_
+  commentId: M:CG.CGException.#ctor(System.String,System.Exception)
+  fullName: CG.CGException.CGException(System.String, System.Exception)
+  nameWithType: CGException.CGException(String, Exception)
+- uid: CG.CGException.#ctor*
+  name: CGException
+  href: api/CG.CGException.html#CG_CGException__ctor_
+  commentId: Overload:CG.CGException.#ctor
+  isSpec: "True"
+  fullName: CG.CGException.CGException
+  nameWithType: CGException.CGException
+- uid: CG.Collections
+  name: CG.Collections
+  href: api/CG.Collections.html
+  commentId: N:CG.Collections
+  fullName: CG.Collections
+  nameWithType: CG.Collections
+- uid: CG.Collections.Generic
+  name: CG.Collections.Generic
+  href: api/CG.Collections.Generic.html
+  commentId: N:CG.Collections.Generic
+  fullName: CG.Collections.Generic
+  nameWithType: CG.Collections.Generic
+- uid: CG.Collections.Generic.EnumerableExtensions
+  name: EnumerableExtensions
+  href: api/CG.Collections.Generic.EnumerableExtensions.html
+  commentId: T:CG.Collections.Generic.EnumerableExtensions
+  fullName: CG.Collections.Generic.EnumerableExtensions
+  nameWithType: EnumerableExtensions
+- uid: CG.Collections.Generic.EnumerableExtensions.ApplyBlackList*
+  name: ApplyBlackList
+  href: api/CG.Collections.Generic.EnumerableExtensions.html#CG_Collections_Generic_EnumerableExtensions_ApplyBlackList_
+  commentId: Overload:CG.Collections.Generic.EnumerableExtensions.ApplyBlackList
+  isSpec: "True"
+  fullName: CG.Collections.Generic.EnumerableExtensions.ApplyBlackList
+  nameWithType: EnumerableExtensions.ApplyBlackList
+- uid: CG.Collections.Generic.EnumerableExtensions.ApplyBlackList``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.String},System.String)
+  name: ApplyBlackList<T>(IEnumerable<T>, Func<T, String>, String)
+  href: api/CG.Collections.Generic.EnumerableExtensions.html#CG_Collections_Generic_EnumerableExtensions_ApplyBlackList__1_System_Collections_Generic_IEnumerable___0__System_Func___0_System_String__System_String_
+  commentId: M:CG.Collections.Generic.EnumerableExtensions.ApplyBlackList``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.String},System.String)
+  name.vb: ApplyBlackList(Of T)(IEnumerable(Of T), Func(Of T, String), String)
+  fullName: CG.Collections.Generic.EnumerableExtensions.ApplyBlackList<T>(System.Collections.Generic.IEnumerable<T>, System.Func<T, System.String>, System.String)
+  fullName.vb: CG.Collections.Generic.EnumerableExtensions.ApplyBlackList(Of T)(System.Collections.Generic.IEnumerable(Of T), System.Func(Of T, System.String), System.String)
+  nameWithType: EnumerableExtensions.ApplyBlackList<T>(IEnumerable<T>, Func<T, String>, String)
+  nameWithType.vb: EnumerableExtensions.ApplyBlackList(Of T)(IEnumerable(Of T), Func(Of T, String), String)
+- uid: CG.Collections.Generic.EnumerableExtensions.ApplyWhiteList*
+  name: ApplyWhiteList
+  href: api/CG.Collections.Generic.EnumerableExtensions.html#CG_Collections_Generic_EnumerableExtensions_ApplyWhiteList_
+  commentId: Overload:CG.Collections.Generic.EnumerableExtensions.ApplyWhiteList
+  isSpec: "True"
+  fullName: CG.Collections.Generic.EnumerableExtensions.ApplyWhiteList
+  nameWithType: EnumerableExtensions.ApplyWhiteList
+- uid: CG.Collections.Generic.EnumerableExtensions.ApplyWhiteList``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.String},System.String)
+  name: ApplyWhiteList<T>(IEnumerable<T>, Func<T, String>, String)
+  href: api/CG.Collections.Generic.EnumerableExtensions.html#CG_Collections_Generic_EnumerableExtensions_ApplyWhiteList__1_System_Collections_Generic_IEnumerable___0__System_Func___0_System_String__System_String_
+  commentId: M:CG.Collections.Generic.EnumerableExtensions.ApplyWhiteList``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.String},System.String)
+  name.vb: ApplyWhiteList(Of T)(IEnumerable(Of T), Func(Of T, String), String)
+  fullName: CG.Collections.Generic.EnumerableExtensions.ApplyWhiteList<T>(System.Collections.Generic.IEnumerable<T>, System.Func<T, System.String>, System.String)
+  fullName.vb: CG.Collections.Generic.EnumerableExtensions.ApplyWhiteList(Of T)(System.Collections.Generic.IEnumerable(Of T), System.Func(Of T, System.String), System.String)
+  nameWithType: EnumerableExtensions.ApplyWhiteList<T>(IEnumerable<T>, Func<T, String>, String)
+  nameWithType.vb: EnumerableExtensions.ApplyWhiteList(Of T)(IEnumerable(Of T), Func(Of T, String), String)
+- uid: CG.Collections.Generic.EnumerableExtensions.ForEach*
+  name: ForEach
+  href: api/CG.Collections.Generic.EnumerableExtensions.html#CG_Collections_Generic_EnumerableExtensions_ForEach_
+  commentId: Overload:CG.Collections.Generic.EnumerableExtensions.ForEach
+  isSpec: "True"
+  fullName: CG.Collections.Generic.EnumerableExtensions.ForEach
+  nameWithType: EnumerableExtensions.ForEach
+- uid: CG.Collections.Generic.EnumerableExtensions.ForEach``1(System.Collections.Generic.IEnumerable{``0},System.Action{``0})
+  name: ForEach<T>(IEnumerable<T>, Action<T>)
+  href: api/CG.Collections.Generic.EnumerableExtensions.html#CG_Collections_Generic_EnumerableExtensions_ForEach__1_System_Collections_Generic_IEnumerable___0__System_Action___0__
+  commentId: M:CG.Collections.Generic.EnumerableExtensions.ForEach``1(System.Collections.Generic.IEnumerable{``0},System.Action{``0})
+  name.vb: ForEach(Of T)(IEnumerable(Of T), Action(Of T))
+  fullName: CG.Collections.Generic.EnumerableExtensions.ForEach<T>(System.Collections.Generic.IEnumerable<T>, System.Action<T>)
+  fullName.vb: CG.Collections.Generic.EnumerableExtensions.ForEach(Of T)(System.Collections.Generic.IEnumerable(Of T), System.Action(Of T))
+  nameWithType: EnumerableExtensions.ForEach<T>(IEnumerable<T>, Action<T>)
+  nameWithType.vb: EnumerableExtensions.ForEach(Of T)(IEnumerable(Of T), Action(Of T))
+- uid: CG.Collections.Generic.EnumerableExtensions.ForEach``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Collections.Generic.IEnumerable{``0}},System.Action{``0})
+  name: ForEach<T>(IEnumerable<T>, Func<T, IEnumerable<T>>, Action<T>)
+  href: api/CG.Collections.Generic.EnumerableExtensions.html#CG_Collections_Generic_EnumerableExtensions_ForEach__1_System_Collections_Generic_IEnumerable___0__System_Func___0_System_Collections_Generic_IEnumerable___0___System_Action___0__
+  commentId: M:CG.Collections.Generic.EnumerableExtensions.ForEach``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Collections.Generic.IEnumerable{``0}},System.Action{``0})
+  name.vb: ForEach(Of T)(IEnumerable(Of T), Func(Of T, IEnumerable(Of T)), Action(Of T))
+  fullName: CG.Collections.Generic.EnumerableExtensions.ForEach<T>(System.Collections.Generic.IEnumerable<T>, System.Func<T, System.Collections.Generic.IEnumerable<T>>, System.Action<T>)
+  fullName.vb: CG.Collections.Generic.EnumerableExtensions.ForEach(Of T)(System.Collections.Generic.IEnumerable(Of T), System.Func(Of T, System.Collections.Generic.IEnumerable(Of T)), System.Action(Of T))
+  nameWithType: EnumerableExtensions.ForEach<T>(IEnumerable<T>, Func<T, IEnumerable<T>>, Action<T>)
+  nameWithType.vb: EnumerableExtensions.ForEach(Of T)(IEnumerable(Of T), Func(Of T, IEnumerable(Of T)), Action(Of T))
+- uid: CG.Collections.Generic.ListExtensions
+  name: ListExtensions
+  href: api/CG.Collections.Generic.ListExtensions.html
+  commentId: T:CG.Collections.Generic.ListExtensions
+  fullName: CG.Collections.Generic.ListExtensions
+  nameWithType: ListExtensions
+- uid: CG.Collections.Generic.ListExtensions.AddRange*
+  name: AddRange
+  href: api/CG.Collections.Generic.ListExtensions.html#CG_Collections_Generic_ListExtensions_AddRange_
+  commentId: Overload:CG.Collections.Generic.ListExtensions.AddRange
+  isSpec: "True"
+  fullName: CG.Collections.Generic.ListExtensions.AddRange
+  nameWithType: ListExtensions.AddRange
+- uid: CG.Collections.Generic.ListExtensions.AddRange``1(System.Collections.Generic.IList{``0},System.Collections.Generic.IEnumerable{``0})
+  name: AddRange<T>(IList<T>, IEnumerable<T>)
+  href: api/CG.Collections.Generic.ListExtensions.html#CG_Collections_Generic_ListExtensions_AddRange__1_System_Collections_Generic_IList___0__System_Collections_Generic_IEnumerable___0__
+  commentId: M:CG.Collections.Generic.ListExtensions.AddRange``1(System.Collections.Generic.IList{``0},System.Collections.Generic.IEnumerable{``0})
+  name.vb: AddRange(Of T)(IList(Of T), IEnumerable(Of T))
+  fullName: CG.Collections.Generic.ListExtensions.AddRange<T>(System.Collections.Generic.IList<T>, System.Collections.Generic.IEnumerable<T>)
+  fullName.vb: CG.Collections.Generic.ListExtensions.AddRange(Of T)(System.Collections.Generic.IList(Of T), System.Collections.Generic.IEnumerable(Of T))
+  nameWithType: ListExtensions.AddRange<T>(IList<T>, IEnumerable<T>)
+  nameWithType.vb: ListExtensions.AddRange(Of T)(IList(Of T), IEnumerable(Of T))
+- uid: CG.Collections.Generic.ListExtensions.ForEach*
+  name: ForEach
+  href: api/CG.Collections.Generic.ListExtensions.html#CG_Collections_Generic_ListExtensions_ForEach_
+  commentId: Overload:CG.Collections.Generic.ListExtensions.ForEach
+  isSpec: "True"
+  fullName: CG.Collections.Generic.ListExtensions.ForEach
+  nameWithType: ListExtensions.ForEach
+- uid: CG.Collections.Generic.ListExtensions.ForEach``1(System.Collections.Generic.IList{``0},System.Action{``0})
+  name: ForEach<T>(IList<T>, Action<T>)
+  href: api/CG.Collections.Generic.ListExtensions.html#CG_Collections_Generic_ListExtensions_ForEach__1_System_Collections_Generic_IList___0__System_Action___0__
+  commentId: M:CG.Collections.Generic.ListExtensions.ForEach``1(System.Collections.Generic.IList{``0},System.Action{``0})
+  name.vb: ForEach(Of T)(IList(Of T), Action(Of T))
+  fullName: CG.Collections.Generic.ListExtensions.ForEach<T>(System.Collections.Generic.IList<T>, System.Action<T>)
+  fullName.vb: CG.Collections.Generic.ListExtensions.ForEach(Of T)(System.Collections.Generic.IList(Of T), System.Action(Of T))
+  nameWithType: ListExtensions.ForEach<T>(IList<T>, Action<T>)
+  nameWithType.vb: ListExtensions.ForEach(Of T)(IList(Of T), Action(Of T))
+- uid: CG.Collections.Generic.ListExtensions.ForEach``1(System.Collections.Generic.IList{``0},System.Func{``0,System.Collections.Generic.IEnumerable{``0}},System.Action{``0})
+  name: ForEach<T>(IList<T>, Func<T, IEnumerable<T>>, Action<T>)
+  href: api/CG.Collections.Generic.ListExtensions.html#CG_Collections_Generic_ListExtensions_ForEach__1_System_Collections_Generic_IList___0__System_Func___0_System_Collections_Generic_IEnumerable___0___System_Action___0__
+  commentId: M:CG.Collections.Generic.ListExtensions.ForEach``1(System.Collections.Generic.IList{``0},System.Func{``0,System.Collections.Generic.IEnumerable{``0}},System.Action{``0})
+  name.vb: ForEach(Of T)(IList(Of T), Func(Of T, IEnumerable(Of T)), Action(Of T))
+  fullName: CG.Collections.Generic.ListExtensions.ForEach<T>(System.Collections.Generic.IList<T>, System.Func<T, System.Collections.Generic.IEnumerable<T>>, System.Action<T>)
+  fullName.vb: CG.Collections.Generic.ListExtensions.ForEach(Of T)(System.Collections.Generic.IList(Of T), System.Func(Of T, System.Collections.Generic.IEnumerable(Of T)), System.Action(Of T))
+  nameWithType: ListExtensions.ForEach<T>(IList<T>, Func<T, IEnumerable<T>>, Action<T>)
+  nameWithType.vb: ListExtensions.ForEach(Of T)(IList(Of T), Func(Of T, IEnumerable(Of T)), Action(Of T))
+- uid: CG.Collections.Generic.ListExtensions.RemoveRange*
+  name: RemoveRange
+  href: api/CG.Collections.Generic.ListExtensions.html#CG_Collections_Generic_ListExtensions_RemoveRange_
+  commentId: Overload:CG.Collections.Generic.ListExtensions.RemoveRange
+  isSpec: "True"
+  fullName: CG.Collections.Generic.ListExtensions.RemoveRange
+  nameWithType: ListExtensions.RemoveRange
+- uid: CG.Collections.Generic.ListExtensions.RemoveRange``1(System.Collections.Generic.IList{``0},System.Int32,System.Int32)
+  name: RemoveRange<T>(IList<T>, Int32, Int32)
+  href: api/CG.Collections.Generic.ListExtensions.html#CG_Collections_Generic_ListExtensions_RemoveRange__1_System_Collections_Generic_IList___0__System_Int32_System_Int32_
+  commentId: M:CG.Collections.Generic.ListExtensions.RemoveRange``1(System.Collections.Generic.IList{``0},System.Int32,System.Int32)
+  name.vb: RemoveRange(Of T)(IList(Of T), Int32, Int32)
+  fullName: CG.Collections.Generic.ListExtensions.RemoveRange<T>(System.Collections.Generic.IList<T>, System.Int32, System.Int32)
+  fullName.vb: CG.Collections.Generic.ListExtensions.RemoveRange(Of T)(System.Collections.Generic.IList(Of T), System.Int32, System.Int32)
+  nameWithType: ListExtensions.RemoveRange<T>(IList<T>, Int32, Int32)
+  nameWithType.vb: ListExtensions.RemoveRange(Of T)(IList(Of T), Int32, Int32)
+- uid: CG.Collections.GuardExtensions
+  name: GuardExtensions
+  href: api/CG.Collections.GuardExtensions.html
+  commentId: T:CG.Collections.GuardExtensions
+  fullName: CG.Collections.GuardExtensions
+  nameWithType: GuardExtensions
+- uid: CG.Collections.GuardExtensions.ThrowIfEmpty*
+  name: ThrowIfEmpty
+  href: api/CG.Collections.GuardExtensions.html#CG_Collections_GuardExtensions_ThrowIfEmpty_
+  commentId: Overload:CG.Collections.GuardExtensions.ThrowIfEmpty
+  isSpec: "True"
+  fullName: CG.Collections.GuardExtensions.ThrowIfEmpty
+  nameWithType: GuardExtensions.ThrowIfEmpty
+- uid: CG.Collections.GuardExtensions.ThrowIfEmpty``1(CG.Validations.IGuard,System.Collections.Generic.IEnumerable{``0},System.String,System.String,System.String,System.Int32)
+  name: ThrowIfEmpty<T>(IGuard, IEnumerable<T>, String, String, String, Int32)
+  href: api/CG.Collections.GuardExtensions.html#CG_Collections_GuardExtensions_ThrowIfEmpty__1_CG_Validations_IGuard_System_Collections_Generic_IEnumerable___0__System_String_System_String_System_String_System_Int32_
+  commentId: M:CG.Collections.GuardExtensions.ThrowIfEmpty``1(CG.Validations.IGuard,System.Collections.Generic.IEnumerable{``0},System.String,System.String,System.String,System.Int32)
+  name.vb: ThrowIfEmpty(Of T)(IGuard, IEnumerable(Of T), String, String, String, Int32)
+  fullName: CG.Collections.GuardExtensions.ThrowIfEmpty<T>(CG.Validations.IGuard, System.Collections.Generic.IEnumerable<T>, System.String, System.String, System.String, System.Int32)
+  fullName.vb: CG.Collections.GuardExtensions.ThrowIfEmpty(Of T)(CG.Validations.IGuard, System.Collections.Generic.IEnumerable(Of T), System.String, System.String, System.String, System.Int32)
+  nameWithType: GuardExtensions.ThrowIfEmpty<T>(IGuard, IEnumerable<T>, String, String, String, Int32)
+  nameWithType.vb: GuardExtensions.ThrowIfEmpty(Of T)(IGuard, IEnumerable(Of T), String, String, String, Int32)
+- uid: CG.Diagnostics
+  name: CG.Diagnostics
+  href: api/CG.Diagnostics.html
+  commentId: N:CG.Diagnostics
+  fullName: CG.Diagnostics
+  nameWithType: CG.Diagnostics
+- uid: CG.Diagnostics.ObjectExtensions
+  name: ObjectExtensions
+  href: api/CG.Diagnostics.ObjectExtensions.html
+  commentId: T:CG.Diagnostics.ObjectExtensions
+  fullName: CG.Diagnostics.ObjectExtensions
+  nameWithType: ObjectExtensions
+- uid: CG.Diagnostics.ObjectExtensions.GetFieldValue(System.Object,System.String,System.Boolean)
+  name: GetFieldValue(Object, String, Boolean)
+  href: api/CG.Diagnostics.ObjectExtensions.html#CG_Diagnostics_ObjectExtensions_GetFieldValue_System_Object_System_String_System_Boolean_
+  commentId: M:CG.Diagnostics.ObjectExtensions.GetFieldValue(System.Object,System.String,System.Boolean)
+  fullName: CG.Diagnostics.ObjectExtensions.GetFieldValue(System.Object, System.String, System.Boolean)
+  nameWithType: ObjectExtensions.GetFieldValue(Object, String, Boolean)
+- uid: CG.Diagnostics.ObjectExtensions.GetFieldValue*
+  name: GetFieldValue
+  href: api/CG.Diagnostics.ObjectExtensions.html#CG_Diagnostics_ObjectExtensions_GetFieldValue_
+  commentId: Overload:CG.Diagnostics.ObjectExtensions.GetFieldValue
+  isSpec: "True"
+  fullName: CG.Diagnostics.ObjectExtensions.GetFieldValue
+  nameWithType: ObjectExtensions.GetFieldValue
+- uid: CG.Diagnostics.ObjectExtensions.GetFieldValue``1(System.Object,System.String,System.Boolean)
+  name: GetFieldValue<T>(Object, String, Boolean)
+  href: api/CG.Diagnostics.ObjectExtensions.html#CG_Diagnostics_ObjectExtensions_GetFieldValue__1_System_Object_System_String_System_Boolean_
+  commentId: M:CG.Diagnostics.ObjectExtensions.GetFieldValue``1(System.Object,System.String,System.Boolean)
+  name.vb: GetFieldValue(Of T)(Object, String, Boolean)
+  fullName: CG.Diagnostics.ObjectExtensions.GetFieldValue<T>(System.Object, System.String, System.Boolean)
+  fullName.vb: CG.Diagnostics.ObjectExtensions.GetFieldValue(Of T)(System.Object, System.String, System.Boolean)
+  nameWithType: ObjectExtensions.GetFieldValue<T>(Object, String, Boolean)
+  nameWithType.vb: ObjectExtensions.GetFieldValue(Of T)(Object, String, Boolean)
+- uid: CG.Diagnostics.ObjectExtensions.GetPropertyValue(System.Object,System.String,System.Boolean)
+  name: GetPropertyValue(Object, String, Boolean)
+  href: api/CG.Diagnostics.ObjectExtensions.html#CG_Diagnostics_ObjectExtensions_GetPropertyValue_System_Object_System_String_System_Boolean_
+  commentId: M:CG.Diagnostics.ObjectExtensions.GetPropertyValue(System.Object,System.String,System.Boolean)
+  fullName: CG.Diagnostics.ObjectExtensions.GetPropertyValue(System.Object, System.String, System.Boolean)
+  nameWithType: ObjectExtensions.GetPropertyValue(Object, String, Boolean)
+- uid: CG.Diagnostics.ObjectExtensions.GetPropertyValue*
+  name: GetPropertyValue
+  href: api/CG.Diagnostics.ObjectExtensions.html#CG_Diagnostics_ObjectExtensions_GetPropertyValue_
+  commentId: Overload:CG.Diagnostics.ObjectExtensions.GetPropertyValue
+  isSpec: "True"
+  fullName: CG.Diagnostics.ObjectExtensions.GetPropertyValue
+  nameWithType: ObjectExtensions.GetPropertyValue
+- uid: CG.Diagnostics.ObjectExtensions.GetPropertyValue``1(System.Object,System.String,System.Boolean)
+  name: GetPropertyValue<T>(Object, String, Boolean)
+  href: api/CG.Diagnostics.ObjectExtensions.html#CG_Diagnostics_ObjectExtensions_GetPropertyValue__1_System_Object_System_String_System_Boolean_
+  commentId: M:CG.Diagnostics.ObjectExtensions.GetPropertyValue``1(System.Object,System.String,System.Boolean)
+  name.vb: GetPropertyValue(Of T)(Object, String, Boolean)
+  fullName: CG.Diagnostics.ObjectExtensions.GetPropertyValue<T>(System.Object, System.String, System.Boolean)
+  fullName.vb: CG.Diagnostics.ObjectExtensions.GetPropertyValue(Of T)(System.Object, System.String, System.Boolean)
+  nameWithType: ObjectExtensions.GetPropertyValue<T>(Object, String, Boolean)
+  nameWithType.vb: ObjectExtensions.GetPropertyValue(Of T)(Object, String, Boolean)
+- uid: CG.Diagnostics.ObjectExtensions.SetFieldValue(System.Object,System.String,System.Object,System.Boolean)
+  name: SetFieldValue(Object, String, Object, Boolean)
+  href: api/CG.Diagnostics.ObjectExtensions.html#CG_Diagnostics_ObjectExtensions_SetFieldValue_System_Object_System_String_System_Object_System_Boolean_
+  commentId: M:CG.Diagnostics.ObjectExtensions.SetFieldValue(System.Object,System.String,System.Object,System.Boolean)
+  fullName: CG.Diagnostics.ObjectExtensions.SetFieldValue(System.Object, System.String, System.Object, System.Boolean)
+  nameWithType: ObjectExtensions.SetFieldValue(Object, String, Object, Boolean)
+- uid: CG.Diagnostics.ObjectExtensions.SetFieldValue*
+  name: SetFieldValue
+  href: api/CG.Diagnostics.ObjectExtensions.html#CG_Diagnostics_ObjectExtensions_SetFieldValue_
+  commentId: Overload:CG.Diagnostics.ObjectExtensions.SetFieldValue
+  isSpec: "True"
+  fullName: CG.Diagnostics.ObjectExtensions.SetFieldValue
+  nameWithType: ObjectExtensions.SetFieldValue
+- uid: CG.Diagnostics.ObjectExtensions.SetPropertyValue(System.Object,System.String,System.Object,System.Boolean)
+  name: SetPropertyValue(Object, String, Object, Boolean)
+  href: api/CG.Diagnostics.ObjectExtensions.html#CG_Diagnostics_ObjectExtensions_SetPropertyValue_System_Object_System_String_System_Object_System_Boolean_
+  commentId: M:CG.Diagnostics.ObjectExtensions.SetPropertyValue(System.Object,System.String,System.Object,System.Boolean)
+  fullName: CG.Diagnostics.ObjectExtensions.SetPropertyValue(System.Object, System.String, System.Object, System.Boolean)
+  nameWithType: ObjectExtensions.SetPropertyValue(Object, String, Object, Boolean)
+- uid: CG.Diagnostics.ObjectExtensions.SetPropertyValue*
+  name: SetPropertyValue
+  href: api/CG.Diagnostics.ObjectExtensions.html#CG_Diagnostics_ObjectExtensions_SetPropertyValue_
+  commentId: Overload:CG.Diagnostics.ObjectExtensions.SetPropertyValue
+  isSpec: "True"
+  fullName: CG.Diagnostics.ObjectExtensions.SetPropertyValue
+  nameWithType: ObjectExtensions.SetPropertyValue
+- uid: CG.Diagnostics.ObjectExtensions.TryGetFieldValue*
+  name: TryGetFieldValue
+  href: api/CG.Diagnostics.ObjectExtensions.html#CG_Diagnostics_ObjectExtensions_TryGetFieldValue_
+  commentId: Overload:CG.Diagnostics.ObjectExtensions.TryGetFieldValue
+  isSpec: "True"
+  fullName: CG.Diagnostics.ObjectExtensions.TryGetFieldValue
+  nameWithType: ObjectExtensions.TryGetFieldValue
+- uid: CG.Diagnostics.ObjectExtensions.TryGetFieldValue``2(``0,System.Linq.Expressions.Expression{System.Func{``0,``1}},``1@)
+  name: TryGetFieldValue<TSource, TFld>(TSource, Expression<Func<TSource, TFld>>, out TFld)
+  href: api/CG.Diagnostics.ObjectExtensions.html#CG_Diagnostics_ObjectExtensions_TryGetFieldValue__2___0_System_Linq_Expressions_Expression_System_Func___0___1_____1__
+  commentId: M:CG.Diagnostics.ObjectExtensions.TryGetFieldValue``2(``0,System.Linq.Expressions.Expression{System.Func{``0,``1}},``1@)
+  name.vb: TryGetFieldValue(Of TSource, TFld)(TSource, Expression(Of Func(Of TSource, TFld)), ByRef TFld)
+  fullName: CG.Diagnostics.ObjectExtensions.TryGetFieldValue<TSource, TFld>(TSource, System.Linq.Expressions.Expression<System.Func<TSource, TFld>>, out TFld)
+  fullName.vb: CG.Diagnostics.ObjectExtensions.TryGetFieldValue(Of TSource, TFld)(TSource, System.Linq.Expressions.Expression(Of System.Func(Of TSource, TFld)), ByRef TFld)
+  nameWithType: ObjectExtensions.TryGetFieldValue<TSource, TFld>(TSource, Expression<Func<TSource, TFld>>, out TFld)
+  nameWithType.vb: ObjectExtensions.TryGetFieldValue(Of TSource, TFld)(TSource, Expression(Of Func(Of TSource, TFld)), ByRef TFld)
+- uid: CG.Diagnostics.ObjectExtensions.TryGetPropertyValue*
+  name: TryGetPropertyValue
+  href: api/CG.Diagnostics.ObjectExtensions.html#CG_Diagnostics_ObjectExtensions_TryGetPropertyValue_
+  commentId: Overload:CG.Diagnostics.ObjectExtensions.TryGetPropertyValue
+  isSpec: "True"
+  fullName: CG.Diagnostics.ObjectExtensions.TryGetPropertyValue
+  nameWithType: ObjectExtensions.TryGetPropertyValue
+- uid: CG.Diagnostics.ObjectExtensions.TryGetPropertyValue``2(``0,System.Linq.Expressions.Expression{System.Func{``0,``1}},``1@)
+  name: TryGetPropertyValue<TSource, TProp>(TSource, Expression<Func<TSource, TProp>>, out TProp)
+  href: api/CG.Diagnostics.ObjectExtensions.html#CG_Diagnostics_ObjectExtensions_TryGetPropertyValue__2___0_System_Linq_Expressions_Expression_System_Func___0___1_____1__
+  commentId: M:CG.Diagnostics.ObjectExtensions.TryGetPropertyValue``2(``0,System.Linq.Expressions.Expression{System.Func{``0,``1}},``1@)
+  name.vb: TryGetPropertyValue(Of TSource, TProp)(TSource, Expression(Of Func(Of TSource, TProp)), ByRef TProp)
+  fullName: CG.Diagnostics.ObjectExtensions.TryGetPropertyValue<TSource, TProp>(TSource, System.Linq.Expressions.Expression<System.Func<TSource, TProp>>, out TProp)
+  fullName.vb: CG.Diagnostics.ObjectExtensions.TryGetPropertyValue(Of TSource, TProp)(TSource, System.Linq.Expressions.Expression(Of System.Func(Of TSource, TProp)), ByRef TProp)
+  nameWithType: ObjectExtensions.TryGetPropertyValue<TSource, TProp>(TSource, Expression<Func<TSource, TProp>>, out TProp)
+  nameWithType.vb: ObjectExtensions.TryGetPropertyValue(Of TSource, TProp)(TSource, Expression(Of Func(Of TSource, TProp)), ByRef TProp)
+- uid: CG.DisposableBase
+  name: DisposableBase
+  href: api/CG.DisposableBase.html
+  commentId: T:CG.DisposableBase
+  fullName: CG.DisposableBase
+  nameWithType: DisposableBase
+- uid: CG.DisposableBase.Dispose(System.Boolean)
+  name: Dispose(Boolean)
+  href: api/CG.DisposableBase.html#CG_DisposableBase_Dispose_System_Boolean_
+  commentId: M:CG.DisposableBase.Dispose(System.Boolean)
+  fullName: CG.DisposableBase.Dispose(System.Boolean)
+  nameWithType: DisposableBase.Dispose(Boolean)
+- uid: CG.DisposableBase.Dispose*
+  name: Dispose
+  href: api/CG.DisposableBase.html#CG_DisposableBase_Dispose_
+  commentId: Overload:CG.DisposableBase.Dispose
+  isSpec: "True"
+  fullName: CG.DisposableBase.Dispose
+  nameWithType: DisposableBase.Dispose
+- uid: CG.DisposableBase.IsDisposed
+  name: IsDisposed
+  href: api/CG.DisposableBase.html#CG_DisposableBase_IsDisposed
+  commentId: P:CG.DisposableBase.IsDisposed
+  fullName: CG.DisposableBase.IsDisposed
+  nameWithType: DisposableBase.IsDisposed
+- uid: CG.DisposableBase.IsDisposed*
+  name: IsDisposed
+  href: api/CG.DisposableBase.html#CG_DisposableBase_IsDisposed_
+  commentId: Overload:CG.DisposableBase.IsDisposed
+  isSpec: "True"
+  fullName: CG.DisposableBase.IsDisposed
+  nameWithType: DisposableBase.IsDisposed
+- uid: CG.DisposableBase.System#IDisposable#Dispose
+  name: IDisposable.Dispose()
+  href: api/CG.DisposableBase.html#CG_DisposableBase_System_IDisposable_Dispose
+  commentId: M:CG.DisposableBase.System#IDisposable#Dispose
+  name.vb: System.IDisposable.Dispose()
+  fullName: CG.DisposableBase.System.IDisposable.Dispose()
+  nameWithType: DisposableBase.IDisposable.Dispose()
+  nameWithType.vb: DisposableBase.System.IDisposable.Dispose()
+- uid: CG.DisposableBase.System#IDisposable#Dispose*
+  name: IDisposable.Dispose
+  href: api/CG.DisposableBase.html#CG_DisposableBase_System_IDisposable_Dispose_
+  commentId: Overload:CG.DisposableBase.System#IDisposable#Dispose
+  isSpec: "True"
+  name.vb: System.IDisposable.Dispose
+  fullName: CG.DisposableBase.System.IDisposable.Dispose
+  nameWithType: DisposableBase.IDisposable.Dispose
+  nameWithType.vb: DisposableBase.System.IDisposable.Dispose
+- uid: CG.ExceptionExtensions
+  name: ExceptionExtensions
+  href: api/CG.ExceptionExtensions.html
+  commentId: T:CG.ExceptionExtensions
+  fullName: CG.ExceptionExtensions
+  nameWithType: ExceptionExtensions
+- uid: CG.ExceptionExtensions.MessageEx(System.Exception,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean)
+  name: MessageEx(Exception, Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, Boolean)
+  href: api/CG.ExceptionExtensions.html#CG_ExceptionExtensions_MessageEx_System_Exception_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_
+  commentId: M:CG.ExceptionExtensions.MessageEx(System.Exception,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean)
+  fullName: CG.ExceptionExtensions.MessageEx(System.Exception, System.Boolean, System.Boolean, System.Boolean, System.Boolean, System.Boolean, System.Boolean, System.Boolean, System.Boolean, System.Boolean, System.Boolean)
+  nameWithType: ExceptionExtensions.MessageEx(Exception, Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, Boolean)
+- uid: CG.ExceptionExtensions.MessageEx*
+  name: MessageEx
+  href: api/CG.ExceptionExtensions.html#CG_ExceptionExtensions_MessageEx_
+  commentId: Overload:CG.ExceptionExtensions.MessageEx
+  isSpec: "True"
+  fullName: CG.ExceptionExtensions.MessageEx
+  nameWithType: ExceptionExtensions.MessageEx
+- uid: CG.IO
+  name: CG.IO
+  href: api/CG.IO.html
+  commentId: N:CG.IO
+  fullName: CG.IO
+  nameWithType: CG.IO
+- uid: CG.IO.GuardExtensions
+  name: GuardExtensions
+  href: api/CG.IO.GuardExtensions.html
+  commentId: T:CG.IO.GuardExtensions
+  fullName: CG.IO.GuardExtensions
+  nameWithType: GuardExtensions
+- uid: CG.IO.GuardExtensions.ThrowIfInvalidFileExtension(CG.Validations.IGuard,System.String,System.String,System.String,System.String,System.Int32)
+  name: ThrowIfInvalidFileExtension(IGuard, String, String, String, String, Int32)
+  href: api/CG.IO.GuardExtensions.html#CG_IO_GuardExtensions_ThrowIfInvalidFileExtension_CG_Validations_IGuard_System_String_System_String_System_String_System_String_System_Int32_
+  commentId: M:CG.IO.GuardExtensions.ThrowIfInvalidFileExtension(CG.Validations.IGuard,System.String,System.String,System.String,System.String,System.Int32)
+  fullName: CG.IO.GuardExtensions.ThrowIfInvalidFileExtension(CG.Validations.IGuard, System.String, System.String, System.String, System.String, System.Int32)
+  nameWithType: GuardExtensions.ThrowIfInvalidFileExtension(IGuard, String, String, String, String, Int32)
+- uid: CG.IO.GuardExtensions.ThrowIfInvalidFileExtension*
+  name: ThrowIfInvalidFileExtension
+  href: api/CG.IO.GuardExtensions.html#CG_IO_GuardExtensions_ThrowIfInvalidFileExtension_
+  commentId: Overload:CG.IO.GuardExtensions.ThrowIfInvalidFileExtension
+  isSpec: "True"
+  fullName: CG.IO.GuardExtensions.ThrowIfInvalidFileExtension
+  nameWithType: GuardExtensions.ThrowIfInvalidFileExtension
+- uid: CG.IO.GuardExtensions.ThrowIfInvalidFilePath(CG.Validations.IGuard,System.String,System.String,System.String,System.String,System.Int32)
+  name: ThrowIfInvalidFilePath(IGuard, String, String, String, String, Int32)
+  href: api/CG.IO.GuardExtensions.html#CG_IO_GuardExtensions_ThrowIfInvalidFilePath_CG_Validations_IGuard_System_String_System_String_System_String_System_String_System_Int32_
+  commentId: M:CG.IO.GuardExtensions.ThrowIfInvalidFilePath(CG.Validations.IGuard,System.String,System.String,System.String,System.String,System.Int32)
+  fullName: CG.IO.GuardExtensions.ThrowIfInvalidFilePath(CG.Validations.IGuard, System.String, System.String, System.String, System.String, System.Int32)
+  nameWithType: GuardExtensions.ThrowIfInvalidFilePath(IGuard, String, String, String, String, Int32)
+- uid: CG.IO.GuardExtensions.ThrowIfInvalidFilePath*
+  name: ThrowIfInvalidFilePath
+  href: api/CG.IO.GuardExtensions.html#CG_IO_GuardExtensions_ThrowIfInvalidFilePath_
+  commentId: Overload:CG.IO.GuardExtensions.ThrowIfInvalidFilePath
+  isSpec: "True"
+  fullName: CG.IO.GuardExtensions.ThrowIfInvalidFilePath
+  nameWithType: GuardExtensions.ThrowIfInvalidFilePath
+- uid: CG.IO.GuardExtensions.ThrowIfInvalidFolderPath(CG.Validations.IGuard,System.String,System.String,System.String,System.String,System.Int32)
+  name: ThrowIfInvalidFolderPath(IGuard, String, String, String, String, Int32)
+  href: api/CG.IO.GuardExtensions.html#CG_IO_GuardExtensions_ThrowIfInvalidFolderPath_CG_Validations_IGuard_System_String_System_String_System_String_System_String_System_Int32_
+  commentId: M:CG.IO.GuardExtensions.ThrowIfInvalidFolderPath(CG.Validations.IGuard,System.String,System.String,System.String,System.String,System.Int32)
+  fullName: CG.IO.GuardExtensions.ThrowIfInvalidFolderPath(CG.Validations.IGuard, System.String, System.String, System.String, System.String, System.Int32)
+  nameWithType: GuardExtensions.ThrowIfInvalidFolderPath(IGuard, String, String, String, String, Int32)
+- uid: CG.IO.GuardExtensions.ThrowIfInvalidFolderPath*
+  name: ThrowIfInvalidFolderPath
+  href: api/CG.IO.GuardExtensions.html#CG_IO_GuardExtensions_ThrowIfInvalidFolderPath_
+  commentId: Overload:CG.IO.GuardExtensions.ThrowIfInvalidFolderPath
+  isSpec: "True"
+  fullName: CG.IO.GuardExtensions.ThrowIfInvalidFolderPath
+  nameWithType: GuardExtensions.ThrowIfInvalidFolderPath
+- uid: CG.IO.GuardExtensions.ThrowIfNotReadable(CG.Validations.IGuard,System.IO.Stream,System.String,System.String,System.String,System.Int32)
+  name: ThrowIfNotReadable(IGuard, Stream, String, String, String, Int32)
+  href: api/CG.IO.GuardExtensions.html#CG_IO_GuardExtensions_ThrowIfNotReadable_CG_Validations_IGuard_System_IO_Stream_System_String_System_String_System_String_System_Int32_
+  commentId: M:CG.IO.GuardExtensions.ThrowIfNotReadable(CG.Validations.IGuard,System.IO.Stream,System.String,System.String,System.String,System.Int32)
+  fullName: CG.IO.GuardExtensions.ThrowIfNotReadable(CG.Validations.IGuard, System.IO.Stream, System.String, System.String, System.String, System.Int32)
+  nameWithType: GuardExtensions.ThrowIfNotReadable(IGuard, Stream, String, String, String, Int32)
+- uid: CG.IO.GuardExtensions.ThrowIfNotReadable*
+  name: ThrowIfNotReadable
+  href: api/CG.IO.GuardExtensions.html#CG_IO_GuardExtensions_ThrowIfNotReadable_
+  commentId: Overload:CG.IO.GuardExtensions.ThrowIfNotReadable
+  isSpec: "True"
+  fullName: CG.IO.GuardExtensions.ThrowIfNotReadable
+  nameWithType: GuardExtensions.ThrowIfNotReadable
+- uid: CG.IO.GuardExtensions.ThrowIfNotWritable(CG.Validations.IGuard,System.IO.Stream,System.String,System.String,System.String,System.Int32)
+  name: ThrowIfNotWritable(IGuard, Stream, String, String, String, Int32)
+  href: api/CG.IO.GuardExtensions.html#CG_IO_GuardExtensions_ThrowIfNotWritable_CG_Validations_IGuard_System_IO_Stream_System_String_System_String_System_String_System_Int32_
+  commentId: M:CG.IO.GuardExtensions.ThrowIfNotWritable(CG.Validations.IGuard,System.IO.Stream,System.String,System.String,System.String,System.Int32)
+  fullName: CG.IO.GuardExtensions.ThrowIfNotWritable(CG.Validations.IGuard, System.IO.Stream, System.String, System.String, System.String, System.Int32)
+  nameWithType: GuardExtensions.ThrowIfNotWritable(IGuard, Stream, String, String, String, Int32)
+- uid: CG.IO.GuardExtensions.ThrowIfNotWritable*
+  name: ThrowIfNotWritable
+  href: api/CG.IO.GuardExtensions.html#CG_IO_GuardExtensions_ThrowIfNotWritable_
+  commentId: Overload:CG.IO.GuardExtensions.ThrowIfNotWritable
+  isSpec: "True"
+  fullName: CG.IO.GuardExtensions.ThrowIfNotWritable
+  nameWithType: GuardExtensions.ThrowIfNotWritable
+- uid: CG.IO.TemporaryStream
+  name: TemporaryStream
+  href: api/CG.IO.TemporaryStream.html
+  commentId: T:CG.IO.TemporaryStream
+  fullName: CG.IO.TemporaryStream
+  nameWithType: TemporaryStream
+- uid: CG.IO.TemporaryStream.#ctor(System.String)
+  name: TemporaryStream(String)
+  href: api/CG.IO.TemporaryStream.html#CG_IO_TemporaryStream__ctor_System_String_
+  commentId: M:CG.IO.TemporaryStream.#ctor(System.String)
+  fullName: CG.IO.TemporaryStream.TemporaryStream(System.String)
+  nameWithType: TemporaryStream.TemporaryStream(String)
+- uid: CG.IO.TemporaryStream.#ctor*
+  name: TemporaryStream
+  href: api/CG.IO.TemporaryStream.html#CG_IO_TemporaryStream__ctor_
+  commentId: Overload:CG.IO.TemporaryStream.#ctor
+  isSpec: "True"
+  fullName: CG.IO.TemporaryStream.TemporaryStream
+  nameWithType: TemporaryStream.TemporaryStream
+- uid: CG.IO.TemporaryStream.BaseStream
+  name: BaseStream
+  href: api/CG.IO.TemporaryStream.html#CG_IO_TemporaryStream_BaseStream
+  commentId: P:CG.IO.TemporaryStream.BaseStream
+  fullName: CG.IO.TemporaryStream.BaseStream
+  nameWithType: TemporaryStream.BaseStream
+- uid: CG.IO.TemporaryStream.BaseStream*
+  name: BaseStream
+  href: api/CG.IO.TemporaryStream.html#CG_IO_TemporaryStream_BaseStream_
+  commentId: Overload:CG.IO.TemporaryStream.BaseStream
+  isSpec: "True"
+  fullName: CG.IO.TemporaryStream.BaseStream
+  nameWithType: TemporaryStream.BaseStream
+- uid: CG.IO.TemporaryStream.CanRead
+  name: CanRead
+  href: api/CG.IO.TemporaryStream.html#CG_IO_TemporaryStream_CanRead
+  commentId: P:CG.IO.TemporaryStream.CanRead
+  fullName: CG.IO.TemporaryStream.CanRead
+  nameWithType: TemporaryStream.CanRead
+- uid: CG.IO.TemporaryStream.CanRead*
+  name: CanRead
+  href: api/CG.IO.TemporaryStream.html#CG_IO_TemporaryStream_CanRead_
+  commentId: Overload:CG.IO.TemporaryStream.CanRead
+  isSpec: "True"
+  fullName: CG.IO.TemporaryStream.CanRead
+  nameWithType: TemporaryStream.CanRead
+- uid: CG.IO.TemporaryStream.CanSeek
+  name: CanSeek
+  href: api/CG.IO.TemporaryStream.html#CG_IO_TemporaryStream_CanSeek
+  commentId: P:CG.IO.TemporaryStream.CanSeek
+  fullName: CG.IO.TemporaryStream.CanSeek
+  nameWithType: TemporaryStream.CanSeek
+- uid: CG.IO.TemporaryStream.CanSeek*
+  name: CanSeek
+  href: api/CG.IO.TemporaryStream.html#CG_IO_TemporaryStream_CanSeek_
+  commentId: Overload:CG.IO.TemporaryStream.CanSeek
+  isSpec: "True"
+  fullName: CG.IO.TemporaryStream.CanSeek
+  nameWithType: TemporaryStream.CanSeek
+- uid: CG.IO.TemporaryStream.CanWrite
+  name: CanWrite
+  href: api/CG.IO.TemporaryStream.html#CG_IO_TemporaryStream_CanWrite
+  commentId: P:CG.IO.TemporaryStream.CanWrite
+  fullName: CG.IO.TemporaryStream.CanWrite
+  nameWithType: TemporaryStream.CanWrite
+- uid: CG.IO.TemporaryStream.CanWrite*
+  name: CanWrite
+  href: api/CG.IO.TemporaryStream.html#CG_IO_TemporaryStream_CanWrite_
+  commentId: Overload:CG.IO.TemporaryStream.CanWrite
+  isSpec: "True"
+  fullName: CG.IO.TemporaryStream.CanWrite
+  nameWithType: TemporaryStream.CanWrite
+- uid: CG.IO.TemporaryStream.Dispose(System.Boolean)
+  name: Dispose(Boolean)
+  href: api/CG.IO.TemporaryStream.html#CG_IO_TemporaryStream_Dispose_System_Boolean_
+  commentId: M:CG.IO.TemporaryStream.Dispose(System.Boolean)
+  fullName: CG.IO.TemporaryStream.Dispose(System.Boolean)
+  nameWithType: TemporaryStream.Dispose(Boolean)
+- uid: CG.IO.TemporaryStream.Dispose*
+  name: Dispose
+  href: api/CG.IO.TemporaryStream.html#CG_IO_TemporaryStream_Dispose_
+  commentId: Overload:CG.IO.TemporaryStream.Dispose
+  isSpec: "True"
+  fullName: CG.IO.TemporaryStream.Dispose
+  nameWithType: TemporaryStream.Dispose
+- uid: CG.IO.TemporaryStream.Flush
+  name: Flush()
+  href: api/CG.IO.TemporaryStream.html#CG_IO_TemporaryStream_Flush
+  commentId: M:CG.IO.TemporaryStream.Flush
+  fullName: CG.IO.TemporaryStream.Flush()
+  nameWithType: TemporaryStream.Flush()
+- uid: CG.IO.TemporaryStream.Flush*
+  name: Flush
+  href: api/CG.IO.TemporaryStream.html#CG_IO_TemporaryStream_Flush_
+  commentId: Overload:CG.IO.TemporaryStream.Flush
+  isSpec: "True"
+  fullName: CG.IO.TemporaryStream.Flush
+  nameWithType: TemporaryStream.Flush
+- uid: CG.IO.TemporaryStream.Length
+  name: Length
+  href: api/CG.IO.TemporaryStream.html#CG_IO_TemporaryStream_Length
+  commentId: P:CG.IO.TemporaryStream.Length
+  fullName: CG.IO.TemporaryStream.Length
+  nameWithType: TemporaryStream.Length
+- uid: CG.IO.TemporaryStream.Length*
+  name: Length
+  href: api/CG.IO.TemporaryStream.html#CG_IO_TemporaryStream_Length_
+  commentId: Overload:CG.IO.TemporaryStream.Length
+  isSpec: "True"
+  fullName: CG.IO.TemporaryStream.Length
+  nameWithType: TemporaryStream.Length
+- uid: CG.IO.TemporaryStream.Name
+  name: Name
+  href: api/CG.IO.TemporaryStream.html#CG_IO_TemporaryStream_Name
+  commentId: P:CG.IO.TemporaryStream.Name
+  fullName: CG.IO.TemporaryStream.Name
+  nameWithType: TemporaryStream.Name
+- uid: CG.IO.TemporaryStream.Name*
+  name: Name
+  href: api/CG.IO.TemporaryStream.html#CG_IO_TemporaryStream_Name_
+  commentId: Overload:CG.IO.TemporaryStream.Name
+  isSpec: "True"
+  fullName: CG.IO.TemporaryStream.Name
+  nameWithType: TemporaryStream.Name
+- uid: CG.IO.TemporaryStream.Position
+  name: Position
+  href: api/CG.IO.TemporaryStream.html#CG_IO_TemporaryStream_Position
+  commentId: P:CG.IO.TemporaryStream.Position
+  fullName: CG.IO.TemporaryStream.Position
+  nameWithType: TemporaryStream.Position
+- uid: CG.IO.TemporaryStream.Position*
+  name: Position
+  href: api/CG.IO.TemporaryStream.html#CG_IO_TemporaryStream_Position_
+  commentId: Overload:CG.IO.TemporaryStream.Position
+  isSpec: "True"
+  fullName: CG.IO.TemporaryStream.Position
+  nameWithType: TemporaryStream.Position
+- uid: CG.IO.TemporaryStream.Read(System.Byte[],System.Int32,System.Int32)
+  name: Read(Byte[], Int32, Int32)
+  href: api/CG.IO.TemporaryStream.html#CG_IO_TemporaryStream_Read_System_Byte___System_Int32_System_Int32_
+  commentId: M:CG.IO.TemporaryStream.Read(System.Byte[],System.Int32,System.Int32)
+  name.vb: Read(Byte(), Int32, Int32)
+  fullName: CG.IO.TemporaryStream.Read(System.Byte[], System.Int32, System.Int32)
+  fullName.vb: CG.IO.TemporaryStream.Read(System.Byte(), System.Int32, System.Int32)
+  nameWithType: TemporaryStream.Read(Byte[], Int32, Int32)
+  nameWithType.vb: TemporaryStream.Read(Byte(), Int32, Int32)
+- uid: CG.IO.TemporaryStream.Read*
+  name: Read
+  href: api/CG.IO.TemporaryStream.html#CG_IO_TemporaryStream_Read_
+  commentId: Overload:CG.IO.TemporaryStream.Read
+  isSpec: "True"
+  fullName: CG.IO.TemporaryStream.Read
+  nameWithType: TemporaryStream.Read
+- uid: CG.IO.TemporaryStream.Seek(System.Int64,System.IO.SeekOrigin)
+  name: Seek(Int64, SeekOrigin)
+  href: api/CG.IO.TemporaryStream.html#CG_IO_TemporaryStream_Seek_System_Int64_System_IO_SeekOrigin_
+  commentId: M:CG.IO.TemporaryStream.Seek(System.Int64,System.IO.SeekOrigin)
+  fullName: CG.IO.TemporaryStream.Seek(System.Int64, System.IO.SeekOrigin)
+  nameWithType: TemporaryStream.Seek(Int64, SeekOrigin)
+- uid: CG.IO.TemporaryStream.Seek*
+  name: Seek
+  href: api/CG.IO.TemporaryStream.html#CG_IO_TemporaryStream_Seek_
+  commentId: Overload:CG.IO.TemporaryStream.Seek
+  isSpec: "True"
+  fullName: CG.IO.TemporaryStream.Seek
+  nameWithType: TemporaryStream.Seek
+- uid: CG.IO.TemporaryStream.SetLength(System.Int64)
+  name: SetLength(Int64)
+  href: api/CG.IO.TemporaryStream.html#CG_IO_TemporaryStream_SetLength_System_Int64_
+  commentId: M:CG.IO.TemporaryStream.SetLength(System.Int64)
+  fullName: CG.IO.TemporaryStream.SetLength(System.Int64)
+  nameWithType: TemporaryStream.SetLength(Int64)
+- uid: CG.IO.TemporaryStream.SetLength*
+  name: SetLength
+  href: api/CG.IO.TemporaryStream.html#CG_IO_TemporaryStream_SetLength_
+  commentId: Overload:CG.IO.TemporaryStream.SetLength
+  isSpec: "True"
+  fullName: CG.IO.TemporaryStream.SetLength
+  nameWithType: TemporaryStream.SetLength
+- uid: CG.IO.TemporaryStream.Write(System.Byte[],System.Int32,System.Int32)
+  name: Write(Byte[], Int32, Int32)
+  href: api/CG.IO.TemporaryStream.html#CG_IO_TemporaryStream_Write_System_Byte___System_Int32_System_Int32_
+  commentId: M:CG.IO.TemporaryStream.Write(System.Byte[],System.Int32,System.Int32)
+  name.vb: Write(Byte(), Int32, Int32)
+  fullName: CG.IO.TemporaryStream.Write(System.Byte[], System.Int32, System.Int32)
+  fullName.vb: CG.IO.TemporaryStream.Write(System.Byte(), System.Int32, System.Int32)
+  nameWithType: TemporaryStream.Write(Byte[], Int32, Int32)
+  nameWithType.vb: TemporaryStream.Write(Byte(), Int32, Int32)
+- uid: CG.IO.TemporaryStream.Write*
+  name: Write
+  href: api/CG.IO.TemporaryStream.html#CG_IO_TemporaryStream_Write_
+  commentId: Overload:CG.IO.TemporaryStream.Write
+  isSpec: "True"
+  fullName: CG.IO.TemporaryStream.Write
+  nameWithType: TemporaryStream.Write
+- uid: CG.RandomEx
+  name: RandomEx
+  href: api/CG.RandomEx.html
+  commentId: T:CG.RandomEx
+  fullName: CG.RandomEx
+  nameWithType: RandomEx
+- uid: CG.RandomEx.#ctor
+  name: RandomEx()
+  href: api/CG.RandomEx.html#CG_RandomEx__ctor
+  commentId: M:CG.RandomEx.#ctor
+  fullName: CG.RandomEx.RandomEx()
+  nameWithType: RandomEx.RandomEx()
+- uid: CG.RandomEx.#ctor(System.Int32)
+  name: RandomEx(Int32)
+  href: api/CG.RandomEx.html#CG_RandomEx__ctor_System_Int32_
+  commentId: M:CG.RandomEx.#ctor(System.Int32)
+  fullName: CG.RandomEx.RandomEx(System.Int32)
+  nameWithType: RandomEx.RandomEx(Int32)
+- uid: CG.RandomEx.#ctor*
+  name: RandomEx
+  href: api/CG.RandomEx.html#CG_RandomEx__ctor_
+  commentId: Overload:CG.RandomEx.#ctor
+  isSpec: "True"
+  fullName: CG.RandomEx.RandomEx
+  nameWithType: RandomEx.RandomEx
+- uid: CG.Reflection
+  name: CG.Reflection
+  href: api/CG.Reflection.html
+  commentId: N:CG.Reflection
+  fullName: CG.Reflection
+  nameWithType: CG.Reflection
+- uid: CG.Reflection.AppDomainExtensions
+  name: AppDomainExtensions
+  href: api/CG.Reflection.AppDomainExtensions.html
+  commentId: T:CG.Reflection.AppDomainExtensions
+  fullName: CG.Reflection.AppDomainExtensions
+  nameWithType: AppDomainExtensions
+- uid: CG.Reflection.AppDomainExtensions.ExtensionMethods(System.AppDomain,System.Type,System.String,System.Type[],System.String,System.String)
+  name: ExtensionMethods(AppDomain, Type, String, Type[], String, String)
+  href: api/CG.Reflection.AppDomainExtensions.html#CG_Reflection_AppDomainExtensions_ExtensionMethods_System_AppDomain_System_Type_System_String_System_Type___System_String_System_String_
+  commentId: M:CG.Reflection.AppDomainExtensions.ExtensionMethods(System.AppDomain,System.Type,System.String,System.Type[],System.String,System.String)
+  name.vb: ExtensionMethods(AppDomain, Type, String, Type(), String, String)
+  fullName: CG.Reflection.AppDomainExtensions.ExtensionMethods(System.AppDomain, System.Type, System.String, System.Type[], System.String, System.String)
+  fullName.vb: CG.Reflection.AppDomainExtensions.ExtensionMethods(System.AppDomain, System.Type, System.String, System.Type(), System.String, System.String)
+  nameWithType: AppDomainExtensions.ExtensionMethods(AppDomain, Type, String, Type[], String, String)
+  nameWithType.vb: AppDomainExtensions.ExtensionMethods(AppDomain, Type, String, Type(), String, String)
+- uid: CG.Reflection.AppDomainExtensions.ExtensionMethods*
+  name: ExtensionMethods
+  href: api/CG.Reflection.AppDomainExtensions.html#CG_Reflection_AppDomainExtensions_ExtensionMethods_
+  commentId: Overload:CG.Reflection.AppDomainExtensions.ExtensionMethods
+  isSpec: "True"
+  fullName: CG.Reflection.AppDomainExtensions.ExtensionMethods
+  nameWithType: AppDomainExtensions.ExtensionMethods
+- uid: CG.Reflection.AssemblyExtensions
+  name: AssemblyExtensions
+  href: api/CG.Reflection.AssemblyExtensions.html
+  commentId: T:CG.Reflection.AssemblyExtensions
+  fullName: CG.Reflection.AssemblyExtensions
+  nameWithType: AssemblyExtensions
+- uid: CG.Reflection.AssemblyExtensions.ReadAssemblyCompany(System.Reflection.Assembly)
+  name: ReadAssemblyCompany(Assembly)
+  href: api/CG.Reflection.AssemblyExtensions.html#CG_Reflection_AssemblyExtensions_ReadAssemblyCompany_System_Reflection_Assembly_
+  commentId: M:CG.Reflection.AssemblyExtensions.ReadAssemblyCompany(System.Reflection.Assembly)
+  fullName: CG.Reflection.AssemblyExtensions.ReadAssemblyCompany(System.Reflection.Assembly)
+  nameWithType: AssemblyExtensions.ReadAssemblyCompany(Assembly)
+- uid: CG.Reflection.AssemblyExtensions.ReadAssemblyCompany*
+  name: ReadAssemblyCompany
+  href: api/CG.Reflection.AssemblyExtensions.html#CG_Reflection_AssemblyExtensions_ReadAssemblyCompany_
+  commentId: Overload:CG.Reflection.AssemblyExtensions.ReadAssemblyCompany
+  isSpec: "True"
+  fullName: CG.Reflection.AssemblyExtensions.ReadAssemblyCompany
+  nameWithType: AssemblyExtensions.ReadAssemblyCompany
+- uid: CG.Reflection.AssemblyExtensions.ReadAssemblyDescription(System.Reflection.Assembly)
+  name: ReadAssemblyDescription(Assembly)
+  href: api/CG.Reflection.AssemblyExtensions.html#CG_Reflection_AssemblyExtensions_ReadAssemblyDescription_System_Reflection_Assembly_
+  commentId: M:CG.Reflection.AssemblyExtensions.ReadAssemblyDescription(System.Reflection.Assembly)
+  fullName: CG.Reflection.AssemblyExtensions.ReadAssemblyDescription(System.Reflection.Assembly)
+  nameWithType: AssemblyExtensions.ReadAssemblyDescription(Assembly)
+- uid: CG.Reflection.AssemblyExtensions.ReadAssemblyDescription*
+  name: ReadAssemblyDescription
+  href: api/CG.Reflection.AssemblyExtensions.html#CG_Reflection_AssemblyExtensions_ReadAssemblyDescription_
+  commentId: Overload:CG.Reflection.AssemblyExtensions.ReadAssemblyDescription
+  isSpec: "True"
+  fullName: CG.Reflection.AssemblyExtensions.ReadAssemblyDescription
+  nameWithType: AssemblyExtensions.ReadAssemblyDescription
+- uid: CG.Reflection.AssemblyExtensions.ReadAssemblyFileVersion(System.Reflection.Assembly)
+  name: ReadAssemblyFileVersion(Assembly)
+  href: api/CG.Reflection.AssemblyExtensions.html#CG_Reflection_AssemblyExtensions_ReadAssemblyFileVersion_System_Reflection_Assembly_
+  commentId: M:CG.Reflection.AssemblyExtensions.ReadAssemblyFileVersion(System.Reflection.Assembly)
+  fullName: CG.Reflection.AssemblyExtensions.ReadAssemblyFileVersion(System.Reflection.Assembly)
+  nameWithType: AssemblyExtensions.ReadAssemblyFileVersion(Assembly)
+- uid: CG.Reflection.AssemblyExtensions.ReadAssemblyFileVersion*
+  name: ReadAssemblyFileVersion
+  href: api/CG.Reflection.AssemblyExtensions.html#CG_Reflection_AssemblyExtensions_ReadAssemblyFileVersion_
+  commentId: Overload:CG.Reflection.AssemblyExtensions.ReadAssemblyFileVersion
+  isSpec: "True"
+  fullName: CG.Reflection.AssemblyExtensions.ReadAssemblyFileVersion
+  nameWithType: AssemblyExtensions.ReadAssemblyFileVersion
+- uid: CG.Reflection.AssemblyExtensions.ReadAssemblyGuid(System.Reflection.Assembly)
+  name: ReadAssemblyGuid(Assembly)
+  href: api/CG.Reflection.AssemblyExtensions.html#CG_Reflection_AssemblyExtensions_ReadAssemblyGuid_System_Reflection_Assembly_
+  commentId: M:CG.Reflection.AssemblyExtensions.ReadAssemblyGuid(System.Reflection.Assembly)
+  fullName: CG.Reflection.AssemblyExtensions.ReadAssemblyGuid(System.Reflection.Assembly)
+  nameWithType: AssemblyExtensions.ReadAssemblyGuid(Assembly)
+- uid: CG.Reflection.AssemblyExtensions.ReadAssemblyGuid*
+  name: ReadAssemblyGuid
+  href: api/CG.Reflection.AssemblyExtensions.html#CG_Reflection_AssemblyExtensions_ReadAssemblyGuid_
+  commentId: Overload:CG.Reflection.AssemblyExtensions.ReadAssemblyGuid
+  isSpec: "True"
+  fullName: CG.Reflection.AssemblyExtensions.ReadAssemblyGuid
+  nameWithType: AssemblyExtensions.ReadAssemblyGuid
+- uid: CG.Reflection.AssemblyExtensions.ReadAssemblyProduct(System.Reflection.Assembly)
+  name: ReadAssemblyProduct(Assembly)
+  href: api/CG.Reflection.AssemblyExtensions.html#CG_Reflection_AssemblyExtensions_ReadAssemblyProduct_System_Reflection_Assembly_
+  commentId: M:CG.Reflection.AssemblyExtensions.ReadAssemblyProduct(System.Reflection.Assembly)
+  fullName: CG.Reflection.AssemblyExtensions.ReadAssemblyProduct(System.Reflection.Assembly)
+  nameWithType: AssemblyExtensions.ReadAssemblyProduct(Assembly)
+- uid: CG.Reflection.AssemblyExtensions.ReadAssemblyProduct*
+  name: ReadAssemblyProduct
+  href: api/CG.Reflection.AssemblyExtensions.html#CG_Reflection_AssemblyExtensions_ReadAssemblyProduct_
+  commentId: Overload:CG.Reflection.AssemblyExtensions.ReadAssemblyProduct
+  isSpec: "True"
+  fullName: CG.Reflection.AssemblyExtensions.ReadAssemblyProduct
+  nameWithType: AssemblyExtensions.ReadAssemblyProduct
+- uid: CG.Reflection.AssemblyExtensions.ReadAssemblyTitle(System.Reflection.Assembly)
+  name: ReadAssemblyTitle(Assembly)
+  href: api/CG.Reflection.AssemblyExtensions.html#CG_Reflection_AssemblyExtensions_ReadAssemblyTitle_System_Reflection_Assembly_
+  commentId: M:CG.Reflection.AssemblyExtensions.ReadAssemblyTitle(System.Reflection.Assembly)
+  fullName: CG.Reflection.AssemblyExtensions.ReadAssemblyTitle(System.Reflection.Assembly)
+  nameWithType: AssemblyExtensions.ReadAssemblyTitle(Assembly)
+- uid: CG.Reflection.AssemblyExtensions.ReadAssemblyTitle*
+  name: ReadAssemblyTitle
+  href: api/CG.Reflection.AssemblyExtensions.html#CG_Reflection_AssemblyExtensions_ReadAssemblyTitle_
+  commentId: Overload:CG.Reflection.AssemblyExtensions.ReadAssemblyTitle
+  isSpec: "True"
+  fullName: CG.Reflection.AssemblyExtensions.ReadAssemblyTitle
+  nameWithType: AssemblyExtensions.ReadAssemblyTitle
+- uid: CG.Reflection.AssemblyExtensions.ReadAssemblyTrademark(System.Reflection.Assembly)
+  name: ReadAssemblyTrademark(Assembly)
+  href: api/CG.Reflection.AssemblyExtensions.html#CG_Reflection_AssemblyExtensions_ReadAssemblyTrademark_System_Reflection_Assembly_
+  commentId: M:CG.Reflection.AssemblyExtensions.ReadAssemblyTrademark(System.Reflection.Assembly)
+  fullName: CG.Reflection.AssemblyExtensions.ReadAssemblyTrademark(System.Reflection.Assembly)
+  nameWithType: AssemblyExtensions.ReadAssemblyTrademark(Assembly)
+- uid: CG.Reflection.AssemblyExtensions.ReadAssemblyTrademark*
+  name: ReadAssemblyTrademark
+  href: api/CG.Reflection.AssemblyExtensions.html#CG_Reflection_AssemblyExtensions_ReadAssemblyTrademark_
+  commentId: Overload:CG.Reflection.AssemblyExtensions.ReadAssemblyTrademark
+  isSpec: "True"
+  fullName: CG.Reflection.AssemblyExtensions.ReadAssemblyTrademark
+  nameWithType: AssemblyExtensions.ReadAssemblyTrademark
+- uid: CG.Reflection.AssemblyExtensions.ReadAssemblyVersion(System.Reflection.Assembly)
+  name: ReadAssemblyVersion(Assembly)
+  href: api/CG.Reflection.AssemblyExtensions.html#CG_Reflection_AssemblyExtensions_ReadAssemblyVersion_System_Reflection_Assembly_
+  commentId: M:CG.Reflection.AssemblyExtensions.ReadAssemblyVersion(System.Reflection.Assembly)
+  fullName: CG.Reflection.AssemblyExtensions.ReadAssemblyVersion(System.Reflection.Assembly)
+  nameWithType: AssemblyExtensions.ReadAssemblyVersion(Assembly)
+- uid: CG.Reflection.AssemblyExtensions.ReadAssemblyVersion*
+  name: ReadAssemblyVersion
+  href: api/CG.Reflection.AssemblyExtensions.html#CG_Reflection_AssemblyExtensions_ReadAssemblyVersion_
+  commentId: Overload:CG.Reflection.AssemblyExtensions.ReadAssemblyVersion
+  isSpec: "True"
+  fullName: CG.Reflection.AssemblyExtensions.ReadAssemblyVersion
+  nameWithType: AssemblyExtensions.ReadAssemblyVersion
+- uid: CG.Reflection.AssemblyExtensions.ReadCopyright(System.Reflection.Assembly)
+  name: ReadCopyright(Assembly)
+  href: api/CG.Reflection.AssemblyExtensions.html#CG_Reflection_AssemblyExtensions_ReadCopyright_System_Reflection_Assembly_
+  commentId: M:CG.Reflection.AssemblyExtensions.ReadCopyright(System.Reflection.Assembly)
+  fullName: CG.Reflection.AssemblyExtensions.ReadCopyright(System.Reflection.Assembly)
+  nameWithType: AssemblyExtensions.ReadCopyright(Assembly)
+- uid: CG.Reflection.AssemblyExtensions.ReadCopyright*
+  name: ReadCopyright
+  href: api/CG.Reflection.AssemblyExtensions.html#CG_Reflection_AssemblyExtensions_ReadCopyright_
+  commentId: Overload:CG.Reflection.AssemblyExtensions.ReadCopyright
+  isSpec: "True"
+  fullName: CG.Reflection.AssemblyExtensions.ReadCopyright
+  nameWithType: AssemblyExtensions.ReadCopyright
+- uid: CG.Reflection.PropertyCache
+  name: PropertyCache
+  href: api/CG.Reflection.PropertyCache.html
+  commentId: T:CG.Reflection.PropertyCache
+  fullName: CG.Reflection.PropertyCache
+  nameWithType: PropertyCache
+- uid: CG.Reflection.PropertyCache.Item(System.Type,System.String)
+  name: Item[Type, String]
+  href: api/CG.Reflection.PropertyCache.html#CG_Reflection_PropertyCache_Item_System_Type_System_String_
+  commentId: P:CG.Reflection.PropertyCache.Item(System.Type,System.String)
+  name.vb: Item(Type, String)
+  fullName: CG.Reflection.PropertyCache.Item[System.Type, System.String]
+  fullName.vb: CG.Reflection.PropertyCache.Item(System.Type, System.String)
+  nameWithType: PropertyCache.Item[Type, String]
+  nameWithType.vb: PropertyCache.Item(Type, String)
+- uid: CG.Reflection.PropertyCache.Item*
+  name: Item
+  href: api/CG.Reflection.PropertyCache.html#CG_Reflection_PropertyCache_Item_
+  commentId: Overload:CG.Reflection.PropertyCache.Item
+  isSpec: "True"
+  fullName: CG.Reflection.PropertyCache.Item
+  nameWithType: PropertyCache.Item
+- uid: CG.SingletonBase`1
+  name: SingletonBase<T>
+  href: api/CG.SingletonBase-1.html
+  commentId: T:CG.SingletonBase`1
+  name.vb: SingletonBase(Of T)
+  fullName: CG.SingletonBase<T>
+  fullName.vb: CG.SingletonBase(Of T)
+  nameWithType: SingletonBase<T>
+  nameWithType.vb: SingletonBase(Of T)
+- uid: CG.SingletonBase`1.Instance
+  name: Instance()
+  href: api/CG.SingletonBase-1.html#CG_SingletonBase_1_Instance
+  commentId: M:CG.SingletonBase`1.Instance
+  fullName: CG.SingletonBase<T>.Instance()
+  fullName.vb: CG.SingletonBase(Of T).Instance()
+  nameWithType: SingletonBase<T>.Instance()
+  nameWithType.vb: SingletonBase(Of T).Instance()
+- uid: CG.SingletonBase`1.Instance*
+  name: Instance
+  href: api/CG.SingletonBase-1.html#CG_SingletonBase_1_Instance_
+  commentId: Overload:CG.SingletonBase`1.Instance
+  isSpec: "True"
+  fullName: CG.SingletonBase<T>.Instance
+  fullName.vb: CG.SingletonBase(Of T).Instance
+  nameWithType: SingletonBase<T>.Instance
+  nameWithType.vb: SingletonBase(Of T).Instance
+- uid: CG.StringExtensions
+  name: StringExtensions
+  href: api/CG.StringExtensions.html
+  commentId: T:CG.StringExtensions
+  fullName: CG.StringExtensions
+  nameWithType: StringExtensions
+- uid: CG.StringExtensions.IsMatch(System.String,System.String)
+  name: IsMatch(String, String)
+  href: api/CG.StringExtensions.html#CG_StringExtensions_IsMatch_System_String_System_String_
+  commentId: M:CG.StringExtensions.IsMatch(System.String,System.String)
+  fullName: CG.StringExtensions.IsMatch(System.String, System.String)
+  nameWithType: StringExtensions.IsMatch(String, String)
+- uid: CG.StringExtensions.IsMatch*
+  name: IsMatch
+  href: api/CG.StringExtensions.html#CG_StringExtensions_IsMatch_
+  commentId: Overload:CG.StringExtensions.IsMatch
+  isSpec: "True"
+  fullName: CG.StringExtensions.IsMatch
+  nameWithType: StringExtensions.IsMatch
+- uid: CG.StringExtensions.Shuffle(System.String)
+  name: Shuffle(String)
+  href: api/CG.StringExtensions.html#CG_StringExtensions_Shuffle_System_String_
+  commentId: M:CG.StringExtensions.Shuffle(System.String)
+  fullName: CG.StringExtensions.Shuffle(System.String)
+  nameWithType: StringExtensions.Shuffle(String)
+- uid: CG.StringExtensions.Shuffle*
+  name: Shuffle
+  href: api/CG.StringExtensions.html#CG_StringExtensions_Shuffle_
+  commentId: Overload:CG.StringExtensions.Shuffle
+  isSpec: "True"
+  fullName: CG.StringExtensions.Shuffle
+  nameWithType: StringExtensions.Shuffle
+- uid: CG.Threading.Tasks
+  name: CG.Threading.Tasks
+  href: api/CG.Threading.Tasks.html
+  commentId: N:CG.Threading.Tasks
+  fullName: CG.Threading.Tasks
+  nameWithType: CG.Threading.Tasks
+- uid: CG.Threading.Tasks.TaskExtensions
+  name: TaskExtensions
+  href: api/CG.Threading.Tasks.TaskExtensions.html
+  commentId: T:CG.Threading.Tasks.TaskExtensions
+  fullName: CG.Threading.Tasks.TaskExtensions
+  nameWithType: TaskExtensions
+- uid: CG.Threading.Tasks.TaskExtensions.WaitAll(System.Collections.Generic.IEnumerable{System.Threading.Tasks.Task},System.Int32,System.Int32,System.Threading.CancellationToken)
+  name: WaitAll(IEnumerable<Task>, Int32, Int32, CancellationToken)
+  href: api/CG.Threading.Tasks.TaskExtensions.html#CG_Threading_Tasks_TaskExtensions_WaitAll_System_Collections_Generic_IEnumerable_System_Threading_Tasks_Task__System_Int32_System_Int32_System_Threading_CancellationToken_
+  commentId: M:CG.Threading.Tasks.TaskExtensions.WaitAll(System.Collections.Generic.IEnumerable{System.Threading.Tasks.Task},System.Int32,System.Int32,System.Threading.CancellationToken)
+  name.vb: WaitAll(IEnumerable(Of Task), Int32, Int32, CancellationToken)
+  fullName: CG.Threading.Tasks.TaskExtensions.WaitAll(System.Collections.Generic.IEnumerable<System.Threading.Tasks.Task>, System.Int32, System.Int32, System.Threading.CancellationToken)
+  fullName.vb: CG.Threading.Tasks.TaskExtensions.WaitAll(System.Collections.Generic.IEnumerable(Of System.Threading.Tasks.Task), System.Int32, System.Int32, System.Threading.CancellationToken)
+  nameWithType: TaskExtensions.WaitAll(IEnumerable<Task>, Int32, Int32, CancellationToken)
+  nameWithType.vb: TaskExtensions.WaitAll(IEnumerable(Of Task), Int32, Int32, CancellationToken)
+- uid: CG.Threading.Tasks.TaskExtensions.WaitAll*
+  name: WaitAll
+  href: api/CG.Threading.Tasks.TaskExtensions.html#CG_Threading_Tasks_TaskExtensions_WaitAll_
+  commentId: Overload:CG.Threading.Tasks.TaskExtensions.WaitAll
+  isSpec: "True"
+  fullName: CG.Threading.Tasks.TaskExtensions.WaitAll
+  nameWithType: TaskExtensions.WaitAll
+- uid: CG.Threading.Tasks.TaskExtensions.WhenAll(System.Collections.Generic.IEnumerable{System.Threading.Tasks.Task},System.Int32,System.Int32,System.Threading.CancellationToken)
+  name: WhenAll(IEnumerable<Task>, Int32, Int32, CancellationToken)
+  href: api/CG.Threading.Tasks.TaskExtensions.html#CG_Threading_Tasks_TaskExtensions_WhenAll_System_Collections_Generic_IEnumerable_System_Threading_Tasks_Task__System_Int32_System_Int32_System_Threading_CancellationToken_
+  commentId: M:CG.Threading.Tasks.TaskExtensions.WhenAll(System.Collections.Generic.IEnumerable{System.Threading.Tasks.Task},System.Int32,System.Int32,System.Threading.CancellationToken)
+  name.vb: WhenAll(IEnumerable(Of Task), Int32, Int32, CancellationToken)
+  fullName: CG.Threading.Tasks.TaskExtensions.WhenAll(System.Collections.Generic.IEnumerable<System.Threading.Tasks.Task>, System.Int32, System.Int32, System.Threading.CancellationToken)
+  fullName.vb: CG.Threading.Tasks.TaskExtensions.WhenAll(System.Collections.Generic.IEnumerable(Of System.Threading.Tasks.Task), System.Int32, System.Int32, System.Threading.CancellationToken)
+  nameWithType: TaskExtensions.WhenAll(IEnumerable<Task>, Int32, Int32, CancellationToken)
+  nameWithType.vb: TaskExtensions.WhenAll(IEnumerable(Of Task), Int32, Int32, CancellationToken)
+- uid: CG.Threading.Tasks.TaskExtensions.WhenAll*
+  name: WhenAll
+  href: api/CG.Threading.Tasks.TaskExtensions.html#CG_Threading_Tasks_TaskExtensions_WhenAll_
+  commentId: Overload:CG.Threading.Tasks.TaskExtensions.WhenAll
+  isSpec: "True"
+  fullName: CG.Threading.Tasks.TaskExtensions.WhenAll
+  nameWithType: TaskExtensions.WhenAll
+- uid: CG.Utilities
+  name: CG.Utilities
+  href: api/CG.Utilities.html
+  commentId: N:CG.Utilities
+  fullName: CG.Utilities
+  nameWithType: CG.Utilities
+- uid: CG.Utilities.IRetry
+  name: IRetry
+  href: api/CG.Utilities.IRetry.html
+  commentId: T:CG.Utilities.IRetry
+  fullName: CG.Utilities.IRetry
+  nameWithType: IRetry
+- uid: CG.Utilities.Retry
+  name: Retry
+  href: api/CG.Utilities.Retry.html
+  commentId: T:CG.Utilities.Retry
+  fullName: CG.Utilities.Retry
+  nameWithType: Retry
+- uid: CG.Utilities.RetryExtensions
+  name: RetryExtensions
+  href: api/CG.Utilities.RetryExtensions.html
+  commentId: T:CG.Utilities.RetryExtensions
+  fullName: CG.Utilities.RetryExtensions
+  nameWithType: RetryExtensions
+- uid: CG.Utilities.RetryExtensions.Execute(CG.Utilities.IRetry,System.Action,System.Func{System.Exception,System.Boolean},System.Int32,System.Int32)
+  name: Execute(IRetry, Action, Func<Exception, Boolean>, Int32, Int32)
+  href: api/CG.Utilities.RetryExtensions.html#CG_Utilities_RetryExtensions_Execute_CG_Utilities_IRetry_System_Action_System_Func_System_Exception_System_Boolean__System_Int32_System_Int32_
+  commentId: M:CG.Utilities.RetryExtensions.Execute(CG.Utilities.IRetry,System.Action,System.Func{System.Exception,System.Boolean},System.Int32,System.Int32)
+  name.vb: Execute(IRetry, Action, Func(Of Exception, Boolean), Int32, Int32)
+  fullName: CG.Utilities.RetryExtensions.Execute(CG.Utilities.IRetry, System.Action, System.Func<System.Exception, System.Boolean>, System.Int32, System.Int32)
+  fullName.vb: CG.Utilities.RetryExtensions.Execute(CG.Utilities.IRetry, System.Action, System.Func(Of System.Exception, System.Boolean), System.Int32, System.Int32)
+  nameWithType: RetryExtensions.Execute(IRetry, Action, Func<Exception, Boolean>, Int32, Int32)
+  nameWithType.vb: RetryExtensions.Execute(IRetry, Action, Func(Of Exception, Boolean), Int32, Int32)
+- uid: CG.Utilities.RetryExtensions.Execute(CG.Utilities.IRetry,System.Action,System.Int32,System.Int32)
+  name: Execute(IRetry, Action, Int32, Int32)
+  href: api/CG.Utilities.RetryExtensions.html#CG_Utilities_RetryExtensions_Execute_CG_Utilities_IRetry_System_Action_System_Int32_System_Int32_
+  commentId: M:CG.Utilities.RetryExtensions.Execute(CG.Utilities.IRetry,System.Action,System.Int32,System.Int32)
+  fullName: CG.Utilities.RetryExtensions.Execute(CG.Utilities.IRetry, System.Action, System.Int32, System.Int32)
+  nameWithType: RetryExtensions.Execute(IRetry, Action, Int32, Int32)
+- uid: CG.Utilities.RetryExtensions.Execute*
+  name: Execute
+  href: api/CG.Utilities.RetryExtensions.html#CG_Utilities_RetryExtensions_Execute_
+  commentId: Overload:CG.Utilities.RetryExtensions.Execute
+  isSpec: "True"
+  fullName: CG.Utilities.RetryExtensions.Execute
+  nameWithType: RetryExtensions.Execute
+- uid: CG.Utilities.RetryExtensions.Execute``1(CG.Utilities.IRetry,System.Func{``0},System.Func{System.Exception,System.Boolean},System.Int32,System.Int32)
+  name: Execute<T>(IRetry, Func<T>, Func<Exception, Boolean>, Int32, Int32)
+  href: api/CG.Utilities.RetryExtensions.html#CG_Utilities_RetryExtensions_Execute__1_CG_Utilities_IRetry_System_Func___0__System_Func_System_Exception_System_Boolean__System_Int32_System_Int32_
+  commentId: M:CG.Utilities.RetryExtensions.Execute``1(CG.Utilities.IRetry,System.Func{``0},System.Func{System.Exception,System.Boolean},System.Int32,System.Int32)
+  name.vb: Execute(Of T)(IRetry, Func(Of T), Func(Of Exception, Boolean), Int32, Int32)
+  fullName: CG.Utilities.RetryExtensions.Execute<T>(CG.Utilities.IRetry, System.Func<T>, System.Func<System.Exception, System.Boolean>, System.Int32, System.Int32)
+  fullName.vb: CG.Utilities.RetryExtensions.Execute(Of T)(CG.Utilities.IRetry, System.Func(Of T), System.Func(Of System.Exception, System.Boolean), System.Int32, System.Int32)
+  nameWithType: RetryExtensions.Execute<T>(IRetry, Func<T>, Func<Exception, Boolean>, Int32, Int32)
+  nameWithType.vb: RetryExtensions.Execute(Of T)(IRetry, Func(Of T), Func(Of Exception, Boolean), Int32, Int32)
+- uid: CG.Utilities.RetryExtensions.Execute``1(CG.Utilities.IRetry,System.Func{``0},System.Int32,System.Int32)
+  name: Execute<T>(IRetry, Func<T>, Int32, Int32)
+  href: api/CG.Utilities.RetryExtensions.html#CG_Utilities_RetryExtensions_Execute__1_CG_Utilities_IRetry_System_Func___0__System_Int32_System_Int32_
+  commentId: M:CG.Utilities.RetryExtensions.Execute``1(CG.Utilities.IRetry,System.Func{``0},System.Int32,System.Int32)
+  name.vb: Execute(Of T)(IRetry, Func(Of T), Int32, Int32)
+  fullName: CG.Utilities.RetryExtensions.Execute<T>(CG.Utilities.IRetry, System.Func<T>, System.Int32, System.Int32)
+  fullName.vb: CG.Utilities.RetryExtensions.Execute(Of T)(CG.Utilities.IRetry, System.Func(Of T), System.Int32, System.Int32)
+  nameWithType: RetryExtensions.Execute<T>(IRetry, Func<T>, Int32, Int32)
+  nameWithType.vb: RetryExtensions.Execute(Of T)(IRetry, Func(Of T), Int32, Int32)
+- uid: CG.Utilities.RetryExtensions.ExecuteAsync(CG.Utilities.IRetry,System.Action,System.Func{System.Exception,System.Boolean},System.Int32,System.Int32)
+  name: ExecuteAsync(IRetry, Action, Func<Exception, Boolean>, Int32, Int32)
+  href: api/CG.Utilities.RetryExtensions.html#CG_Utilities_RetryExtensions_ExecuteAsync_CG_Utilities_IRetry_System_Action_System_Func_System_Exception_System_Boolean__System_Int32_System_Int32_
+  commentId: M:CG.Utilities.RetryExtensions.ExecuteAsync(CG.Utilities.IRetry,System.Action,System.Func{System.Exception,System.Boolean},System.Int32,System.Int32)
+  name.vb: ExecuteAsync(IRetry, Action, Func(Of Exception, Boolean), Int32, Int32)
+  fullName: CG.Utilities.RetryExtensions.ExecuteAsync(CG.Utilities.IRetry, System.Action, System.Func<System.Exception, System.Boolean>, System.Int32, System.Int32)
+  fullName.vb: CG.Utilities.RetryExtensions.ExecuteAsync(CG.Utilities.IRetry, System.Action, System.Func(Of System.Exception, System.Boolean), System.Int32, System.Int32)
+  nameWithType: RetryExtensions.ExecuteAsync(IRetry, Action, Func<Exception, Boolean>, Int32, Int32)
+  nameWithType.vb: RetryExtensions.ExecuteAsync(IRetry, Action, Func(Of Exception, Boolean), Int32, Int32)
+- uid: CG.Utilities.RetryExtensions.ExecuteAsync(CG.Utilities.IRetry,System.Action,System.Int32,System.Int32)
+  name: ExecuteAsync(IRetry, Action, Int32, Int32)
+  href: api/CG.Utilities.RetryExtensions.html#CG_Utilities_RetryExtensions_ExecuteAsync_CG_Utilities_IRetry_System_Action_System_Int32_System_Int32_
+  commentId: M:CG.Utilities.RetryExtensions.ExecuteAsync(CG.Utilities.IRetry,System.Action,System.Int32,System.Int32)
+  fullName: CG.Utilities.RetryExtensions.ExecuteAsync(CG.Utilities.IRetry, System.Action, System.Int32, System.Int32)
+  nameWithType: RetryExtensions.ExecuteAsync(IRetry, Action, Int32, Int32)
+- uid: CG.Utilities.RetryExtensions.ExecuteAsync*
+  name: ExecuteAsync
+  href: api/CG.Utilities.RetryExtensions.html#CG_Utilities_RetryExtensions_ExecuteAsync_
+  commentId: Overload:CG.Utilities.RetryExtensions.ExecuteAsync
+  isSpec: "True"
+  fullName: CG.Utilities.RetryExtensions.ExecuteAsync
+  nameWithType: RetryExtensions.ExecuteAsync
+- uid: CG.Utilities.RetryExtensions.ExecuteAsync``1(CG.Utilities.IRetry,System.Func{System.Threading.Tasks.Task{``0}},System.Func{System.Exception,System.Boolean},System.Int32,System.Int32)
+  name: ExecuteAsync<T>(IRetry, Func<Task<T>>, Func<Exception, Boolean>, Int32, Int32)
+  href: api/CG.Utilities.RetryExtensions.html#CG_Utilities_RetryExtensions_ExecuteAsync__1_CG_Utilities_IRetry_System_Func_System_Threading_Tasks_Task___0___System_Func_System_Exception_System_Boolean__System_Int32_System_Int32_
+  commentId: M:CG.Utilities.RetryExtensions.ExecuteAsync``1(CG.Utilities.IRetry,System.Func{System.Threading.Tasks.Task{``0}},System.Func{System.Exception,System.Boolean},System.Int32,System.Int32)
+  name.vb: ExecuteAsync(Of T)(IRetry, Func(Of Task(Of T)), Func(Of Exception, Boolean), Int32, Int32)
+  fullName: CG.Utilities.RetryExtensions.ExecuteAsync<T>(CG.Utilities.IRetry, System.Func<System.Threading.Tasks.Task<T>>, System.Func<System.Exception, System.Boolean>, System.Int32, System.Int32)
+  fullName.vb: CG.Utilities.RetryExtensions.ExecuteAsync(Of T)(CG.Utilities.IRetry, System.Func(Of System.Threading.Tasks.Task(Of T)), System.Func(Of System.Exception, System.Boolean), System.Int32, System.Int32)
+  nameWithType: RetryExtensions.ExecuteAsync<T>(IRetry, Func<Task<T>>, Func<Exception, Boolean>, Int32, Int32)
+  nameWithType.vb: RetryExtensions.ExecuteAsync(Of T)(IRetry, Func(Of Task(Of T)), Func(Of Exception, Boolean), Int32, Int32)
+- uid: CG.Utilities.RetryExtensions.ExecuteAsync``1(CG.Utilities.IRetry,System.Func{System.Threading.Tasks.Task{``0}},System.Int32,System.Int32)
+  name: ExecuteAsync<T>(IRetry, Func<Task<T>>, Int32, Int32)
+  href: api/CG.Utilities.RetryExtensions.html#CG_Utilities_RetryExtensions_ExecuteAsync__1_CG_Utilities_IRetry_System_Func_System_Threading_Tasks_Task___0___System_Int32_System_Int32_
+  commentId: M:CG.Utilities.RetryExtensions.ExecuteAsync``1(CG.Utilities.IRetry,System.Func{System.Threading.Tasks.Task{``0}},System.Int32,System.Int32)
+  name.vb: ExecuteAsync(Of T)(IRetry, Func(Of Task(Of T)), Int32, Int32)
+  fullName: CG.Utilities.RetryExtensions.ExecuteAsync<T>(CG.Utilities.IRetry, System.Func<System.Threading.Tasks.Task<T>>, System.Int32, System.Int32)
+  fullName.vb: CG.Utilities.RetryExtensions.ExecuteAsync(Of T)(CG.Utilities.IRetry, System.Func(Of System.Threading.Tasks.Task(Of T)), System.Int32, System.Int32)
+  nameWithType: RetryExtensions.ExecuteAsync<T>(IRetry, Func<Task<T>>, Int32, Int32)
+  nameWithType.vb: RetryExtensions.ExecuteAsync(Of T)(IRetry, Func(Of Task(Of T)), Int32, Int32)

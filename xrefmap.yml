@@ -101,6 +101,25 @@ references:
   isSpec: "True"
   fullName: CG.CGException.CGException
   nameWithType: CGException.CGException
+- uid: CG.Class1
+  name: Class1
+  href: api/CG.Class1.html
+  commentId: T:CG.Class1
+  fullName: CG.Class1
+  nameWithType: Class1
+- uid: CG.Class1.Foo
+  name: Foo()
+  href: api/CG.Class1.html#CG_Class1_Foo
+  commentId: M:CG.Class1.Foo
+  fullName: CG.Class1.Foo()
+  nameWithType: Class1.Foo()
+- uid: CG.Class1.Foo*
+  name: Foo
+  href: api/CG.Class1.html#CG_Class1_Foo_
+  commentId: Overload:CG.Class1.Foo
+  isSpec: "True"
+  fullName: CG.Class1.Foo
+  nameWithType: Class1.Foo
 - uid: CG.Collections
   name: CG.Collections
   href: api/CG.Collections.html

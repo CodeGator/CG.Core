@@ -76,7 +76,7 @@ steps:
     git commit -m "CI Updates [skip ci]" -q
     git push origin gh-pages -q
   displayName: "Publish docs"  
-  
+
 - task: DotNetCoreCLI@2
   displayName: "dotnet pack"
   inputs:
@@ -85,7 +85,7 @@ steps:
     packagesToPack: '$(SolutionPath).sln'
     nobuild: true
     versioningScheme: 'off'    
-
+  
 - task: NuGetCommand@2
   displayName: 'nuget internal push'
   inputs:

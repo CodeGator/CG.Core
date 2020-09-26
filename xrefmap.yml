@@ -825,6 +825,19 @@ references:
   isSpec: "True"
   fullName: CG.Reflection.AssemblyExtensions.ReadAssemblyGuid
   nameWithType: AssemblyExtensions.ReadAssemblyGuid
+- uid: CG.Reflection.AssemblyExtensions.ReadAssemblyInformationalVersion(System.Reflection.Assembly)
+  name: ReadAssemblyInformationalVersion(Assembly)
+  href: api/CG.Reflection.AssemblyExtensions.html#CG_Reflection_AssemblyExtensions_ReadAssemblyInformationalVersion_System_Reflection_Assembly_
+  commentId: M:CG.Reflection.AssemblyExtensions.ReadAssemblyInformationalVersion(System.Reflection.Assembly)
+  fullName: CG.Reflection.AssemblyExtensions.ReadAssemblyInformationalVersion(System.Reflection.Assembly)
+  nameWithType: AssemblyExtensions.ReadAssemblyInformationalVersion(Assembly)
+- uid: CG.Reflection.AssemblyExtensions.ReadAssemblyInformationalVersion*
+  name: ReadAssemblyInformationalVersion
+  href: api/CG.Reflection.AssemblyExtensions.html#CG_Reflection_AssemblyExtensions_ReadAssemblyInformationalVersion_
+  commentId: Overload:CG.Reflection.AssemblyExtensions.ReadAssemblyInformationalVersion
+  isSpec: "True"
+  fullName: CG.Reflection.AssemblyExtensions.ReadAssemblyInformationalVersion
+  nameWithType: AssemblyExtensions.ReadAssemblyInformationalVersion
 - uid: CG.Reflection.AssemblyExtensions.ReadAssemblyProduct(System.Reflection.Assembly)
   name: ReadAssemblyProduct(Assembly)
   href: api/CG.Reflection.AssemblyExtensions.html#CG_Reflection_AssemblyExtensions_ReadAssemblyProduct_System_Reflection_Assembly_

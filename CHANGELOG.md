@@ -3,7 +3,9 @@
 
 ## 2020.6
 
-I moved to an azure CI pipeline.
+* I moved to an azure CI pipeline.
+
+* I added the ReadAssemblyInformationalVersion method to the AssemblyExtensions class.
 
 ## 2020.5
 

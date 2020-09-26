@@ -241,6 +241,38 @@ namespace CG.Reflection
         // ******************************************************************
 
         /// <summary>
+        /// Reads the value of the <see cref="AssemblyInformationalVersionAttribute"/>
+        /// for the given assembly.
+        /// </summary>
+        /// <param name="assembly">The assembly to read from.</param>
+        /// <returns>The value of the given assembly's informational version attribute.</returns>
+        public static string ReadAssemblyInformationalVersion(this Assembly assembly)
+        {
+            // Attempt to read the assembly's version attribute.
+            object[] attributes = assembly.GetCustomAttributes(
+                typeof(AssemblyInformationalVersionAttribute),
+                true
+                );
+
+            // Did we fail?
+            if (attributes.Length == 0)
+                return string.Empty;
+
+            // Attempt to recover a reference to the attribute.
+            AssemblyInformationalVersionAttribute attr =
+                attributes[0] as AssemblyInformationalVersionAttribute;
+
+            // Did we fail?
+            if (attr == null || attr.InformationalVersion.Length == 0)
+                return string.Empty;
+
+            // Return the text for the attribute.
+            return attr.InformationalVersion;
+        }
+
+        // ******************************************************************
+
+        /// <summary>
         /// Reads the value of the <see cref="AssemblyFileVersionAttribute"/>
         /// for the given assembly.
         /// </summary>

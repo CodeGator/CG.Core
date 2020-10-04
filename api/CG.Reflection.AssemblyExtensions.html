@@ -124,15 +124,15 @@ type.</p>
   </div>
   <h3 id="methods">Methods
   </h3>
-  <a id="CG_Reflection_AssemblyExtensions_ReadAssemblyCompany_" data-uid="CG.Reflection.AssemblyExtensions.ReadAssemblyCompany*"></a>
-  <h4 id="CG_Reflection_AssemblyExtensions_ReadAssemblyCompany_System_Reflection_Assembly_" data-uid="CG.Reflection.AssemblyExtensions.ReadAssemblyCompany(System.Reflection.Assembly)">ReadAssemblyCompany(Assembly)</h4>
+  <a id="CG_Reflection_AssemblyExtensions_ReadCompany_" data-uid="CG.Reflection.AssemblyExtensions.ReadCompany*"></a>
+  <h4 id="CG_Reflection_AssemblyExtensions_ReadCompany_System_Reflection_Assembly_" data-uid="CG.Reflection.AssemblyExtensions.ReadCompany(System.Reflection.Assembly)">ReadCompany(Assembly)</h4>
   <div class="markdown level1 summary"><p>Reads the value of the <span class="xref">System.Reflection.AssemblyCompanyAttribute</span>
 for the given assembly.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static string ReadAssemblyCompany(this Assembly assembly)</code></pre>
+    <pre><code class="lang-csharp hljs">public static string ReadCompany(this Assembly assembly)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -164,358 +164,6 @@ for the given assembly.</p>
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><p>The value of the given assembly's company attribute.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <a id="CG_Reflection_AssemblyExtensions_ReadAssemblyDescription_" data-uid="CG.Reflection.AssemblyExtensions.ReadAssemblyDescription*"></a>
-  <h4 id="CG_Reflection_AssemblyExtensions_ReadAssemblyDescription_System_Reflection_Assembly_" data-uid="CG.Reflection.AssemblyExtensions.ReadAssemblyDescription(System.Reflection.Assembly)">ReadAssemblyDescription(Assembly)</h4>
-  <div class="markdown level1 summary"><p>Reads the value of the <span class="xref">System.Reflection.AssemblyDescriptionAttribute</span>
-for the given assembly.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static string ReadAssemblyDescription(this Assembly assembly)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Reflection.Assembly</span></td>
-        <td><span class="parametername">assembly</span></td>
-        <td><p>The assembly to read from.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><p>The value of the given assembly's description attribute.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <a id="CG_Reflection_AssemblyExtensions_ReadAssemblyFileVersion_" data-uid="CG.Reflection.AssemblyExtensions.ReadAssemblyFileVersion*"></a>
-  <h4 id="CG_Reflection_AssemblyExtensions_ReadAssemblyFileVersion_System_Reflection_Assembly_" data-uid="CG.Reflection.AssemblyExtensions.ReadAssemblyFileVersion(System.Reflection.Assembly)">ReadAssemblyFileVersion(Assembly)</h4>
-  <div class="markdown level1 summary"><p>Reads the value of the <span class="xref">System.Reflection.AssemblyFileVersionAttribute</span>
-for the given assembly.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static string ReadAssemblyFileVersion(this Assembly assembly)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Reflection.Assembly</span></td>
-        <td><span class="parametername">assembly</span></td>
-        <td><p>The assembly to read from.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><p>The value of the given assembly's file version attribute.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <a id="CG_Reflection_AssemblyExtensions_ReadAssemblyGuid_" data-uid="CG.Reflection.AssemblyExtensions.ReadAssemblyGuid*"></a>
-  <h4 id="CG_Reflection_AssemblyExtensions_ReadAssemblyGuid_System_Reflection_Assembly_" data-uid="CG.Reflection.AssemblyExtensions.ReadAssemblyGuid(System.Reflection.Assembly)">ReadAssemblyGuid(Assembly)</h4>
-  <div class="markdown level1 summary"><p>Reads the value of the <span class="xref">System.Runtime.InteropServices.GuidAttribute</span>
-for the given assembly.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static string ReadAssemblyGuid(this Assembly assembly)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Reflection.Assembly</span></td>
-        <td><span class="parametername">assembly</span></td>
-        <td><p>The assembly to read from.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><p>The value of the given assembly's guid attribute.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <a id="CG_Reflection_AssemblyExtensions_ReadAssemblyInformationalVersion_" data-uid="CG.Reflection.AssemblyExtensions.ReadAssemblyInformationalVersion*"></a>
-  <h4 id="CG_Reflection_AssemblyExtensions_ReadAssemblyInformationalVersion_System_Reflection_Assembly_" data-uid="CG.Reflection.AssemblyExtensions.ReadAssemblyInformationalVersion(System.Reflection.Assembly)">ReadAssemblyInformationalVersion(Assembly)</h4>
-  <div class="markdown level1 summary"><p>Reads the value of the <span class="xref">System.Reflection.AssemblyInformationalVersionAttribute</span>
-for the given assembly.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static string ReadAssemblyInformationalVersion(this Assembly assembly)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Reflection.Assembly</span></td>
-        <td><span class="parametername">assembly</span></td>
-        <td><p>The assembly to read from.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><p>The value of the given assembly's informational version attribute.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <a id="CG_Reflection_AssemblyExtensions_ReadAssemblyProduct_" data-uid="CG.Reflection.AssemblyExtensions.ReadAssemblyProduct*"></a>
-  <h4 id="CG_Reflection_AssemblyExtensions_ReadAssemblyProduct_System_Reflection_Assembly_" data-uid="CG.Reflection.AssemblyExtensions.ReadAssemblyProduct(System.Reflection.Assembly)">ReadAssemblyProduct(Assembly)</h4>
-  <div class="markdown level1 summary"><p>Reads the value of the <span class="xref">System.Reflection.AssemblyProductAttribute</span>
-for the given assembly.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static string ReadAssemblyProduct(this Assembly assembly)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Reflection.Assembly</span></td>
-        <td><span class="parametername">assembly</span></td>
-        <td><p>The assembly to read from.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><p>The value of the given assembly's product attribute.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <a id="CG_Reflection_AssemblyExtensions_ReadAssemblyTitle_" data-uid="CG.Reflection.AssemblyExtensions.ReadAssemblyTitle*"></a>
-  <h4 id="CG_Reflection_AssemblyExtensions_ReadAssemblyTitle_System_Reflection_Assembly_" data-uid="CG.Reflection.AssemblyExtensions.ReadAssemblyTitle(System.Reflection.Assembly)">ReadAssemblyTitle(Assembly)</h4>
-  <div class="markdown level1 summary"><p>Reads the value of the <span class="xref">System.Reflection.AssemblyTitleAttribute</span>
-for the given assembly.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static string ReadAssemblyTitle(this Assembly assembly)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Reflection.Assembly</span></td>
-        <td><span class="parametername">assembly</span></td>
-        <td><p>The assembly to read from.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><p>The value of the given assembly's title attribute.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <a id="CG_Reflection_AssemblyExtensions_ReadAssemblyTrademark_" data-uid="CG.Reflection.AssemblyExtensions.ReadAssemblyTrademark*"></a>
-  <h4 id="CG_Reflection_AssemblyExtensions_ReadAssemblyTrademark_System_Reflection_Assembly_" data-uid="CG.Reflection.AssemblyExtensions.ReadAssemblyTrademark(System.Reflection.Assembly)">ReadAssemblyTrademark(Assembly)</h4>
-  <div class="markdown level1 summary"><p>Reads the value of the <span class="xref">System.Reflection.AssemblyTrademarkAttribute</span>
-for the given assembly.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static string ReadAssemblyTrademark(this Assembly assembly)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Reflection.Assembly</span></td>
-        <td><span class="parametername">assembly</span></td>
-        <td><p>The assembly to read from.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><p>The value of the given assembly's trademark attribute.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <a id="CG_Reflection_AssemblyExtensions_ReadAssemblyVersion_" data-uid="CG.Reflection.AssemblyExtensions.ReadAssemblyVersion*"></a>
-  <h4 id="CG_Reflection_AssemblyExtensions_ReadAssemblyVersion_System_Reflection_Assembly_" data-uid="CG.Reflection.AssemblyExtensions.ReadAssemblyVersion(System.Reflection.Assembly)">ReadAssemblyVersion(Assembly)</h4>
-  <div class="markdown level1 summary"><p>Reads the value of the <span class="xref">System.Reflection.AssemblyVersionAttribute</span>
-for the given assembly.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static string ReadAssemblyVersion(this Assembly assembly)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Reflection.Assembly</span></td>
-        <td><span class="parametername">assembly</span></td>
-        <td><p>The assembly to read from.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><p>The value of the given assembly's version attribute.</p>
 </td>
       </tr>
     </tbody>
@@ -560,6 +208,358 @@ for the given assembly.</p>
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><p>The value of the given assembly's copyright attribute.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="CG_Reflection_AssemblyExtensions_ReadDescription_" data-uid="CG.Reflection.AssemblyExtensions.ReadDescription*"></a>
+  <h4 id="CG_Reflection_AssemblyExtensions_ReadDescription_System_Reflection_Assembly_" data-uid="CG.Reflection.AssemblyExtensions.ReadDescription(System.Reflection.Assembly)">ReadDescription(Assembly)</h4>
+  <div class="markdown level1 summary"><p>Reads the value of the <span class="xref">System.Reflection.AssemblyDescriptionAttribute</span>
+for the given assembly.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string ReadDescription(this Assembly assembly)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Reflection.Assembly</span></td>
+        <td><span class="parametername">assembly</span></td>
+        <td><p>The assembly to read from.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>The value of the given assembly's description attribute.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="CG_Reflection_AssemblyExtensions_ReadFileVersion_" data-uid="CG.Reflection.AssemblyExtensions.ReadFileVersion*"></a>
+  <h4 id="CG_Reflection_AssemblyExtensions_ReadFileVersion_System_Reflection_Assembly_" data-uid="CG.Reflection.AssemblyExtensions.ReadFileVersion(System.Reflection.Assembly)">ReadFileVersion(Assembly)</h4>
+  <div class="markdown level1 summary"><p>Reads the value of the <span class="xref">System.Reflection.AssemblyFileVersionAttribute</span>
+for the given assembly.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string ReadFileVersion(this Assembly assembly)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Reflection.Assembly</span></td>
+        <td><span class="parametername">assembly</span></td>
+        <td><p>The assembly to read from.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>The value of the given assembly's file version attribute.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="CG_Reflection_AssemblyExtensions_ReadGuid_" data-uid="CG.Reflection.AssemblyExtensions.ReadGuid*"></a>
+  <h4 id="CG_Reflection_AssemblyExtensions_ReadGuid_System_Reflection_Assembly_" data-uid="CG.Reflection.AssemblyExtensions.ReadGuid(System.Reflection.Assembly)">ReadGuid(Assembly)</h4>
+  <div class="markdown level1 summary"><p>Reads the value of the <span class="xref">System.Runtime.InteropServices.GuidAttribute</span>
+for the given assembly.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string ReadGuid(this Assembly assembly)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Reflection.Assembly</span></td>
+        <td><span class="parametername">assembly</span></td>
+        <td><p>The assembly to read from.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>The value of the given assembly's guid attribute.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="CG_Reflection_AssemblyExtensions_ReadInformationalVersion_" data-uid="CG.Reflection.AssemblyExtensions.ReadInformationalVersion*"></a>
+  <h4 id="CG_Reflection_AssemblyExtensions_ReadInformationalVersion_System_Reflection_Assembly_" data-uid="CG.Reflection.AssemblyExtensions.ReadInformationalVersion(System.Reflection.Assembly)">ReadInformationalVersion(Assembly)</h4>
+  <div class="markdown level1 summary"><p>Reads the value of the <span class="xref">System.Reflection.AssemblyInformationalVersionAttribute</span>
+for the given assembly.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string ReadInformationalVersion(this Assembly assembly)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Reflection.Assembly</span></td>
+        <td><span class="parametername">assembly</span></td>
+        <td><p>The assembly to read from.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>The value of the given assembly's informational version attribute.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="CG_Reflection_AssemblyExtensions_ReadProduct_" data-uid="CG.Reflection.AssemblyExtensions.ReadProduct*"></a>
+  <h4 id="CG_Reflection_AssemblyExtensions_ReadProduct_System_Reflection_Assembly_" data-uid="CG.Reflection.AssemblyExtensions.ReadProduct(System.Reflection.Assembly)">ReadProduct(Assembly)</h4>
+  <div class="markdown level1 summary"><p>Reads the value of the <span class="xref">System.Reflection.AssemblyProductAttribute</span>
+for the given assembly.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string ReadProduct(this Assembly assembly)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Reflection.Assembly</span></td>
+        <td><span class="parametername">assembly</span></td>
+        <td><p>The assembly to read from.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>The value of the given assembly's product attribute.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="CG_Reflection_AssemblyExtensions_ReadTitle_" data-uid="CG.Reflection.AssemblyExtensions.ReadTitle*"></a>
+  <h4 id="CG_Reflection_AssemblyExtensions_ReadTitle_System_Reflection_Assembly_" data-uid="CG.Reflection.AssemblyExtensions.ReadTitle(System.Reflection.Assembly)">ReadTitle(Assembly)</h4>
+  <div class="markdown level1 summary"><p>Reads the value of the <span class="xref">System.Reflection.AssemblyTitleAttribute</span>
+for the given assembly.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string ReadTitle(this Assembly assembly)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Reflection.Assembly</span></td>
+        <td><span class="parametername">assembly</span></td>
+        <td><p>The assembly to read from.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>The value of the given assembly's title attribute.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="CG_Reflection_AssemblyExtensions_ReadTrademark_" data-uid="CG.Reflection.AssemblyExtensions.ReadTrademark*"></a>
+  <h4 id="CG_Reflection_AssemblyExtensions_ReadTrademark_System_Reflection_Assembly_" data-uid="CG.Reflection.AssemblyExtensions.ReadTrademark(System.Reflection.Assembly)">ReadTrademark(Assembly)</h4>
+  <div class="markdown level1 summary"><p>Reads the value of the <span class="xref">System.Reflection.AssemblyTrademarkAttribute</span>
+for the given assembly.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string ReadTrademark(this Assembly assembly)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Reflection.Assembly</span></td>
+        <td><span class="parametername">assembly</span></td>
+        <td><p>The assembly to read from.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>The value of the given assembly's trademark attribute.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="CG_Reflection_AssemblyExtensions_ReadVersion_" data-uid="CG.Reflection.AssemblyExtensions.ReadVersion*"></a>
+  <h4 id="CG_Reflection_AssemblyExtensions_ReadVersion_System_Reflection_Assembly_" data-uid="CG.Reflection.AssemblyExtensions.ReadVersion(System.Reflection.Assembly)">ReadVersion(Assembly)</h4>
+  <div class="markdown level1 summary"><p>Reads the value of the <span class="xref">System.Reflection.AssemblyVersionAttribute</span>
+for the given assembly.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string ReadVersion(this Assembly assembly)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Reflection.Assembly</span></td>
+        <td><span class="parametername">assembly</span></td>
+        <td><p>The assembly to read from.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>The value of the given assembly's version attribute.</p>
 </td>
       </tr>
     </tbody>

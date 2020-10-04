@@ -276,7 +276,7 @@ namespace CG.Reflection
                 // Strip off everythign past the '+' character.
                 return attr.InformationalVersion.Substring(
                     0, 
-                    attr.InformationalVersion.Length - index
+                    attr.InformationalVersion.Length - index - 1
                     );
             }
             else

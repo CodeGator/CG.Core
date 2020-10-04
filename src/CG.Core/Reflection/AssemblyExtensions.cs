@@ -54,7 +54,7 @@ namespace CG.Reflection
         /// </summary>
         /// <param name="assembly">The assembly to read from.</param>
         /// <returns>The value of the given assembly's title attribute.</returns>
-        public static string ReadAssemblyTitle(this Assembly assembly)
+        public static string ReadTitle(this Assembly assembly)
         {
             // Attempt to read the assembly's title attribute.
             object[] attributes = assembly.GetCustomAttributes(
@@ -86,7 +86,7 @@ namespace CG.Reflection
         /// </summary>
         /// <param name="assembly">The assembly to read from.</param>
         /// <returns>The value of the given assembly's description attribute.</returns>
-        public static string ReadAssemblyDescription(this Assembly assembly)
+        public static string ReadDescription(this Assembly assembly)
         {
             // Attempt to read the assembly's description attribute.
             object[] attributes = assembly.GetCustomAttributes(
@@ -118,7 +118,7 @@ namespace CG.Reflection
         /// </summary>
         /// <param name="assembly">The assembly to read from.</param>
         /// <returns>The value of the given assembly's company attribute.</returns>
-        public static string ReadAssemblyCompany(this Assembly assembly)
+        public static string ReadCompany(this Assembly assembly)
         {
             // Attempt to read the assembly's company attribute.
             object[] attributes = assembly.GetCustomAttributes(
@@ -150,7 +150,7 @@ namespace CG.Reflection
         /// </summary>
         /// <param name="assembly">The assembly to read from.</param>
         /// <returns>The value of the given assembly's product attribute.</returns>
-        public static string ReadAssemblyProduct(this Assembly assembly)
+        public static string ReadProduct(this Assembly assembly)
         {
             // Attempt to read the assembly's product attribute.
             object[] attributes = assembly.GetCustomAttributes(
@@ -182,7 +182,7 @@ namespace CG.Reflection
         /// </summary>
         /// <param name="assembly">The assembly to read from.</param>
         /// <returns>The value of the given assembly's trademark attribute.</returns>
-        public static string ReadAssemblyTrademark(this Assembly assembly)
+        public static string ReadTrademark(this Assembly assembly)
         {
             // Attempt to read the assembly's trademark attribute.
             object[] attributes = assembly.GetCustomAttributes(
@@ -214,7 +214,7 @@ namespace CG.Reflection
         /// </summary>
         /// <param name="assembly">The assembly to read from.</param>
         /// <returns>The value of the given assembly's version attribute.</returns>
-        public static string ReadAssemblyVersion(this Assembly assembly)
+        public static string ReadVersion(this Assembly assembly)
         {
             // Attempt to read the assembly's version attribute.
             object[] attributes = assembly.GetCustomAttributes(
@@ -246,7 +246,7 @@ namespace CG.Reflection
         /// </summary>
         /// <param name="assembly">The assembly to read from.</param>
         /// <returns>The value of the given assembly's informational version attribute.</returns>
-        public static string ReadAssemblyInformationalVersion(this Assembly assembly)
+        public static string ReadInformationalVersion(this Assembly assembly)
         {
             // Attempt to read the assembly's version attribute.
             object[] attributes = assembly.GetCustomAttributes(
@@ -266,8 +266,24 @@ namespace CG.Reflection
             if (attr == null || attr.InformationalVersion.Length == 0)
                 return string.Empty;
 
-            // Return the text for the attribute.
-            return attr.InformationalVersion;
+            // Look for a '+' character, which, if found, signifies the start
+            //   of semver 2.0 version info and should be removed.
+            var index = attr.InformationalVersion.IndexOf('+');
+
+            // Did we find it?
+            if (0 < index)
+            {
+                // Strip off everythign past the '+' character.
+                return attr.InformationalVersion.Substring(
+                    0, 
+                    attr.InformationalVersion.Length - index
+                    );
+            }
+            else
+            {
+                // Return the text for the attribute.
+                return attr.InformationalVersion;
+            }            
         }
 
         // ******************************************************************
@@ -278,7 +294,7 @@ namespace CG.Reflection
         /// </summary>
         /// <param name="assembly">The assembly to read from.</param>
         /// <returns>The value of the given assembly's file version attribute.</returns>
-        public static string ReadAssemblyFileVersion(this Assembly assembly)
+        public static string ReadFileVersion(this Assembly assembly)
         {
             // Attempt to read the assembly's file version attribute.
             object[] attributes = assembly.GetCustomAttributes(
@@ -310,7 +326,7 @@ namespace CG.Reflection
         /// </summary>
         /// <param name="assembly">The assembly to read from.</param>
         /// <returns>The value of the given assembly's guid attribute.</returns>
-        public static string ReadAssemblyGuid(this Assembly assembly)
+        public static string ReadGuid(this Assembly assembly)
         {
             // Attempt to read the assembly's guid attribute.
             object[] attributes = assembly.GetCustomAttributes(

@@ -61,110 +61,11 @@ namespace CG.Core.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to The argument may not contain an empty collection!\r\n[called from {0} in {1}, line {2}].
-        /// </summary>
-        internal static string Guard_ArgEmptyCollection {
-            get {
-                return ResourceManager.GetString("Guard_ArgEmptyCollection", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to The argument must be greater than  {0}!\r\n[called from {1} in {2}, line {3}].
-        /// </summary>
-        internal static string Guard_ArgGreaterThan {
-            get {
-                return ResourceManager.GetString("Guard_ArgGreaterThan", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to The argument must contain at least one element!\r\n[called from {0} in {1}, line {2}].
         /// </summary>
         internal static string Guard_ArgIsEmpty {
             get {
                 return ResourceManager.GetString("Guard_ArgIsEmpty", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to The argument must not be FALSE!\r\n[called from {0} in {1}, line {2}].
-        /// </summary>
-        internal static string Guard_ArgIsFalse {
-            get {
-                return ResourceManager.GetString("Guard_ArgIsFalse", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to The argument contains an invalid date-time value!\r\n[called from {0} in {1}, line {2}].
-        /// </summary>
-        internal static string Guard_ArgIsInvalidDateTime {
-            get {
-                return ResourceManager.GetString("Guard_ArgIsInvalidDateTime", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to The argument must not be TRUE!\r\n[called from {0} in {1}, line {2}].
-        /// </summary>
-        internal static string Guard_ArgIsTrue {
-            get {
-                return ResourceManager.GetString("Guard_ArgIsTrue", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to The argument may not contain a zero time span!\r\n[called from {0} in {1}, line {2}].
-        /// </summary>
-        internal static string Guard_ArgIsZero {
-            get {
-                return ResourceManager.GetString("Guard_ArgIsZero", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to The argument must not be less than {0}!\r\n[called from {1} in {2}, line {3}].
-        /// </summary>
-        internal static string Guard_ArgLessThan {
-            get {
-                return ResourceManager.GetString("Guard_ArgLessThan", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to The argument must contain a value &gt; 0!\r\n[called from {0} in {1}, line {2}].
-        /// </summary>
-        internal static string Guard_ArgLessThanEqualZero {
-            get {
-                return ResourceManager.GetString("Guard_ArgLessThanEqualZero", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to The argument must contain a value &lt; 0!\r\n[called from {0} in {1}, line {2}].
-        /// </summary>
-        internal static string Guard_ArgLessThanZero {
-            get {
-                return ResourceManager.GetString("Guard_ArgLessThanZero", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to The argument must contain an empty collection!\r\n[called from {0} in {1}, line {2}].
-        /// </summary>
-        internal static string Guard_ArgNotEmptyCollection {
-            get {
-                return ResourceManager.GetString("Guard_ArgNotEmptyCollection", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to The argument must be null or empty!\r\n[called from {0} in {1}, line {2}].
-        /// </summary>
-        internal static string Guard_ArgNotNullOrEmpty {
-            get {
-                return ResourceManager.GetString("Guard_ArgNotNullOrEmpty", resourceCulture);
             }
         }
         
@@ -183,51 +84,6 @@ namespace CG.Core.Properties {
         internal static string Guard_ArgNotWritable {
             get {
                 return ResourceManager.GetString("Guard_ArgNotWritable", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to The argument must contain a zero!\r\n[called from {0} in {1}, line {2}].
-        /// </summary>
-        internal static string Guard_ArgNotZero {
-            get {
-                return ResourceManager.GetString("Guard_ArgNotZero", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to The argument contains a null!\r\n[called from {0} in {1}, line {2}].
-        /// </summary>
-        internal static string Guard_ArgNull {
-            get {
-                return ResourceManager.GetString("Guard_ArgNull", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to The argument may not be null or empty!\r\n[called from {0} in {1}, line {2}].
-        /// </summary>
-        internal static string Guard_ArgNullOrEmpty {
-            get {
-                return ResourceManager.GetString("Guard_ArgNullOrEmpty", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to The argument may not contain a zero!\r\n[called from {0} in {1}, line {2}].
-        /// </summary>
-        internal static string Guard_ArgZero {
-            get {
-                return ResourceManager.GetString("Guard_ArgZero", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to The argument may not contain an empty GUID!\r\n[called from {0} in {1}, line {2}].
-        /// </summary>
-        internal static string Guard_EmptyGuid {
-            get {
-                return ResourceManager.GetString("Guard_EmptyGuid", resourceCulture);
             }
         }
         
@@ -259,24 +115,6 @@ namespace CG.Core.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to The argument is not a well formed URI!\r\n[called from {0} in {1}, line {2}].
-        /// </summary>
-        internal static string Guard_MalformedUri {
-            get {
-                return ResourceManager.GetString("Guard_MalformedUri", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to The argument should contain an empty GUID!\r\n[called from {0} in {1}, line {2}].
-        /// </summary>
-        internal static string Guard_NotEmptyGuid {
-            get {
-                return ResourceManager.GetString("Guard_NotEmptyGuid", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Error while iterating over an enumerable sequence! See any inner exception(s) for more details..
         /// </summary>
         internal static string IEnumerableExtensions_ForEach {
@@ -286,38 +124,11 @@ namespace CG.Core.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to The type &apos;{0}&apos; does not have a public property named &apos;{1}&apos;!.
-        /// </summary>
-        internal static string PropertyCache_NotFound {
-            get {
-                return ResourceManager.GetString("PropertyCache_NotFound", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Unable to cache key information for the property &apos;{1}&apos; on type &apos;{0}&apos;!.
-        /// </summary>
-        internal static string PropertyCache_UnableToCache {
-            get {
-                return ResourceManager.GetString("PropertyCache_UnableToCache", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Failed to create type: {0} as a singleton.
         /// </summary>
         internal static string SingletonBaseEx_Instance {
             get {
                 return ResourceManager.GetString("SingletonBaseEx_Instance", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to {0} validation error! Error: {1}, Members: {2}.
-        /// </summary>
-        internal static string VerifiableObject_Invalid {
-            get {
-                return ResourceManager.GetString("VerifiableObject_Invalid", resourceCulture);
             }
         }
     }

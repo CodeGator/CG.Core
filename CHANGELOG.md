@@ -7,6 +7,8 @@
 
 * I added the ReadAssemblyInformationalVersion method to the AssemblyExtensions class.
 
+* I moved the reflection stuff to CG.Reflection
+
 ## 2020.5
 
 * I added code to dynamically load missing whitelisted assemblies in the ExtensionMethods extension method.*

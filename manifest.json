@@ -206,54 +206,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/CG.Reflection.AppDomainExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/CG.Reflection.AppDomainExtensions.html",
-          "hash": "fEU8KqFjrEWJFZMj15/3cw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/CG.Reflection.AssemblyExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/CG.Reflection.AssemblyExtensions.html",
-          "hash": "OulZ3f02LAS1a6PPLhYKug=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/CG.Reflection.PropertyCache.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/CG.Reflection.PropertyCache.html",
-          "hash": "NKUx3vVjjG/usftGqggqSg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/CG.Reflection.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/CG.Reflection.html",
-          "hash": "3qWfxBACfJ3fjMKvny2ODw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/CG.SingletonBase-1.yml",
       "output": {
         ".html": {
@@ -378,7 +330,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "O3v4n3B1mNYFE5Hip5GaxQ=="
+          "hash": "mMbCkoppHxiBrZpUJgQEfg=="
         }
       },
       "is_incremental": false,
@@ -497,7 +449,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 29,
+          "total_file_count": 25,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

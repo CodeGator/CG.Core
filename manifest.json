@@ -206,6 +206,30 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/CG.Reflection.AssemblyExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CG.Reflection.AssemblyExtensions.html",
+          "hash": "T5LlDm9tKsVNwid6x8N+cw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CG.Reflection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CG.Reflection.html",
+          "hash": "8ceS65ajy361KspygnFTdA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/CG.SingletonBase-1.yml",
       "output": {
         ".html": {
@@ -330,7 +354,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "mMbCkoppHxiBrZpUJgQEfg=="
+          "hash": "pMwFCcO13sSk2dYsmsngwg=="
         }
       },
       "is_incremental": false,
@@ -449,7 +473,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 25,
+          "total_file_count": 27,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

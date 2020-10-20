@@ -739,6 +739,31 @@ references:
   isSpec: "True"
   fullName: CG.RandomEx.RandomEx
   nameWithType: RandomEx.RandomEx
+- uid: CG.Reflection
+  name: CG.Reflection
+  href: api/CG.Reflection.html
+  commentId: N:CG.Reflection
+  fullName: CG.Reflection
+  nameWithType: CG.Reflection
+- uid: CG.Reflection.AssemblyExtensions
+  name: AssemblyExtensions
+  href: api/CG.Reflection.AssemblyExtensions.html
+  commentId: T:CG.Reflection.AssemblyExtensions
+  fullName: CG.Reflection.AssemblyExtensions
+  nameWithType: AssemblyExtensions
+- uid: CG.Reflection.AssemblyExtensions.ReadFileVersion(System.Reflection.Assembly)
+  name: ReadFileVersion(Assembly)
+  href: api/CG.Reflection.AssemblyExtensions.html#CG_Reflection_AssemblyExtensions_ReadFileVersion_System_Reflection_Assembly_
+  commentId: M:CG.Reflection.AssemblyExtensions.ReadFileVersion(System.Reflection.Assembly)
+  fullName: CG.Reflection.AssemblyExtensions.ReadFileVersion(System.Reflection.Assembly)
+  nameWithType: AssemblyExtensions.ReadFileVersion(Assembly)
+- uid: CG.Reflection.AssemblyExtensions.ReadFileVersion*
+  name: ReadFileVersion
+  href: api/CG.Reflection.AssemblyExtensions.html#CG_Reflection_AssemblyExtensions_ReadFileVersion_
+  commentId: Overload:CG.Reflection.AssemblyExtensions.ReadFileVersion
+  isSpec: "True"
+  fullName: CG.Reflection.AssemblyExtensions.ReadFileVersion
+  nameWithType: AssemblyExtensions.ReadFileVersion
 - uid: CG.SingletonBase`1
   name: SingletonBase<T>
   href: api/CG.SingletonBase-1.html

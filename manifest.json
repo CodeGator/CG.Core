@@ -158,6 +158,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/CG.ExpandoBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CG.ExpandoBase.html",
+          "hash": "/NkSWOS6mFGGrJfCu9xcBQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/CG.IO.GuardExtensions.yml",
       "output": {
         ".html": {
@@ -330,7 +342,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CG.html",
-          "hash": "BJKmDo+VuQKcqHUS9EccxA=="
+          "hash": "As/6s5efs9kQQceyabnzWA=="
         }
       },
       "is_incremental": false,
@@ -354,7 +366,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "pMwFCcO13sSk2dYsmsngwg=="
+          "hash": "B298tliNNX3VYEdCWjb1jw=="
         }
       },
       "is_incremental": false,
@@ -473,7 +485,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 27,
+          "total_file_count": 28,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

@@ -26,4 +26,8 @@
     <ProjectReference Include="..\..\src\CG.Core\CG.Core.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Reflection\" />
+  </ItemGroup>
+
 </Project>

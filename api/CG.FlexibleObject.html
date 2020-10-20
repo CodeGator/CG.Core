@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class ExpandoBase
+    <title>Class FlexibleObject
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class ExpandoBase
+    <meta name="title" content="Class FlexibleObject
    ">
     <meta name="generator" content="docfx 2.56.2.0">
     
@@ -78,19 +78,20 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="CG.ExpandoBase">
+            <article class="content wrap" id="_content" data-uid="CG.FlexibleObject">
   
   
-  <h1 id="CG_ExpandoBase" data-uid="CG.ExpandoBase" class="text-break">Class ExpandoBase
+  <h1 id="CG_FlexibleObject" data-uid="CG.FlexibleObject" class="text-break">Class FlexibleObject
   </h1>
-  <div class="markdown level0 summary"><p>This class represents a dynamic base object.</p>
+  <div class="markdown level0 summary"><p>This class represents a dynamic type that can be instantiated or
+used as a base class.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
     <div class="level1"><span class="xref">System.Dynamic.DynamicObject</span></div>
-    <div class="level2"><span class="xref">ExpandoBase</span></div>
+    <div class="level2"><span class="xref">FlexibleObject</span></div>
   </div>
   <div classs="implements">
     <h5>Implements</h5>
@@ -155,26 +156,26 @@
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="CG.html">CG</a></h6>
   <h6><strong>Assembly</strong>: CG.Core.dll</h6>
-  <h5 id="CG_ExpandoBase_syntax">Syntax</h5>
+  <h5 id="CG_FlexibleObject_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract class ExpandoBase : DynamicObject, IDynamicMetaObjectProvider</code></pre>
+    <pre><code class="lang-csharp hljs">public class FlexibleObject : DynamicObject, IDynamicMetaObjectProvider</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
-  <a id="CG_ExpandoBase__ctor_" data-uid="CG.ExpandoBase.#ctor*"></a>
-  <h4 id="CG_ExpandoBase__ctor" data-uid="CG.ExpandoBase.#ctor">ExpandoBase()</h4>
-  <div class="markdown level1 summary"><p>This constructor creates a new instance of the <a class="xref" href="CG.ExpandoBase.html">ExpandoBase</a>
+  <a id="CG_FlexibleObject__ctor_" data-uid="CG.FlexibleObject.#ctor*"></a>
+  <h4 id="CG_FlexibleObject__ctor" data-uid="CG.FlexibleObject.#ctor">FlexibleObject()</h4>
+  <div class="markdown level1 summary"><p>This constructor creates a new instance of the <a class="xref" href="CG.FlexibleObject.html">FlexibleObject</a>
 class.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected ExpandoBase()</code></pre>
+    <pre><code class="lang-csharp hljs">public FlexibleObject()</code></pre>
   </div>
   <h3 id="properties">Properties
   </h3>
-  <a id="CG_ExpandoBase_Properties_" data-uid="CG.ExpandoBase.Properties*"></a>
-  <h4 id="CG_ExpandoBase_Properties" data-uid="CG.ExpandoBase.Properties">Properties</h4>
+  <a id="CG_FlexibleObject_Properties_" data-uid="CG.FlexibleObject.Properties*"></a>
+  <h4 id="CG_FlexibleObject_Properties" data-uid="CG.FlexibleObject.Properties">Properties</h4>
   <div class="markdown level1 summary"><p>This property contains the internal properties for the object.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -199,8 +200,8 @@ class.</p>
   </table>
   <h3 id="methods">Methods
   </h3>
-  <a id="CG_ExpandoBase_GetDynamicMemberNames_" data-uid="CG.ExpandoBase.GetDynamicMemberNames*"></a>
-  <h4 id="CG_ExpandoBase_GetDynamicMemberNames" data-uid="CG.ExpandoBase.GetDynamicMemberNames">GetDynamicMemberNames()</h4>
+  <a id="CG_FlexibleObject_GetDynamicMemberNames_" data-uid="CG.FlexibleObject.GetDynamicMemberNames*"></a>
+  <h4 id="CG_FlexibleObject_GetDynamicMemberNames" data-uid="CG.FlexibleObject.GetDynamicMemberNames">GetDynamicMemberNames()</h4>
   <div class="markdown level1 summary"><p>This method gets the names of all the dynamic properties.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -226,8 +227,8 @@ class.</p>
   </table>
   <h5 class="overrides">Overrides</h5>
   <div><span class="xref">System.Dynamic.DynamicObject.GetDynamicMemberNames()</span></div>
-  <a id="CG_ExpandoBase_TryGetMember_" data-uid="CG.ExpandoBase.TryGetMember*"></a>
-  <h4 id="CG_ExpandoBase_TryGetMember_System_Dynamic_GetMemberBinder_System_Object__" data-uid="CG.ExpandoBase.TryGetMember(System.Dynamic.GetMemberBinder,System.Object@)">TryGetMember(GetMemberBinder, out Object)</h4>
+  <a id="CG_FlexibleObject_TryGetMember_" data-uid="CG.FlexibleObject.TryGetMember*"></a>
+  <h4 id="CG_FlexibleObject_TryGetMember_System_Dynamic_GetMemberBinder_System_Object__" data-uid="CG.FlexibleObject.TryGetMember(System.Dynamic.GetMemberBinder,System.Object@)">TryGetMember(GetMemberBinder, out Object)</h4>
   <div class="markdown level1 summary"><p>This method gets the value of the specified property.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -277,8 +278,8 @@ class.</p>
   </table>
   <h5 class="overrides">Overrides</h5>
   <div><span class="xref">System.Dynamic.DynamicObject.TryGetMember(System.Dynamic.GetMemberBinder, System.Object)</span></div>
-  <a id="CG_ExpandoBase_TrySetMember_" data-uid="CG.ExpandoBase.TrySetMember*"></a>
-  <h4 id="CG_ExpandoBase_TrySetMember_System_Dynamic_SetMemberBinder_System_Object_" data-uid="CG.ExpandoBase.TrySetMember(System.Dynamic.SetMemberBinder,System.Object)">TrySetMember(SetMemberBinder, Object)</h4>
+  <a id="CG_FlexibleObject_TrySetMember_" data-uid="CG.FlexibleObject.TrySetMember*"></a>
+  <h4 id="CG_FlexibleObject_TrySetMember_System_Dynamic_SetMemberBinder_System_Object_" data-uid="CG.FlexibleObject.TrySetMember(System.Dynamic.SetMemberBinder,System.Object)">TrySetMember(SetMemberBinder, Object)</h4>
   <div class="markdown level1 summary"><p>This method sets the value of the specified property.</p>
 </div>
   <div class="markdown level1 conceptual"></div>

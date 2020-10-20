@@ -158,11 +158,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/CG.ExpandoBase.yml",
+      "source_relative_path": "api/CG.FlexibleObject.yml",
       "output": {
         ".html": {
-          "relative_path": "api/CG.ExpandoBase.html",
-          "hash": "/NkSWOS6mFGGrJfCu9xcBQ=="
+          "relative_path": "api/CG.FlexibleObject.html",
+          "hash": "9XGk/Atpear9rlZbhO5z8g=="
         }
       },
       "is_incremental": false,
@@ -342,7 +342,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CG.html",
-          "hash": "As/6s5efs9kQQceyabnzWA=="
+          "hash": "twMfjnq91sXv4qZ72TbXhg=="
         }
       },
       "is_incremental": false,
@@ -366,7 +366,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "B298tliNNX3VYEdCWjb1jw=="
+          "hash": "rHtVaK/bIGbEL3v37Apdkw=="
         }
       },
       "is_incremental": false,

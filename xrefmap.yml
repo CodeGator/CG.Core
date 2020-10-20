@@ -443,80 +443,80 @@ references:
   isSpec: "True"
   fullName: CG.ExceptionExtensions.MessageEx
   nameWithType: ExceptionExtensions.MessageEx
-- uid: CG.ExpandoBase
-  name: ExpandoBase
-  href: api/CG.ExpandoBase.html
-  commentId: T:CG.ExpandoBase
-  fullName: CG.ExpandoBase
-  nameWithType: ExpandoBase
-- uid: CG.ExpandoBase.#ctor
-  name: ExpandoBase()
-  href: api/CG.ExpandoBase.html#CG_ExpandoBase__ctor
-  commentId: M:CG.ExpandoBase.#ctor
-  fullName: CG.ExpandoBase.ExpandoBase()
-  nameWithType: ExpandoBase.ExpandoBase()
-- uid: CG.ExpandoBase.#ctor*
-  name: ExpandoBase
-  href: api/CG.ExpandoBase.html#CG_ExpandoBase__ctor_
-  commentId: Overload:CG.ExpandoBase.#ctor
+- uid: CG.FlexibleObject
+  name: FlexibleObject
+  href: api/CG.FlexibleObject.html
+  commentId: T:CG.FlexibleObject
+  fullName: CG.FlexibleObject
+  nameWithType: FlexibleObject
+- uid: CG.FlexibleObject.#ctor
+  name: FlexibleObject()
+  href: api/CG.FlexibleObject.html#CG_FlexibleObject__ctor
+  commentId: M:CG.FlexibleObject.#ctor
+  fullName: CG.FlexibleObject.FlexibleObject()
+  nameWithType: FlexibleObject.FlexibleObject()
+- uid: CG.FlexibleObject.#ctor*
+  name: FlexibleObject
+  href: api/CG.FlexibleObject.html#CG_FlexibleObject__ctor_
+  commentId: Overload:CG.FlexibleObject.#ctor
   isSpec: "True"
-  fullName: CG.ExpandoBase.ExpandoBase
-  nameWithType: ExpandoBase.ExpandoBase
-- uid: CG.ExpandoBase.GetDynamicMemberNames
+  fullName: CG.FlexibleObject.FlexibleObject
+  nameWithType: FlexibleObject.FlexibleObject
+- uid: CG.FlexibleObject.GetDynamicMemberNames
   name: GetDynamicMemberNames()
-  href: api/CG.ExpandoBase.html#CG_ExpandoBase_GetDynamicMemberNames
-  commentId: M:CG.ExpandoBase.GetDynamicMemberNames
-  fullName: CG.ExpandoBase.GetDynamicMemberNames()
-  nameWithType: ExpandoBase.GetDynamicMemberNames()
-- uid: CG.ExpandoBase.GetDynamicMemberNames*
+  href: api/CG.FlexibleObject.html#CG_FlexibleObject_GetDynamicMemberNames
+  commentId: M:CG.FlexibleObject.GetDynamicMemberNames
+  fullName: CG.FlexibleObject.GetDynamicMemberNames()
+  nameWithType: FlexibleObject.GetDynamicMemberNames()
+- uid: CG.FlexibleObject.GetDynamicMemberNames*
   name: GetDynamicMemberNames
-  href: api/CG.ExpandoBase.html#CG_ExpandoBase_GetDynamicMemberNames_
-  commentId: Overload:CG.ExpandoBase.GetDynamicMemberNames
+  href: api/CG.FlexibleObject.html#CG_FlexibleObject_GetDynamicMemberNames_
+  commentId: Overload:CG.FlexibleObject.GetDynamicMemberNames
   isSpec: "True"
-  fullName: CG.ExpandoBase.GetDynamicMemberNames
-  nameWithType: ExpandoBase.GetDynamicMemberNames
-- uid: CG.ExpandoBase.Properties
+  fullName: CG.FlexibleObject.GetDynamicMemberNames
+  nameWithType: FlexibleObject.GetDynamicMemberNames
+- uid: CG.FlexibleObject.Properties
   name: Properties
-  href: api/CG.ExpandoBase.html#CG_ExpandoBase_Properties
-  commentId: P:CG.ExpandoBase.Properties
-  fullName: CG.ExpandoBase.Properties
-  nameWithType: ExpandoBase.Properties
-- uid: CG.ExpandoBase.Properties*
+  href: api/CG.FlexibleObject.html#CG_FlexibleObject_Properties
+  commentId: P:CG.FlexibleObject.Properties
+  fullName: CG.FlexibleObject.Properties
+  nameWithType: FlexibleObject.Properties
+- uid: CG.FlexibleObject.Properties*
   name: Properties
-  href: api/CG.ExpandoBase.html#CG_ExpandoBase_Properties_
-  commentId: Overload:CG.ExpandoBase.Properties
+  href: api/CG.FlexibleObject.html#CG_FlexibleObject_Properties_
+  commentId: Overload:CG.FlexibleObject.Properties
   isSpec: "True"
-  fullName: CG.ExpandoBase.Properties
-  nameWithType: ExpandoBase.Properties
-- uid: CG.ExpandoBase.TryGetMember(System.Dynamic.GetMemberBinder,System.Object@)
+  fullName: CG.FlexibleObject.Properties
+  nameWithType: FlexibleObject.Properties
+- uid: CG.FlexibleObject.TryGetMember(System.Dynamic.GetMemberBinder,System.Object@)
   name: TryGetMember(GetMemberBinder, out Object)
-  href: api/CG.ExpandoBase.html#CG_ExpandoBase_TryGetMember_System_Dynamic_GetMemberBinder_System_Object__
-  commentId: M:CG.ExpandoBase.TryGetMember(System.Dynamic.GetMemberBinder,System.Object@)
+  href: api/CG.FlexibleObject.html#CG_FlexibleObject_TryGetMember_System_Dynamic_GetMemberBinder_System_Object__
+  commentId: M:CG.FlexibleObject.TryGetMember(System.Dynamic.GetMemberBinder,System.Object@)
   name.vb: TryGetMember(GetMemberBinder, ByRef Object)
-  fullName: CG.ExpandoBase.TryGetMember(System.Dynamic.GetMemberBinder, out System.Object)
-  fullName.vb: CG.ExpandoBase.TryGetMember(System.Dynamic.GetMemberBinder, ByRef System.Object)
-  nameWithType: ExpandoBase.TryGetMember(GetMemberBinder, out Object)
-  nameWithType.vb: ExpandoBase.TryGetMember(GetMemberBinder, ByRef Object)
-- uid: CG.ExpandoBase.TryGetMember*
+  fullName: CG.FlexibleObject.TryGetMember(System.Dynamic.GetMemberBinder, out System.Object)
+  fullName.vb: CG.FlexibleObject.TryGetMember(System.Dynamic.GetMemberBinder, ByRef System.Object)
+  nameWithType: FlexibleObject.TryGetMember(GetMemberBinder, out Object)
+  nameWithType.vb: FlexibleObject.TryGetMember(GetMemberBinder, ByRef Object)
+- uid: CG.FlexibleObject.TryGetMember*
   name: TryGetMember
-  href: api/CG.ExpandoBase.html#CG_ExpandoBase_TryGetMember_
-  commentId: Overload:CG.ExpandoBase.TryGetMember
+  href: api/CG.FlexibleObject.html#CG_FlexibleObject_TryGetMember_
+  commentId: Overload:CG.FlexibleObject.TryGetMember
   isSpec: "True"
-  fullName: CG.ExpandoBase.TryGetMember
-  nameWithType: ExpandoBase.TryGetMember
-- uid: CG.ExpandoBase.TrySetMember(System.Dynamic.SetMemberBinder,System.Object)
+  fullName: CG.FlexibleObject.TryGetMember
+  nameWithType: FlexibleObject.TryGetMember
+- uid: CG.FlexibleObject.TrySetMember(System.Dynamic.SetMemberBinder,System.Object)
   name: TrySetMember(SetMemberBinder, Object)
-  href: api/CG.ExpandoBase.html#CG_ExpandoBase_TrySetMember_System_Dynamic_SetMemberBinder_System_Object_
-  commentId: M:CG.ExpandoBase.TrySetMember(System.Dynamic.SetMemberBinder,System.Object)
-  fullName: CG.ExpandoBase.TrySetMember(System.Dynamic.SetMemberBinder, System.Object)
-  nameWithType: ExpandoBase.TrySetMember(SetMemberBinder, Object)
-- uid: CG.ExpandoBase.TrySetMember*
+  href: api/CG.FlexibleObject.html#CG_FlexibleObject_TrySetMember_System_Dynamic_SetMemberBinder_System_Object_
+  commentId: M:CG.FlexibleObject.TrySetMember(System.Dynamic.SetMemberBinder,System.Object)
+  fullName: CG.FlexibleObject.TrySetMember(System.Dynamic.SetMemberBinder, System.Object)
+  nameWithType: FlexibleObject.TrySetMember(SetMemberBinder, Object)
+- uid: CG.FlexibleObject.TrySetMember*
   name: TrySetMember
-  href: api/CG.ExpandoBase.html#CG_ExpandoBase_TrySetMember_
-  commentId: Overload:CG.ExpandoBase.TrySetMember
+  href: api/CG.FlexibleObject.html#CG_FlexibleObject_TrySetMember_
+  commentId: Overload:CG.FlexibleObject.TrySetMember
   isSpec: "True"
-  fullName: CG.ExpandoBase.TrySetMember
-  nameWithType: ExpandoBase.TrySetMember
+  fullName: CG.FlexibleObject.TrySetMember
+  nameWithType: FlexibleObject.TrySetMember
 - uid: CG.IO
   name: CG.IO
   href: api/CG.IO.html

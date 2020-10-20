@@ -5,9 +5,10 @@ using System.Dynamic;
 namespace CG
 {
     /// <summary>
-    /// This class represents a dynamic base object.
+    /// This class represents a dynamic type that can be instantiated or
+    /// used as a base class.
     /// </summary>
-    public abstract class ExpandoBase : DynamicObject, IDynamicMetaObjectProvider
+    public class FlexibleObject : DynamicObject, IDynamicMetaObjectProvider
     {
         // *******************************************************************
         // Properties.
@@ -29,10 +30,10 @@ namespace CG
         #region Constructors
 
         /// <summary>
-        /// This constructor creates a new instance of the <see cref="ExpandoBase"/>
+        /// This constructor creates a new instance of the <see cref="FlexibleObject"/>
         /// class.
         /// </summary>
-        protected ExpandoBase()
+        public FlexibleObject()
         {
             Properties = new Dictionary<string, object>();
         }

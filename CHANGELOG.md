@@ -9,6 +9,8 @@
 
 * I moved the reflection stuff to CG.Reflection
 
+* I dropped support for .NET 4.61
+
 ## 2020.5
 
 * I added code to dynamically load missing whitelisted assemblies in the ExtensionMethods extension method.*

@@ -8,8 +8,16 @@
 #### What does it do?
 The package contains general framework elements used by other CodeGator packages.
 
+#### Commonly used types:
+* CG.DisposableBase
+* CG.SingletonBase
+* CG.Diagnostics.ObjectExtensions
+* CG.IO.GuardExtensions
+* CG.Reflection.AssemblyExtensions
+* CG.AppDomainExtensions
+* CG.CGException
+
 #### What platform(s) does it support?
-* .NET 4.61x or above
 * .NET Standard 2.x or higher
 
 #### How do I install it?

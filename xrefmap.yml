@@ -64,43 +64,6 @@ references:
   isSpec: "True"
   fullName: CG.AppDomainExtensions.FriendlyNameEx
   nameWithType: AppDomainExtensions.FriendlyNameEx
-- uid: CG.CGException
-  name: CGException
-  href: api/CG.CGException.html
-  commentId: T:CG.CGException
-  fullName: CG.CGException
-  nameWithType: CGException
-- uid: CG.CGException.#ctor
-  name: CGException()
-  href: api/CG.CGException.html#CG_CGException__ctor
-  commentId: M:CG.CGException.#ctor
-  fullName: CG.CGException.CGException()
-  nameWithType: CGException.CGException()
-- uid: CG.CGException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-  name: CGException(SerializationInfo, StreamingContext)
-  href: api/CG.CGException.html#CG_CGException__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_
-  commentId: M:CG.CGException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-  fullName: CG.CGException.CGException(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
-  nameWithType: CGException.CGException(SerializationInfo, StreamingContext)
-- uid: CG.CGException.#ctor(System.String)
-  name: CGException(String)
-  href: api/CG.CGException.html#CG_CGException__ctor_System_String_
-  commentId: M:CG.CGException.#ctor(System.String)
-  fullName: CG.CGException.CGException(System.String)
-  nameWithType: CGException.CGException(String)
-- uid: CG.CGException.#ctor(System.String,System.Exception)
-  name: CGException(String, Exception)
-  href: api/CG.CGException.html#CG_CGException__ctor_System_String_System_Exception_
-  commentId: M:CG.CGException.#ctor(System.String,System.Exception)
-  fullName: CG.CGException.CGException(System.String, System.Exception)
-  nameWithType: CGException.CGException(String, Exception)
-- uid: CG.CGException.#ctor*
-  name: CGException
-  href: api/CG.CGException.html#CG_CGException__ctor_
-  commentId: Overload:CG.CGException.#ctor
-  isSpec: "True"
-  fullName: CG.CGException.CGException
-  nameWithType: CGException.CGException
 - uid: CG.Collections
   name: CG.Collections
   href: api/CG.Collections.html

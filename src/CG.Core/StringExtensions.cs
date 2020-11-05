@@ -21,10 +21,8 @@ namespace CG
 
         /// <summary>
         /// This method compares two strings and returns true if they match; 
-        /// false if they don't. The <paramref name="rhs"/> parameter may have
-        /// embedded wildcard symbols in it. The acceptable wild card symbols 
-        /// are: * to match zero or more characters, or, ? to match a single 
-        /// character.
+        /// false if they don't. The acceptable wild card symbols are: * to 
+        /// match zero or more characters, or, ? to match a single character.
         /// </summary>
         /// <param name="lhs">The left hand side of the operation.</param>
         /// <param name="rhs">The right hand side of the operation.</param>

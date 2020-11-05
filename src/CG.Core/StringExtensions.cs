@@ -65,6 +65,18 @@ namespace CG
                 // Make the comparison.
                 result = Regex.IsMatch(lhs, regex);
             }
+
+            // Otherwise, does the LHS contain wildcards?
+            else if (lhs.Contains("*") || lhs.Contains("?"))
+            {
+                // Convert the lhs to an equivalent regular expression.
+                var regex = "^" + Regex.Escape(lhs).Replace("\\?", ".").Replace("\\*", ".*") + "$";
+
+                // Make the comparison.
+                result = Regex.IsMatch(rhs, regex);
+            }
+
+            // Otherwise, just do a simple equality comparison.
             else
             {
                 // Make the comparison.

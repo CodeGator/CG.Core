@@ -759,6 +759,19 @@ references:
   commentId: T:CG.StringExtensions
   fullName: CG.StringExtensions
   nameWithType: StringExtensions
+- uid: CG.StringExtensions.IsHTML(System.String)
+  name: IsHTML(String)
+  href: api/CG.StringExtensions.html#CG_StringExtensions_IsHTML_System_String_
+  commentId: M:CG.StringExtensions.IsHTML(System.String)
+  fullName: CG.StringExtensions.IsHTML(System.String)
+  nameWithType: StringExtensions.IsHTML(String)
+- uid: CG.StringExtensions.IsHTML*
+  name: IsHTML
+  href: api/CG.StringExtensions.html#CG_StringExtensions_IsHTML_
+  commentId: Overload:CG.StringExtensions.IsHTML
+  isSpec: "True"
+  fullName: CG.StringExtensions.IsHTML
+  nameWithType: StringExtensions.IsHTML
 - uid: CG.StringExtensions.IsMatch(System.String,System.String)
   name: IsMatch(String, String)
   href: api/CG.StringExtensions.html#CG_StringExtensions_IsMatch_System_String_System_String_
@@ -829,6 +842,25 @@ references:
   isSpec: "True"
   fullName: CG.Threading.Tasks.TaskExtensions.WhenAll
   nameWithType: TaskExtensions.WhenAll
+- uid: CG.TypeExtensions
+  name: TypeExtensions
+  href: api/CG.TypeExtensions.html
+  commentId: T:CG.TypeExtensions
+  fullName: CG.TypeExtensions
+  nameWithType: TypeExtensions
+- uid: CG.TypeExtensions.DerivedTypes(System.Type,System.String,System.String)
+  name: DerivedTypes(Type, String, String)
+  href: api/CG.TypeExtensions.html#CG_TypeExtensions_DerivedTypes_System_Type_System_String_System_String_
+  commentId: M:CG.TypeExtensions.DerivedTypes(System.Type,System.String,System.String)
+  fullName: CG.TypeExtensions.DerivedTypes(System.Type, System.String, System.String)
+  nameWithType: TypeExtensions.DerivedTypes(Type, String, String)
+- uid: CG.TypeExtensions.DerivedTypes*
+  name: DerivedTypes
+  href: api/CG.TypeExtensions.html#CG_TypeExtensions_DerivedTypes_
+  commentId: Overload:CG.TypeExtensions.DerivedTypes
+  isSpec: "True"
+  fullName: CG.TypeExtensions.DerivedTypes
+  nameWithType: TypeExtensions.DerivedTypes
 - uid: CG.Utilities
   name: CG.Utilities
   href: api/CG.Utilities.html

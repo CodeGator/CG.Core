@@ -1,7 +1,6 @@
 ﻿using CG.Validations;
 using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
 
@@ -88,6 +87,31 @@ namespace CG
         // *******************************************************************
 
         /// <summary>
+        /// This method checks for embedded HTML in a string.
+        /// </summary>
+        /// <param name="value">The string to use for the operation.</param>
+        /// <returns>True if the string contains HTML; false otherwise.</returns>
+        public static bool IsHTML(
+            this string value
+            )
+        {
+            // Validate the parameters before attempting to use them.
+            Guard.Instance().ThrowIfNull(value, nameof(value));
+
+            // Create the regex's for the check.
+            var regex1 = new Regex(@"<\s*([^ >]+)[^>]*>.*?<\s*/\s*\1\s*>");
+            var regex2 = new Regex(@"<[^>]+>");
+
+            // Perform the check.
+            var hasHtml = regex1.IsMatch(value) || regex2.IsMatch(value);
+
+            // Return the results.
+            return hasHtml;
+        }
+
+        // *******************************************************************
+
+        /// <summary>
         /// This method randomly shuffles the characters in a string.
         /// </summary>
         /// <param name="incoming">The string to be shuffled.</param>
@@ -101,7 +125,7 @@ namespace CG
 
             int index;
 
-            var random = new Random(Guid.NewGuid().GetHashCode());
+            var random = new RandomEx();
             var chars = new List<char>(incoming);
             var sb = new StringBuilder();
 

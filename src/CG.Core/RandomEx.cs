@@ -19,7 +19,7 @@ namespace CG
         /// class.
         /// </summary>
         public RandomEx()
-            : base(Guid.NewGuid().GetHashCode()+1)
+            : base((int)Guid.NewGuid().GetHashCode() + (int)DateTime.Now.Ticks)
         {
 
         }

@@ -4,6 +4,7 @@
 [![Github docs](https://img.shields.io/static/v1?label=Documentation&message=online&color=blue)](https://codegator.github.io/CG.Core/index.html)
 [![NuGet downloads](https://img.shields.io/nuget/dt/CG.Core.svg?style=flat)](https://nuget.org/packages/CG.Core)
 ![Azure DevOps coverage](https://img.shields.io/azure-devops/coverage/codegator/CG.Core/3)
+[![Github discussion](https://img.shields.io/badge/Discussion-online-blue)](https://github.com/CodeGator/CG.Core/discussions)
 
 #### What does it do?
 The package contains general framework elements used by other CodeGator packages.

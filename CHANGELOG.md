@@ -1,6 +1,10 @@
 # CG.Core change log
 ---
 
+## 2021.1
+
+* I bumped the major version for the new year.
+
 ## 2020.6
 
 * I moved to an azure CI pipeline.
@@ -10,6 +14,10 @@
 * I moved the reflection stuff to CG.Reflection
 
 * I dropped support for .NET 4.61
+
+* I added WeakAction, WeakDelegate, WealPredicate, and WeakFunc types.
+
+* I added DerivedTypes method to the Type extensions.
 
 ## 2020.5
 

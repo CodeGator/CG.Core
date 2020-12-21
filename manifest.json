@@ -326,11 +326,95 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/CG.WeakAction-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CG.WeakAction-1.html",
+          "hash": "Jear8FytUC9FRlzCCpssCA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CG.WeakAction-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CG.WeakAction-2.html",
+          "hash": "BuzQENZxwIOU73v8xDy3zA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CG.WeakAction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CG.WeakAction.html",
+          "hash": "cipcEZ9XfgyTz4el3bxe+g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CG.WeakDelegate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CG.WeakDelegate.html",
+          "hash": "lUOoMyohv1ma3nwZv6ozew=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CG.WeakFunc-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CG.WeakFunc-1.html",
+          "hash": "SvHPhmP7S5HqPX4joaXs7Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CG.WeakFunc-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CG.WeakFunc-2.html",
+          "hash": "YrG5c1BKDpFAB1DkIyjVeg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CG.WeakPredicate-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CG.WeakPredicate-1.html",
+          "hash": "YVaHBmdtwu7KatMPSdvO8g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/CG.yml",
       "output": {
         ".html": {
           "relative_path": "api/CG.html",
-          "hash": "Levsgfv1kbGzSyHGkCc0FA=="
+          "hash": "wcsQT3uweTn5EWtmcjxVrQ=="
         }
       },
       "is_incremental": false,
@@ -354,7 +438,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "9RapM+HXLxXkyxFAv8Qk3A=="
+          "hash": "MFCY24Y8Fz5DlkKWpgRBig=="
         }
       },
       "is_incremental": false,
@@ -473,7 +557,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 27,
+          "total_file_count": 34,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

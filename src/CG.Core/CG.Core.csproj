@@ -9,7 +9,7 @@
 
 Platforms supported:
       .NET Standard 2.0 or above</Description>
-    <Copyright>Copyright © 2003 - 2020 by CodeGator. All rights reserved.</Copyright>
+    <Copyright>Copyright © 2003 - 2021 by CodeGator. All rights reserved.</Copyright>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageProjectUrl>https://github.com/CodeGator/CG.Core</PackageProjectUrl>
     <PackageTags>core, CG.Core, CodeGator</PackageTags>
@@ -23,7 +23,7 @@ Platforms supported:
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="CG.Validations" Version="2021.1.1" />
+    <PackageReference Include="CG.Validations" Version="2021.1.2" />
     <PackageReference Include="Nerdbank.GitVersioning" Version="3.3.37">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>

@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class ExceptionExtensions
    ">
-    <meta name="generator" content="docfx 2.56.6.0">
+    <meta name="generator" content="docfx 2.57.0.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -124,6 +124,265 @@ type.</p>
   </div>
   <h3 id="methods">Methods
   </h3>
+  <a id="CG_ExceptionExtensions_GetCallerInfo_" data-uid="CG.ExceptionExtensions.GetCallerInfo*"></a>
+  <h4 id="CG_ExceptionExtensions_GetCallerInfo_System_Exception_System_String__System_String__System_Int32__" data-uid="CG.ExceptionExtensions.GetCallerInfo(System.Exception,System.String@,System.String@,System.Int32@)">GetCallerInfo(Exception, out String, out String, out Int32)</h4>
+  <div class="markdown level1 summary"><p>This method returns arguments from the calling method.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool GetCallerInfo(this Exception ex, out string memberName, out string sourceFilePath, out int sourceLineNumber)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Exception</span></td>
+        <td><span class="parametername">ex</span></td>
+        <td><p>The exception to use for the operation.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">memberName</span></td>
+        <td><p>The method generated the exception.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">sourceFilePath</span></td>
+        <td><p>The source file that generated the exception.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">sourceLineNumber</span></td>
+        <td><p>The source line that generated the exception.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True if the data was found; false otherwise.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="CG_ExceptionExtensions_GetDateTime_" data-uid="CG.ExceptionExtensions.GetDateTime*"></a>
+  <h4 id="CG_ExceptionExtensions_GetDateTime_System_Exception_System_DateTime__" data-uid="CG.ExceptionExtensions.GetDateTime(System.Exception,System.DateTime@)">GetDateTime(Exception, out DateTime)</h4>
+  <div class="markdown level1 summary"><p>This method returns the date/time the exception was thrown.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool GetDateTime(this Exception ex, out DateTime dateTime)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Exception</span></td>
+        <td><span class="parametername">ex</span></td>
+        <td><p>The exception to use for the operation.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">dateTime</span></td>
+        <td><p>The date/time when the exception was thrown.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True if the data was found; false otherwise.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="CG_ExceptionExtensions_GetMachineName_" data-uid="CG.ExceptionExtensions.GetMachineName*"></a>
+  <h4 id="CG_ExceptionExtensions_GetMachineName_System_Exception_System_String__" data-uid="CG.ExceptionExtensions.GetMachineName(System.Exception,System.String@)">GetMachineName(Exception, out String)</h4>
+  <div class="markdown level1 summary"><p>This method returns the name of the machiune that threw the exception.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool GetMachineName(this Exception ex, out string machineName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Exception</span></td>
+        <td><span class="parametername">ex</span></td>
+        <td><p>The exception to use for the operation.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">machineName</span></td>
+        <td><p>The name of the machine that threw the exception.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True if the data was found; false otherwise.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="CG_ExceptionExtensions_GetMethodArguments_" data-uid="CG.ExceptionExtensions.GetMethodArguments*"></a>
+  <h4 id="CG_ExceptionExtensions_GetMethodArguments_System_Exception_System_ValueTuple_System_String_System_Object_____" data-uid="CG.ExceptionExtensions.GetMethodArguments(System.Exception,System.ValueTuple{System.String,System.Object}[]@)">GetMethodArguments(Exception, out (String, Object)[])</h4>
+  <div class="markdown level1 summary"><p>This method returns arguments from the calling method.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool GetMethodArguments(this Exception ex, out (string, object)[] methodArgs)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Exception</span></td>
+        <td><span class="parametername">ex</span></td>
+        <td><p>The exception to use for the operation.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ValueTuple</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.Object</span>&gt;[]</td>
+        <td><span class="parametername">methodArgs</span></td>
+        <td><p>The collection of method arguments for the
+method that created the exception.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True if the data was found; false otherwise.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="CG_ExceptionExtensions_GetOriginator_" data-uid="CG.ExceptionExtensions.GetOriginator*"></a>
+  <h4 id="CG_ExceptionExtensions_GetOriginator_System_Exception_System_String__" data-uid="CG.ExceptionExtensions.GetOriginator(System.Exception,System.String@)">GetOriginator(Exception, out String)</h4>
+  <div class="markdown level1 summary"><p>This method returns the name of the originator to the exception.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool GetOriginator(this Exception ex, out string originator)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Exception</span></td>
+        <td><span class="parametername">ex</span></td>
+        <td><p>The exception to use for the operation.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">originator</span></td>
+        <td><p>The name of the component, or class, or
+object, that originally threw the exception.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True if the data was found; false otherwise.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <a id="CG_ExceptionExtensions_MessageEx_" data-uid="CG.ExceptionExtensions.MessageEx*"></a>
   <h4 id="CG_ExceptionExtensions_MessageEx_System_Exception_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_" data-uid="CG.ExceptionExtensions.MessageEx(System.Exception,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean)">MessageEx(Exception, Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, Boolean)</h4>
   <div class="markdown level1 summary"><p>This method formats and returns an extended message for an exception
@@ -236,6 +495,257 @@ otherwise.</p>
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><p>A formatted message string.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="CG_ExceptionExtensions_SetCallerInfo_" data-uid="CG.ExceptionExtensions.SetCallerInfo*"></a>
+  <h4 id="CG_ExceptionExtensions_SetCallerInfo_System_Exception_System_String_System_String_System_Int32_" data-uid="CG.ExceptionExtensions.SetCallerInfo(System.Exception,System.String,System.String,System.Int32)">SetCallerInfo(Exception, String, String, Int32)</h4>
+  <div class="markdown level1 summary"><p>This method adds information about the calling method to the exception.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Exception SetCallerInfo(this Exception ex, string memberName = &quot;&quot;, string sourceFilePath = &quot;&quot;, int sourceLineNumber = 0)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Exception</span></td>
+        <td><span class="parametername">ex</span></td>
+        <td><p>The exception to use for the operation.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">memberName</span></td>
+        <td><p>Not used. Supplied by the compiler.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">sourceFilePath</span></td>
+        <td><p>Not used. Supplied by the compiler.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">sourceLineNumber</span></td>
+        <td><p>Not used. Supplied by the compiler.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Exception</span></td>
+        <td><p>The value of the <code data-dev-comment-type="paramref" class="paramref">ex</code> parameters, for
+chaining calls together.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="CG_ExceptionExtensions_SetDateTime_" data-uid="CG.ExceptionExtensions.SetDateTime*"></a>
+  <h4 id="CG_ExceptionExtensions_SetDateTime_System_Exception_" data-uid="CG.ExceptionExtensions.SetDateTime(System.Exception)">SetDateTime(Exception)</h4>
+  <div class="markdown level1 summary"><p>This method adds a date/time stamp to the exception.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Exception SetDateTime(this Exception ex)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Exception</span></td>
+        <td><span class="parametername">ex</span></td>
+        <td><p>The exception to use for the operation.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Exception</span></td>
+        <td><p>The value of the <code data-dev-comment-type="paramref" class="paramref">ex</code> parameters, for
+chaining calls together.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="CG_ExceptionExtensions_SetMachineName_" data-uid="CG.ExceptionExtensions.SetMachineName*"></a>
+  <h4 id="CG_ExceptionExtensions_SetMachineName_System_Exception_" data-uid="CG.ExceptionExtensions.SetMachineName(System.Exception)">SetMachineName(Exception)</h4>
+  <div class="markdown level1 summary"><p>This method adds the name of the machine that threw the exception.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Exception SetMachineName(this Exception ex)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Exception</span></td>
+        <td><span class="parametername">ex</span></td>
+        <td><p>The exception to use for the operation.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Exception</span></td>
+        <td><p>The value of the <code data-dev-comment-type="paramref" class="paramref">ex</code> parameters, for
+chaining calls together.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="CG_ExceptionExtensions_SetMethodArguments_" data-uid="CG.ExceptionExtensions.SetMethodArguments*"></a>
+  <h4 id="CG_ExceptionExtensions_SetMethodArguments_System_Exception_System_ValueTuple_System_String_System_Object____" data-uid="CG.ExceptionExtensions.SetMethodArguments(System.Exception,System.ValueTuple{System.String,System.Object}[])">SetMethodArguments(Exception, (String, Object)[])</h4>
+  <div class="markdown level1 summary"><p>This method adds arguments from the calling method to the exception.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Exception SetMethodArguments(this Exception ex, params (string, object)[] args)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Exception</span></td>
+        <td><span class="parametername">ex</span></td>
+        <td><p>The exception to use for the operation.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ValueTuple</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.Object</span>&gt;[]</td>
+        <td><span class="parametername">args</span></td>
+        <td><p>The arguments to use for the operation.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Exception</span></td>
+        <td><p>The value of the <code data-dev-comment-type="paramref" class="paramref">ex</code> parameters, for
+chaining calls together.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="CG_ExceptionExtensions_SetOriginator_" data-uid="CG.ExceptionExtensions.SetOriginator*"></a>
+  <h4 id="CG_ExceptionExtensions_SetOriginator_System_Exception_System_String_" data-uid="CG.ExceptionExtensions.SetOriginator(System.Exception,System.String)">SetOriginator(Exception, String)</h4>
+  <div class="markdown level1 summary"><p>This method adds the name of the originator to the exception.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Exception SetOriginator(this Exception ex, string originator)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Exception</span></td>
+        <td><span class="parametername">ex</span></td>
+        <td><p>The exception to use for the operation.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">originator</span></td>
+        <td><p>The name of the component, or class, or
+object, that originally threw the exception.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Exception</span></td>
+        <td><p>The value of the <code data-dev-comment-type="paramref" class="paramref">ex</code> parameters, for
+chaining calls together.</p>
 </td>
       </tr>
     </tbody>

@@ -393,6 +393,86 @@ references:
   commentId: T:CG.ExceptionExtensions
   fullName: CG.ExceptionExtensions
   nameWithType: ExceptionExtensions
+- uid: CG.ExceptionExtensions.GetCallerInfo(System.Exception,System.String@,System.String@,System.Int32@)
+  name: GetCallerInfo(Exception, out String, out String, out Int32)
+  href: api/CG.ExceptionExtensions.html#CG_ExceptionExtensions_GetCallerInfo_System_Exception_System_String__System_String__System_Int32__
+  commentId: M:CG.ExceptionExtensions.GetCallerInfo(System.Exception,System.String@,System.String@,System.Int32@)
+  name.vb: GetCallerInfo(Exception, ByRef String, ByRef String, ByRef Int32)
+  fullName: CG.ExceptionExtensions.GetCallerInfo(System.Exception, out System.String, out System.String, out System.Int32)
+  fullName.vb: CG.ExceptionExtensions.GetCallerInfo(System.Exception, ByRef System.String, ByRef System.String, ByRef System.Int32)
+  nameWithType: ExceptionExtensions.GetCallerInfo(Exception, out String, out String, out Int32)
+  nameWithType.vb: ExceptionExtensions.GetCallerInfo(Exception, ByRef String, ByRef String, ByRef Int32)
+- uid: CG.ExceptionExtensions.GetCallerInfo*
+  name: GetCallerInfo
+  href: api/CG.ExceptionExtensions.html#CG_ExceptionExtensions_GetCallerInfo_
+  commentId: Overload:CG.ExceptionExtensions.GetCallerInfo
+  isSpec: "True"
+  fullName: CG.ExceptionExtensions.GetCallerInfo
+  nameWithType: ExceptionExtensions.GetCallerInfo
+- uid: CG.ExceptionExtensions.GetDateTime(System.Exception,System.DateTime@)
+  name: GetDateTime(Exception, out DateTime)
+  href: api/CG.ExceptionExtensions.html#CG_ExceptionExtensions_GetDateTime_System_Exception_System_DateTime__
+  commentId: M:CG.ExceptionExtensions.GetDateTime(System.Exception,System.DateTime@)
+  name.vb: GetDateTime(Exception, ByRef DateTime)
+  fullName: CG.ExceptionExtensions.GetDateTime(System.Exception, out System.DateTime)
+  fullName.vb: CG.ExceptionExtensions.GetDateTime(System.Exception, ByRef System.DateTime)
+  nameWithType: ExceptionExtensions.GetDateTime(Exception, out DateTime)
+  nameWithType.vb: ExceptionExtensions.GetDateTime(Exception, ByRef DateTime)
+- uid: CG.ExceptionExtensions.GetDateTime*
+  name: GetDateTime
+  href: api/CG.ExceptionExtensions.html#CG_ExceptionExtensions_GetDateTime_
+  commentId: Overload:CG.ExceptionExtensions.GetDateTime
+  isSpec: "True"
+  fullName: CG.ExceptionExtensions.GetDateTime
+  nameWithType: ExceptionExtensions.GetDateTime
+- uid: CG.ExceptionExtensions.GetMachineName(System.Exception,System.String@)
+  name: GetMachineName(Exception, out String)
+  href: api/CG.ExceptionExtensions.html#CG_ExceptionExtensions_GetMachineName_System_Exception_System_String__
+  commentId: M:CG.ExceptionExtensions.GetMachineName(System.Exception,System.String@)
+  name.vb: GetMachineName(Exception, ByRef String)
+  fullName: CG.ExceptionExtensions.GetMachineName(System.Exception, out System.String)
+  fullName.vb: CG.ExceptionExtensions.GetMachineName(System.Exception, ByRef System.String)
+  nameWithType: ExceptionExtensions.GetMachineName(Exception, out String)
+  nameWithType.vb: ExceptionExtensions.GetMachineName(Exception, ByRef String)
+- uid: CG.ExceptionExtensions.GetMachineName*
+  name: GetMachineName
+  href: api/CG.ExceptionExtensions.html#CG_ExceptionExtensions_GetMachineName_
+  commentId: Overload:CG.ExceptionExtensions.GetMachineName
+  isSpec: "True"
+  fullName: CG.ExceptionExtensions.GetMachineName
+  nameWithType: ExceptionExtensions.GetMachineName
+- uid: CG.ExceptionExtensions.GetMethodArguments(System.Exception,System.ValueTuple{System.String,System.Object}[]@)
+  name: GetMethodArguments(Exception, out (String, Object)[])
+  href: api/CG.ExceptionExtensions.html#CG_ExceptionExtensions_GetMethodArguments_System_Exception_System_ValueTuple_System_String_System_Object_____
+  commentId: M:CG.ExceptionExtensions.GetMethodArguments(System.Exception,System.ValueTuple{System.String,System.Object}[]@)
+  name.vb: GetMethodArguments(Exception, ByRef (String, Object)())
+  fullName: CG.ExceptionExtensions.GetMethodArguments(System.Exception, out System.ValueTuple<System.String, System.Object>[])
+  fullName.vb: CG.ExceptionExtensions.GetMethodArguments(System.Exception, ByRef System.ValueTuple(Of System.String, System.Object)())
+  nameWithType: ExceptionExtensions.GetMethodArguments(Exception, out (String, Object)[])
+  nameWithType.vb: ExceptionExtensions.GetMethodArguments(Exception, ByRef (String, Object)())
+- uid: CG.ExceptionExtensions.GetMethodArguments*
+  name: GetMethodArguments
+  href: api/CG.ExceptionExtensions.html#CG_ExceptionExtensions_GetMethodArguments_
+  commentId: Overload:CG.ExceptionExtensions.GetMethodArguments
+  isSpec: "True"
+  fullName: CG.ExceptionExtensions.GetMethodArguments
+  nameWithType: ExceptionExtensions.GetMethodArguments
+- uid: CG.ExceptionExtensions.GetOriginator(System.Exception,System.String@)
+  name: GetOriginator(Exception, out String)
+  href: api/CG.ExceptionExtensions.html#CG_ExceptionExtensions_GetOriginator_System_Exception_System_String__
+  commentId: M:CG.ExceptionExtensions.GetOriginator(System.Exception,System.String@)
+  name.vb: GetOriginator(Exception, ByRef String)
+  fullName: CG.ExceptionExtensions.GetOriginator(System.Exception, out System.String)
+  fullName.vb: CG.ExceptionExtensions.GetOriginator(System.Exception, ByRef System.String)
+  nameWithType: ExceptionExtensions.GetOriginator(Exception, out String)
+  nameWithType.vb: ExceptionExtensions.GetOriginator(Exception, ByRef String)
+- uid: CG.ExceptionExtensions.GetOriginator*
+  name: GetOriginator
+  href: api/CG.ExceptionExtensions.html#CG_ExceptionExtensions_GetOriginator_
+  commentId: Overload:CG.ExceptionExtensions.GetOriginator
+  isSpec: "True"
+  fullName: CG.ExceptionExtensions.GetOriginator
+  nameWithType: ExceptionExtensions.GetOriginator
 - uid: CG.ExceptionExtensions.MessageEx(System.Exception,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean)
   name: MessageEx(Exception, Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, Boolean)
   href: api/CG.ExceptionExtensions.html#CG_ExceptionExtensions_MessageEx_System_Exception_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_
@@ -406,6 +486,74 @@ references:
   isSpec: "True"
   fullName: CG.ExceptionExtensions.MessageEx
   nameWithType: ExceptionExtensions.MessageEx
+- uid: CG.ExceptionExtensions.SetCallerInfo(System.Exception,System.String,System.String,System.Int32)
+  name: SetCallerInfo(Exception, String, String, Int32)
+  href: api/CG.ExceptionExtensions.html#CG_ExceptionExtensions_SetCallerInfo_System_Exception_System_String_System_String_System_Int32_
+  commentId: M:CG.ExceptionExtensions.SetCallerInfo(System.Exception,System.String,System.String,System.Int32)
+  fullName: CG.ExceptionExtensions.SetCallerInfo(System.Exception, System.String, System.String, System.Int32)
+  nameWithType: ExceptionExtensions.SetCallerInfo(Exception, String, String, Int32)
+- uid: CG.ExceptionExtensions.SetCallerInfo*
+  name: SetCallerInfo
+  href: api/CG.ExceptionExtensions.html#CG_ExceptionExtensions_SetCallerInfo_
+  commentId: Overload:CG.ExceptionExtensions.SetCallerInfo
+  isSpec: "True"
+  fullName: CG.ExceptionExtensions.SetCallerInfo
+  nameWithType: ExceptionExtensions.SetCallerInfo
+- uid: CG.ExceptionExtensions.SetDateTime(System.Exception)
+  name: SetDateTime(Exception)
+  href: api/CG.ExceptionExtensions.html#CG_ExceptionExtensions_SetDateTime_System_Exception_
+  commentId: M:CG.ExceptionExtensions.SetDateTime(System.Exception)
+  fullName: CG.ExceptionExtensions.SetDateTime(System.Exception)
+  nameWithType: ExceptionExtensions.SetDateTime(Exception)
+- uid: CG.ExceptionExtensions.SetDateTime*
+  name: SetDateTime
+  href: api/CG.ExceptionExtensions.html#CG_ExceptionExtensions_SetDateTime_
+  commentId: Overload:CG.ExceptionExtensions.SetDateTime
+  isSpec: "True"
+  fullName: CG.ExceptionExtensions.SetDateTime
+  nameWithType: ExceptionExtensions.SetDateTime
+- uid: CG.ExceptionExtensions.SetMachineName(System.Exception)
+  name: SetMachineName(Exception)
+  href: api/CG.ExceptionExtensions.html#CG_ExceptionExtensions_SetMachineName_System_Exception_
+  commentId: M:CG.ExceptionExtensions.SetMachineName(System.Exception)
+  fullName: CG.ExceptionExtensions.SetMachineName(System.Exception)
+  nameWithType: ExceptionExtensions.SetMachineName(Exception)
+- uid: CG.ExceptionExtensions.SetMachineName*
+  name: SetMachineName
+  href: api/CG.ExceptionExtensions.html#CG_ExceptionExtensions_SetMachineName_
+  commentId: Overload:CG.ExceptionExtensions.SetMachineName
+  isSpec: "True"
+  fullName: CG.ExceptionExtensions.SetMachineName
+  nameWithType: ExceptionExtensions.SetMachineName
+- uid: CG.ExceptionExtensions.SetMethodArguments(System.Exception,System.ValueTuple{System.String,System.Object}[])
+  name: SetMethodArguments(Exception, (String, Object)[])
+  href: api/CG.ExceptionExtensions.html#CG_ExceptionExtensions_SetMethodArguments_System_Exception_System_ValueTuple_System_String_System_Object____
+  commentId: M:CG.ExceptionExtensions.SetMethodArguments(System.Exception,System.ValueTuple{System.String,System.Object}[])
+  name.vb: SetMethodArguments(Exception, (String, Object)())
+  fullName: CG.ExceptionExtensions.SetMethodArguments(System.Exception, System.ValueTuple<System.String, System.Object>[])
+  fullName.vb: CG.ExceptionExtensions.SetMethodArguments(System.Exception, System.ValueTuple(Of System.String, System.Object)())
+  nameWithType: ExceptionExtensions.SetMethodArguments(Exception, (String, Object)[])
+  nameWithType.vb: ExceptionExtensions.SetMethodArguments(Exception, (String, Object)())
+- uid: CG.ExceptionExtensions.SetMethodArguments*
+  name: SetMethodArguments
+  href: api/CG.ExceptionExtensions.html#CG_ExceptionExtensions_SetMethodArguments_
+  commentId: Overload:CG.ExceptionExtensions.SetMethodArguments
+  isSpec: "True"
+  fullName: CG.ExceptionExtensions.SetMethodArguments
+  nameWithType: ExceptionExtensions.SetMethodArguments
+- uid: CG.ExceptionExtensions.SetOriginator(System.Exception,System.String)
+  name: SetOriginator(Exception, String)
+  href: api/CG.ExceptionExtensions.html#CG_ExceptionExtensions_SetOriginator_System_Exception_System_String_
+  commentId: M:CG.ExceptionExtensions.SetOriginator(System.Exception,System.String)
+  fullName: CG.ExceptionExtensions.SetOriginator(System.Exception, System.String)
+  nameWithType: ExceptionExtensions.SetOriginator(Exception, String)
+- uid: CG.ExceptionExtensions.SetOriginator*
+  name: SetOriginator
+  href: api/CG.ExceptionExtensions.html#CG_ExceptionExtensions_SetOriginator_
+  commentId: Overload:CG.ExceptionExtensions.SetOriginator
+  isSpec: "True"
+  fullName: CG.ExceptionExtensions.SetOriginator
+  nameWithType: ExceptionExtensions.SetOriginator
 - uid: CG.IO
   name: CG.IO
   href: api/CG.IO.html
@@ -677,6 +825,77 @@ references:
   isSpec: "True"
   fullName: CG.IO.TemporaryStream.Write
   nameWithType: TemporaryStream.Write
+- uid: CG.NumberExtensions
+  name: NumberExtensions
+  href: api/CG.NumberExtensions.html
+  commentId: T:CG.NumberExtensions
+  fullName: CG.NumberExtensions
+  nameWithType: NumberExtensions
+- uid: CG.NumberExtensions.FormattedAsBytes(System.Double,System.Int32)
+  name: FormattedAsBytes(Double, Int32)
+  href: api/CG.NumberExtensions.html#CG_NumberExtensions_FormattedAsBytes_System_Double_System_Int32_
+  commentId: M:CG.NumberExtensions.FormattedAsBytes(System.Double,System.Int32)
+  fullName: CG.NumberExtensions.FormattedAsBytes(System.Double, System.Int32)
+  nameWithType: NumberExtensions.FormattedAsBytes(Double, Int32)
+- uid: CG.NumberExtensions.FormattedAsBytes(System.Int16,System.Int32)
+  name: FormattedAsBytes(Int16, Int32)
+  href: api/CG.NumberExtensions.html#CG_NumberExtensions_FormattedAsBytes_System_Int16_System_Int32_
+  commentId: M:CG.NumberExtensions.FormattedAsBytes(System.Int16,System.Int32)
+  fullName: CG.NumberExtensions.FormattedAsBytes(System.Int16, System.Int32)
+  nameWithType: NumberExtensions.FormattedAsBytes(Int16, Int32)
+- uid: CG.NumberExtensions.FormattedAsBytes(System.Int32,System.Int32)
+  name: FormattedAsBytes(Int32, Int32)
+  href: api/CG.NumberExtensions.html#CG_NumberExtensions_FormattedAsBytes_System_Int32_System_Int32_
+  commentId: M:CG.NumberExtensions.FormattedAsBytes(System.Int32,System.Int32)
+  fullName: CG.NumberExtensions.FormattedAsBytes(System.Int32, System.Int32)
+  nameWithType: NumberExtensions.FormattedAsBytes(Int32, Int32)
+- uid: CG.NumberExtensions.FormattedAsBytes(System.Int64,System.Int32)
+  name: FormattedAsBytes(Int64, Int32)
+  href: api/CG.NumberExtensions.html#CG_NumberExtensions_FormattedAsBytes_System_Int64_System_Int32_
+  commentId: M:CG.NumberExtensions.FormattedAsBytes(System.Int64,System.Int32)
+  fullName: CG.NumberExtensions.FormattedAsBytes(System.Int64, System.Int32)
+  nameWithType: NumberExtensions.FormattedAsBytes(Int64, Int32)
+- uid: CG.NumberExtensions.FormattedAsBytes(System.Single,System.Int32)
+  name: FormattedAsBytes(Single, Int32)
+  href: api/CG.NumberExtensions.html#CG_NumberExtensions_FormattedAsBytes_System_Single_System_Int32_
+  commentId: M:CG.NumberExtensions.FormattedAsBytes(System.Single,System.Int32)
+  fullName: CG.NumberExtensions.FormattedAsBytes(System.Single, System.Int32)
+  nameWithType: NumberExtensions.FormattedAsBytes(Single, Int32)
+- uid: CG.NumberExtensions.FormattedAsBytes*
+  name: FormattedAsBytes
+  href: api/CG.NumberExtensions.html#CG_NumberExtensions_FormattedAsBytes_
+  commentId: Overload:CG.NumberExtensions.FormattedAsBytes
+  isSpec: "True"
+  fullName: CG.NumberExtensions.FormattedAsBytes
+  nameWithType: NumberExtensions.FormattedAsBytes
+- uid: CG.ObjectExtensions
+  name: ObjectExtensions
+  href: api/CG.ObjectExtensions.html
+  commentId: T:CG.ObjectExtensions
+  fullName: CG.ObjectExtensions
+  nameWithType: ObjectExtensions
+- uid: CG.ObjectExtensions.QuickClone(System.Object,System.Type)
+  name: QuickClone(Object, Type)
+  href: api/CG.ObjectExtensions.html#CG_ObjectExtensions_QuickClone_System_Object_System_Type_
+  commentId: M:CG.ObjectExtensions.QuickClone(System.Object,System.Type)
+  fullName: CG.ObjectExtensions.QuickClone(System.Object, System.Type)
+  nameWithType: ObjectExtensions.QuickClone(Object, Type)
+- uid: CG.ObjectExtensions.QuickClone*
+  name: QuickClone
+  href: api/CG.ObjectExtensions.html#CG_ObjectExtensions_QuickClone_
+  commentId: Overload:CG.ObjectExtensions.QuickClone
+  isSpec: "True"
+  fullName: CG.ObjectExtensions.QuickClone
+  nameWithType: ObjectExtensions.QuickClone
+- uid: CG.ObjectExtensions.QuickClone``1(``0)
+  name: QuickClone<T>(T)
+  href: api/CG.ObjectExtensions.html#CG_ObjectExtensions_QuickClone__1___0_
+  commentId: M:CG.ObjectExtensions.QuickClone``1(``0)
+  name.vb: QuickClone(Of T)(T)
+  fullName: CG.ObjectExtensions.QuickClone<T>(T)
+  fullName.vb: CG.ObjectExtensions.QuickClone(Of T)(T)
+  nameWithType: ObjectExtensions.QuickClone<T>(T)
+  nameWithType.vb: ObjectExtensions.QuickClone(Of T)(T)
 - uid: CG.RandomEx
   name: RandomEx
   href: api/CG.RandomEx.html
@@ -1582,3 +1801,28 @@ references:
   fullName.vb: CG.WeakPredicate(Of T).ToString
   nameWithType: WeakPredicate<T>.ToString
   nameWithType.vb: WeakPredicate(Of T).ToString
+- uid: System.Security.Claims
+  name: System.Security.Claims
+  href: api/System.Security.Claims.html
+  commentId: N:System.Security.Claims
+  fullName: System.Security.Claims
+  nameWithType: System.Security.Claims
+- uid: System.Security.Claims.ClaimsPrincipalExtensions
+  name: ClaimsPrincipalExtensions
+  href: api/System.Security.Claims.ClaimsPrincipalExtensions.html
+  commentId: T:System.Security.Claims.ClaimsPrincipalExtensions
+  fullName: System.Security.Claims.ClaimsPrincipalExtensions
+  nameWithType: ClaimsPrincipalExtensions
+- uid: System.Security.Claims.ClaimsPrincipalExtensions.GetEmail(System.Security.Claims.ClaimsPrincipal)
+  name: GetEmail(ClaimsPrincipal)
+  href: api/System.Security.Claims.ClaimsPrincipalExtensions.html#System_Security_Claims_ClaimsPrincipalExtensions_GetEmail_System_Security_Claims_ClaimsPrincipal_
+  commentId: M:System.Security.Claims.ClaimsPrincipalExtensions.GetEmail(System.Security.Claims.ClaimsPrincipal)
+  fullName: System.Security.Claims.ClaimsPrincipalExtensions.GetEmail(System.Security.Claims.ClaimsPrincipal)
+  nameWithType: ClaimsPrincipalExtensions.GetEmail(ClaimsPrincipal)
+- uid: System.Security.Claims.ClaimsPrincipalExtensions.GetEmail*
+  name: GetEmail
+  href: api/System.Security.Claims.ClaimsPrincipalExtensions.html#System_Security_Claims_ClaimsPrincipalExtensions_GetEmail_
+  commentId: Overload:System.Security.Claims.ClaimsPrincipalExtensions.GetEmail
+  isSpec: "True"
+  fullName: System.Security.Claims.ClaimsPrincipalExtensions.GetEmail
+  nameWithType: ClaimsPrincipalExtensions.GetEmail

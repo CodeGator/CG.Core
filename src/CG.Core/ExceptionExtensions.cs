@@ -2,6 +2,7 @@
 using System;
 using System.Linq;
 using System.Reflection;
+using System.Runtime.CompilerServices;
 using System.Text;
 
 namespace CG
@@ -17,6 +18,339 @@ namespace CG
         // *******************************************************************
 
         #region Public methods
+
+        /// <summary>
+        /// This method adds a date/time stamp to the exception.
+        /// </summary>
+        /// <param name="ex">The exception to use for the operation.</param>
+        /// <returns>The value of the <paramref name="ex"/> parameters, for 
+        /// chaining calls together.</returns>
+        public static Exception SetDateTime(
+            this Exception ex
+            )
+        {
+            // Validate the parameter before attempting to use it.
+            Guard.Instance().ThrowIfNull(ex, nameof(ex));
+
+            // The dictionary key.
+            var key = "datetime-stamp";
+
+            // Add to the dictionary.
+            ex.Data[key] = DateTime.UtcNow;
+
+            // Return the exception.
+            return ex;
+        }
+
+        // *******************************************************************
+
+        /// <summary>
+        /// This method returns the date/time the exception was thrown.
+        /// </summary>
+        /// <param name="ex">The exception to use for the operation.</param>
+        /// <param name="dateTime">The date/time when the exception was thrown.</param>
+        /// <returns>True if the data was found; false otherwise.</returns>
+        public static bool GetDateTime(
+            this Exception ex,
+            out DateTime dateTime
+            )
+        {
+            dateTime = DateTime.MinValue;
+
+            // Validate the parameter before attempting to use it.
+            Guard.Instance().ThrowIfNull(ex, nameof(ex));
+
+            // The dictionary key.
+            var key = "datetime-stamp";
+
+            // Does the exception contain method arguments?
+            if (ex.Data.Contains(key))
+            {
+                // Get the method args.
+                dateTime = (DateTime)ex.Data[key];
+
+                // We found the data.
+                return true;
+            }
+
+            // We didn't find the data.
+            return false;
+        }
+
+        // *******************************************************************
+
+        /// <summary>
+        /// This method adds arguments from the calling method to the exception.
+        /// </summary>
+        /// <param name="ex">The exception to use for the operation.</param>
+        /// <param name="args">The arguments to use for the operation.</param>
+        /// <returns>The value of the <paramref name="ex"/> parameters, for 
+        /// chaining calls together.</returns>
+        public static Exception SetMethodArguments(
+            this Exception ex,
+            params (string, object)[] args
+            )
+        {
+            // Validate the parameter before attempting to use it.
+            Guard.Instance().ThrowIfNull(ex, nameof(ex));
+
+            // The dictionary key.
+            var key = "method-args";
+
+            // Should we remove arguments?
+            if (null == args || args.Length == 0)
+            {
+                // Remove anything from the dictionary.
+                ex.Data.Remove(key);
+            }
+            else
+            {
+                // Add to the dictionary.
+                ex.Data[key] = args;
+            }
+
+            // Return the exception.
+            return ex;
+        }
+
+        // *******************************************************************
+
+        /// <summary>
+        /// This method returns arguments from the calling method. 
+        /// </summary>
+        /// <param name="ex">The exception to use for the operation.</param>
+        /// <param name="methodArgs">The collection of method arguments for the
+        /// method that created the exception.</param>
+        /// <returns>True if the data was found; false otherwise.</returns>
+        public static bool GetMethodArguments(
+            this Exception ex,
+            out (string, object)[] methodArgs
+            )
+        {
+            methodArgs = new (string, object)[0];
+
+            // Validate the parameter before attempting to use it.
+            Guard.Instance().ThrowIfNull(ex, nameof(ex));
+
+            // The dictionary key.
+            var key = "method-args";
+
+            // Does the exception contain method arguments?
+            if (ex.Data.Contains(key))
+            {
+                // Get the method args.
+                methodArgs = ex.Data[key] as (string, object)[];
+
+                // We found the data.
+                return true;
+            }
+
+            // We didn't find the data.
+            return false;
+        }
+
+        // *******************************************************************
+
+        /// <summary>
+        /// This method adds information about the calling method to the exception.
+        /// </summary>
+        /// <param name="ex">The exception to use for the operation.</param>
+        /// <param name="memberName">Not used. Supplied by the compiler.</param>
+        /// <param name="sourceFilePath">Not used. Supplied by the compiler.</param>
+        /// <param name="sourceLineNumber">Not used. Supplied by the compiler.</param>
+        /// <returns>The value of the <paramref name="ex"/> parameters, for 
+        /// chaining calls together.</returns>
+        public static Exception SetCallerInfo(
+            this Exception ex,
+            [CallerMemberName] string memberName = "",
+            [CallerFilePath] string sourceFilePath = "",
+            [CallerLineNumber] int sourceLineNumber = 0
+            )
+        {
+            // Validate the parameter before attempting to use it.
+            Guard.Instance().ThrowIfNull(ex, nameof(ex));
+
+            // The dictionary key.
+            var key = "caller-info";
+
+            // Add to the dictionary.
+            ex.Data[key] = (memberName, sourceFilePath, sourceLineNumber);
+
+            // Return the exception.
+            return ex;
+        }
+
+        // *******************************************************************
+
+        /// <summary>
+        /// This method returns arguments from the calling method. 
+        /// </summary>
+        /// <param name="ex">The exception to use for the operation.</param>
+        /// <param name="memberName">The method generated the exception.</param>
+        /// <param name="sourceFilePath">The source file that generated the exception.</param>
+        /// <param name="sourceLineNumber">The source line that generated the exception.</param>
+        /// <returns>True if the data was found; false otherwise.</returns>
+        public static bool GetCallerInfo(
+            this Exception ex,
+            out string memberName,
+            out string sourceFilePath,
+            out int sourceLineNumber
+            )
+        {
+            memberName = string.Empty;
+            sourceFilePath = string.Empty;
+            sourceLineNumber = 0;
+
+            // Validate the parameter before attempting to use it.
+            Guard.Instance().ThrowIfNull(ex, nameof(ex));
+
+            // The dictionary key.
+            var key = "caller-info";
+
+            // Does the exception contain method arguments?
+            if (ex.Data.Contains(key))
+            {
+                // Get the json.
+                var tuple = (Tuple<string, string, int>)ex.Data[key];
+
+                // Set the output parameters.
+                memberName = tuple.Item1;
+                sourceFilePath = tuple.Item2;
+                sourceLineNumber = tuple.Item3;
+
+                // We found the data.
+                return true;
+            }
+
+            // We didn't find the data.
+            return false;
+        }
+
+        // *******************************************************************
+
+        /// <summary>
+        /// This method adds the name of the originator to the exception.
+        /// </summary>
+        /// <param name="ex">The exception to use for the operation.</param>
+        /// <param name="originator">The name of the component, or class, or
+        /// object, that originally threw the exception.</param>
+        /// <returns>The value of the <paramref name="ex"/> parameters, for 
+        /// chaining calls together.</returns>
+        public static Exception SetOriginator(
+            this Exception ex,
+            string originator
+            )
+        {
+            // Validate the parameter before attempting to use it.
+            Guard.Instance().ThrowIfNull(ex, nameof(ex));
+
+            // The dictionary key.
+            var key = "originator-info";
+
+            // Add to the dictionary.
+            ex.Data[key] = originator;
+
+            // Return the exception.
+            return ex;
+        }
+
+        // *******************************************************************
+
+        /// <summary>
+        /// This method returns the name of the originator to the exception.
+        /// </summary>
+        /// <param name="ex">The exception to use for the operation.</param>
+        /// <param name="originator">The name of the component, or class, or
+        /// object, that originally threw the exception.</param>
+        /// <returns>True if the data was found; false otherwise.</returns>
+        public static bool GetOriginator(
+            this Exception ex,
+            out string originator
+            )
+        {
+            originator = string.Empty;
+
+            // Validate the parameter before attempting to use it.
+            Guard.Instance().ThrowIfNull(ex, nameof(ex));
+
+            // The dictionary key.
+            var key = "originator-info";
+
+            // Does the exception contain method arguments?
+            if (ex.Data.Contains(key))
+            {
+                // Get the data.
+                originator = ex.Data[key] as string;
+
+                // We found the data.
+                return true;
+            }
+
+            // We didn't find the data.
+            return false;
+        }
+
+        // *******************************************************************
+
+        /// <summary>
+        /// This method adds the name of the machine that threw the exception.
+        /// </summary>
+        /// <param name="ex">The exception to use for the operation.</param>
+        /// <returns>The value of the <paramref name="ex"/> parameters, for 
+        /// chaining calls together.</returns>
+        public static Exception SetMachineName(
+            this Exception ex
+            )
+        {
+            // Validate the parameter before attempting to use it.
+            Guard.Instance().ThrowIfNull(ex, nameof(ex));
+
+            // The dictionary key.
+            var key = "machine-name";
+
+            // Add to the dictionary.
+            ex.Data[key] = Environment.MachineName;
+
+            // Return the exception.
+            return ex;
+        }
+
+        // *******************************************************************
+
+        /// <summary>
+        /// This method returns the name of the machiune that threw the exception.
+        /// </summary>
+        /// <param name="ex">The exception to use for the operation.</param>
+        /// <param name="machineName">The name of the machine that threw the exception.</param>
+        /// <returns>True if the data was found; false otherwise.</returns>
+        public static bool GetMachineName(
+            this Exception ex,
+            out string machineName
+            )
+        {
+            machineName = string.Empty;
+
+            // Validate the parameter before attempting to use it.
+            Guard.Instance().ThrowIfNull(ex, nameof(ex));
+
+            // The dictionary key.
+            var key = "machine-name";
+
+            // Does the exception contain method arguments?
+            if (ex.Data.Contains(key))
+            {
+                // Get the data.
+                machineName = ex.Data[key] as string;
+
+                // We found the data.
+                return true;
+            }
+
+            // We didn't find the data.
+            return false;
+        }
+
+        // *******************************************************************
 
         /// <summary>
         /// This method formats and returns an extended message for an exception 
@@ -58,7 +392,7 @@ namespace CG
             bool includeMachineName = false,
             bool includeUserName = false,
             bool includeExtras = false
-            ) 
+            )
         {
             // Validate the parameter before attempting to use it.
             Guard.Instance().ThrowIfNull(ex, nameof(ex));
@@ -68,13 +402,13 @@ namespace CG
 
             // Should we add an additional line?
             if (includeType ||
-                includeInnerExceptions || 
+                includeInnerExceptions ||
                 includeStackTrace ||
-                includeSource || 
-                includeHelpLink || 
-                includeHResult || 
+                includeSource ||
+                includeHelpLink ||
+                includeHResult ||
                 includeData ||
-                includeMachineName || 
+                includeMachineName ||
                 includeUserName ||
                 includeExtras)
             {
@@ -121,7 +455,7 @@ namespace CG
             if (includeData)
             {
                 AddData(ex, sb);
-            }                
+            }
 
             // Should we add the machine name?
             if (includeMachineName)
@@ -406,7 +740,7 @@ namespace CG
         private static void AddExtras(
             Exception ex,
             StringBuilder sb
-            ) 
+            )
         {
             // Always start on a new line.
             sb.AppendLine();
@@ -416,7 +750,7 @@ namespace CG
 
             // Find any public properties that aren't already part of the exception type.
             var properties = ex.GetType().GetProperties(BindingFlags.Public | BindingFlags.Instance)
-                .Where(x => !new string[] 
+                .Where(x => !new string[]
                 {
                     "Message",
                     "Source",

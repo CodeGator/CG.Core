@@ -4,6 +4,7 @@ using System.Linq;
 using System.Collections.Generic;
 using CG.Collections.Generic;
 
+
 namespace CG
 {
     /// <summary>
@@ -24,9 +25,9 @@ namespace CG
         /// </summary>
         /// <param name="type">The type to use for the operation.</param>
         /// <param name="assemblyWhiteList">An optional white list, for filtering
-        /// the assemblies used in the operation.
+        /// the assemblies used in the operation.</param>
         /// <param name="assemblyBlackList">An optional black list, for filtering
-        /// the assemblies used in the operation.
+        /// the assemblies used in the operation.</param>
         /// <returns>An array of matching types.</returns>
         public static Type[] DerivedTypes(
             this Type type,
@@ -45,7 +46,7 @@ namespace CG
             if (!string.IsNullOrEmpty(assemblyWhiteList))
             {
                 // Apply the white list.
-                asmList = asmList.ApplyWhiteList(x => 
+                asmList = asmList.ApplyWhiteList(x =>
                     x.GetName().Name, assemblyWhiteList
                     );
             }
@@ -54,7 +55,7 @@ namespace CG
             if (!string.IsNullOrEmpty(assemblyBlackList))
             {
                 // Apply the black list.
-                asmList = asmList.ApplyBlackList(x => 
+                asmList = asmList.ApplyBlackList(x =>
                     x.GetName().Name, assemblyBlackList
                     );
             }

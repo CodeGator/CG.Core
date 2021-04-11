@@ -1,6 +1,11 @@
 # CG.Core change log
 ---
 
+## 2021.2
+
+* I switched to the .NET 5.0 framework
+* I added the cg.io.stringstream class
+
 ## 2021.1
 
 * I bumped the major version for the new year.

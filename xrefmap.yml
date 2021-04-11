@@ -631,6 +631,25 @@ references:
   isSpec: "True"
   fullName: CG.IO.GuardExtensions.ThrowIfNotWritable
   nameWithType: GuardExtensions.ThrowIfNotWritable
+- uid: CG.IO.StringStream
+  name: StringStream
+  href: api/CG.IO.StringStream.html
+  commentId: T:CG.IO.StringStream
+  fullName: CG.IO.StringStream
+  nameWithType: StringStream
+- uid: CG.IO.StringStream.#ctor(System.String)
+  name: StringStream(String)
+  href: api/CG.IO.StringStream.html#CG_IO_StringStream__ctor_System_String_
+  commentId: M:CG.IO.StringStream.#ctor(System.String)
+  fullName: CG.IO.StringStream.StringStream(System.String)
+  nameWithType: StringStream.StringStream(String)
+- uid: CG.IO.StringStream.#ctor*
+  name: StringStream
+  href: api/CG.IO.StringStream.html#CG_IO_StringStream__ctor_
+  commentId: Overload:CG.IO.StringStream.#ctor
+  isSpec: "True"
+  fullName: CG.IO.StringStream.StringStream
+  nameWithType: StringStream.StringStream
 - uid: CG.IO.TemporaryStream
   name: TemporaryStream
   href: api/CG.IO.TemporaryStream.html

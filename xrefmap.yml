@@ -974,6 +974,14 @@ references:
   fullName.vb: CG.SingletonBase(Of T)
   nameWithType: SingletonBase<T>
   nameWithType.vb: SingletonBase(Of T)
+- uid: CG.SingletonBase`1._instance
+  name: _instance
+  href: api/CG.SingletonBase-1.html#CG_SingletonBase_1__instance
+  commentId: F:CG.SingletonBase`1._instance
+  fullName: CG.SingletonBase<T>._instance
+  fullName.vb: CG.SingletonBase(Of T)._instance
+  nameWithType: SingletonBase<T>._instance
+  nameWithType.vb: SingletonBase(Of T)._instance
 - uid: CG.SingletonBase`1.Instance
   name: Instance()
   href: api/CG.SingletonBase-1.html#CG_SingletonBase_1_Instance

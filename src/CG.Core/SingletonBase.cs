@@ -13,7 +13,7 @@ namespace CG
         /// <summary>
         /// This field contains the singleton instance.
         /// </summary>
-        private static T _instance;
+        protected static T _instance;
 
         /// <summary>
         /// This method creates a new singleton instance of the 

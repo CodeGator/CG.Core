@@ -1,6 +1,5 @@
 ﻿using CG.Validations;
 using System;
-using System.Collections.Generic;
 using System.Text.Json;
 
 namespace CG

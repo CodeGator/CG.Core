@@ -5,7 +5,7 @@ using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Text;
 
-namespace CG
+namespace System
 {
     /// <summary>
     /// This class contains extension methods related to the <see cref="Exception"/>

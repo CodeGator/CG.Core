@@ -47,7 +47,8 @@ namespace CG
             {
                 // Apply the white list.
                 asmList = asmList.ApplyWhiteList(x =>
-                    x.GetName().Name, assemblyWhiteList
+                    x.GetName().Name, 
+                    assemblyWhiteList
                     );
             }
 
@@ -56,7 +57,8 @@ namespace CG
             {
                 // Apply the black list.
                 asmList = asmList.ApplyBlackList(x =>
-                    x.GetName().Name, assemblyBlackList
+                    x.GetName().Name, 
+                    assemblyBlackList
                     );
             }
 

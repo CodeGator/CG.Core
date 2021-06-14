@@ -76,7 +76,7 @@ namespace CG
             // Otherwise, just do a simple equality comparison.
             else
             {
-                // Make the comparison.
+                // Make the comparison the old fashioned way.
                 result = lhs.Equals(rhs);
             }
 

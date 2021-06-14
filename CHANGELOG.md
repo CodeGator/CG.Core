@@ -3,8 +3,13 @@
 
 ## 2021.2
 
-* I switched to the .NET 5.0 framework
-* I added the cg.io.stringstream class
+* bug fixes.
+
+* I switched to the .NET 5.0 framework.
+
+* I added the cg.io.stringstream class.
+
+* I moved the DistinctOn method back into this assembly, from CG.Linq.
 
 ## 2021.1
 

@@ -3,6 +3,7 @@ using CG.Validations;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 
 namespace CG.Collections.Generic
 {
@@ -17,6 +18,32 @@ namespace CG.Collections.Generic
         // *******************************************************************
 
         #region Public methods
+
+        /// <summary>
+        /// This method returns elements from a sequence that are distinct, on 
+        /// the specified property.
+        /// </summary>
+        /// <typeparam name="T">The type associated with the sequences.</typeparam>
+        /// <typeparam name="K">The type associated with the property.</typeparam>
+        /// <param name="lhs">The left-hand queryable sequence.</param>
+        /// <param name="rhs">The right-hand LINQ expression to select a property.</param>
+        /// <returns>An <see cref="IEnumerable{T}"/> sequence.</returns>
+        public static IEnumerable<T> DistinctOn<T, K>(
+            this IEnumerable<T> lhs,
+            Func<T, K> rhs
+            )
+        {
+            // Validate the parameters before attempting to use them.
+            Guard.Instance().ThrowIfNull(lhs, nameof(lhs))
+                .ThrowIfNull(rhs, nameof(rhs));
+
+            // Perform the operation.
+            return lhs.GroupBy(rhs)
+                .Select(x => x.First())
+                .AsEnumerable();
+        }
+
+        // *******************************************************************
 
         /// <summary>
         /// This method filters out elements based on the contents of a comma
@@ -47,10 +74,27 @@ namespace CG.Collections.Generic
             // Break up the black list into parts.
             var blackParts = blackList.Split(',');
 
+            // An interesting phenomena that I've noticed is that, on it's own,
+            //   the line below tends to produce duplicate results. I had to
+            //   add the DistincOn call to stop that. The interesting part is,
+            //   because, in this context, we have no idea what the elements 
+            //   are in the sequence (type T, nothing else to go on), we can't
+            //   pick a known unique value. In fact, even GetHashCode will often
+            //   fail because the underlying objects may not be the same, even
+            //   when they otherwise contain the same data. So, as a compromise,
+            //   I'm calling distinct on a string representation of each object.
+            // Yes, it's a hack. Yes, it will break if the string representations
+            //   don't otherwise contain the property that makes an instance unique.
+            // No, I haven't yet figured out any better approach.
+
             // Filter out anything on the black list.
-            return sequence.Where(
+            var result = sequence.Where(
                 x => !blackParts.Any(y => selector(x).IsMatch(y.Trim()))
-                ).ToList();
+                ).DistinctOn(z => z.ToString())
+                .ToList();
+
+            // Return the results.
+            return result;
         }
 
         // *******************************************************************
@@ -84,10 +128,27 @@ namespace CG.Collections.Generic
             // Break up the white list into parts.
             var whiteParts = whiteList.Split(',');
 
+            // An interesting phenomena that I've noticed is that, on it's own,
+            //   the line below tends to produce duplicate results. I had to
+            //   add the DistincOn call to stop that. The interesting part is,
+            //   because, in this context, we have no idea what the elements 
+            //   are in the sequence (type T, nothing else to go on), we can't
+            //   pick a known unique value. In fact, even GetHashCode will often
+            //   fail because the underlying objects may not be the same, even
+            //   when they otherwise contain the same data. So, as a compromise,
+            //   I'm calling distinct on a string representation of each object.
+            // Yes, it's a hack. Yes, it will break if the string representations
+            //   don't otherwise contain the property that makes an instance unique.
+            // No, I haven't yet figured out any better approach.
+
             // Filter out anything not on the white list.
-            return sequence.Where(
+            var results = sequence.Where(
                 x => whiteParts.Any(y => selector(x).IsMatch(y.Trim()))
-                ).ToList();
+                ).DistinctOn(z => z.ToString())
+                 .ToList();
+
+            // Return the results.
+            return results;
         }
 
         // *******************************************************************

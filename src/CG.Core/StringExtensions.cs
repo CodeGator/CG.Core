@@ -146,6 +146,39 @@ namespace CG
             return sb.ToString();
         }
 
+        // *******************************************************************
+
+        /// <summary>
+        /// This method obfuscates chararacters in the specified string.
+        /// </summary>
+        /// <param name="value">The string to obfuscate.</param>
+        /// <param name="maxCharsToShow">The number of chars to leave exposed.</param>
+        /// <returns>The obfuscated string.</returns>
+        public static string Obfuscate(
+            this string value,
+            int maxCharsToShow = 4
+            )
+        {
+            // Validate the parameters before attempting to use them.
+            Guard.Instance().ThrowIfNull(value, nameof(value))
+                .ThrowIfLessThanZero(maxCharsToShow, nameof(maxCharsToShow))
+                .ThrowIfGreaterThan(maxCharsToShow, value.Length, nameof(maxCharsToShow));
+
+            var sb = new StringBuilder(value);
+
+            // Calculate the maximum number of characters we can expose.
+            var maxChars = Math.Max(sb.Length, maxCharsToShow);
+
+            // Loop and obfuscate chars
+            for (var x = maxChars; x < value.Length; x++)
+            {
+                sb[x] = '*';
+            }
+
+            // Return the results.
+            return sb.ToString();
+        }
+
         #endregion
     }
 }

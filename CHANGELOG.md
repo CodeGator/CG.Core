@@ -1,6 +1,12 @@
 # CG.Core change log
 ---
 
+## 2021.3
+
+* bug fixes
+
+* I added the Obfuscate extension method.
+
 ## 2021.2
 
 * bug fixes.

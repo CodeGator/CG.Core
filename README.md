@@ -5,6 +5,7 @@
 [![NuGet downloads](https://img.shields.io/nuget/dt/CG.Core.svg?style=flat)](https://nuget.org/packages/CG.Core)
 ![Azure DevOps coverage](https://img.shields.io/azure-devops/coverage/codegator/CG.Core/3)
 [![Github discussion](https://img.shields.io/badge/Discussion-online-blue)](https://github.com/CodeGator/CG.Core/discussions)
+[![CG.Core on fuget.org](https://www.fuget.org/packages/CG.Core/badge.svg)](https://www.fuget.org/packages/CG.Core)
 
 #### What does it do?
 The package contains general framework elements used by other CodeGator packages.
@@ -28,6 +29,8 @@ PM> Install-Package CG.Core
 
 #### How do I contact you?
 If you've spotted a bug in the code please use the project Issues [HERE](https://github.com/CodeGator/CG.Core/issues)
+
+We also have a discussion group [HERE](https://github.com/CodeGator/CG.Core/discussions)
 
 #### Is there any documentation?
 There is developer documentation [HERE](https://codegator.github.io/CG.Core/)

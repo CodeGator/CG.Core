@@ -350,95 +350,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/CG.WeakAction-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/CG.WeakAction-1.html",
-          "hash": "2Nqe2EaVPnKfky77BFyz+fMmBNkn5u3ap1PvJzLmETk="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/CG.WeakAction-2.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/CG.WeakAction-2.html",
-          "hash": "uc1ds4BRMQ/QAs3OmvsP3H7vSUvkDDObTHu0cI7gRCs="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/CG.WeakAction.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/CG.WeakAction.html",
-          "hash": "59sgsoHz9kC6YH9Lqfq1/wtJLlCobeHzv5NRSakeSDk="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/CG.WeakDelegate.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/CG.WeakDelegate.html",
-          "hash": "PnPuH0VumiIhrpxQrR24d0IHiQ+eqWMecwG6Mh+K+S8="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/CG.WeakFunc-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/CG.WeakFunc-1.html",
-          "hash": "LnLKzB1VBua+wsBUrFFeWvSE5Xeg1J9/JhML+7g6IgU="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/CG.WeakFunc-2.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/CG.WeakFunc-2.html",
-          "hash": "8aGLVF1GD/B1wsla9tB5deVFRTbzI1XGgBaGehCZBEI="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/CG.WeakPredicate-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/CG.WeakPredicate-1.html",
-          "hash": "cRBT0g5AoVosV9+gTsYLOD1wGstFG6LRkfh6d+Nb5y8="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/CG.yml",
       "output": {
         ".html": {
           "relative_path": "api/CG.html",
-          "hash": "xNkeC2In+hWcxLk/bInn2aCBcbkJF8NJZJC1wVrZI1E="
+          "hash": "ZwtGj8Clr31Z4JmO8I+ldCUmU2kTNGC0YDPwSbJOn+U="
         }
       },
       "is_incremental": false,
@@ -510,7 +426,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "srXyrK4armKWkQo/J5uwYgZpa7tV6JgNTJii0VIvMvc="
+          "hash": "UHx+9/OkHj3G/j5AKgBhpEJksBNmpBj9Ze36qxNhgV0="
         }
       },
       "is_incremental": false,
@@ -629,7 +545,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 40,
+          "total_file_count": 33,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

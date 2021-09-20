@@ -854,6 +854,19 @@ references:
   commentId: T:CG.StringExtensions
   fullName: CG.StringExtensions
   nameWithType: StringExtensions
+- uid: CG.StringExtensions.HammingDistance(System.String,System.String)
+  name: HammingDistance(String, String)
+  href: api/CG.StringExtensions.html#CG_StringExtensions_HammingDistance_System_String_System_String_
+  commentId: M:CG.StringExtensions.HammingDistance(System.String,System.String)
+  fullName: CG.StringExtensions.HammingDistance(System.String, System.String)
+  nameWithType: StringExtensions.HammingDistance(String, String)
+- uid: CG.StringExtensions.HammingDistance*
+  name: HammingDistance
+  href: api/CG.StringExtensions.html#CG_StringExtensions_HammingDistance_
+  commentId: Overload:CG.StringExtensions.HammingDistance
+  isSpec: "True"
+  fullName: CG.StringExtensions.HammingDistance
+  nameWithType: StringExtensions.HammingDistance
 - uid: CG.StringExtensions.IsHTML(System.String)
   name: IsHTML(String)
   href: api/CG.StringExtensions.html#CG_StringExtensions_IsHTML_System_String_

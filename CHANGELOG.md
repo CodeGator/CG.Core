@@ -7,6 +7,8 @@
 
 * I added the Obfuscate extension method.
 
+* I fixed the generic QuickClone extension method, so it handles object references correctly now.
+
 ## 2021.2
 
 * bug fixes.

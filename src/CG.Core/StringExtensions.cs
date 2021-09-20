@@ -1,6 +1,7 @@
 ﻿using CG.Validations;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
 
@@ -177,6 +178,45 @@ namespace CG
 
             // Return the results.
             return sb.ToString();
+        }
+
+        // *******************************************************************
+
+        /// <summary>
+        /// This method calculates a hamming distance between two strings.
+        /// </summary>
+        /// <param name="lhs">The left hand side of the operation.</param>
+        /// <param name="rhs">The right hand side of the operation.</param>
+        /// <returns>A hamming distance.</returns>
+        public static int HammingDistance(
+            this string lhs,
+            string rhs
+            )
+        {
+            // Validate the parameters before attempting to use them.
+            Guard.Instance().ThrowIfNull(lhs, nameof(lhs))
+                .ThrowIfNull(rhs, nameof(rhs));
+
+            // Pad one of the strings to the length of the other so we
+            //   can calculate the hamming distance.
+
+            if (lhs.Length > rhs.Length)
+            {
+                rhs += rhs.PadRight(lhs.Length - rhs.Length);
+            }
+            else if (rhs.Length > lhs.Length)
+            {
+                lhs += lhs.PadRight(rhs.Length - lhs.Length);
+            }
+
+            // Make the calculation.
+            int distance =
+                lhs.ToCharArray().Zip(
+                    rhs.ToCharArray(), (x1, x2) => new { x1, x2 }
+                    ).Count(x => x.x1 != x.x2);
+
+            // Return the results.
+            return distance;
         }
 
         #endregion

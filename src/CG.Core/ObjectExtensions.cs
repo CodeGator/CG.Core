@@ -55,14 +55,32 @@ namespace CG
             // Validate the parameter before attempting to use it.
             Guard.Instance().ThrowIfNull(source, nameof(source));
 
-            // Serialize the object to JSON.
-            var json = JsonSerializer.Serialize<T>(source);
+            // Is source a non object type passed to us as an object reference?
+            if (typeof(T) == typeof(object) && source.GetType() != typeof(object))
+            {
+                // The problem here is, 'source' is a non object type but it's 
+                //   been passed to us as an object reference. That makes the T
+                //   type parameter = object. That's not right, so let's call
+                //   GetType ourselves and pass the correct type into the
+                //   overload. Then we can cast the results manually.
 
-            // Deseralize the JSON to an object.
-            var obj = JsonSerializer.Deserialize<T>(json);
+                // Call the overload. The cast to T should still work ...
+                var obj = source.QuickClone(source.GetType()) as T;
 
-            // Return the results.
-            return obj;
+                // Return the results.
+                return obj;
+            }
+            else
+            {
+                // Serialize the object to JSON.
+                var json = JsonSerializer.Serialize<T>(source);
+
+                // Deseralize the JSON to an object.
+                var obj = JsonSerializer.Deserialize<T>(json);
+
+                // Return the results.
+                return obj;
+            }
         }
 
         #endregion

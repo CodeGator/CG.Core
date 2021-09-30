@@ -9,6 +9,8 @@
 
 * I fixed the generic QuickClone extension method, so it handles object references correctly now.
 
+* I added random string extension methods.
+
 ## 2021.2
 
 * bug fixes.

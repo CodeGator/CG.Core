@@ -4,13 +4,13 @@ using System.Text;
 
 // I found this idea here: https://stackoverflow.com/questions/1344221/how-can-i-generate-random-alphanumeric-strings
 
-namespace CG
+namespace System.Security.Cryptography
 {
     /// <summary>
-    /// This class contains extension methods related to the <see cref="Random"/>
+    /// This class contains extension methods related to the <see cref="RandomNumberGenerator"/>
     /// type.
     /// </summary>
-    public static partial class RandomExtensions
+    public static partial class RandomNumberGeneratorExtensions
     {
         // *******************************************************************
         // Fields.
@@ -33,27 +33,22 @@ namespace CG
         #region Public methods
 
         /// <summary>
-        /// This method generates a string of pseudo random alphanumeric characters.
+        /// This method generates a string of random alphanumeric characters.
         /// </summary>
         /// <param name="random">The random number generator to use for the 
         /// operation.</param>
         /// <param name="size">The number of characters to include in the 
         /// string.</param>
-        /// <returns>A pseudo random alphanumeric string.</returns>
-        /// <remarks>
-        /// <para>
-        /// Do NOT use this method for cryptographic purposes.
-        /// </para>
-        /// </remarks>
+        /// <returns>A random alphanumeric string.</returns>
         /// <example>
-        /// This example shows how to call the <see cref="RandomExtensions.NextString(Random, int)"/>
+        /// This example shows how to call the <see cref="RandomNumberGeneratorExtensions.NextString(RandomNumberGenerator, int)"/>
         /// method.
         /// <code>
         /// class TestClass
         /// {
         ///     static void Main()
         ///     {
-        ///         var random = new Random();
+        ///         var random = RandomNumberGenerator.Create();
         ///         var str = random.NextString(10);
         /// 
         ///         // str contains a 10 character string.
@@ -62,7 +57,7 @@ namespace CG
         /// </code>
         /// </example>
         public static string NextString(
-            this Random random,
+            this RandomNumberGenerator random,
             int size
             )
         {
@@ -71,9 +66,9 @@ namespace CG
                 .ThrowIfLessThanOrEqualZero(size, nameof(size));
 
             // Get some random bytes.
-            var data = new byte[4 * size];
-            random.NextBytes(data);
-            
+            byte[] data = new byte[4 * size];
+            random.GetBytes(data);
+
             // Loop and convert the bytes to characters.
             StringBuilder sb = new StringBuilder(size);
             for (int i = 0; i < size; i++)

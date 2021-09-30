@@ -789,6 +789,25 @@ references:
   isSpec: "True"
   fullName: CG.RandomEx.RandomEx
   nameWithType: RandomEx.RandomEx
+- uid: CG.RandomExtensions
+  name: RandomExtensions
+  href: api/CG.RandomExtensions.html
+  commentId: T:CG.RandomExtensions
+  fullName: CG.RandomExtensions
+  nameWithType: RandomExtensions
+- uid: CG.RandomExtensions.GetNextString(System.Random,System.Int32)
+  name: GetNextString(Random, Int32)
+  href: api/CG.RandomExtensions.html#CG_RandomExtensions_GetNextString_System_Random_System_Int32_
+  commentId: M:CG.RandomExtensions.GetNextString(System.Random,System.Int32)
+  fullName: CG.RandomExtensions.GetNextString(System.Random, System.Int32)
+  nameWithType: RandomExtensions.GetNextString(Random, Int32)
+- uid: CG.RandomExtensions.GetNextString*
+  name: GetNextString
+  href: api/CG.RandomExtensions.html#CG_RandomExtensions_GetNextString_
+  commentId: Overload:CG.RandomExtensions.GetNextString
+  isSpec: "True"
+  fullName: CG.RandomExtensions.GetNextString
+  nameWithType: RandomExtensions.GetNextString
 - uid: CG.Reflection
   name: CG.Reflection
   href: api/CG.Reflection.html

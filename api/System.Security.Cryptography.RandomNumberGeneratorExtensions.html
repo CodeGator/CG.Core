@@ -124,6 +124,138 @@ type.</p>
   </div>
   <h3 id="methods">Methods
   </h3>
+  <a id="System_Security_Cryptography_RandomNumberGeneratorExtensions_Next_" data-uid="System.Security.Cryptography.RandomNumberGeneratorExtensions.Next*"></a>
+  <h4 id="System_Security_Cryptography_RandomNumberGeneratorExtensions_Next_System_Security_Cryptography_RandomNumberGenerator_" data-uid="System.Security.Cryptography.RandomNumberGeneratorExtensions.Next(System.Security.Cryptography.RandomNumberGenerator)">Next(RandomNumberGenerator)</h4>
+  <div class="markdown level1 summary"><p>This method returns a random integer value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int Next(this RandomNumberGenerator random)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Security.Cryptography.RandomNumberGenerator</span></td>
+        <td><span class="parametername">random</span></td>
+        <td><p>The random number generator to use for the
+operation.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>A random integer value</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="System_Security_Cryptography_RandomNumberGeneratorExtensions_Next_System_Security_Cryptography_RandomNumberGenerator__examples">Examples</h5>
+  <p>This example shows how to call the <a class="xref" href="System.Security.Cryptography.RandomNumberGeneratorExtensions.html#System_Security_Cryptography_RandomNumberGeneratorExtensions_Next_System_Security_Cryptography_RandomNumberGenerator_">Next(RandomNumberGenerator)</a>
+method.</p>
+<pre><code>class TestClass
+{
+    static void Main()
+    {
+        var random = RandomNumberGenerator.Create();
+        var num = random.Next();
+
+        // num contains a number.
+    }
+}</code></pre>
+
+  <a id="System_Security_Cryptography_RandomNumberGeneratorExtensions_Next_" data-uid="System.Security.Cryptography.RandomNumberGeneratorExtensions.Next*"></a>
+  <h4 id="System_Security_Cryptography_RandomNumberGeneratorExtensions_Next_System_Security_Cryptography_RandomNumberGenerator_System_Int32_System_Int32_" data-uid="System.Security.Cryptography.RandomNumberGeneratorExtensions.Next(System.Security.Cryptography.RandomNumberGenerator,System.Int32,System.Int32)">Next(RandomNumberGenerator, Int32, Int32)</h4>
+  <div class="markdown level1 summary"><p>This method returns a random integer who's value has been constrained
+to be within the range specified by the <code data-dev-comment-type="paramref" class="paramref">min</code> and
+<code data-dev-comment-type="paramref" class="paramref">max</code> parameters.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int Next(this RandomNumberGenerator random, int min, int max)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Security.Cryptography.RandomNumberGenerator</span></td>
+        <td><span class="parametername">random</span></td>
+        <td><p>The random number generator to use for the
+operation.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">min</span></td>
+        <td><p>The lower value for the range.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">max</span></td>
+        <td><p>The upper value for the range.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>A randon integer who's value has been constrained
+to be within the range specified by the <code data-dev-comment-type="paramref" class="paramref">min</code> and
+<code data-dev-comment-type="paramref" class="paramref">max</code> parameters.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="System_Security_Cryptography_RandomNumberGeneratorExtensions_Next_System_Security_Cryptography_RandomNumberGenerator_System_Int32_System_Int32__examples">Examples</h5>
+  <p>This example shows how to call the <a class="xref" href="System.Security.Cryptography.RandomNumberGeneratorExtensions.html#System_Security_Cryptography_RandomNumberGeneratorExtensions_Next_System_Security_Cryptography_RandomNumberGenerator_System_Int32_System_Int32_">Next(RandomNumberGenerator, Int32, Int32)</a>
+method.</p>
+<pre><code>class TestClass
+{
+    static void Main()
+    {
+        var random = RandomNumberGenerator.Create();
+        var num = random.Next(1, 10);
+
+        // num contains a number between 1 and 10.
+    }
+}</code></pre>
+
   <a id="System_Security_Cryptography_RandomNumberGeneratorExtensions_NextString_" data-uid="System.Security.Cryptography.RandomNumberGeneratorExtensions.NextString*"></a>
   <h4 id="System_Security_Cryptography_RandomNumberGeneratorExtensions_NextString_System_Security_Cryptography_RandomNumberGenerator_System_Int32_" data-uid="System.Security.Cryptography.RandomNumberGeneratorExtensions.NextString(System.Security.Cryptography.RandomNumberGenerator,System.Int32)">NextString(RandomNumberGenerator, Int32)</h4>
   <div class="markdown level1 summary"><p>This method generates a string of random alphanumeric characters.</p>

@@ -1315,6 +1315,25 @@ references:
   commentId: T:System.Security.Cryptography.RandomNumberGeneratorExtensions
   fullName: System.Security.Cryptography.RandomNumberGeneratorExtensions
   nameWithType: RandomNumberGeneratorExtensions
+- uid: System.Security.Cryptography.RandomNumberGeneratorExtensions.Next(System.Security.Cryptography.RandomNumberGenerator)
+  name: Next(RandomNumberGenerator)
+  href: api/System.Security.Cryptography.RandomNumberGeneratorExtensions.html#System_Security_Cryptography_RandomNumberGeneratorExtensions_Next_System_Security_Cryptography_RandomNumberGenerator_
+  commentId: M:System.Security.Cryptography.RandomNumberGeneratorExtensions.Next(System.Security.Cryptography.RandomNumberGenerator)
+  fullName: System.Security.Cryptography.RandomNumberGeneratorExtensions.Next(System.Security.Cryptography.RandomNumberGenerator)
+  nameWithType: RandomNumberGeneratorExtensions.Next(RandomNumberGenerator)
+- uid: System.Security.Cryptography.RandomNumberGeneratorExtensions.Next(System.Security.Cryptography.RandomNumberGenerator,System.Int32,System.Int32)
+  name: Next(RandomNumberGenerator, Int32, Int32)
+  href: api/System.Security.Cryptography.RandomNumberGeneratorExtensions.html#System_Security_Cryptography_RandomNumberGeneratorExtensions_Next_System_Security_Cryptography_RandomNumberGenerator_System_Int32_System_Int32_
+  commentId: M:System.Security.Cryptography.RandomNumberGeneratorExtensions.Next(System.Security.Cryptography.RandomNumberGenerator,System.Int32,System.Int32)
+  fullName: System.Security.Cryptography.RandomNumberGeneratorExtensions.Next(System.Security.Cryptography.RandomNumberGenerator, System.Int32, System.Int32)
+  nameWithType: RandomNumberGeneratorExtensions.Next(RandomNumberGenerator, Int32, Int32)
+- uid: System.Security.Cryptography.RandomNumberGeneratorExtensions.Next*
+  name: Next
+  href: api/System.Security.Cryptography.RandomNumberGeneratorExtensions.html#System_Security_Cryptography_RandomNumberGeneratorExtensions_Next_
+  commentId: Overload:System.Security.Cryptography.RandomNumberGeneratorExtensions.Next
+  isSpec: "True"
+  fullName: System.Security.Cryptography.RandomNumberGeneratorExtensions.Next
+  nameWithType: RandomNumberGeneratorExtensions.Next
 - uid: System.Security.Cryptography.RandomNumberGeneratorExtensions.NextString(System.Security.Cryptography.RandomNumberGenerator,System.Int32)
   name: NextString(RandomNumberGenerator, Int32)
   href: api/System.Security.Cryptography.RandomNumberGeneratorExtensions.html#System_Security_Cryptography_RandomNumberGeneratorExtensions_NextString_System_Security_Cryptography_RandomNumberGenerator_System_Int32_

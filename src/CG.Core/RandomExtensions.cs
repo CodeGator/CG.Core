@@ -71,7 +71,7 @@ namespace CG
                 .ThrowIfLessThanOrEqualZero(size, nameof(size));
 
             // Get some random bytes.
-            var data = new byte[4 * size];
+            var data = new byte[sizeof(int) * size];
             random.NextBytes(data);
             
             // Loop and convert the bytes to characters.
@@ -79,7 +79,7 @@ namespace CG
             for (int i = 0; i < size; i++)
             {
                 // Get the next byte.
-                var rnd = BitConverter.ToUInt32(data, i * 4);
+                var rnd = BitConverter.ToUInt32(data, i * sizeof(int));
 
                 // Convert the byte to an index.
                 var idx = rnd % _chars.Length;

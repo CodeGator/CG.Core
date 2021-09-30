@@ -66,7 +66,7 @@ namespace System.Security.Cryptography
                 .ThrowIfLessThanOrEqualZero(size, nameof(size));
 
             // Get some random bytes.
-            byte[] data = new byte[4 * size];
+            byte[] data = new byte[sizeof(int) * size];
             random.GetBytes(data);
 
             // Loop and convert the bytes to characters.
@@ -74,7 +74,7 @@ namespace System.Security.Cryptography
             for (int i = 0; i < size; i++)
             {
                 // Get the next byte.
-                var rnd = BitConverter.ToUInt32(data, i * 4);
+                var rnd = BitConverter.ToUInt32(data, i * sizeof(int));
 
                 // Convert the byte to an index.
                 var idx = rnd % _chars.Length;
@@ -85,6 +85,106 @@ namespace System.Security.Cryptography
 
             // Get the resulting string.
             var result = sb.ToString();
+
+            // Return the results.
+            return result;
+        }
+
+        // *******************************************************************
+
+        /// <summary>
+        /// This method returns a random integer who's value has been constrained
+        /// to be within the range specified by the <paramref name="min"/> and
+        /// <paramref name="max"/> parameters.
+        /// </summary>
+        /// <param name="random">The random number generator to use for the 
+        /// operation.</param>
+        /// <param name="min">The lower value for the range.</param>
+        /// <param name="max">The upper value for the range.</param>
+        /// <returns>A randon integer who's value has been constrained
+        /// to be within the range specified by the <paramref name="min"/> and
+        /// <paramref name="max"/> parameters.</returns>
+        /// <example>
+        /// This example shows how to call the <see cref="RandomNumberGeneratorExtensions.Next(RandomNumberGenerator, int, int)"/>
+        /// method.
+        /// <code>
+        /// class TestClass
+        /// {
+        ///     static void Main()
+        ///     {
+        ///         var random = RandomNumberGenerator.Create();
+        ///         var num = random.Next(1, 10);
+        /// 
+        ///         // num contains a number between 1 and 10.
+        ///     }
+        /// }
+        /// </code>
+        /// </example>
+        public static int Next(
+            this RandomNumberGenerator random,
+            int min, 
+            int max
+            )
+        {
+            // Validate the parameters before attempting to use them.
+            Guard.Instance().ThrowIfNull(random, nameof(random));
+
+            // Fixup max.
+            max = max - 1;
+
+            // Get some random bytes.
+            var bytes = new byte[sizeof(int)]; 
+            random.GetNonZeroBytes(bytes);
+
+            // Convert to a value.
+            var val = BitConverter.ToInt32(bytes);
+
+            // Constrain the value.
+            var result = ((val - min) % (max - min + 1) + (max - min + 1)) % 
+                (max - min + 1) + min;
+
+            // Return the results.
+            return result;
+
+        }
+
+        // *******************************************************************
+
+        /// <summary>
+        /// This method returns a random integer value.
+        /// </summary>
+        /// <param name="random">The random number generator to use for the 
+        /// operation.</param>
+        /// <returns>A random integer value</returns>
+        /// <example>
+        /// This example shows how to call the <see cref="RandomNumberGeneratorExtensions.Next(RandomNumberGenerator)"/>
+        /// method.
+        /// <code>
+        /// class TestClass
+        /// {
+        ///     static void Main()
+        ///     {
+        ///         var random = RandomNumberGenerator.Create();
+        ///         var num = random.Next();
+        /// 
+        ///         // num contains a number.
+        ///     }
+        /// }
+        /// </code>
+        /// </example>
+        public static int Next(
+            this RandomNumberGenerator random
+            )
+        {
+            // Validate the parameters before attempting to use them.
+            Guard.Instance().ThrowIfNull(random, nameof(random));
+
+            // Get some random bytes.
+            var bytes = new byte[sizeof(int)];
+            random.GetNonZeroBytes(bytes);
+
+            // Convert to a value.
+            var result = BitConverter.ToInt32(bytes);
 
             // Return the results.
             return result;

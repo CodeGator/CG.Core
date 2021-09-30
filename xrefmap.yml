@@ -795,19 +795,19 @@ references:
   commentId: T:CG.RandomExtensions
   fullName: CG.RandomExtensions
   nameWithType: RandomExtensions
-- uid: CG.RandomExtensions.GetNextString(System.Random,System.Int32)
-  name: GetNextString(Random, Int32)
-  href: api/CG.RandomExtensions.html#CG_RandomExtensions_GetNextString_System_Random_System_Int32_
-  commentId: M:CG.RandomExtensions.GetNextString(System.Random,System.Int32)
-  fullName: CG.RandomExtensions.GetNextString(System.Random, System.Int32)
-  nameWithType: RandomExtensions.GetNextString(Random, Int32)
-- uid: CG.RandomExtensions.GetNextString*
-  name: GetNextString
-  href: api/CG.RandomExtensions.html#CG_RandomExtensions_GetNextString_
-  commentId: Overload:CG.RandomExtensions.GetNextString
+- uid: CG.RandomExtensions.NextString(System.Random,System.Int32)
+  name: NextString(Random, Int32)
+  href: api/CG.RandomExtensions.html#CG_RandomExtensions_NextString_System_Random_System_Int32_
+  commentId: M:CG.RandomExtensions.NextString(System.Random,System.Int32)
+  fullName: CG.RandomExtensions.NextString(System.Random, System.Int32)
+  nameWithType: RandomExtensions.NextString(Random, Int32)
+- uid: CG.RandomExtensions.NextString*
+  name: NextString
+  href: api/CG.RandomExtensions.html#CG_RandomExtensions_NextString_
+  commentId: Overload:CG.RandomExtensions.NextString
   isSpec: "True"
-  fullName: CG.RandomExtensions.GetNextString
-  nameWithType: RandomExtensions.GetNextString
+  fullName: CG.RandomExtensions.NextString
+  nameWithType: RandomExtensions.NextString
 - uid: CG.Reflection
   name: CG.Reflection
   href: api/CG.Reflection.html
@@ -1303,3 +1303,28 @@ references:
   isSpec: "True"
   fullName: System.Security.Claims.ClaimsPrincipalExtensions.GetEmail
   nameWithType: ClaimsPrincipalExtensions.GetEmail
+- uid: System.Security.Cryptography
+  name: System.Security.Cryptography
+  href: api/System.Security.Cryptography.html
+  commentId: N:System.Security.Cryptography
+  fullName: System.Security.Cryptography
+  nameWithType: System.Security.Cryptography
+- uid: System.Security.Cryptography.RandomNumberGeneratorExtensions
+  name: RandomNumberGeneratorExtensions
+  href: api/System.Security.Cryptography.RandomNumberGeneratorExtensions.html
+  commentId: T:System.Security.Cryptography.RandomNumberGeneratorExtensions
+  fullName: System.Security.Cryptography.RandomNumberGeneratorExtensions
+  nameWithType: RandomNumberGeneratorExtensions
+- uid: System.Security.Cryptography.RandomNumberGeneratorExtensions.NextString(System.Security.Cryptography.RandomNumberGenerator,System.Int32)
+  name: NextString(RandomNumberGenerator, Int32)
+  href: api/System.Security.Cryptography.RandomNumberGeneratorExtensions.html#System_Security_Cryptography_RandomNumberGeneratorExtensions_NextString_System_Security_Cryptography_RandomNumberGenerator_System_Int32_
+  commentId: M:System.Security.Cryptography.RandomNumberGeneratorExtensions.NextString(System.Security.Cryptography.RandomNumberGenerator,System.Int32)
+  fullName: System.Security.Cryptography.RandomNumberGeneratorExtensions.NextString(System.Security.Cryptography.RandomNumberGenerator, System.Int32)
+  nameWithType: RandomNumberGeneratorExtensions.NextString(RandomNumberGenerator, Int32)
+- uid: System.Security.Cryptography.RandomNumberGeneratorExtensions.NextString*
+  name: NextString
+  href: api/System.Security.Cryptography.RandomNumberGeneratorExtensions.html#System_Security_Cryptography_RandomNumberGeneratorExtensions_NextString_
+  commentId: Overload:System.Security.Cryptography.RandomNumberGeneratorExtensions.NextString
+  isSpec: "True"
+  fullName: System.Security.Cryptography.RandomNumberGeneratorExtensions.NextString
+  nameWithType: RandomNumberGeneratorExtensions.NextString

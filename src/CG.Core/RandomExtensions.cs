@@ -73,9 +73,9 @@ namespace CG
             // Get some random bytes.
             var data = new byte[sizeof(int) * size];
             random.NextBytes(data);
-            
+
             // Loop and convert the bytes to characters.
-            StringBuilder sb = new StringBuilder(size);
+            var sb = new StringBuilder(size);
             for (int i = 0; i < size; i++)
             {
                 // Get the next byte.

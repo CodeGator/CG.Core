@@ -8,7 +8,7 @@ using System.Text.RegularExpressions;
 namespace CG
 {
     /// <summary>
-    /// This class contains extensiom methods related to the <see cref="String"/>
+    /// This class contains extensiom methods related to the <see cref="string"/>
     /// type.
     /// </summary>
     public static partial class StringExtensions
@@ -52,7 +52,7 @@ namespace CG
             Guard.Instance().ThrowIfNull(lhs, nameof(lhs))
                 .ThrowIfNull(rhs, nameof(rhs));
 
-            var result = false;
+            bool result;
 
             // Does RHS contain wildcards?
             if (rhs.Contains("*") || rhs.Contains("?"))
@@ -217,6 +217,27 @@ namespace CG
 
             // Return the results.
             return distance;
+        }
+
+        // *******************************************************************
+
+        /// <summary>
+        /// This method encodes the given string with base-64 encoding.
+        /// </summary>
+        /// <param name="value">The value to be encoded.</param>
+        /// <returns>The SHA512 hash for the <paramref name="value"/> parameter.</returns>
+        public static string ToBase64(
+            this string value
+            )
+        {
+
+            // Encode the string.
+            var base64 = Convert.ToBase64String(
+                Convert.FromBase64String(value)
+                );
+
+            // Return the result.
+            return base64;
         }
 
         #endregion

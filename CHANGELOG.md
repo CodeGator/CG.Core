@@ -1,6 +1,10 @@
 # CG.Core change log
 ---
 
+## 2022.1
+
+* I changed the framework version to 6.0
+
 ## 2021.3
 
 * bug fixes

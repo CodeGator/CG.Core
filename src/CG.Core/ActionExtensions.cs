@@ -49,7 +49,7 @@ namespace CG
 
             // Run the tasks in parallel.
             Parallel.Invoke(
-                options, 
+                options,
                 actions.ToArray()
                 );
         }
@@ -70,13 +70,12 @@ namespace CG
         public static async Task WhenAll(
             this IEnumerable<Action> actions,
             int maxConcurrency,
-            CancellationToken token = default(CancellationToken)
+            CancellationToken token = default
             )
         {
             // Validate the parameters before attempting to use them.
             Guard.Instance().ThrowIfNull(actions, nameof(actions))
-                .ThrowIfLessThan(maxConcurrency, -1, nameof(maxConcurrency))
-                .ThrowIfNull(token, nameof(token));
+                .ThrowIfLessThan(maxConcurrency, -1, nameof(maxConcurrency));
 
             // Run the actions in a task. 
             await Task.Run(() =>
@@ -90,10 +89,11 @@ namespace CG
 
                 // Run the tasks in parallel.
                 Parallel.Invoke(
-                    options, 
+                    options,
                     actions.ToArray()
                     );
-            }).ConfigureAwait(false);
+            }, token
+            ).ConfigureAwait(false);
         }
 
         #endregion

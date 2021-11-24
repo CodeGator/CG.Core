@@ -1,8 +1,8 @@
-﻿using System;
+﻿using CG.Collections.Generic;
 using CG.Validations;
-using System.Linq;
+using System;
 using System.Collections.Generic;
-using CG.Collections.Generic;
+using System.Linq;
 
 
 namespace CG
@@ -47,7 +47,7 @@ namespace CG
             {
                 // Apply the white list.
                 asmList = asmList.ApplyWhiteList(x =>
-                    x.GetName().Name, 
+                    x.GetName().Name,
                     assemblyWhiteList
                     );
             }
@@ -57,21 +57,19 @@ namespace CG
             {
                 // Apply the black list.
                 asmList = asmList.ApplyBlackList(x =>
-                    x.GetName().Name, 
+                    x.GetName().Name,
                     assemblyBlackList
                     );
             }
 
-            // Find any concrete types that are public and derive from 
-            //   the specified type.
+            // Find any concrete types that are derive from the specified type.
             var types = new List<Type>();
             foreach (var asm in asmList)
             {
                 // Get the derived types from this assembly.
                 var assemblyTypes = asm.GetTypes().Where(x =>
                     x.IsSubclassOf(type) &&
-                    !x.IsAbstract &&
-                    x.IsPublic
+                    !x.IsAbstract
                     );
 
                 // Add the derived types to the list.

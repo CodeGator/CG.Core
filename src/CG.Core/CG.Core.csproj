@@ -1,15 +1,15 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>net5.0</TargetFrameworks>
+    <TargetFrameworks>net6.0</TargetFrameworks>
     <RootNamespace>CG</RootNamespace>
     <Authors>Martin Cook</Authors>
     <Company>CodeGator</Company>
     <Description>This package contains general purpose framework elements used by other CodeGator packages. 
 
 Platforms supported:
-      .NET 5.x or above</Description>
-    <Copyright>Copyright © 2003 - 2021 by CodeGator. All rights reserved.</Copyright>
+      .NET 6.x or above</Description>
+    <Copyright>Copyright © 2003 - 2022 by CodeGator. All rights reserved.</Copyright>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageProjectUrl>https://github.com/CodeGator/CG.Core</PackageProjectUrl>
     <PackageTags>core, CG.Core, CodeGator</PackageTags>
@@ -20,12 +20,12 @@ Platforms supported:
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <DocumentationFile>bin\Debug\net5.0\CG.Core.xml</DocumentationFile>
+    <DocumentationFile>bin\Debug\net6.0\CG.Core.xml</DocumentationFile>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="CG.Validations" Version="2021.3.7" />
-    <PackageReference Include="Nerdbank.GitVersioning" Version="3.4.240">
+    <PackageReference Include="CG.Validations" Version="2022.1.3" />
+    <PackageReference Include="Nerdbank.GitVersioning" Version="3.4.244">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>

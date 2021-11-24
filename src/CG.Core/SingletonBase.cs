@@ -13,7 +13,9 @@ namespace CG
         /// <summary>
         /// This field contains the singleton instance.
         /// </summary>
+#pragma warning disable CA2211 // Non-constant fields should not be visible
         protected static T _instance;
+#pragma warning restore CA2211 // Non-constant fields should not be visible
 
         /// <summary>
         /// This method creates a new singleton instance of the 

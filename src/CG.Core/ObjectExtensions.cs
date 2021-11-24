@@ -25,7 +25,7 @@ namespace CG
         public static object QuickClone(
             this object source,
             Type sourceType
-            ) 
+            )
         {
             // Validate the parameter before attempting to use it.
             Guard.Instance().ThrowIfNull(source, nameof(source));

@@ -3,7 +3,7 @@
 namespace CG
 {
     /// <summary>
-    /// This class contains extensiom methods related to the <see cref="String"/>
+    /// This class contains extensiom methods related to the <see cref="string"/>
     /// type.
     /// </summary>
     public static partial class NumberExtensions
@@ -94,26 +94,26 @@ namespace CG
         /// the operation.</param>
         /// <returns>A formatted string.</returns>
         public static string FormattedAsBytes(
-            this long value, 
+            this long value,
             int decimalPlaces = 1
             )
         {
-            var SizeSuffixes = new string[] { 
-                "bytes", 
-                "KB", 
-                "MB", 
-                "GB", 
-                "TB", 
-                "PB", 
-                "EB", 
-                "ZB", 
-                "YB" 
+            var SizeSuffixes = new string[] {
+                "bytes",
+                "KB",
+                "MB",
+                "GB",
+                "TB",
+                "PB",
+                "EB",
+                "ZB",
+                "YB"
             };
 
             // Can we take the shorcut?
-            if (value < 0) 
-            { 
-                return "-" + FormattedAsBytes(-value, decimalPlaces); 
+            if (value < 0)
+            {
+                return "-" + FormattedAsBytes(-value, decimalPlaces);
             }
 
             // Determine the magnitude of the value.
@@ -134,7 +134,7 @@ namespace CG
             // Format the string.
             var formatted = string.Format(
                 "{0:n" + decimalPlaces + "} {1}",
-                dValue, 
+                dValue,
                 SizeSuffixes[i]
                 );
 

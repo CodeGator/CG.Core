@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class ClaimsPrincipalExtensions
    ">
-    <meta name="generator" content="docfx 2.58.4.0">
+    <meta name="generator" content="docfx 2.58.9.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -148,6 +148,186 @@ the specified <span class="xref">System.Security.Claims.ClaimsPrincipal</span> o
         <td><span class="xref">System.Security.Claims.ClaimsPrincipal</span></td>
         <td><span class="parametername">principal</span></td>
         <td><p>The claims to use for the operation.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>The value of the claim, or an empty string, if the claim
+wasn't found on the pricipal.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="System_Security_Claims_ClaimsPrincipalExtensions_GetName_" data-uid="System.Security.Claims.ClaimsPrincipalExtensions.GetName*"></a>
+  <h4 id="System_Security_Claims_ClaimsPrincipalExtensions_GetName_System_Security_Claims_ClaimsPrincipal_" data-uid="System.Security.Claims.ClaimsPrincipalExtensions.GetName(System.Security.Claims.ClaimsPrincipal)">GetName(ClaimsPrincipal)</h4>
+  <div class="markdown level1 summary"><p>This method returns the value of the name claim, if it
+exists, in the specified <span class="xref">System.Security.Claims.ClaimsPrincipal</span> object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string GetName(this ClaimsPrincipal claimsPrincipal)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Security.Claims.ClaimsPrincipal</span></td>
+        <td><span class="parametername">claimsPrincipal</span></td>
+        <td><p>The principal to use for the oepration.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>The value of the claim, or an empty string, if the claim
+wasn't found on the pricipal.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="System_Security_Claims_ClaimsPrincipalExtensions_GetNameIdentifier_" data-uid="System.Security.Claims.ClaimsPrincipalExtensions.GetNameIdentifier*"></a>
+  <h4 id="System_Security_Claims_ClaimsPrincipalExtensions_GetNameIdentifier_System_Security_Claims_ClaimsPrincipal_" data-uid="System.Security.Claims.ClaimsPrincipalExtensions.GetNameIdentifier(System.Security.Claims.ClaimsPrincipal)">GetNameIdentifier(ClaimsPrincipal)</h4>
+  <div class="markdown level1 summary"><p>This method returns the value of the name identifier claim, if it
+exists, in the specified <span class="xref">System.Security.Claims.ClaimsPrincipal</span> object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string GetNameIdentifier(this ClaimsPrincipal claimsPrincipal)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Security.Claims.ClaimsPrincipal</span></td>
+        <td><span class="parametername">claimsPrincipal</span></td>
+        <td><p>The principal to use for the oepration.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>The value of the claim, or an empty string, if the claim
+wasn't found on the pricipal.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="System_Security_Claims_ClaimsPrincipalExtensions_GetNickName_" data-uid="System.Security.Claims.ClaimsPrincipalExtensions.GetNickName*"></a>
+  <h4 id="System_Security_Claims_ClaimsPrincipalExtensions_GetNickName_System_Security_Claims_ClaimsPrincipal_" data-uid="System.Security.Claims.ClaimsPrincipalExtensions.GetNickName(System.Security.Claims.ClaimsPrincipal)">GetNickName(ClaimsPrincipal)</h4>
+  <div class="markdown level1 summary"><p>This method returns the value of the nickname claim, if it
+exists, in the specified <span class="xref">System.Security.Claims.ClaimsPrincipal</span> object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string GetNickName(this ClaimsPrincipal claimsPrincipal)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Security.Claims.ClaimsPrincipal</span></td>
+        <td><span class="parametername">claimsPrincipal</span></td>
+        <td><p>The principal to use for the oepration.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>The value of the claim, or an empty string, if the claim
+wasn't found on the pricipal.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="System_Security_Claims_ClaimsPrincipalExtensions_GetPicture_" data-uid="System.Security.Claims.ClaimsPrincipalExtensions.GetPicture*"></a>
+  <h4 id="System_Security_Claims_ClaimsPrincipalExtensions_GetPicture_System_Security_Claims_ClaimsPrincipal_" data-uid="System.Security.Claims.ClaimsPrincipalExtensions.GetPicture(System.Security.Claims.ClaimsPrincipal)">GetPicture(ClaimsPrincipal)</h4>
+  <div class="markdown level1 summary"><p>This method returns the value of the picture claim, if it
+exists, in the specified <span class="xref">System.Security.Claims.ClaimsPrincipal</span> object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string GetPicture(this ClaimsPrincipal claimsPrincipal)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Security.Claims.ClaimsPrincipal</span></td>
+        <td><span class="parametername">claimsPrincipal</span></td>
+        <td><p>The principal to use for the oepration.</p>
 </td>
       </tr>
     </tbody>

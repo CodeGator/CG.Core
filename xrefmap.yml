@@ -938,6 +938,19 @@ references:
   isSpec: "True"
   fullName: CG.StringExtensions.Shuffle
   nameWithType: StringExtensions.Shuffle
+- uid: CG.StringExtensions.ToBase64(System.String)
+  name: ToBase64(String)
+  href: api/CG.StringExtensions.html#CG_StringExtensions_ToBase64_System_String_
+  commentId: M:CG.StringExtensions.ToBase64(System.String)
+  fullName: CG.StringExtensions.ToBase64(System.String)
+  nameWithType: StringExtensions.ToBase64(String)
+- uid: CG.StringExtensions.ToBase64*
+  name: ToBase64
+  href: api/CG.StringExtensions.html#CG_StringExtensions_ToBase64_
+  commentId: Overload:CG.StringExtensions.ToBase64
+  isSpec: "True"
+  fullName: CG.StringExtensions.ToBase64
+  nameWithType: StringExtensions.ToBase64
 - uid: CG.Threading.Tasks
   name: CG.Threading.Tasks
   href: api/CG.Threading.Tasks.html
@@ -1303,6 +1316,58 @@ references:
   isSpec: "True"
   fullName: System.Security.Claims.ClaimsPrincipalExtensions.GetEmail
   nameWithType: ClaimsPrincipalExtensions.GetEmail
+- uid: System.Security.Claims.ClaimsPrincipalExtensions.GetName(System.Security.Claims.ClaimsPrincipal)
+  name: GetName(ClaimsPrincipal)
+  href: api/System.Security.Claims.ClaimsPrincipalExtensions.html#System_Security_Claims_ClaimsPrincipalExtensions_GetName_System_Security_Claims_ClaimsPrincipal_
+  commentId: M:System.Security.Claims.ClaimsPrincipalExtensions.GetName(System.Security.Claims.ClaimsPrincipal)
+  fullName: System.Security.Claims.ClaimsPrincipalExtensions.GetName(System.Security.Claims.ClaimsPrincipal)
+  nameWithType: ClaimsPrincipalExtensions.GetName(ClaimsPrincipal)
+- uid: System.Security.Claims.ClaimsPrincipalExtensions.GetName*
+  name: GetName
+  href: api/System.Security.Claims.ClaimsPrincipalExtensions.html#System_Security_Claims_ClaimsPrincipalExtensions_GetName_
+  commentId: Overload:System.Security.Claims.ClaimsPrincipalExtensions.GetName
+  isSpec: "True"
+  fullName: System.Security.Claims.ClaimsPrincipalExtensions.GetName
+  nameWithType: ClaimsPrincipalExtensions.GetName
+- uid: System.Security.Claims.ClaimsPrincipalExtensions.GetNameIdentifier(System.Security.Claims.ClaimsPrincipal)
+  name: GetNameIdentifier(ClaimsPrincipal)
+  href: api/System.Security.Claims.ClaimsPrincipalExtensions.html#System_Security_Claims_ClaimsPrincipalExtensions_GetNameIdentifier_System_Security_Claims_ClaimsPrincipal_
+  commentId: M:System.Security.Claims.ClaimsPrincipalExtensions.GetNameIdentifier(System.Security.Claims.ClaimsPrincipal)
+  fullName: System.Security.Claims.ClaimsPrincipalExtensions.GetNameIdentifier(System.Security.Claims.ClaimsPrincipal)
+  nameWithType: ClaimsPrincipalExtensions.GetNameIdentifier(ClaimsPrincipal)
+- uid: System.Security.Claims.ClaimsPrincipalExtensions.GetNameIdentifier*
+  name: GetNameIdentifier
+  href: api/System.Security.Claims.ClaimsPrincipalExtensions.html#System_Security_Claims_ClaimsPrincipalExtensions_GetNameIdentifier_
+  commentId: Overload:System.Security.Claims.ClaimsPrincipalExtensions.GetNameIdentifier
+  isSpec: "True"
+  fullName: System.Security.Claims.ClaimsPrincipalExtensions.GetNameIdentifier
+  nameWithType: ClaimsPrincipalExtensions.GetNameIdentifier
+- uid: System.Security.Claims.ClaimsPrincipalExtensions.GetNickName(System.Security.Claims.ClaimsPrincipal)
+  name: GetNickName(ClaimsPrincipal)
+  href: api/System.Security.Claims.ClaimsPrincipalExtensions.html#System_Security_Claims_ClaimsPrincipalExtensions_GetNickName_System_Security_Claims_ClaimsPrincipal_
+  commentId: M:System.Security.Claims.ClaimsPrincipalExtensions.GetNickName(System.Security.Claims.ClaimsPrincipal)
+  fullName: System.Security.Claims.ClaimsPrincipalExtensions.GetNickName(System.Security.Claims.ClaimsPrincipal)
+  nameWithType: ClaimsPrincipalExtensions.GetNickName(ClaimsPrincipal)
+- uid: System.Security.Claims.ClaimsPrincipalExtensions.GetNickName*
+  name: GetNickName
+  href: api/System.Security.Claims.ClaimsPrincipalExtensions.html#System_Security_Claims_ClaimsPrincipalExtensions_GetNickName_
+  commentId: Overload:System.Security.Claims.ClaimsPrincipalExtensions.GetNickName
+  isSpec: "True"
+  fullName: System.Security.Claims.ClaimsPrincipalExtensions.GetNickName
+  nameWithType: ClaimsPrincipalExtensions.GetNickName
+- uid: System.Security.Claims.ClaimsPrincipalExtensions.GetPicture(System.Security.Claims.ClaimsPrincipal)
+  name: GetPicture(ClaimsPrincipal)
+  href: api/System.Security.Claims.ClaimsPrincipalExtensions.html#System_Security_Claims_ClaimsPrincipalExtensions_GetPicture_System_Security_Claims_ClaimsPrincipal_
+  commentId: M:System.Security.Claims.ClaimsPrincipalExtensions.GetPicture(System.Security.Claims.ClaimsPrincipal)
+  fullName: System.Security.Claims.ClaimsPrincipalExtensions.GetPicture(System.Security.Claims.ClaimsPrincipal)
+  nameWithType: ClaimsPrincipalExtensions.GetPicture(ClaimsPrincipal)
+- uid: System.Security.Claims.ClaimsPrincipalExtensions.GetPicture*
+  name: GetPicture
+  href: api/System.Security.Claims.ClaimsPrincipalExtensions.html#System_Security_Claims_ClaimsPrincipalExtensions_GetPicture_
+  commentId: Overload:System.Security.Claims.ClaimsPrincipalExtensions.GetPicture
+  isSpec: "True"
+  fullName: System.Security.Claims.ClaimsPrincipalExtensions.GetPicture
+  nameWithType: ClaimsPrincipalExtensions.GetPicture
 - uid: System.Security.Cryptography
   name: System.Security.Cryptography
   href: api/System.Security.Cryptography.html
@@ -1334,6 +1399,32 @@ references:
   isSpec: "True"
   fullName: System.Security.Cryptography.RandomNumberGeneratorExtensions.Next
   nameWithType: RandomNumberGeneratorExtensions.Next
+- uid: System.Security.Cryptography.RandomNumberGeneratorExtensions.NextDigits(System.Security.Cryptography.RandomNumberGenerator,System.Int32)
+  name: NextDigits(RandomNumberGenerator, Int32)
+  href: api/System.Security.Cryptography.RandomNumberGeneratorExtensions.html#System_Security_Cryptography_RandomNumberGeneratorExtensions_NextDigits_System_Security_Cryptography_RandomNumberGenerator_System_Int32_
+  commentId: M:System.Security.Cryptography.RandomNumberGeneratorExtensions.NextDigits(System.Security.Cryptography.RandomNumberGenerator,System.Int32)
+  fullName: System.Security.Cryptography.RandomNumberGeneratorExtensions.NextDigits(System.Security.Cryptography.RandomNumberGenerator, System.Int32)
+  nameWithType: RandomNumberGeneratorExtensions.NextDigits(RandomNumberGenerator, Int32)
+- uid: System.Security.Cryptography.RandomNumberGeneratorExtensions.NextDigits*
+  name: NextDigits
+  href: api/System.Security.Cryptography.RandomNumberGeneratorExtensions.html#System_Security_Cryptography_RandomNumberGeneratorExtensions_NextDigits_
+  commentId: Overload:System.Security.Cryptography.RandomNumberGeneratorExtensions.NextDigits
+  isSpec: "True"
+  fullName: System.Security.Cryptography.RandomNumberGeneratorExtensions.NextDigits
+  nameWithType: RandomNumberGeneratorExtensions.NextDigits
+- uid: System.Security.Cryptography.RandomNumberGeneratorExtensions.NextLower(System.Security.Cryptography.RandomNumberGenerator,System.Int32)
+  name: NextLower(RandomNumberGenerator, Int32)
+  href: api/System.Security.Cryptography.RandomNumberGeneratorExtensions.html#System_Security_Cryptography_RandomNumberGeneratorExtensions_NextLower_System_Security_Cryptography_RandomNumberGenerator_System_Int32_
+  commentId: M:System.Security.Cryptography.RandomNumberGeneratorExtensions.NextLower(System.Security.Cryptography.RandomNumberGenerator,System.Int32)
+  fullName: System.Security.Cryptography.RandomNumberGeneratorExtensions.NextLower(System.Security.Cryptography.RandomNumberGenerator, System.Int32)
+  nameWithType: RandomNumberGeneratorExtensions.NextLower(RandomNumberGenerator, Int32)
+- uid: System.Security.Cryptography.RandomNumberGeneratorExtensions.NextLower*
+  name: NextLower
+  href: api/System.Security.Cryptography.RandomNumberGeneratorExtensions.html#System_Security_Cryptography_RandomNumberGeneratorExtensions_NextLower_
+  commentId: Overload:System.Security.Cryptography.RandomNumberGeneratorExtensions.NextLower
+  isSpec: "True"
+  fullName: System.Security.Cryptography.RandomNumberGeneratorExtensions.NextLower
+  nameWithType: RandomNumberGeneratorExtensions.NextLower
 - uid: System.Security.Cryptography.RandomNumberGeneratorExtensions.NextString(System.Security.Cryptography.RandomNumberGenerator,System.Int32)
   name: NextString(RandomNumberGenerator, Int32)
   href: api/System.Security.Cryptography.RandomNumberGeneratorExtensions.html#System_Security_Cryptography_RandomNumberGeneratorExtensions_NextString_System_Security_Cryptography_RandomNumberGenerator_System_Int32_
@@ -1347,3 +1438,74 @@ references:
   isSpec: "True"
   fullName: System.Security.Cryptography.RandomNumberGeneratorExtensions.NextString
   nameWithType: RandomNumberGeneratorExtensions.NextString
+- uid: System.Security.Cryptography.RandomNumberGeneratorExtensions.NextSymbols(System.Security.Cryptography.RandomNumberGenerator,System.Int32)
+  name: NextSymbols(RandomNumberGenerator, Int32)
+  href: api/System.Security.Cryptography.RandomNumberGeneratorExtensions.html#System_Security_Cryptography_RandomNumberGeneratorExtensions_NextSymbols_System_Security_Cryptography_RandomNumberGenerator_System_Int32_
+  commentId: M:System.Security.Cryptography.RandomNumberGeneratorExtensions.NextSymbols(System.Security.Cryptography.RandomNumberGenerator,System.Int32)
+  fullName: System.Security.Cryptography.RandomNumberGeneratorExtensions.NextSymbols(System.Security.Cryptography.RandomNumberGenerator, System.Int32)
+  nameWithType: RandomNumberGeneratorExtensions.NextSymbols(RandomNumberGenerator, Int32)
+- uid: System.Security.Cryptography.RandomNumberGeneratorExtensions.NextSymbols*
+  name: NextSymbols
+  href: api/System.Security.Cryptography.RandomNumberGeneratorExtensions.html#System_Security_Cryptography_RandomNumberGeneratorExtensions_NextSymbols_
+  commentId: Overload:System.Security.Cryptography.RandomNumberGeneratorExtensions.NextSymbols
+  isSpec: "True"
+  fullName: System.Security.Cryptography.RandomNumberGeneratorExtensions.NextSymbols
+  nameWithType: RandomNumberGeneratorExtensions.NextSymbols
+- uid: System.Security.Cryptography.RandomNumberGeneratorExtensions.NextUpper(System.Security.Cryptography.RandomNumberGenerator,System.Int32)
+  name: NextUpper(RandomNumberGenerator, Int32)
+  href: api/System.Security.Cryptography.RandomNumberGeneratorExtensions.html#System_Security_Cryptography_RandomNumberGeneratorExtensions_NextUpper_System_Security_Cryptography_RandomNumberGenerator_System_Int32_
+  commentId: M:System.Security.Cryptography.RandomNumberGeneratorExtensions.NextUpper(System.Security.Cryptography.RandomNumberGenerator,System.Int32)
+  fullName: System.Security.Cryptography.RandomNumberGeneratorExtensions.NextUpper(System.Security.Cryptography.RandomNumberGenerator, System.Int32)
+  nameWithType: RandomNumberGeneratorExtensions.NextUpper(RandomNumberGenerator, Int32)
+- uid: System.Security.Cryptography.RandomNumberGeneratorExtensions.NextUpper*
+  name: NextUpper
+  href: api/System.Security.Cryptography.RandomNumberGeneratorExtensions.html#System_Security_Cryptography_RandomNumberGeneratorExtensions_NextUpper_
+  commentId: Overload:System.Security.Cryptography.RandomNumberGeneratorExtensions.NextUpper
+  isSpec: "True"
+  fullName: System.Security.Cryptography.RandomNumberGeneratorExtensions.NextUpper
+  nameWithType: RandomNumberGeneratorExtensions.NextUpper
+- uid: System.Security.Cryptography.RandomNumberGeneratorExtensions.Shuffle(System.Security.Cryptography.RandomNumberGenerator,System.String)
+  name: Shuffle(RandomNumberGenerator, String)
+  href: api/System.Security.Cryptography.RandomNumberGeneratorExtensions.html#System_Security_Cryptography_RandomNumberGeneratorExtensions_Shuffle_System_Security_Cryptography_RandomNumberGenerator_System_String_
+  commentId: M:System.Security.Cryptography.RandomNumberGeneratorExtensions.Shuffle(System.Security.Cryptography.RandomNumberGenerator,System.String)
+  fullName: System.Security.Cryptography.RandomNumberGeneratorExtensions.Shuffle(System.Security.Cryptography.RandomNumberGenerator, System.String)
+  nameWithType: RandomNumberGeneratorExtensions.Shuffle(RandomNumberGenerator, String)
+- uid: System.Security.Cryptography.RandomNumberGeneratorExtensions.Shuffle*
+  name: Shuffle
+  href: api/System.Security.Cryptography.RandomNumberGeneratorExtensions.html#System_Security_Cryptography_RandomNumberGeneratorExtensions_Shuffle_
+  commentId: Overload:System.Security.Cryptography.RandomNumberGeneratorExtensions.Shuffle
+  isSpec: "True"
+  fullName: System.Security.Cryptography.RandomNumberGeneratorExtensions.Shuffle
+  nameWithType: RandomNumberGeneratorExtensions.Shuffle
+- uid: System.Security.Cryptography.StringExtensions
+  name: StringExtensions
+  href: api/System.Security.Cryptography.StringExtensions.html
+  commentId: T:System.Security.Cryptography.StringExtensions
+  fullName: System.Security.Cryptography.StringExtensions
+  nameWithType: StringExtensions
+- uid: System.Security.Cryptography.StringExtensions.ToSha256(System.String)
+  name: ToSha256(String)
+  href: api/System.Security.Cryptography.StringExtensions.html#System_Security_Cryptography_StringExtensions_ToSha256_System_String_
+  commentId: M:System.Security.Cryptography.StringExtensions.ToSha256(System.String)
+  fullName: System.Security.Cryptography.StringExtensions.ToSha256(System.String)
+  nameWithType: StringExtensions.ToSha256(String)
+- uid: System.Security.Cryptography.StringExtensions.ToSha256*
+  name: ToSha256
+  href: api/System.Security.Cryptography.StringExtensions.html#System_Security_Cryptography_StringExtensions_ToSha256_
+  commentId: Overload:System.Security.Cryptography.StringExtensions.ToSha256
+  isSpec: "True"
+  fullName: System.Security.Cryptography.StringExtensions.ToSha256
+  nameWithType: StringExtensions.ToSha256
+- uid: System.Security.Cryptography.StringExtensions.ToSha512(System.String)
+  name: ToSha512(String)
+  href: api/System.Security.Cryptography.StringExtensions.html#System_Security_Cryptography_StringExtensions_ToSha512_System_String_
+  commentId: M:System.Security.Cryptography.StringExtensions.ToSha512(System.String)
+  fullName: System.Security.Cryptography.StringExtensions.ToSha512(System.String)
+  nameWithType: StringExtensions.ToSha512(String)
+- uid: System.Security.Cryptography.StringExtensions.ToSha512*
+  name: ToSha512
+  href: api/System.Security.Cryptography.StringExtensions.html#System_Security_Cryptography_StringExtensions_ToSha512_
+  commentId: Overload:System.Security.Cryptography.StringExtensions.ToSha512
+  isSpec: "True"
+  fullName: System.Security.Cryptography.StringExtensions.ToSha512
+  nameWithType: StringExtensions.ToSha512

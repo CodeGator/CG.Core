@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class RandomNumberGeneratorExtensions
    ">
-    <meta name="generator" content="docfx 2.58.4.0">
+    <meta name="generator" content="docfx 2.58.9.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -256,6 +256,135 @@ method.</p>
     }
 }</code></pre>
 
+  <a id="System_Security_Cryptography_RandomNumberGeneratorExtensions_NextDigits_" data-uid="System.Security.Cryptography.RandomNumberGeneratorExtensions.NextDigits*"></a>
+  <h4 id="System_Security_Cryptography_RandomNumberGeneratorExtensions_NextDigits_System_Security_Cryptography_RandomNumberGenerator_System_Int32_" data-uid="System.Security.Cryptography.RandomNumberGeneratorExtensions.NextDigits(System.Security.Cryptography.RandomNumberGenerator,System.Int32)">NextDigits(RandomNumberGenerator, Int32)</h4>
+  <div class="markdown level1 summary"><p>This method returns a random numeric value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string NextDigits(this RandomNumberGenerator random, int size)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Security.Cryptography.RandomNumberGenerator</span></td>
+        <td><span class="parametername">random</span></td>
+        <td><p>The random number generator to use for the
+operation.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">size</span></td>
+        <td><p>The number of characters to include in the
+string.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>A random numeric string.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="System_Security_Cryptography_RandomNumberGeneratorExtensions_NextDigits_System_Security_Cryptography_RandomNumberGenerator_System_Int32__examples">Examples</h5>
+  <p>This example shows how to call the <a class="xref" href="System.Security.Cryptography.RandomNumberGeneratorExtensions.html#System_Security_Cryptography_RandomNumberGeneratorExtensions_NextDigits_System_Security_Cryptography_RandomNumberGenerator_System_Int32_">NextDigits(RandomNumberGenerator, Int32)</a>
+method.</p>
+<pre><code>class TestClass
+{
+    static void Main()
+    {
+        var random = RandomNumberGenerator.Create();
+        var num = random.NextDigits(3);
+
+        // num contains random numbers.
+    }
+}</code></pre>
+
+  <a id="System_Security_Cryptography_RandomNumberGeneratorExtensions_NextLower_" data-uid="System.Security.Cryptography.RandomNumberGeneratorExtensions.NextLower*"></a>
+  <h4 id="System_Security_Cryptography_RandomNumberGeneratorExtensions_NextLower_System_Security_Cryptography_RandomNumberGenerator_System_Int32_" data-uid="System.Security.Cryptography.RandomNumberGeneratorExtensions.NextLower(System.Security.Cryptography.RandomNumberGenerator,System.Int32)">NextLower(RandomNumberGenerator, Int32)</h4>
+  <div class="markdown level1 summary"><p>This method returns a string with lower case alpha characters.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string NextLower(this RandomNumberGenerator random, int size)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Security.Cryptography.RandomNumberGenerator</span></td>
+        <td><span class="parametername">random</span></td>
+        <td><p>The random number generator to use for the
+operation.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">size</span></td>
+        <td><p>The number of characters to include in the string.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>A random alpha string.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="System_Security_Cryptography_RandomNumberGeneratorExtensions_NextLower_System_Security_Cryptography_RandomNumberGenerator_System_Int32__examples">Examples</h5>
+  <p>This example shows how to call the <a class="xref" href="System.Security.Cryptography.RandomNumberGeneratorExtensions.html#System_Security_Cryptography_RandomNumberGeneratorExtensions_NextLower_System_Security_Cryptography_RandomNumberGenerator_System_Int32_">NextLower(RandomNumberGenerator, Int32)</a>
+method.</p>
+<pre><code>class TestClass
+{
+    static void Main()
+    {
+        var random = RandomNumberGenerator.Create();
+        var num = random.NextLower(3);
+
+        // num contains random lower case alpha characters.
+    }
+}</code></pre>
+
   <a id="System_Security_Cryptography_RandomNumberGeneratorExtensions_NextString_" data-uid="System.Security.Cryptography.RandomNumberGeneratorExtensions.NextString*"></a>
   <h4 id="System_Security_Cryptography_RandomNumberGeneratorExtensions_NextString_System_Security_Cryptography_RandomNumberGenerator_System_Int32_" data-uid="System.Security.Cryptography.RandomNumberGeneratorExtensions.NextString(System.Security.Cryptography.RandomNumberGenerator,System.Int32)">NextString(RandomNumberGenerator, Int32)</h4>
   <div class="markdown level1 summary"><p>This method generates a string of random alphanumeric characters.</p>
@@ -318,6 +447,198 @@ method.</p>
         var str = random.NextString(10);
 
         // str contains a 10 character string.
+    }
+}</code></pre>
+
+  <a id="System_Security_Cryptography_RandomNumberGeneratorExtensions_NextSymbols_" data-uid="System.Security.Cryptography.RandomNumberGeneratorExtensions.NextSymbols*"></a>
+  <h4 id="System_Security_Cryptography_RandomNumberGeneratorExtensions_NextSymbols_System_Security_Cryptography_RandomNumberGenerator_System_Int32_" data-uid="System.Security.Cryptography.RandomNumberGeneratorExtensions.NextSymbols(System.Security.Cryptography.RandomNumberGenerator,System.Int32)">NextSymbols(RandomNumberGenerator, Int32)</h4>
+  <div class="markdown level1 summary"><p>This method returns a string with random symbols.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string NextSymbols(this RandomNumberGenerator random, int size)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Security.Cryptography.RandomNumberGenerator</span></td>
+        <td><span class="parametername">random</span></td>
+        <td><p>The random number generator to use for the
+operation.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">size</span></td>
+        <td><p>The number of symbols to include in the string.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>A random symbolic string.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="System_Security_Cryptography_RandomNumberGeneratorExtensions_NextSymbols_System_Security_Cryptography_RandomNumberGenerator_System_Int32__examples">Examples</h5>
+  <p>This example shows how to call the <a class="xref" href="System.Security.Cryptography.RandomNumberGeneratorExtensions.html#System_Security_Cryptography_RandomNumberGeneratorExtensions_NextSymbols_System_Security_Cryptography_RandomNumberGenerator_System_Int32_">NextSymbols(RandomNumberGenerator, Int32)</a>
+method.</p>
+<pre><code>class TestClass
+{
+    static void Main()
+    {
+        var random = RandomNumberGenerator.Create();
+        var num = random.NextSymbols(3);
+
+        // num contains random symbols.
+    }
+}</code></pre>
+
+  <a id="System_Security_Cryptography_RandomNumberGeneratorExtensions_NextUpper_" data-uid="System.Security.Cryptography.RandomNumberGeneratorExtensions.NextUpper*"></a>
+  <h4 id="System_Security_Cryptography_RandomNumberGeneratorExtensions_NextUpper_System_Security_Cryptography_RandomNumberGenerator_System_Int32_" data-uid="System.Security.Cryptography.RandomNumberGeneratorExtensions.NextUpper(System.Security.Cryptography.RandomNumberGenerator,System.Int32)">NextUpper(RandomNumberGenerator, Int32)</h4>
+  <div class="markdown level1 summary"><p>This method returns a string with upper case alpha characters.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string NextUpper(this RandomNumberGenerator random, int size)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Security.Cryptography.RandomNumberGenerator</span></td>
+        <td><span class="parametername">random</span></td>
+        <td><p>The random number generator to use for the
+operation.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">size</span></td>
+        <td><p>The number of characters to include in the string.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>A random alpha string.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="System_Security_Cryptography_RandomNumberGeneratorExtensions_NextUpper_System_Security_Cryptography_RandomNumberGenerator_System_Int32__examples">Examples</h5>
+  <p>This example shows how to call the <a class="xref" href="System.Security.Cryptography.RandomNumberGeneratorExtensions.html#System_Security_Cryptography_RandomNumberGeneratorExtensions_NextUpper_System_Security_Cryptography_RandomNumberGenerator_System_Int32_">NextUpper(RandomNumberGenerator, Int32)</a>
+method.</p>
+<pre><code>class TestClass
+{
+    static void Main()
+    {
+        var random = RandomNumberGenerator.Create();
+        var num = random.NextUpper(3);
+
+        // num contains random upper case alpha characters.
+    }
+}</code></pre>
+
+  <a id="System_Security_Cryptography_RandomNumberGeneratorExtensions_Shuffle_" data-uid="System.Security.Cryptography.RandomNumberGeneratorExtensions.Shuffle*"></a>
+  <h4 id="System_Security_Cryptography_RandomNumberGeneratorExtensions_Shuffle_System_Security_Cryptography_RandomNumberGenerator_System_String_" data-uid="System.Security.Cryptography.RandomNumberGeneratorExtensions.Shuffle(System.Security.Cryptography.RandomNumberGenerator,System.String)">Shuffle(RandomNumberGenerator, String)</h4>
+  <div class="markdown level1 summary"><p>This method returns a string with randomly shuffled characters.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string Shuffle(this RandomNumberGenerator random, string source)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Security.Cryptography.RandomNumberGenerator</span></td>
+        <td><span class="parametername">random</span></td>
+        <td><p>The random number generator to use for the
+operation.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">source</span></td>
+        <td><p>The string to be shuffled.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>A shuffled string.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="System_Security_Cryptography_RandomNumberGeneratorExtensions_Shuffle_System_Security_Cryptography_RandomNumberGenerator_System_String__examples">Examples</h5>
+  <p>This example shows how to call the <a class="xref" href="System.Security.Cryptography.RandomNumberGeneratorExtensions.html#System_Security_Cryptography_RandomNumberGeneratorExtensions_Shuffle_System_Security_Cryptography_RandomNumberGenerator_System_String_">Shuffle(RandomNumberGenerator, String)</a>
+method.</p>
+<pre><code>class TestClass
+{
+    static void Main()
+    {
+        var random = RandomNumberGenerator.Create();
+        var str = random.Shuffle(&quot;this is a test&quot;);
+
+        // str contains randomly shuffled characters.
     }
 }</code></pre>
 

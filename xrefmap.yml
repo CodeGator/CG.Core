@@ -764,6 +764,19 @@ references:
   fullName.vb: CG.ObjectExtensions.QuickClone(Of T)(T)
   nameWithType: ObjectExtensions.QuickClone<T>(T)
   nameWithType.vb: ObjectExtensions.QuickClone(Of T)(T)
+- uid: CG.ObjectExtensions.QuickCopyTo(System.Object,System.Object)
+  name: QuickCopyTo(Object, Object)
+  href: api/CG.ObjectExtensions.html#CG_ObjectExtensions_QuickCopyTo_System_Object_System_Object_
+  commentId: M:CG.ObjectExtensions.QuickCopyTo(System.Object,System.Object)
+  fullName: CG.ObjectExtensions.QuickCopyTo(System.Object, System.Object)
+  nameWithType: ObjectExtensions.QuickCopyTo(Object, Object)
+- uid: CG.ObjectExtensions.QuickCopyTo*
+  name: QuickCopyTo
+  href: api/CG.ObjectExtensions.html#CG_ObjectExtensions_QuickCopyTo_
+  commentId: Overload:CG.ObjectExtensions.QuickCopyTo
+  isSpec: "True"
+  fullName: CG.ObjectExtensions.QuickCopyTo
+  nameWithType: ObjectExtensions.QuickCopyTo
 - uid: CG.RandomEx
   name: RandomEx
   href: api/CG.RandomEx.html

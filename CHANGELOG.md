@@ -1,6 +1,10 @@
 # CG.Core change log
 ---
 
+## 2022.2
+
+* I added a QuickCopyTo method to the object extensions.
+
 ## 2022.1
 
 * I changed the framework version to 6.0

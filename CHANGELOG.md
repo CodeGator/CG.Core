@@ -4,6 +4,7 @@
 ## 2022.2
 
 * I added a QuickCopyTo method to the object extensions.
+* I added extensions to deserialize JSON into anonymous c# types.
 
 ## 2022.1
 

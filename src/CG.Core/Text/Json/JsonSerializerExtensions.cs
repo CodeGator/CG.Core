@@ -3,7 +3,7 @@ using System.Text.Json;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace CG.Text.Json;
+namespace System.Text.Json;
 
 /// <summary>
 /// This class containts extension methods related to the <see cref="JsonSerializer"/>

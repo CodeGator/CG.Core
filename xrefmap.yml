@@ -964,50 +964,6 @@ references:
   isSpec: "True"
   fullName: CG.StringExtensions.ToBase64
   nameWithType: StringExtensions.ToBase64
-- uid: CG.Text.Json
-  name: CG.Text.Json
-  href: api/CG.Text.Json.html
-  commentId: N:CG.Text.Json
-  fullName: CG.Text.Json
-  nameWithType: CG.Text.Json
-- uid: CG.Text.Json.JsonSerializerExtensions
-  name: JsonSerializerExtensions
-  href: api/CG.Text.Json.JsonSerializerExtensions.html
-  commentId: T:CG.Text.Json.JsonSerializerExtensions
-  fullName: CG.Text.Json.JsonSerializerExtensions
-  nameWithType: JsonSerializerExtensions
-- uid: CG.Text.Json.JsonSerializerExtensions.DeserializeAnonymousType*
-  name: DeserializeAnonymousType
-  href: api/CG.Text.Json.JsonSerializerExtensions.html#CG_Text_Json_JsonSerializerExtensions_DeserializeAnonymousType_
-  commentId: Overload:CG.Text.Json.JsonSerializerExtensions.DeserializeAnonymousType
-  isSpec: "True"
-  fullName: CG.Text.Json.JsonSerializerExtensions.DeserializeAnonymousType
-  nameWithType: JsonSerializerExtensions.DeserializeAnonymousType
-- uid: CG.Text.Json.JsonSerializerExtensions.DeserializeAnonymousType``1(System.String,``0,System.Text.Json.JsonSerializerOptions)
-  name: DeserializeAnonymousType<T>(String, T, JsonSerializerOptions)
-  href: api/CG.Text.Json.JsonSerializerExtensions.html#CG_Text_Json_JsonSerializerExtensions_DeserializeAnonymousType__1_System_String___0_System_Text_Json_JsonSerializerOptions_
-  commentId: M:CG.Text.Json.JsonSerializerExtensions.DeserializeAnonymousType``1(System.String,``0,System.Text.Json.JsonSerializerOptions)
-  name.vb: DeserializeAnonymousType(Of T)(String, T, JsonSerializerOptions)
-  fullName: CG.Text.Json.JsonSerializerExtensions.DeserializeAnonymousType<T>(System.String, T, System.Text.Json.JsonSerializerOptions)
-  fullName.vb: CG.Text.Json.JsonSerializerExtensions.DeserializeAnonymousType(Of T)(System.String, T, System.Text.Json.JsonSerializerOptions)
-  nameWithType: JsonSerializerExtensions.DeserializeAnonymousType<T>(String, T, JsonSerializerOptions)
-  nameWithType.vb: JsonSerializerExtensions.DeserializeAnonymousType(Of T)(String, T, JsonSerializerOptions)
-- uid: CG.Text.Json.JsonSerializerExtensions.DeserializeAnonymousTypeAsync*
-  name: DeserializeAnonymousTypeAsync
-  href: api/CG.Text.Json.JsonSerializerExtensions.html#CG_Text_Json_JsonSerializerExtensions_DeserializeAnonymousTypeAsync_
-  commentId: Overload:CG.Text.Json.JsonSerializerExtensions.DeserializeAnonymousTypeAsync
-  isSpec: "True"
-  fullName: CG.Text.Json.JsonSerializerExtensions.DeserializeAnonymousTypeAsync
-  nameWithType: JsonSerializerExtensions.DeserializeAnonymousTypeAsync
-- uid: CG.Text.Json.JsonSerializerExtensions.DeserializeAnonymousTypeAsync``1(System.IO.Stream,``0,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken)
-  name: DeserializeAnonymousTypeAsync<T>(Stream, T, JsonSerializerOptions, CancellationToken)
-  href: api/CG.Text.Json.JsonSerializerExtensions.html#CG_Text_Json_JsonSerializerExtensions_DeserializeAnonymousTypeAsync__1_System_IO_Stream___0_System_Text_Json_JsonSerializerOptions_System_Threading_CancellationToken_
-  commentId: M:CG.Text.Json.JsonSerializerExtensions.DeserializeAnonymousTypeAsync``1(System.IO.Stream,``0,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken)
-  name.vb: DeserializeAnonymousTypeAsync(Of T)(Stream, T, JsonSerializerOptions, CancellationToken)
-  fullName: CG.Text.Json.JsonSerializerExtensions.DeserializeAnonymousTypeAsync<T>(System.IO.Stream, T, System.Text.Json.JsonSerializerOptions, System.Threading.CancellationToken)
-  fullName.vb: CG.Text.Json.JsonSerializerExtensions.DeserializeAnonymousTypeAsync(Of T)(System.IO.Stream, T, System.Text.Json.JsonSerializerOptions, System.Threading.CancellationToken)
-  nameWithType: JsonSerializerExtensions.DeserializeAnonymousTypeAsync<T>(Stream, T, JsonSerializerOptions, CancellationToken)
-  nameWithType.vb: JsonSerializerExtensions.DeserializeAnonymousTypeAsync(Of T)(Stream, T, JsonSerializerOptions, CancellationToken)
 - uid: CG.Threading.Tasks
   name: CG.Threading.Tasks
   href: api/CG.Threading.Tasks.html
@@ -1566,3 +1522,47 @@ references:
   isSpec: "True"
   fullName: System.Security.Cryptography.StringExtensions.ToSha512
   nameWithType: StringExtensions.ToSha512
+- uid: System.Text.Json
+  name: System.Text.Json
+  href: api/System.Text.Json.html
+  commentId: N:System.Text.Json
+  fullName: System.Text.Json
+  nameWithType: System.Text.Json
+- uid: System.Text.Json.JsonSerializerExtensions
+  name: JsonSerializerExtensions
+  href: api/System.Text.Json.JsonSerializerExtensions.html
+  commentId: T:System.Text.Json.JsonSerializerExtensions
+  fullName: System.Text.Json.JsonSerializerExtensions
+  nameWithType: JsonSerializerExtensions
+- uid: System.Text.Json.JsonSerializerExtensions.DeserializeAnonymousType*
+  name: DeserializeAnonymousType
+  href: api/System.Text.Json.JsonSerializerExtensions.html#System_Text_Json_JsonSerializerExtensions_DeserializeAnonymousType_
+  commentId: Overload:System.Text.Json.JsonSerializerExtensions.DeserializeAnonymousType
+  isSpec: "True"
+  fullName: System.Text.Json.JsonSerializerExtensions.DeserializeAnonymousType
+  nameWithType: JsonSerializerExtensions.DeserializeAnonymousType
+- uid: System.Text.Json.JsonSerializerExtensions.DeserializeAnonymousType``1(System.String,``0,System.Text.Json.JsonSerializerOptions)
+  name: DeserializeAnonymousType<T>(String, T, JsonSerializerOptions)
+  href: api/System.Text.Json.JsonSerializerExtensions.html#System_Text_Json_JsonSerializerExtensions_DeserializeAnonymousType__1_System_String___0_System_Text_Json_JsonSerializerOptions_
+  commentId: M:System.Text.Json.JsonSerializerExtensions.DeserializeAnonymousType``1(System.String,``0,System.Text.Json.JsonSerializerOptions)
+  name.vb: DeserializeAnonymousType(Of T)(String, T, JsonSerializerOptions)
+  fullName: System.Text.Json.JsonSerializerExtensions.DeserializeAnonymousType<T>(System.String, T, System.Text.Json.JsonSerializerOptions)
+  fullName.vb: System.Text.Json.JsonSerializerExtensions.DeserializeAnonymousType(Of T)(System.String, T, System.Text.Json.JsonSerializerOptions)
+  nameWithType: JsonSerializerExtensions.DeserializeAnonymousType<T>(String, T, JsonSerializerOptions)
+  nameWithType.vb: JsonSerializerExtensions.DeserializeAnonymousType(Of T)(String, T, JsonSerializerOptions)
+- uid: System.Text.Json.JsonSerializerExtensions.DeserializeAnonymousTypeAsync*
+  name: DeserializeAnonymousTypeAsync
+  href: api/System.Text.Json.JsonSerializerExtensions.html#System_Text_Json_JsonSerializerExtensions_DeserializeAnonymousTypeAsync_
+  commentId: Overload:System.Text.Json.JsonSerializerExtensions.DeserializeAnonymousTypeAsync
+  isSpec: "True"
+  fullName: System.Text.Json.JsonSerializerExtensions.DeserializeAnonymousTypeAsync
+  nameWithType: JsonSerializerExtensions.DeserializeAnonymousTypeAsync
+- uid: System.Text.Json.JsonSerializerExtensions.DeserializeAnonymousTypeAsync``1(System.IO.Stream,``0,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken)
+  name: DeserializeAnonymousTypeAsync<T>(Stream, T, JsonSerializerOptions, CancellationToken)
+  href: api/System.Text.Json.JsonSerializerExtensions.html#System_Text_Json_JsonSerializerExtensions_DeserializeAnonymousTypeAsync__1_System_IO_Stream___0_System_Text_Json_JsonSerializerOptions_System_Threading_CancellationToken_
+  commentId: M:System.Text.Json.JsonSerializerExtensions.DeserializeAnonymousTypeAsync``1(System.IO.Stream,``0,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken)
+  name.vb: DeserializeAnonymousTypeAsync(Of T)(Stream, T, JsonSerializerOptions, CancellationToken)
+  fullName: System.Text.Json.JsonSerializerExtensions.DeserializeAnonymousTypeAsync<T>(System.IO.Stream, T, System.Text.Json.JsonSerializerOptions, System.Threading.CancellationToken)
+  fullName.vb: System.Text.Json.JsonSerializerExtensions.DeserializeAnonymousTypeAsync(Of T)(System.IO.Stream, T, System.Text.Json.JsonSerializerOptions, System.Threading.CancellationToken)
+  nameWithType: JsonSerializerExtensions.DeserializeAnonymousTypeAsync<T>(Stream, T, JsonSerializerOptions, CancellationToken)
+  nameWithType.vb: JsonSerializerExtensions.DeserializeAnonymousTypeAsync(Of T)(Stream, T, JsonSerializerOptions, CancellationToken)

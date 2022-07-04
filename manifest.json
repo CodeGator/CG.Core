@@ -150,7 +150,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CG.IO.StringStream.html",
-          "hash": "Rq8gseWMHxG0G2Kd0kox+XVeuVdvIP8W3RBa8pL1I9U="
+          "hash": "iRXnN8JaVtkaUhbVZkvnU5EH5VzqjKH0FRUFZFonu+8="
         }
       },
       "is_incremental": false,
@@ -162,7 +162,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CG.IO.TemporaryStream.html",
-          "hash": "OLXoOi97aD7+7WRzmsMkunplsMR2/pqTZmXihjuGnWw="
+          "hash": "7ql3UdXi3h5MXfJ0mvbnnQ3304j5lBHvLWtYRSNZjiA="
         }
       },
       "is_incremental": false,
@@ -446,30 +446,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/System.Text.Json.JsonSerializerExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/System.Text.Json.JsonSerializerExtensions.html",
-          "hash": "Y0M751RovHjMV7ij1ZAXk9ppKEmN5hgql6rpGekH7Ag="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/System.Text.Json.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/System.Text.Json.html",
-          "hash": "nW38l/oidoDSRJjZEAGzWvqBl9GQiPwPtjIFZ1b6zz0="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/System.yml",
       "output": {
         ".html": {
@@ -498,7 +474,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "0hjCM5AdYBEfN85rqSqtbKmuQ21RKcEB8o5DwU6+V4A="
+          "hash": "pF7xhlJt71xjrTboz0qLrnja7qUKmxg3R7wtFKcUVuY="
         }
       },
       "is_incremental": false,
@@ -617,7 +593,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 39,
+          "total_file_count": 37,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

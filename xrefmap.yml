@@ -938,6 +938,19 @@ references:
   isSpec: "True"
   fullName: CG.StringExtensions.Obfuscate
   nameWithType: StringExtensions.Obfuscate
+- uid: CG.StringExtensions.Reverse(System.String)
+  name: Reverse(String)
+  href: api/CG.StringExtensions.html#CG_StringExtensions_Reverse_System_String_
+  commentId: M:CG.StringExtensions.Reverse(System.String)
+  fullName: CG.StringExtensions.Reverse(System.String)
+  nameWithType: StringExtensions.Reverse(String)
+- uid: CG.StringExtensions.Reverse*
+  name: Reverse
+  href: api/CG.StringExtensions.html#CG_StringExtensions_Reverse_
+  commentId: Overload:CG.StringExtensions.Reverse
+  isSpec: "True"
+  fullName: CG.StringExtensions.Reverse
+  nameWithType: StringExtensions.Reverse
 - uid: CG.StringExtensions.Shuffle(System.String)
   name: Shuffle(String)
   href: api/CG.StringExtensions.html#CG_StringExtensions_Shuffle_System_String_

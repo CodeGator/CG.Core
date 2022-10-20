@@ -1,6 +1,10 @@
 # CG.Core change log
 ---
 
+## 2022.3
+
+* I added more string extension methods
+
 ## 2022.2
 
 * I added a QuickCopyTo method to the object extensions.

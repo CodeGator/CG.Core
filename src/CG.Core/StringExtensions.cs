@@ -8,7 +8,7 @@ using System.Text.RegularExpressions;
 namespace CG
 {
     /// <summary>
-    /// This class contains extensiom methods related to the <see cref="string"/>
+    /// This class contains extension methods related to the <see cref="string"/>
     /// type.
     /// </summary>
     public static partial class StringExtensions
@@ -238,6 +238,36 @@ namespace CG
 
             // Return the result.
             return base64;
+        }
+
+        // *******************************************************************
+
+        /// <summary>
+        /// This method reverses the characters in a string.
+        /// </summary>
+        /// <param name="incoming">The string to be reversed.</param>
+        /// <returns>A reversed version of the specified string.</returns>
+        public static string Reverse(
+            this string incoming
+            )
+        {
+            // Validate the parameters before attempting to use them.
+            Guard.Instance().ThrowIfNull(incoming, nameof(incoming));
+
+            // Reverse the characters.
+            var reversedChars = incoming.ToCharArray()
+                .Reverse()
+                .ToArray();
+
+            // Make a new string.
+            var result = new string(
+                reversedChars,
+                0,
+                reversedChars.Length
+                );
+
+            // Return the results.
+            return result;
         }
 
         #endregion

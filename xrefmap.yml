@@ -1,159 +1,41 @@
 ### YamlMime:XRefMap
 sorted: true
 references:
-- uid: CG.Cryptography
-  name: CG.Cryptography
-  href: api/CG.Cryptography.html
-  commentId: N:CG.Cryptography
-  fullName: CG.Cryptography
-  nameWithType: CG.Cryptography
-- uid: CG.Cryptography.CryptographyException
-  name: CryptographyException
-  href: api/CG.Cryptography.CryptographyException.html
-  commentId: T:CG.Cryptography.CryptographyException
-  fullName: CG.Cryptography.CryptographyException
-  nameWithType: CryptographyException
-- uid: CG.Cryptography.CryptographyException.#ctor
-  name: CryptographyException()
-  href: api/CG.Cryptography.CryptographyException.html#CG_Cryptography_CryptographyException__ctor
-  commentId: M:CG.Cryptography.CryptographyException.#ctor
-  fullName: CG.Cryptography.CryptographyException.CryptographyException()
-  nameWithType: CryptographyException.CryptographyException()
-- uid: CG.Cryptography.CryptographyException.#ctor(SerializationInfo,StreamingContext)
-  name: CryptographyException(SerializationInfo, StreamingContext)
-  href: api/CG.Cryptography.CryptographyException.html#CG_Cryptography_CryptographyException__ctor_SerializationInfo_StreamingContext_
-  commentId: M:CG.Cryptography.CryptographyException.#ctor(SerializationInfo,StreamingContext)
-  fullName: CG.Cryptography.CryptographyException.CryptographyException(SerializationInfo, StreamingContext)
-  nameWithType: CryptographyException.CryptographyException(SerializationInfo, StreamingContext)
-- uid: CG.Cryptography.CryptographyException.#ctor(System.String)
-  name: CryptographyException(String)
-  href: api/CG.Cryptography.CryptographyException.html#CG_Cryptography_CryptographyException__ctor_System_String_
-  commentId: M:CG.Cryptography.CryptographyException.#ctor(System.String)
-  fullName: CG.Cryptography.CryptographyException.CryptographyException(System.String)
-  nameWithType: CryptographyException.CryptographyException(String)
-- uid: CG.Cryptography.CryptographyException.#ctor(System.String,Exception)
-  name: CryptographyException(String, Exception)
-  href: api/CG.Cryptography.CryptographyException.html#CG_Cryptography_CryptographyException__ctor_System_String_Exception_
-  commentId: M:CG.Cryptography.CryptographyException.#ctor(System.String,Exception)
-  fullName: CG.Cryptography.CryptographyException.CryptographyException(System.String, Exception)
-  nameWithType: CryptographyException.CryptographyException(String, Exception)
-- uid: CG.Cryptography.CryptographyException.#ctor*
-  name: CryptographyException
-  href: api/CG.Cryptography.CryptographyException.html#CG_Cryptography_CryptographyException__ctor_
-  commentId: Overload:CG.Cryptography.CryptographyException.#ctor
+- uid: Microsoft.EntityFrameworkCore.Infrastructure
+  name: Microsoft.EntityFrameworkCore.Infrastructure
+  href: api/Microsoft.EntityFrameworkCore.Infrastructure.html
+  commentId: N:Microsoft.EntityFrameworkCore.Infrastructure
+  fullName: Microsoft.EntityFrameworkCore.Infrastructure
+  nameWithType: Microsoft.EntityFrameworkCore.Infrastructure
+- uid: Microsoft.EntityFrameworkCore.Infrastructure.DatabaseFacadeExtensions
+  name: DatabaseFacadeExtensions
+  href: api/Microsoft.EntityFrameworkCore.Infrastructure.DatabaseFacadeExtensions.html
+  commentId: T:Microsoft.EntityFrameworkCore.Infrastructure.DatabaseFacadeExtensions
+  fullName: Microsoft.EntityFrameworkCore.Infrastructure.DatabaseFacadeExtensions
+  nameWithType: DatabaseFacadeExtensions
+- uid: Microsoft.EntityFrameworkCore.Infrastructure.DatabaseFacadeExtensions.GetDatabaseName(Microsoft.EntityFrameworkCore.Infrastructure.DatabaseFacade)
+  name: GetDatabaseName(DatabaseFacade)
+  href: api/Microsoft.EntityFrameworkCore.Infrastructure.DatabaseFacadeExtensions.html#Microsoft_EntityFrameworkCore_Infrastructure_DatabaseFacadeExtensions_GetDatabaseName_Microsoft_EntityFrameworkCore_Infrastructure_DatabaseFacade_
+  commentId: M:Microsoft.EntityFrameworkCore.Infrastructure.DatabaseFacadeExtensions.GetDatabaseName(Microsoft.EntityFrameworkCore.Infrastructure.DatabaseFacade)
+  fullName: Microsoft.EntityFrameworkCore.Infrastructure.DatabaseFacadeExtensions.GetDatabaseName(Microsoft.EntityFrameworkCore.Infrastructure.DatabaseFacade)
+  nameWithType: DatabaseFacadeExtensions.GetDatabaseName(DatabaseFacade)
+- uid: Microsoft.EntityFrameworkCore.Infrastructure.DatabaseFacadeExtensions.GetDatabaseName*
+  name: GetDatabaseName
+  href: api/Microsoft.EntityFrameworkCore.Infrastructure.DatabaseFacadeExtensions.html#Microsoft_EntityFrameworkCore_Infrastructure_DatabaseFacadeExtensions_GetDatabaseName_
+  commentId: Overload:Microsoft.EntityFrameworkCore.Infrastructure.DatabaseFacadeExtensions.GetDatabaseName
   isSpec: "True"
-  fullName: CG.Cryptography.CryptographyException.CryptographyException
-  nameWithType: CryptographyException.CryptographyException
-- uid: CG.Cryptography.CryptographyExtensions
-  name: CryptographyExtensions
-  href: api/CG.Cryptography.CryptographyExtensions.html
-  commentId: T:CG.Cryptography.CryptographyExtensions
-  fullName: CG.Cryptography.CryptographyExtensions
-  nameWithType: CryptographyExtensions
-- uid: CG.Cryptography.CryptographyExtensions.AesDecryptAsync(CG.Cryptography.ICryptography,System.Byte[],System.Byte[],System.Byte[],CancellationToken)
-  name: AesDecryptAsync(ICryptography, Byte[], Byte[], Byte[], CancellationToken)
-  href: api/CG.Cryptography.CryptographyExtensions.html#CG_Cryptography_CryptographyExtensions_AesDecryptAsync_CG_Cryptography_ICryptography_System_Byte___System_Byte___System_Byte___CancellationToken_
-  commentId: M:CG.Cryptography.CryptographyExtensions.AesDecryptAsync(CG.Cryptography.ICryptography,System.Byte[],System.Byte[],System.Byte[],CancellationToken)
-  name.vb: AesDecryptAsync(ICryptography, Byte(), Byte(), Byte(), CancellationToken)
-  fullName: CG.Cryptography.CryptographyExtensions.AesDecryptAsync(CG.Cryptography.ICryptography, System.Byte[], System.Byte[], System.Byte[], CancellationToken)
-  fullName.vb: CG.Cryptography.CryptographyExtensions.AesDecryptAsync(CG.Cryptography.ICryptography, System.Byte(), System.Byte(), System.Byte(), CancellationToken)
-  nameWithType: CryptographyExtensions.AesDecryptAsync(ICryptography, Byte[], Byte[], Byte[], CancellationToken)
-  nameWithType.vb: CryptographyExtensions.AesDecryptAsync(ICryptography, Byte(), Byte(), Byte(), CancellationToken)
-- uid: CG.Cryptography.CryptographyExtensions.AesDecryptAsync(CG.Cryptography.ICryptography,System.Byte[],System.Byte[],System.String,CancellationToken)
-  name: AesDecryptAsync(ICryptography, Byte[], Byte[], String, CancellationToken)
-  href: api/CG.Cryptography.CryptographyExtensions.html#CG_Cryptography_CryptographyExtensions_AesDecryptAsync_CG_Cryptography_ICryptography_System_Byte___System_Byte___System_String_CancellationToken_
-  commentId: M:CG.Cryptography.CryptographyExtensions.AesDecryptAsync(CG.Cryptography.ICryptography,System.Byte[],System.Byte[],System.String,CancellationToken)
-  name.vb: AesDecryptAsync(ICryptography, Byte(), Byte(), String, CancellationToken)
-  fullName: CG.Cryptography.CryptographyExtensions.AesDecryptAsync(CG.Cryptography.ICryptography, System.Byte[], System.Byte[], System.String, CancellationToken)
-  fullName.vb: CG.Cryptography.CryptographyExtensions.AesDecryptAsync(CG.Cryptography.ICryptography, System.Byte(), System.Byte(), System.String, CancellationToken)
-  nameWithType: CryptographyExtensions.AesDecryptAsync(ICryptography, Byte[], Byte[], String, CancellationToken)
-  nameWithType.vb: CryptographyExtensions.AesDecryptAsync(ICryptography, Byte(), Byte(), String, CancellationToken)
-- uid: CG.Cryptography.CryptographyExtensions.AesDecryptAsync*
-  name: AesDecryptAsync
-  href: api/CG.Cryptography.CryptographyExtensions.html#CG_Cryptography_CryptographyExtensions_AesDecryptAsync_
-  commentId: Overload:CG.Cryptography.CryptographyExtensions.AesDecryptAsync
+  fullName: Microsoft.EntityFrameworkCore.Infrastructure.DatabaseFacadeExtensions.GetDatabaseName
+  nameWithType: DatabaseFacadeExtensions.GetDatabaseName
+- uid: Microsoft.EntityFrameworkCore.Infrastructure.DatabaseFacadeExtensions.GetServerName(Microsoft.EntityFrameworkCore.Infrastructure.DatabaseFacade)
+  name: GetServerName(DatabaseFacade)
+  href: api/Microsoft.EntityFrameworkCore.Infrastructure.DatabaseFacadeExtensions.html#Microsoft_EntityFrameworkCore_Infrastructure_DatabaseFacadeExtensions_GetServerName_Microsoft_EntityFrameworkCore_Infrastructure_DatabaseFacade_
+  commentId: M:Microsoft.EntityFrameworkCore.Infrastructure.DatabaseFacadeExtensions.GetServerName(Microsoft.EntityFrameworkCore.Infrastructure.DatabaseFacade)
+  fullName: Microsoft.EntityFrameworkCore.Infrastructure.DatabaseFacadeExtensions.GetServerName(Microsoft.EntityFrameworkCore.Infrastructure.DatabaseFacade)
+  nameWithType: DatabaseFacadeExtensions.GetServerName(DatabaseFacade)
+- uid: Microsoft.EntityFrameworkCore.Infrastructure.DatabaseFacadeExtensions.GetServerName*
+  name: GetServerName
+  href: api/Microsoft.EntityFrameworkCore.Infrastructure.DatabaseFacadeExtensions.html#Microsoft_EntityFrameworkCore_Infrastructure_DatabaseFacadeExtensions_GetServerName_
+  commentId: Overload:Microsoft.EntityFrameworkCore.Infrastructure.DatabaseFacadeExtensions.GetServerName
   isSpec: "True"
-  fullName: CG.Cryptography.CryptographyExtensions.AesDecryptAsync
-  nameWithType: CryptographyExtensions.AesDecryptAsync
-- uid: CG.Cryptography.CryptographyExtensions.AesEncryptAsync(CG.Cryptography.ICryptography,System.Byte[],System.Byte[],System.Byte[],CancellationToken)
-  name: AesEncryptAsync(ICryptography, Byte[], Byte[], Byte[], CancellationToken)
-  href: api/CG.Cryptography.CryptographyExtensions.html#CG_Cryptography_CryptographyExtensions_AesEncryptAsync_CG_Cryptography_ICryptography_System_Byte___System_Byte___System_Byte___CancellationToken_
-  commentId: M:CG.Cryptography.CryptographyExtensions.AesEncryptAsync(CG.Cryptography.ICryptography,System.Byte[],System.Byte[],System.Byte[],CancellationToken)
-  name.vb: AesEncryptAsync(ICryptography, Byte(), Byte(), Byte(), CancellationToken)
-  fullName: CG.Cryptography.CryptographyExtensions.AesEncryptAsync(CG.Cryptography.ICryptography, System.Byte[], System.Byte[], System.Byte[], CancellationToken)
-  fullName.vb: CG.Cryptography.CryptographyExtensions.AesEncryptAsync(CG.Cryptography.ICryptography, System.Byte(), System.Byte(), System.Byte(), CancellationToken)
-  nameWithType: CryptographyExtensions.AesEncryptAsync(ICryptography, Byte[], Byte[], Byte[], CancellationToken)
-  nameWithType.vb: CryptographyExtensions.AesEncryptAsync(ICryptography, Byte(), Byte(), Byte(), CancellationToken)
-- uid: CG.Cryptography.CryptographyExtensions.AesEncryptAsync(CG.Cryptography.ICryptography,System.Byte[],System.Byte[],System.String,CancellationToken)
-  name: AesEncryptAsync(ICryptography, Byte[], Byte[], String, CancellationToken)
-  href: api/CG.Cryptography.CryptographyExtensions.html#CG_Cryptography_CryptographyExtensions_AesEncryptAsync_CG_Cryptography_ICryptography_System_Byte___System_Byte___System_String_CancellationToken_
-  commentId: M:CG.Cryptography.CryptographyExtensions.AesEncryptAsync(CG.Cryptography.ICryptography,System.Byte[],System.Byte[],System.String,CancellationToken)
-  name.vb: AesEncryptAsync(ICryptography, Byte(), Byte(), String, CancellationToken)
-  fullName: CG.Cryptography.CryptographyExtensions.AesEncryptAsync(CG.Cryptography.ICryptography, System.Byte[], System.Byte[], System.String, CancellationToken)
-  fullName.vb: CG.Cryptography.CryptographyExtensions.AesEncryptAsync(CG.Cryptography.ICryptography, System.Byte(), System.Byte(), System.String, CancellationToken)
-  nameWithType: CryptographyExtensions.AesEncryptAsync(ICryptography, Byte[], Byte[], String, CancellationToken)
-  nameWithType.vb: CryptographyExtensions.AesEncryptAsync(ICryptography, Byte(), Byte(), String, CancellationToken)
-- uid: CG.Cryptography.CryptographyExtensions.AesEncryptAsync*
-  name: AesEncryptAsync
-  href: api/CG.Cryptography.CryptographyExtensions.html#CG_Cryptography_CryptographyExtensions_AesEncryptAsync_
-  commentId: Overload:CG.Cryptography.CryptographyExtensions.AesEncryptAsync
-  isSpec: "True"
-  fullName: CG.Cryptography.CryptographyExtensions.AesEncryptAsync
-  nameWithType: CryptographyExtensions.AesEncryptAsync
-- uid: CG.Cryptography.ICryptography
-  name: ICryptography
-  href: api/CG.Cryptography.ICryptography.html
-  commentId: T:CG.Cryptography.ICryptography
-  fullName: CG.Cryptography.ICryptography
-  nameWithType: ICryptography
-- uid: CG.Cryptography.ICryptography.GenerateKeyAndIVAsync(System.String,CancellationToken)
-  name: GenerateKeyAndIVAsync(String, CancellationToken)
-  href: api/CG.Cryptography.ICryptography.html#CG_Cryptography_ICryptography_GenerateKeyAndIVAsync_System_String_CancellationToken_
-  commentId: M:CG.Cryptography.ICryptography.GenerateKeyAndIVAsync(System.String,CancellationToken)
-  fullName: CG.Cryptography.ICryptography.GenerateKeyAndIVAsync(System.String, CancellationToken)
-  nameWithType: ICryptography.GenerateKeyAndIVAsync(String, CancellationToken)
-- uid: CG.Cryptography.ICryptography.GenerateKeyAndIVAsync*
-  name: GenerateKeyAndIVAsync
-  href: api/CG.Cryptography.ICryptography.html#CG_Cryptography_ICryptography_GenerateKeyAndIVAsync_
-  commentId: Overload:CG.Cryptography.ICryptography.GenerateKeyAndIVAsync
-  isSpec: "True"
-  fullName: CG.Cryptography.ICryptography.GenerateKeyAndIVAsync
-  nameWithType: ICryptography.GenerateKeyAndIVAsync
-- uid: CG.Cryptography.ICryptography.Logger
-  name: Logger
-  href: api/CG.Cryptography.ICryptography.html#CG_Cryptography_ICryptography_Logger
-  commentId: P:CG.Cryptography.ICryptography.Logger
-  fullName: CG.Cryptography.ICryptography.Logger
-  nameWithType: ICryptography.Logger
-- uid: CG.Cryptography.ICryptography.Logger*
-  name: Logger
-  href: api/CG.Cryptography.ICryptography.html#CG_Cryptography_ICryptography_Logger_
-  commentId: Overload:CG.Cryptography.ICryptography.Logger
-  isSpec: "True"
-  fullName: CG.Cryptography.ICryptography.Logger
-  nameWithType: ICryptography.Logger
-- uid: Microsoft.Extensions.DependencyInjection
-  name: Microsoft.Extensions.DependencyInjection
-  href: api/Microsoft.Extensions.DependencyInjection.html
-  commentId: N:Microsoft.Extensions.DependencyInjection
-  fullName: Microsoft.Extensions.DependencyInjection
-  nameWithType: Microsoft.Extensions.DependencyInjection
-- uid: Microsoft.Extensions.DependencyInjection.WebApplicationBuilderExtensions
-  name: WebApplicationBuilderExtensions
-  href: api/Microsoft.Extensions.DependencyInjection.WebApplicationBuilderExtensions.html
-  commentId: T:Microsoft.Extensions.DependencyInjection.WebApplicationBuilderExtensions
-  fullName: Microsoft.Extensions.DependencyInjection.WebApplicationBuilderExtensions
-  nameWithType: WebApplicationBuilderExtensions
-- uid: Microsoft.Extensions.DependencyInjection.WebApplicationBuilderExtensions.AddCryptography(WebApplicationBuilder,Microsoft.Extensions.DependencyInjection.ServiceLifetime)
-  name: AddCryptography(WebApplicationBuilder, ServiceLifetime)
-  href: api/Microsoft.Extensions.DependencyInjection.WebApplicationBuilderExtensions.html#Microsoft_Extensions_DependencyInjection_WebApplicationBuilderExtensions_AddCryptography_WebApplicationBuilder_Microsoft_Extensions_DependencyInjection_ServiceLifetime_
-  commentId: M:Microsoft.Extensions.DependencyInjection.WebApplicationBuilderExtensions.AddCryptography(WebApplicationBuilder,Microsoft.Extensions.DependencyInjection.ServiceLifetime)
-  fullName: Microsoft.Extensions.DependencyInjection.WebApplicationBuilderExtensions.AddCryptography(WebApplicationBuilder, Microsoft.Extensions.DependencyInjection.ServiceLifetime)
-  nameWithType: WebApplicationBuilderExtensions.AddCryptography(WebApplicationBuilder, ServiceLifetime)
-- uid: Microsoft.Extensions.DependencyInjection.WebApplicationBuilderExtensions.AddCryptography*
-  name: AddCryptography
-  href: api/Microsoft.Extensions.DependencyInjection.WebApplicationBuilderExtensions.html#Microsoft_Extensions_DependencyInjection_WebApplicationBuilderExtensions_AddCryptography_
-  commentId: Overload:Microsoft.Extensions.DependencyInjection.WebApplicationBuilderExtensions.AddCryptography
-  isSpec: "True"
-  fullName: Microsoft.Extensions.DependencyInjection.WebApplicationBuilderExtensions.AddCryptography
-  nameWithType: WebApplicationBuilderExtensions.AddCryptography
+  fullName: Microsoft.EntityFrameworkCore.Infrastructure.DatabaseFacadeExtensions.GetServerName
+  nameWithType: DatabaseFacadeExtensions.GetServerName

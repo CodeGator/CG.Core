@@ -14,11 +14,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/CG.Cryptography.CryptographyException.yml",
+      "source_relative_path": "api/Microsoft.EntityFrameworkCore.Infrastructure.DatabaseFacadeExtensions.yml",
       "output": {
         ".html": {
-          "relative_path": "api/CG.Cryptography.CryptographyException.html",
-          "hash": "7SNLZnSf8B6dLuBO8S4a72FUFxeJFxOso99C9dl9mFI="
+          "relative_path": "api/Microsoft.EntityFrameworkCore.Infrastructure.DatabaseFacadeExtensions.html",
+          "hash": "n+BV9nauqGG2klWXObb8WU7MeMFEuEWt50GRTAH5ci0="
         }
       },
       "is_incremental": false,
@@ -26,59 +26,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/CG.Cryptography.CryptographyExtensions.yml",
+      "source_relative_path": "api/Microsoft.EntityFrameworkCore.Infrastructure.yml",
       "output": {
         ".html": {
-          "relative_path": "api/CG.Cryptography.CryptographyExtensions.html",
-          "hash": "7wbUazDzjkaFhuJAiEVHEOmjO9fKLOMVtOsRhHBQbuM="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/CG.Cryptography.ICryptography.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/CG.Cryptography.ICryptography.html",
-          "hash": "r8KQuTEk9gElULrCLdfy4nbckqKm1WvlKKuvtITTX64="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/CG.Cryptography.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/CG.Cryptography.html",
-          "hash": "zKLXrOqBcUW+ZUQYtlGCeR8BMbRyYMcIJIc03rGu21M="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Microsoft.Extensions.DependencyInjection.WebApplicationBuilderExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Microsoft.Extensions.DependencyInjection.WebApplicationBuilderExtensions.html",
-          "hash": "gI0NkyckSCBxIYQLPmv5L0ToKQDFuazaAqr8UOrz5U0="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Microsoft.Extensions.DependencyInjection.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Microsoft.Extensions.DependencyInjection.html",
-          "hash": "n9nGoNlLhD+Uk1lejCogUvugZrf8tQY1LYVs7q5y2KM="
+          "relative_path": "api/Microsoft.EntityFrameworkCore.Infrastructure.html",
+          "hash": "ZnhAaaxtwH4U7o8rWzEs0ygiAZwS0PiiIxfaxvSPsb4="
         }
       },
       "is_incremental": false,
@@ -102,7 +54,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "ueXZFOP2hSzKpjvy08NElCCYzhv1FgEFrXqaSupspuI="
+          "hash": "SgwLP3xdn0VI2x5jgCsl9IiIjYxIDYRikkEIeaF4MDA="
         }
       },
       "is_incremental": false,
@@ -182,7 +134,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "AEW1ko426ZNPQS+mvJ4/59nLfR01gRODaLdSjnRj+Rw="
+          "hash": "Q70sqkxeBpCaaiLvak7XfWWwyFFc+jxDC0KXGW+3MtI="
         }
       },
       "is_incremental": false,
@@ -194,7 +146,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "J3+mydyZJvgUCh7JvNfOnfgj6cKPiLe9kQ1tYiZlof4="
+          "hash": "CvgmtPKCduwOaEf6XnaDgML/FPruwW1jjoGt44H7q3g="
         }
       },
       "is_incremental": false,
@@ -221,7 +173,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 6,
+          "total_file_count": 2,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

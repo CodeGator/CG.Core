@@ -50,15 +50,6 @@ references:
   commentId: T:CG.Cryptography.CryptographyExtensions
   fullName: CG.Cryptography.CryptographyExtensions
   nameWithType: CryptographyExtensions
-- uid: CG.Cryptography.CryptographyExtensions.AesDecryptAsync(CG.Cryptography.ICryptography,System.Byte[],System.Byte[],Stream,Stream,CancellationToken)
-  name: AesDecryptAsync(ICryptography, Byte[], Byte[], Stream, Stream, CancellationToken)
-  href: api/CG.Cryptography.CryptographyExtensions.html#CG_Cryptography_CryptographyExtensions_AesDecryptAsync_CG_Cryptography_ICryptography_System_Byte___System_Byte___Stream_Stream_CancellationToken_
-  commentId: M:CG.Cryptography.CryptographyExtensions.AesDecryptAsync(CG.Cryptography.ICryptography,System.Byte[],System.Byte[],Stream,Stream,CancellationToken)
-  name.vb: AesDecryptAsync(ICryptography, Byte(), Byte(), Stream, Stream, CancellationToken)
-  fullName: CG.Cryptography.CryptographyExtensions.AesDecryptAsync(CG.Cryptography.ICryptography, System.Byte[], System.Byte[], Stream, Stream, CancellationToken)
-  fullName.vb: CG.Cryptography.CryptographyExtensions.AesDecryptAsync(CG.Cryptography.ICryptography, System.Byte(), System.Byte(), Stream, Stream, CancellationToken)
-  nameWithType: CryptographyExtensions.AesDecryptAsync(ICryptography, Byte[], Byte[], Stream, Stream, CancellationToken)
-  nameWithType.vb: CryptographyExtensions.AesDecryptAsync(ICryptography, Byte(), Byte(), Stream, Stream, CancellationToken)
 - uid: CG.Cryptography.CryptographyExtensions.AesDecryptAsync(CG.Cryptography.ICryptography,System.Byte[],System.Byte[],System.Byte[],CancellationToken)
   name: AesDecryptAsync(ICryptography, Byte[], Byte[], Byte[], CancellationToken)
   href: api/CG.Cryptography.CryptographyExtensions.html#CG_Cryptography_CryptographyExtensions_AesDecryptAsync_CG_Cryptography_ICryptography_System_Byte___System_Byte___System_Byte___CancellationToken_

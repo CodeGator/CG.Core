@@ -106,12 +106,12 @@ references:
   commentId: T:CG.Cryptography.ICryptography
   fullName: CG.Cryptography.ICryptography
   nameWithType: ICryptography
-- uid: CG.Cryptography.ICryptography.GenerateKeyAndIVAsync(System.String,CancellationToken)
-  name: GenerateKeyAndIVAsync(String, CancellationToken)
-  href: api/CG.Cryptography.ICryptography.html#CG_Cryptography_ICryptography_GenerateKeyAndIVAsync_System_String_CancellationToken_
-  commentId: M:CG.Cryptography.ICryptography.GenerateKeyAndIVAsync(System.String,CancellationToken)
-  fullName: CG.Cryptography.ICryptography.GenerateKeyAndIVAsync(System.String, CancellationToken)
-  nameWithType: ICryptography.GenerateKeyAndIVAsync(String, CancellationToken)
+- uid: CG.Cryptography.ICryptography.GenerateKeyAndIVAsync(System.String,System.String,CancellationToken)
+  name: GenerateKeyAndIVAsync(String, String, CancellationToken)
+  href: api/CG.Cryptography.ICryptography.html#CG_Cryptography_ICryptography_GenerateKeyAndIVAsync_System_String_System_String_CancellationToken_
+  commentId: M:CG.Cryptography.ICryptography.GenerateKeyAndIVAsync(System.String,System.String,CancellationToken)
+  fullName: CG.Cryptography.ICryptography.GenerateKeyAndIVAsync(System.String, System.String, CancellationToken)
+  nameWithType: ICryptography.GenerateKeyAndIVAsync(String, String, CancellationToken)
 - uid: CG.Cryptography.ICryptography.GenerateKeyAndIVAsync*
   name: GenerateKeyAndIVAsync
   href: api/CG.Cryptography.ICryptography.html#CG_Cryptography_ICryptography_GenerateKeyAndIVAsync_

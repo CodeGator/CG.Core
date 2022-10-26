@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class CryptographyExtensions
+    <title>Class CryptographerExtensions
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class CryptographyExtensions
+    <meta name="title" content="Class CryptographerExtensions
    ">
     <meta name="generator" content="docfx 2.59.4.0">
     
@@ -78,19 +78,19 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="CG.Cryptography.CryptographyExtensions">
+            <article class="content wrap" id="_content" data-uid="CG.Cryptography.CryptographerExtensions">
   
   
-  <h1 id="CG_Cryptography_CryptographyExtensions" data-uid="CG.Cryptography.CryptographyExtensions" class="text-break">Class CryptographyExtensions
+  <h1 id="CG_Cryptography_CryptographerExtensions" data-uid="CG.Cryptography.CryptographerExtensions" class="text-break">Class CryptographerExtensions
   </h1>
-  <div class="markdown level0 summary"><p>This class contains extension methods related to the <a class="xref" href="CG.Cryptography.ICryptography.html">ICryptography</a>
+  <div class="markdown level0 summary"><p>This class contains extension methods related to the <a class="xref" href="CG.Cryptography.ICryptographer.html">ICryptographer</a>
 type.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">CryptographyExtensions</span></div>
+    <div class="level1"><span class="xref">CryptographerExtensions</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -118,20 +118,20 @@ type.</p>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="CG.Cryptography.html">CG.Cryptography</a></h6>
   <h6><strong>Assembly</strong>: CG.Cryptography.dll</h6>
-  <h5 id="CG_Cryptography_CryptographyExtensions_syntax">Syntax</h5>
+  <h5 id="CG_Cryptography_CryptographerExtensions_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static class CryptographyExtensions</code></pre>
+    <pre><code class="lang-csharp hljs">public static class CryptographerExtensions</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
-  <a id="CG_Cryptography_CryptographyExtensions_AesDecryptAsync_" data-uid="CG.Cryptography.CryptographyExtensions.AesDecryptAsync*"></a>
-  <h4 id="CG_Cryptography_CryptographyExtensions_AesDecryptAsync_CG_Cryptography_ICryptography_System_Byte___System_Byte___System_Byte___CancellationToken_" data-uid="CG.Cryptography.CryptographyExtensions.AesDecryptAsync(CG.Cryptography.ICryptography,System.Byte[],System.Byte[],System.Byte[],CancellationToken)">AesDecryptAsync(ICryptography, Byte[], Byte[], Byte[], CancellationToken)</h4>
+  <a id="CG_Cryptography_CryptographerExtensions_AesDecryptAsync_" data-uid="CG.Cryptography.CryptographerExtensions.AesDecryptAsync*"></a>
+  <h4 id="CG_Cryptography_CryptographerExtensions_AesDecryptAsync_CG_Cryptography_ICryptographer_System_Byte___System_Byte___System_Byte___CancellationToken_" data-uid="CG.Cryptography.CryptographerExtensions.AesDecryptAsync(CG.Cryptography.ICryptographer,System.Byte[],System.Byte[],System.Byte[],CancellationToken)">AesDecryptAsync(ICryptographer, Byte[], Byte[], Byte[], CancellationToken)</h4>
   <div class="markdown level1 summary"><p>This method decrypts the given bytes using AES.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static async ValueTask&lt;byte[]&gt; AesDecryptAsync(this ICryptography cryptography, byte[] key, byte[] iv, byte[] value, CancellationToken cancellationToken = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public static async ValueTask&lt;byte[]&gt; AesDecryptAsync(this ICryptographer cryptography, byte[] key, byte[] iv, byte[] value, CancellationToken cancellationToken = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -144,7 +144,7 @@ type.</p>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="CG.Cryptography.ICryptography.html">ICryptography</a></td>
+        <td><a class="xref" href="CG.Cryptography.ICryptographer.html">ICryptographer</a></td>
         <td><span class="parametername">cryptography</span></td>
         <td><p>The cryptography instance to use for the
 operation.</p>
@@ -193,14 +193,14 @@ bytes.</p>
       </tr>
     </tbody>
   </table>
-  <a id="CG_Cryptography_CryptographyExtensions_AesDecryptAsync_" data-uid="CG.Cryptography.CryptographyExtensions.AesDecryptAsync*"></a>
-  <h4 id="CG_Cryptography_CryptographyExtensions_AesDecryptAsync_CG_Cryptography_ICryptography_System_Byte___System_Byte___System_String_CancellationToken_" data-uid="CG.Cryptography.CryptographyExtensions.AesDecryptAsync(CG.Cryptography.ICryptography,System.Byte[],System.Byte[],System.String,CancellationToken)">AesDecryptAsync(ICryptography, Byte[], Byte[], String, CancellationToken)</h4>
+  <a id="CG_Cryptography_CryptographerExtensions_AesDecryptAsync_" data-uid="CG.Cryptography.CryptographerExtensions.AesDecryptAsync*"></a>
+  <h4 id="CG_Cryptography_CryptographerExtensions_AesDecryptAsync_CG_Cryptography_ICryptographer_System_Byte___System_Byte___System_String_CancellationToken_" data-uid="CG.Cryptography.CryptographerExtensions.AesDecryptAsync(CG.Cryptography.ICryptographer,System.Byte[],System.Byte[],System.String,CancellationToken)">AesDecryptAsync(ICryptographer, Byte[], Byte[], String, CancellationToken)</h4>
   <div class="markdown level1 summary"><p>This method decrypts the given string using AES.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static ValueTask&lt;string&gt; AesDecryptAsync(this ICryptography cryptography, byte[] key, byte[] iv, string value, CancellationToken cancellationToken = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public static ValueTask&lt;string&gt; AesDecryptAsync(this ICryptographer cryptography, byte[] key, byte[] iv, string value, CancellationToken cancellationToken = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -213,7 +213,7 @@ bytes.</p>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="CG.Cryptography.ICryptography.html">ICryptography</a></td>
+        <td><a class="xref" href="CG.Cryptography.ICryptographer.html">ICryptographer</a></td>
         <td><span class="parametername">cryptography</span></td>
         <td><p>The cryptography instance to use for the
 operation.</p>
@@ -261,14 +261,14 @@ operation.</p>
       </tr>
     </tbody>
   </table>
-  <a id="CG_Cryptography_CryptographyExtensions_AesEncryptAsync_" data-uid="CG.Cryptography.CryptographyExtensions.AesEncryptAsync*"></a>
-  <h4 id="CG_Cryptography_CryptographyExtensions_AesEncryptAsync_CG_Cryptography_ICryptography_System_Byte___System_Byte___System_Byte___CancellationToken_" data-uid="CG.Cryptography.CryptographyExtensions.AesEncryptAsync(CG.Cryptography.ICryptography,System.Byte[],System.Byte[],System.Byte[],CancellationToken)">AesEncryptAsync(ICryptography, Byte[], Byte[], Byte[], CancellationToken)</h4>
+  <a id="CG_Cryptography_CryptographerExtensions_AesEncryptAsync_" data-uid="CG.Cryptography.CryptographerExtensions.AesEncryptAsync*"></a>
+  <h4 id="CG_Cryptography_CryptographerExtensions_AesEncryptAsync_CG_Cryptography_ICryptographer_System_Byte___System_Byte___System_Byte___CancellationToken_" data-uid="CG.Cryptography.CryptographerExtensions.AesEncryptAsync(CG.Cryptography.ICryptographer,System.Byte[],System.Byte[],System.Byte[],CancellationToken)">AesEncryptAsync(ICryptographer, Byte[], Byte[], Byte[], CancellationToken)</h4>
   <div class="markdown level1 summary"><p>This method encrypts the given bytes using AES.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static async ValueTask&lt;byte[]&gt; AesEncryptAsync(this ICryptography cryptography, byte[] key, byte[] iv, byte[] value, CancellationToken cancellationToken = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public static async ValueTask&lt;byte[]&gt; AesEncryptAsync(this ICryptographer cryptography, byte[] key, byte[] iv, byte[] value, CancellationToken cancellationToken = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -281,7 +281,7 @@ operation.</p>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="CG.Cryptography.ICryptography.html">ICryptography</a></td>
+        <td><a class="xref" href="CG.Cryptography.ICryptographer.html">ICryptographer</a></td>
         <td><span class="parametername">cryptography</span></td>
         <td><p>The cryptography instance to use for
 the operation.</p>
@@ -330,14 +330,14 @@ bytes.</p>
       </tr>
     </tbody>
   </table>
-  <a id="CG_Cryptography_CryptographyExtensions_AesEncryptAsync_" data-uid="CG.Cryptography.CryptographyExtensions.AesEncryptAsync*"></a>
-  <h4 id="CG_Cryptography_CryptographyExtensions_AesEncryptAsync_CG_Cryptography_ICryptography_System_Byte___System_Byte___System_String_CancellationToken_" data-uid="CG.Cryptography.CryptographyExtensions.AesEncryptAsync(CG.Cryptography.ICryptography,System.Byte[],System.Byte[],System.String,CancellationToken)">AesEncryptAsync(ICryptography, Byte[], Byte[], String, CancellationToken)</h4>
+  <a id="CG_Cryptography_CryptographerExtensions_AesEncryptAsync_" data-uid="CG.Cryptography.CryptographerExtensions.AesEncryptAsync*"></a>
+  <h4 id="CG_Cryptography_CryptographerExtensions_AesEncryptAsync_CG_Cryptography_ICryptographer_System_Byte___System_Byte___System_String_CancellationToken_" data-uid="CG.Cryptography.CryptographerExtensions.AesEncryptAsync(CG.Cryptography.ICryptographer,System.Byte[],System.Byte[],System.String,CancellationToken)">AesEncryptAsync(ICryptographer, Byte[], Byte[], String, CancellationToken)</h4>
   <div class="markdown level1 summary"><p>This method encrypts the given string using AES.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static async ValueTask&lt;string&gt; AesEncryptAsync(this ICryptography cryptography, byte[] key, byte[] iv, string value, CancellationToken cancellationToken = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public static async ValueTask&lt;string&gt; AesEncryptAsync(this ICryptographer cryptography, byte[] key, byte[] iv, string value, CancellationToken cancellationToken = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -350,7 +350,7 @@ bytes.</p>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="CG.Cryptography.ICryptography.html">ICryptography</a></td>
+        <td><a class="xref" href="CG.Cryptography.ICryptographer.html">ICryptographer</a></td>
         <td><span class="parametername">cryptography</span></td>
         <td><p>The cryptography instance to use for
 the operation.</p>

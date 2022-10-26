@@ -14,11 +14,23 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/CG.Cryptography.Cryptography.yml",
+      "source_relative_path": "api/CG.Cryptography.CryptographerBase.yml",
       "output": {
         ".html": {
-          "relative_path": "api/CG.Cryptography.Cryptography.html",
-          "hash": "+ux2gy/HJ0axrBUtxnJD3J2Pln2p6PfzlHOvUiMEWJo="
+          "relative_path": "api/CG.Cryptography.CryptographerBase.html",
+          "hash": "EZHqpkPBnq3nRmdsS9zUZBSVWQgD47FdUqwvNSyPBxc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CG.Cryptography.CryptographerExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CG.Cryptography.CryptographerExtensions.html",
+          "hash": "BlZLZCDLX18gediPcNc8x0623WxbL3LiAVmduc5ZkwU="
         }
       },
       "is_incremental": false,
@@ -38,23 +50,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/CG.Cryptography.CryptographyExtensions.yml",
+      "source_relative_path": "api/CG.Cryptography.ICryptographer.yml",
       "output": {
         ".html": {
-          "relative_path": "api/CG.Cryptography.CryptographyExtensions.html",
-          "hash": "7wbUazDzjkaFhuJAiEVHEOmjO9fKLOMVtOsRhHBQbuM="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/CG.Cryptography.ICryptography.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/CG.Cryptography.ICryptography.html",
-          "hash": "I/0Tm+3+2/rB9hxLmwe07tJRfKhQE52iF+rXtRaOyjM="
+          "relative_path": "api/CG.Cryptography.ICryptographer.html",
+          "hash": "FbRT8KdI86A5mgctXcrdDtcePDv1iuWgWYp274voNSw="
         }
       },
       "is_incremental": false,
@@ -66,7 +66,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CG.Cryptography.html",
-          "hash": "7nACHTzY0+SePMSeQXiob7bqMDi/jDZ4fZPeKbiiNpY="
+          "hash": "06e9V1SiK6PN9NyEAKnuhMsmXMtYplfCjRviy1Kb9Ys="
         }
       },
       "is_incremental": false,
@@ -78,7 +78,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Microsoft.Extensions.DependencyInjection.WebApplicationBuilderExtensions.html",
-          "hash": "gI0NkyckSCBxIYQLPmv5L0ToKQDFuazaAqr8UOrz5U0="
+          "hash": "8OABgACY7mD5MnwWxGmrV++8mTHBO1YP6mVNlt1fR2U="
         }
       },
       "is_incremental": false,
@@ -114,7 +114,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "5gNJ9rY2BG+hyQ7Jz6KriyBZFuK3shbYwAWQ7LQtoc0="
+          "hash": "XELwb9pyZtENic3WMkg6Mmo5/X3WwJXX8aXo58RyxGg="
         }
       },
       "is_incremental": false,

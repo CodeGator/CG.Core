@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Interface ICryptography
+    <title>Class CryptographerBase
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Interface ICryptography
+    <meta name="title" content="Class CryptographerBase
    ">
     <meta name="generator" content="docfx 2.59.4.0">
     
@@ -78,30 +78,119 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="CG.Cryptography.ICryptography">
+            <article class="content wrap" id="_content" data-uid="CG.Cryptography.CryptographerBase">
   
   
-  <h1 id="CG_Cryptography_ICryptography" data-uid="CG.Cryptography.ICryptography" class="text-break">Interface ICryptography
+  <h1 id="CG_Cryptography_CryptographerBase" data-uid="CG.Cryptography.CryptographerBase" class="text-break">Class CryptographerBase
   </h1>
-  <div class="markdown level0 summary"><p>This interface represents an object that performs cryptographic operations.</p>
+  <div class="markdown level0 summary"><p>This class is a base implementation of the <a class="xref" href="CG.Cryptography.ICryptographer.html">ICryptographer</a>
+interface.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">CryptographerBase</span></div>
+  </div>
+  <div class="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="CG.Cryptography.ICryptographer.html">ICryptographer</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="CG.Cryptography.html">CG.Cryptography</a></h6>
   <h6><strong>Assembly</strong>: CG.Cryptography.dll</h6>
-  <h5 id="CG_Cryptography_ICryptography_syntax">Syntax</h5>
+  <h5 id="CG_Cryptography_CryptographerBase_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public interface ICryptography</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract class CryptographerBase : ICryptographer</code></pre>
   </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <a id="CG_Cryptography_CryptographerBase__ctor_" data-uid="CG.Cryptography.CryptographerBase.#ctor*"></a>
+  <h4 id="CG_Cryptography_CryptographerBase__ctor_ILogger_CG_Cryptography_ICryptographer__" data-uid="CG.Cryptography.CryptographerBase.#ctor(ILogger{CG.Cryptography.ICryptographer})">CryptographerBase(ILogger&lt;ICryptographer&gt;)</h4>
+  <div class="markdown level1 summary"><p>This constructor creates a new instance of the <a class="xref" href="CG.Cryptography.CryptographerBase.html">CryptographerBase</a>
+class.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected CryptographerBase(ILogger&lt;ICryptographer&gt; logger)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">ILogger</span>&lt;<a class="xref" href="CG.Cryptography.ICryptographer.html">ICryptographer</a>&gt;</td>
+        <td><span class="parametername">logger</span></td>
+        <td><p>The logger to use with this class.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="fields">Fields
+  </h3>
+  <h4 id="CG_Cryptography_CryptographerBase__logger" data-uid="CG.Cryptography.CryptographerBase._logger">_logger</h4>
+  <div class="markdown level1 summary"><p>This field contains the logger for the class.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected readonly ILogger&lt;ICryptographer&gt; _logger</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">ILogger</span>&lt;<a class="xref" href="CG.Cryptography.ICryptographer.html">ICryptographer</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="properties">Properties
   </h3>
-  <a id="CG_Cryptography_ICryptography_Logger_" data-uid="CG.Cryptography.ICryptography.Logger*"></a>
-  <h4 id="CG_Cryptography_ICryptography_Logger" data-uid="CG.Cryptography.ICryptography.Logger">Logger</h4>
+  <a id="CG_Cryptography_CryptographerBase_Logger_" data-uid="CG.Cryptography.CryptographerBase.Logger*"></a>
+  <h4 id="CG_Cryptography_CryptographerBase_Logger" data-uid="CG.Cryptography.CryptographerBase.Logger">Logger</h4>
   <div class="markdown level1 summary"><p>This property contains a logger for cryptographic operations.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">ILogger&lt;ICryptography&gt; Logger { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public virtual ILogger&lt;ICryptographer&gt; Logger { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -113,21 +202,21 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">ILogger</span>&lt;<a class="xref" href="CG.Cryptography.ICryptography.html">ICryptography</a>&gt;</td>
+        <td><span class="xref">ILogger</span>&lt;<a class="xref" href="CG.Cryptography.ICryptographer.html">ICryptographer</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <h3 id="methods">Methods
   </h3>
-  <a id="CG_Cryptography_ICryptography_GenerateKeyAndIVAsync_" data-uid="CG.Cryptography.ICryptography.GenerateKeyAndIVAsync*"></a>
-  <h4 id="CG_Cryptography_ICryptography_GenerateKeyAndIVAsync_System_String_System_String_CancellationToken_" data-uid="CG.Cryptography.ICryptography.GenerateKeyAndIVAsync(System.String,System.String,CancellationToken)">GenerateKeyAndIVAsync(String, String, CancellationToken)</h4>
+  <a id="CG_Cryptography_CryptographerBase_GenerateKeyAndIVAsync_" data-uid="CG.Cryptography.CryptographerBase.GenerateKeyAndIVAsync*"></a>
+  <h4 id="CG_Cryptography_CryptographerBase_GenerateKeyAndIVAsync_System_String_System_String_CancellationToken_" data-uid="CG.Cryptography.CryptographerBase.GenerateKeyAndIVAsync(System.String,System.String,CancellationToken)">GenerateKeyAndIVAsync(String, String, CancellationToken)</h4>
   <div class="markdown level1 summary"><p>This method generates a Key and IV from the given password and salt.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">ValueTask&lt;(byte[], byte[])&gt; GenerateKeyAndIVAsync(string password, string salt, CancellationToken cancellationToken = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public virtual ValueTask&lt;(byte[], byte[])&gt; GenerateKeyAndIVAsync(string password, string salt, CancellationToken cancellationToken = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -176,18 +265,22 @@ key and IV value, in a tuple, as: (key, IV).</p>
       </tr>
     </tbody>
   </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="CG.Cryptography.ICryptographer.html">ICryptographer</a>
+  </div>
   <h3 id="extensionmethods">Extension Methods</h3>
   <div>
-      <a class="xref" href="CG.Cryptography.CryptographyExtensions.html#CG_Cryptography_CryptographyExtensions_AesEncryptAsync_CG_Cryptography_ICryptography_System_Byte___System_Byte___System_String_CancellationToken_">CryptographyExtensions.AesEncryptAsync(ICryptography, Byte[], Byte[], String, CancellationToken)</a>
+      <a class="xref" href="CG.Cryptography.CryptographerExtensions.html#CG_Cryptography_CryptographerExtensions_AesEncryptAsync_CG_Cryptography_ICryptographer_System_Byte___System_Byte___System_String_CancellationToken_">CryptographerExtensions.AesEncryptAsync(ICryptographer, Byte[], Byte[], String, CancellationToken)</a>
   </div>
   <div>
-      <a class="xref" href="CG.Cryptography.CryptographyExtensions.html#CG_Cryptography_CryptographyExtensions_AesEncryptAsync_CG_Cryptography_ICryptography_System_Byte___System_Byte___System_Byte___CancellationToken_">CryptographyExtensions.AesEncryptAsync(ICryptography, Byte[], Byte[], Byte[], CancellationToken)</a>
+      <a class="xref" href="CG.Cryptography.CryptographerExtensions.html#CG_Cryptography_CryptographerExtensions_AesEncryptAsync_CG_Cryptography_ICryptographer_System_Byte___System_Byte___System_Byte___CancellationToken_">CryptographerExtensions.AesEncryptAsync(ICryptographer, Byte[], Byte[], Byte[], CancellationToken)</a>
   </div>
   <div>
-      <a class="xref" href="CG.Cryptography.CryptographyExtensions.html#CG_Cryptography_CryptographyExtensions_AesDecryptAsync_CG_Cryptography_ICryptography_System_Byte___System_Byte___System_String_CancellationToken_">CryptographyExtensions.AesDecryptAsync(ICryptography, Byte[], Byte[], String, CancellationToken)</a>
+      <a class="xref" href="CG.Cryptography.CryptographerExtensions.html#CG_Cryptography_CryptographerExtensions_AesDecryptAsync_CG_Cryptography_ICryptographer_System_Byte___System_Byte___System_String_CancellationToken_">CryptographerExtensions.AesDecryptAsync(ICryptographer, Byte[], Byte[], String, CancellationToken)</a>
   </div>
   <div>
-      <a class="xref" href="CG.Cryptography.CryptographyExtensions.html#CG_Cryptography_CryptographyExtensions_AesDecryptAsync_CG_Cryptography_ICryptography_System_Byte___System_Byte___System_Byte___CancellationToken_">CryptographyExtensions.AesDecryptAsync(ICryptography, Byte[], Byte[], Byte[], CancellationToken)</a>
+      <a class="xref" href="CG.Cryptography.CryptographerExtensions.html#CG_Cryptography_CryptographerExtensions_AesDecryptAsync_CG_Cryptography_ICryptographer_System_Byte___System_Byte___System_Byte___CancellationToken_">CryptographerExtensions.AesDecryptAsync(ICryptographer, Byte[], Byte[], Byte[], CancellationToken)</a>
   </div>
 </article>
           </div>

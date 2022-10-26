@@ -216,7 +216,7 @@ class.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public virtual ValueTask&lt;(byte[], byte[])&gt; GenerateKeyAndIVAsync(string password, string salt, CancellationToken cancellationToken = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public virtual ValueTask&lt;Tuple&lt;byte[], byte[]&gt;&gt; GenerateKeyAndIVAsync(string password, string salt, CancellationToken cancellationToken = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -258,7 +258,7 @@ class.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">ValueTask</span>&lt;<span class="xref">System.ValueTuple</span>&lt;<span class="xref">System.Byte</span>[], <span class="xref">System.Byte</span>[]&gt;&gt;</td>
+        <td><span class="xref">ValueTask</span>&lt;<span class="xref">Tuple</span>&lt;<span class="xref">System.Byte</span>[], <span class="xref">System.Byte</span>[]&gt;&gt;</td>
         <td><p>A task to perform the operation that returns a cryptographic
 key and IV value, in a tuple, as: (key, IV).</p>
 </td>

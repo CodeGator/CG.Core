@@ -7,6 +7,60 @@ references:
   commentId: N:CG.Cryptography
   fullName: CG.Cryptography
   nameWithType: CG.Cryptography
+- uid: CG.Cryptography.Cryptography
+  name: Cryptography
+  href: api/CG.Cryptography.Cryptography.html
+  commentId: T:CG.Cryptography.Cryptography
+  fullName: CG.Cryptography.Cryptography
+  nameWithType: Cryptography
+- uid: CG.Cryptography.Cryptography.#ctor(ILogger{CG.Cryptography.ICryptography})
+  name: Cryptography(ILogger<ICryptography>)
+  href: api/CG.Cryptography.Cryptography.html#CG_Cryptography_Cryptography__ctor_ILogger_CG_Cryptography_ICryptography__
+  commentId: M:CG.Cryptography.Cryptography.#ctor(ILogger{CG.Cryptography.ICryptography})
+  name.vb: Cryptography(ILogger(Of ICryptography))
+  fullName: CG.Cryptography.Cryptography.Cryptography(ILogger<CG.Cryptography.ICryptography>)
+  fullName.vb: CG.Cryptography.Cryptography.Cryptography(ILogger(Of CG.Cryptography.ICryptography))
+  nameWithType: Cryptography.Cryptography(ILogger<ICryptography>)
+  nameWithType.vb: Cryptography.Cryptography(ILogger(Of ICryptography))
+- uid: CG.Cryptography.Cryptography.#ctor*
+  name: Cryptography
+  href: api/CG.Cryptography.Cryptography.html#CG_Cryptography_Cryptography__ctor_
+  commentId: Overload:CG.Cryptography.Cryptography.#ctor
+  isSpec: "True"
+  fullName: CG.Cryptography.Cryptography.Cryptography
+  nameWithType: Cryptography.Cryptography
+- uid: CG.Cryptography.Cryptography._logger
+  name: _logger
+  href: api/CG.Cryptography.Cryptography.html#CG_Cryptography_Cryptography__logger
+  commentId: F:CG.Cryptography.Cryptography._logger
+  fullName: CG.Cryptography.Cryptography._logger
+  nameWithType: Cryptography._logger
+- uid: CG.Cryptography.Cryptography.GenerateKeyAndIVAsync(System.String,System.String,CancellationToken)
+  name: GenerateKeyAndIVAsync(String, String, CancellationToken)
+  href: api/CG.Cryptography.Cryptography.html#CG_Cryptography_Cryptography_GenerateKeyAndIVAsync_System_String_System_String_CancellationToken_
+  commentId: M:CG.Cryptography.Cryptography.GenerateKeyAndIVAsync(System.String,System.String,CancellationToken)
+  fullName: CG.Cryptography.Cryptography.GenerateKeyAndIVAsync(System.String, System.String, CancellationToken)
+  nameWithType: Cryptography.GenerateKeyAndIVAsync(String, String, CancellationToken)
+- uid: CG.Cryptography.Cryptography.GenerateKeyAndIVAsync*
+  name: GenerateKeyAndIVAsync
+  href: api/CG.Cryptography.Cryptography.html#CG_Cryptography_Cryptography_GenerateKeyAndIVAsync_
+  commentId: Overload:CG.Cryptography.Cryptography.GenerateKeyAndIVAsync
+  isSpec: "True"
+  fullName: CG.Cryptography.Cryptography.GenerateKeyAndIVAsync
+  nameWithType: Cryptography.GenerateKeyAndIVAsync
+- uid: CG.Cryptography.Cryptography.Logger
+  name: Logger
+  href: api/CG.Cryptography.Cryptography.html#CG_Cryptography_Cryptography_Logger
+  commentId: P:CG.Cryptography.Cryptography.Logger
+  fullName: CG.Cryptography.Cryptography.Logger
+  nameWithType: Cryptography.Logger
+- uid: CG.Cryptography.Cryptography.Logger*
+  name: Logger
+  href: api/CG.Cryptography.Cryptography.html#CG_Cryptography_Cryptography_Logger_
+  commentId: Overload:CG.Cryptography.Cryptography.Logger
+  isSpec: "True"
+  fullName: CG.Cryptography.Cryptography.Logger
+  nameWithType: Cryptography.Logger
 - uid: CG.Cryptography.CryptographyException
   name: CryptographyException
   href: api/CG.Cryptography.CryptographyException.html

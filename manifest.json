@@ -14,6 +14,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/CG.Cryptography.Cryptography.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CG.Cryptography.Cryptography.html",
+          "hash": "+ux2gy/HJ0axrBUtxnJD3J2Pln2p6PfzlHOvUiMEWJo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/CG.Cryptography.CryptographyException.yml",
       "output": {
         ".html": {
@@ -54,7 +66,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CG.Cryptography.html",
-          "hash": "zKLXrOqBcUW+ZUQYtlGCeR8BMbRyYMcIJIc03rGu21M="
+          "hash": "7nACHTzY0+SePMSeQXiob7bqMDi/jDZ4fZPeKbiiNpY="
         }
       },
       "is_incremental": false,
@@ -102,7 +114,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "ueXZFOP2hSzKpjvy08NElCCYzhv1FgEFrXqaSupspuI="
+          "hash": "5gNJ9rY2BG+hyQ7Jz6KriyBZFuK3shbYwAWQ7LQtoc0="
         }
       },
       "is_incremental": false,
@@ -221,7 +233,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 6,
+          "total_file_count": 7,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

@@ -1,10 +1,5 @@
-﻿using CG.Collections.Generic;
-using CG.Validations;
-using System.Collections.Generic;
-using System.Threading;
-using System.Threading.Tasks;
-
-namespace CG.Threading.Tasks
+﻿
+namespace System.Threading.Tasks
 {
     /// <summary>
     /// This class contains extension methods related to the <see cref="Task"/>

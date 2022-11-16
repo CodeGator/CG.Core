@@ -2,7 +2,7 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 
-namespace CG.Collections
+namespace System.Collections
 {
     /// <summary>
     /// This class is a test fixture for the <see cref="GuardExtensions"/>

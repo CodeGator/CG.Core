@@ -3,7 +3,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 #pragma warning disable CS0414
 
-namespace CG.Diagnostics
+namespace System.Diagnostics
 {
     /// <summary>
     /// This class is a test fixture for the <see cref="ObjectExtensions"/> class.

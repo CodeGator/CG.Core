@@ -1,6 +1,11 @@
 # CG.Core change log
 ---
 
+## 2023.1
+
+* I standardized a bunch of namespaces so they use .NET namespaces, instead of codegator namespaces.
+* I removed the retry utility.
+
 ## 2022.3
 
 * I added more string extension methods

@@ -1,9 +1,8 @@
-﻿using System.Reflection;
-
-namespace CG.Reflection
+﻿
+namespace System.Reflection
 {
     /// <summary>
-    /// This class contains extension methods reated to the <see cref="Assembly"/>
+    /// This class contains extension methods related to the <see cref="Assembly"/>
     /// type.
     /// </summary>
     public static partial class AssemblyExtensions

@@ -7,6 +7,7 @@ global using System.Diagnostics;
 global using System.IO;
 global using System.Linq.Expressions;
 global using System.Linq;
+global using System.Text.Json.Serialization;
 global using System.Reflection;
 global using System.Runtime.CompilerServices;
 global using System.Text;

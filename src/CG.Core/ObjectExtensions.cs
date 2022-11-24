@@ -30,10 +30,22 @@ public static partial class ObjectExtensions
         Guard.Instance().ThrowIfNull(source, nameof(source));
 
         // Serialize the object to JSON.
-        var json = JsonSerializer.Serialize(source, sourceType);
+        var json = JsonSerializer.Serialize(
+            source, 
+            sourceType,
+            new JsonSerializerOptions()
+            {
+                ReferenceHandler = ReferenceHandler.Preserve
+            });
 
         // Deserialize the JSON to an object.
-        var obj = JsonSerializer.Deserialize(json, sourceType);
+        var obj = JsonSerializer.Deserialize(
+            json, 
+            sourceType,
+            new JsonSerializerOptions()
+            {
+                ReferenceHandler = ReferenceHandler.Preserve
+            });
 
         // Return the results.
         return obj;
@@ -74,10 +86,20 @@ public static partial class ObjectExtensions
         else
         {
             // Serialize the object to JSON.
-            var json = JsonSerializer.Serialize<T>(source);
+            var json = JsonSerializer.Serialize<T>(
+                source,
+                new JsonSerializerOptions()
+                {
+                    ReferenceHandler = ReferenceHandler.Preserve
+                });
 
             // Deserialize the JSON to an object.
-            var obj = JsonSerializer.Deserialize<T>(json);
+            var obj = JsonSerializer.Deserialize<T>(
+                json,
+                new JsonSerializerOptions()
+                {
+                    ReferenceHandler = ReferenceHandler.Preserve
+                });
 
             // Return the results.
             return obj;

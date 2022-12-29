@@ -1,41 +1,261 @@
 ### YamlMime:XRefMap
 sorted: true
 references:
-- uid: Microsoft.EntityFrameworkCore.Infrastructure
-  name: Microsoft.EntityFrameworkCore.Infrastructure
-  href: api/Microsoft.EntityFrameworkCore.Infrastructure.html
-  commentId: N:Microsoft.EntityFrameworkCore.Infrastructure
-  fullName: Microsoft.EntityFrameworkCore.Infrastructure
-  nameWithType: Microsoft.EntityFrameworkCore.Infrastructure
-- uid: Microsoft.EntityFrameworkCore.Infrastructure.DatabaseFacadeExtensions
+- uid: CG.EntityFrameworkCore
+  name: CG.EntityFrameworkCore
+  href: api/CG.EntityFrameworkCore.html
+  commentId: N:CG.EntityFrameworkCore
+  fullName: CG.EntityFrameworkCore
+  nameWithType: CG.EntityFrameworkCore
+- uid: CG.EntityFrameworkCore.EntityMapBase`1
+  name: EntityMapBase<TEntity>
+  href: api/CG.EntityFrameworkCore.EntityMapBase-1.html
+  commentId: T:CG.EntityFrameworkCore.EntityMapBase`1
+  name.vb: EntityMapBase(Of TEntity)
+  fullName: CG.EntityFrameworkCore.EntityMapBase<TEntity>
+  fullName.vb: CG.EntityFrameworkCore.EntityMapBase(Of TEntity)
+  nameWithType: EntityMapBase<TEntity>
+  nameWithType.vb: EntityMapBase(Of TEntity)
+- uid: CG.EntityFrameworkCore.EntityMapBase`1.#ctor(ModelBuilder)
+  name: EntityMapBase(ModelBuilder)
+  href: api/CG.EntityFrameworkCore.EntityMapBase-1.html#CG_EntityFrameworkCore_EntityMapBase_1__ctor_ModelBuilder_
+  commentId: M:CG.EntityFrameworkCore.EntityMapBase`1.#ctor(ModelBuilder)
+  fullName: CG.EntityFrameworkCore.EntityMapBase<TEntity>.EntityMapBase(ModelBuilder)
+  fullName.vb: CG.EntityFrameworkCore.EntityMapBase(Of TEntity).EntityMapBase(ModelBuilder)
+  nameWithType: EntityMapBase<TEntity>.EntityMapBase(ModelBuilder)
+  nameWithType.vb: EntityMapBase(Of TEntity).EntityMapBase(ModelBuilder)
+- uid: CG.EntityFrameworkCore.EntityMapBase`1.#ctor*
+  name: EntityMapBase
+  href: api/CG.EntityFrameworkCore.EntityMapBase-1.html#CG_EntityFrameworkCore_EntityMapBase_1__ctor_
+  commentId: Overload:CG.EntityFrameworkCore.EntityMapBase`1.#ctor
+  isSpec: "True"
+  fullName: CG.EntityFrameworkCore.EntityMapBase<TEntity>.EntityMapBase
+  fullName.vb: CG.EntityFrameworkCore.EntityMapBase(Of TEntity).EntityMapBase
+  nameWithType: EntityMapBase<TEntity>.EntityMapBase
+  nameWithType.vb: EntityMapBase(Of TEntity).EntityMapBase
+- uid: CG.EntityFrameworkCore.EntityMapBase`1._modelBuilder
+  name: _modelBuilder
+  href: api/CG.EntityFrameworkCore.EntityMapBase-1.html#CG_EntityFrameworkCore_EntityMapBase_1__modelBuilder
+  commentId: F:CG.EntityFrameworkCore.EntityMapBase`1._modelBuilder
+  fullName: CG.EntityFrameworkCore.EntityMapBase<TEntity>._modelBuilder
+  fullName.vb: CG.EntityFrameworkCore.EntityMapBase(Of TEntity)._modelBuilder
+  nameWithType: EntityMapBase<TEntity>._modelBuilder
+  nameWithType.vb: EntityMapBase(Of TEntity)._modelBuilder
+- uid: CG.EntityFrameworkCore.EntityMapBase`1.Configure(EntityTypeBuilder{`0})
+  name: Configure(EntityTypeBuilder<TEntity>)
+  href: api/CG.EntityFrameworkCore.EntityMapBase-1.html#CG_EntityFrameworkCore_EntityMapBase_1_Configure_EntityTypeBuilder__0__
+  commentId: M:CG.EntityFrameworkCore.EntityMapBase`1.Configure(EntityTypeBuilder{`0})
+  name.vb: Configure(EntityTypeBuilder(Of TEntity))
+  fullName: CG.EntityFrameworkCore.EntityMapBase<TEntity>.Configure(EntityTypeBuilder<TEntity>)
+  fullName.vb: CG.EntityFrameworkCore.EntityMapBase(Of TEntity).Configure(EntityTypeBuilder(Of TEntity))
+  nameWithType: EntityMapBase<TEntity>.Configure(EntityTypeBuilder<TEntity>)
+  nameWithType.vb: EntityMapBase(Of TEntity).Configure(EntityTypeBuilder(Of TEntity))
+- uid: CG.EntityFrameworkCore.EntityMapBase`1.Configure*
+  name: Configure
+  href: api/CG.EntityFrameworkCore.EntityMapBase-1.html#CG_EntityFrameworkCore_EntityMapBase_1_Configure_
+  commentId: Overload:CG.EntityFrameworkCore.EntityMapBase`1.Configure
+  isSpec: "True"
+  fullName: CG.EntityFrameworkCore.EntityMapBase<TEntity>.Configure
+  fullName.vb: CG.EntityFrameworkCore.EntityMapBase(Of TEntity).Configure
+  nameWithType: EntityMapBase<TEntity>.Configure
+  nameWithType.vb: EntityMapBase(Of TEntity).Configure
+- uid: CG.EntityFrameworkCore.Options
+  name: CG.EntityFrameworkCore.Options
+  href: api/CG.EntityFrameworkCore.Options.html
+  commentId: N:CG.EntityFrameworkCore.Options
+  fullName: CG.EntityFrameworkCore.Options
+  nameWithType: CG.EntityFrameworkCore.Options
+- uid: CG.EntityFrameworkCore.Options.DataAcessLayerOptions
+  name: DataAcessLayerOptions
+  href: api/CG.EntityFrameworkCore.Options.DataAcessLayerOptions.html
+  commentId: T:CG.EntityFrameworkCore.Options.DataAcessLayerOptions
+  fullName: CG.EntityFrameworkCore.Options.DataAcessLayerOptions
+  nameWithType: DataAcessLayerOptions
+- uid: CG.EntityFrameworkCore.Options.DataAcessLayerOptions.DropDatabaseOnStartup
+  name: DropDatabaseOnStartup
+  href: api/CG.EntityFrameworkCore.Options.DataAcessLayerOptions.html#CG_EntityFrameworkCore_Options_DataAcessLayerOptions_DropDatabaseOnStartup
+  commentId: P:CG.EntityFrameworkCore.Options.DataAcessLayerOptions.DropDatabaseOnStartup
+  fullName: CG.EntityFrameworkCore.Options.DataAcessLayerOptions.DropDatabaseOnStartup
+  nameWithType: DataAcessLayerOptions.DropDatabaseOnStartup
+- uid: CG.EntityFrameworkCore.Options.DataAcessLayerOptions.DropDatabaseOnStartup*
+  name: DropDatabaseOnStartup
+  href: api/CG.EntityFrameworkCore.Options.DataAcessLayerOptions.html#CG_EntityFrameworkCore_Options_DataAcessLayerOptions_DropDatabaseOnStartup_
+  commentId: Overload:CG.EntityFrameworkCore.Options.DataAcessLayerOptions.DropDatabaseOnStartup
+  isSpec: "True"
+  fullName: CG.EntityFrameworkCore.Options.DataAcessLayerOptions.DropDatabaseOnStartup
+  nameWithType: DataAcessLayerOptions.DropDatabaseOnStartup
+- uid: CG.EntityFrameworkCore.Options.DataAcessLayerOptions.MigrateDatabaseOnStartup
+  name: MigrateDatabaseOnStartup
+  href: api/CG.EntityFrameworkCore.Options.DataAcessLayerOptions.html#CG_EntityFrameworkCore_Options_DataAcessLayerOptions_MigrateDatabaseOnStartup
+  commentId: P:CG.EntityFrameworkCore.Options.DataAcessLayerOptions.MigrateDatabaseOnStartup
+  fullName: CG.EntityFrameworkCore.Options.DataAcessLayerOptions.MigrateDatabaseOnStartup
+  nameWithType: DataAcessLayerOptions.MigrateDatabaseOnStartup
+- uid: CG.EntityFrameworkCore.Options.DataAcessLayerOptions.MigrateDatabaseOnStartup*
+  name: MigrateDatabaseOnStartup
+  href: api/CG.EntityFrameworkCore.Options.DataAcessLayerOptions.html#CG_EntityFrameworkCore_Options_DataAcessLayerOptions_MigrateDatabaseOnStartup_
+  commentId: Overload:CG.EntityFrameworkCore.Options.DataAcessLayerOptions.MigrateDatabaseOnStartup
+  isSpec: "True"
+  fullName: CG.EntityFrameworkCore.Options.DataAcessLayerOptions.MigrateDatabaseOnStartup
+  nameWithType: DataAcessLayerOptions.MigrateDatabaseOnStartup
+- uid: CG.EntityFrameworkCore.Options.DataAcessLayerOptions.Provider
+  name: Provider
+  href: api/CG.EntityFrameworkCore.Options.DataAcessLayerOptions.html#CG_EntityFrameworkCore_Options_DataAcessLayerOptions_Provider
+  commentId: P:CG.EntityFrameworkCore.Options.DataAcessLayerOptions.Provider
+  fullName: CG.EntityFrameworkCore.Options.DataAcessLayerOptions.Provider
+  nameWithType: DataAcessLayerOptions.Provider
+- uid: CG.EntityFrameworkCore.Options.DataAcessLayerOptions.Provider*
+  name: Provider
+  href: api/CG.EntityFrameworkCore.Options.DataAcessLayerOptions.html#CG_EntityFrameworkCore_Options_DataAcessLayerOptions_Provider_
+  commentId: Overload:CG.EntityFrameworkCore.Options.DataAcessLayerOptions.Provider
+  isSpec: "True"
+  fullName: CG.EntityFrameworkCore.Options.DataAcessLayerOptions.Provider
+  nameWithType: DataAcessLayerOptions.Provider
+- uid: CG.EntityFrameworkCore.Options.DataAcessLayerOptions.SectionPath
+  name: SectionPath
+  href: api/CG.EntityFrameworkCore.Options.DataAcessLayerOptions.html#CG_EntityFrameworkCore_Options_DataAcessLayerOptions_SectionPath
+  commentId: P:CG.EntityFrameworkCore.Options.DataAcessLayerOptions.SectionPath
+  fullName: CG.EntityFrameworkCore.Options.DataAcessLayerOptions.SectionPath
+  nameWithType: DataAcessLayerOptions.SectionPath
+- uid: CG.EntityFrameworkCore.Options.DataAcessLayerOptions.SectionPath*
+  name: SectionPath
+  href: api/CG.EntityFrameworkCore.Options.DataAcessLayerOptions.html#CG_EntityFrameworkCore_Options_DataAcessLayerOptions_SectionPath_
+  commentId: Overload:CG.EntityFrameworkCore.Options.DataAcessLayerOptions.SectionPath
+  isSpec: "True"
+  fullName: CG.EntityFrameworkCore.Options.DataAcessLayerOptions.SectionPath
+  nameWithType: DataAcessLayerOptions.SectionPath
+- uid: Microsoft.AspNetCore.Builder
+  name: Microsoft.AspNetCore.Builder
+  href: api/Microsoft.AspNetCore.Builder.html
+  commentId: N:Microsoft.AspNetCore.Builder
+  fullName: Microsoft.AspNetCore.Builder
+  nameWithType: Microsoft.AspNetCore.Builder
+- uid: Microsoft.AspNetCore.Builder.WebApplicationBuilderExtensions
+  name: WebApplicationBuilderExtensions
+  href: api/Microsoft.AspNetCore.Builder.WebApplicationBuilderExtensions.html
+  commentId: T:Microsoft.AspNetCore.Builder.WebApplicationBuilderExtensions
+  fullName: Microsoft.AspNetCore.Builder.WebApplicationBuilderExtensions
+  nameWithType: WebApplicationBuilderExtensions
+- uid: Microsoft.AspNetCore.Builder.WebApplicationBuilderExtensions.AddDataAccess(Microsoft.AspNetCore.Builder.WebApplicationBuilder,System.String,System.Nullable{ILogger})
+  name: AddDataAccess(WebApplicationBuilder, String, Nullable<ILogger>)
+  href: api/Microsoft.AspNetCore.Builder.WebApplicationBuilderExtensions.html#Microsoft_AspNetCore_Builder_WebApplicationBuilderExtensions_AddDataAccess_Microsoft_AspNetCore_Builder_WebApplicationBuilder_System_String_System_Nullable_ILogger__
+  commentId: M:Microsoft.AspNetCore.Builder.WebApplicationBuilderExtensions.AddDataAccess(Microsoft.AspNetCore.Builder.WebApplicationBuilder,System.String,System.Nullable{ILogger})
+  name.vb: AddDataAccess(WebApplicationBuilder, String, Nullable(Of ILogger))
+  fullName: Microsoft.AspNetCore.Builder.WebApplicationBuilderExtensions.AddDataAccess(Microsoft.AspNetCore.Builder.WebApplicationBuilder, System.String, System.Nullable<ILogger>)
+  fullName.vb: Microsoft.AspNetCore.Builder.WebApplicationBuilderExtensions.AddDataAccess(Microsoft.AspNetCore.Builder.WebApplicationBuilder, System.String, System.Nullable(Of ILogger))
+  nameWithType: WebApplicationBuilderExtensions.AddDataAccess(WebApplicationBuilder, String, Nullable<ILogger>)
+  nameWithType.vb: WebApplicationBuilderExtensions.AddDataAccess(WebApplicationBuilder, String, Nullable(Of ILogger))
+- uid: Microsoft.AspNetCore.Builder.WebApplicationBuilderExtensions.AddDataAccess*
+  name: AddDataAccess
+  href: api/Microsoft.AspNetCore.Builder.WebApplicationBuilderExtensions.html#Microsoft_AspNetCore_Builder_WebApplicationBuilderExtensions_AddDataAccess_
+  commentId: Overload:Microsoft.AspNetCore.Builder.WebApplicationBuilderExtensions.AddDataAccess
+  isSpec: "True"
+  fullName: Microsoft.AspNetCore.Builder.WebApplicationBuilderExtensions.AddDataAccess
+  nameWithType: WebApplicationBuilderExtensions.AddDataAccess
+- uid: Microsoft.AspNetCore.Builder.WebApplicationExtensions
+  name: WebApplicationExtensions
+  href: api/Microsoft.AspNetCore.Builder.WebApplicationExtensions.html
+  commentId: T:Microsoft.AspNetCore.Builder.WebApplicationExtensions
+  fullName: Microsoft.AspNetCore.Builder.WebApplicationExtensions
+  nameWithType: WebApplicationExtensions
+- uid: Microsoft.AspNetCore.Builder.WebApplicationExtensions.UseDataAccess(Microsoft.AspNetCore.Builder.WebApplication)
+  name: UseDataAccess(WebApplication)
+  href: api/Microsoft.AspNetCore.Builder.WebApplicationExtensions.html#Microsoft_AspNetCore_Builder_WebApplicationExtensions_UseDataAccess_Microsoft_AspNetCore_Builder_WebApplication_
+  commentId: M:Microsoft.AspNetCore.Builder.WebApplicationExtensions.UseDataAccess(Microsoft.AspNetCore.Builder.WebApplication)
+  fullName: Microsoft.AspNetCore.Builder.WebApplicationExtensions.UseDataAccess(Microsoft.AspNetCore.Builder.WebApplication)
+  nameWithType: WebApplicationExtensions.UseDataAccess(WebApplication)
+- uid: Microsoft.AspNetCore.Builder.WebApplicationExtensions.UseDataAccess*
+  name: UseDataAccess
+  href: api/Microsoft.AspNetCore.Builder.WebApplicationExtensions.html#Microsoft_AspNetCore_Builder_WebApplicationExtensions_UseDataAccess_
+  commentId: Overload:Microsoft.AspNetCore.Builder.WebApplicationExtensions.UseDataAccess
+  isSpec: "True"
+  fullName: Microsoft.AspNetCore.Builder.WebApplicationExtensions.UseDataAccess
+  nameWithType: WebApplicationExtensions.UseDataAccess
+- uid: Microsoft.EntityFrameworkCore
+  name: Microsoft.EntityFrameworkCore
+  href: api/Microsoft.EntityFrameworkCore.html
+  commentId: N:Microsoft.EntityFrameworkCore
+  fullName: Microsoft.EntityFrameworkCore
+  nameWithType: Microsoft.EntityFrameworkCore
+- uid: Microsoft.EntityFrameworkCore.DatabaseFacadeExtensions
   name: DatabaseFacadeExtensions
-  href: api/Microsoft.EntityFrameworkCore.Infrastructure.DatabaseFacadeExtensions.html
-  commentId: T:Microsoft.EntityFrameworkCore.Infrastructure.DatabaseFacadeExtensions
-  fullName: Microsoft.EntityFrameworkCore.Infrastructure.DatabaseFacadeExtensions
+  href: api/Microsoft.EntityFrameworkCore.DatabaseFacadeExtensions.html
+  commentId: T:Microsoft.EntityFrameworkCore.DatabaseFacadeExtensions
+  fullName: Microsoft.EntityFrameworkCore.DatabaseFacadeExtensions
   nameWithType: DatabaseFacadeExtensions
-- uid: Microsoft.EntityFrameworkCore.Infrastructure.DatabaseFacadeExtensions.GetDatabaseName(Microsoft.EntityFrameworkCore.Infrastructure.DatabaseFacade)
+- uid: Microsoft.EntityFrameworkCore.DatabaseFacadeExtensions.GetDatabaseName(DatabaseFacade)
   name: GetDatabaseName(DatabaseFacade)
-  href: api/Microsoft.EntityFrameworkCore.Infrastructure.DatabaseFacadeExtensions.html#Microsoft_EntityFrameworkCore_Infrastructure_DatabaseFacadeExtensions_GetDatabaseName_Microsoft_EntityFrameworkCore_Infrastructure_DatabaseFacade_
-  commentId: M:Microsoft.EntityFrameworkCore.Infrastructure.DatabaseFacadeExtensions.GetDatabaseName(Microsoft.EntityFrameworkCore.Infrastructure.DatabaseFacade)
-  fullName: Microsoft.EntityFrameworkCore.Infrastructure.DatabaseFacadeExtensions.GetDatabaseName(Microsoft.EntityFrameworkCore.Infrastructure.DatabaseFacade)
+  href: api/Microsoft.EntityFrameworkCore.DatabaseFacadeExtensions.html#Microsoft_EntityFrameworkCore_DatabaseFacadeExtensions_GetDatabaseName_DatabaseFacade_
+  commentId: M:Microsoft.EntityFrameworkCore.DatabaseFacadeExtensions.GetDatabaseName(DatabaseFacade)
+  fullName: Microsoft.EntityFrameworkCore.DatabaseFacadeExtensions.GetDatabaseName(DatabaseFacade)
   nameWithType: DatabaseFacadeExtensions.GetDatabaseName(DatabaseFacade)
-- uid: Microsoft.EntityFrameworkCore.Infrastructure.DatabaseFacadeExtensions.GetDatabaseName*
+- uid: Microsoft.EntityFrameworkCore.DatabaseFacadeExtensions.GetDatabaseName*
   name: GetDatabaseName
-  href: api/Microsoft.EntityFrameworkCore.Infrastructure.DatabaseFacadeExtensions.html#Microsoft_EntityFrameworkCore_Infrastructure_DatabaseFacadeExtensions_GetDatabaseName_
-  commentId: Overload:Microsoft.EntityFrameworkCore.Infrastructure.DatabaseFacadeExtensions.GetDatabaseName
+  href: api/Microsoft.EntityFrameworkCore.DatabaseFacadeExtensions.html#Microsoft_EntityFrameworkCore_DatabaseFacadeExtensions_GetDatabaseName_
+  commentId: Overload:Microsoft.EntityFrameworkCore.DatabaseFacadeExtensions.GetDatabaseName
   isSpec: "True"
-  fullName: Microsoft.EntityFrameworkCore.Infrastructure.DatabaseFacadeExtensions.GetDatabaseName
+  fullName: Microsoft.EntityFrameworkCore.DatabaseFacadeExtensions.GetDatabaseName
   nameWithType: DatabaseFacadeExtensions.GetDatabaseName
-- uid: Microsoft.EntityFrameworkCore.Infrastructure.DatabaseFacadeExtensions.GetServerName(Microsoft.EntityFrameworkCore.Infrastructure.DatabaseFacade)
+- uid: Microsoft.EntityFrameworkCore.DatabaseFacadeExtensions.GetServerName(DatabaseFacade)
   name: GetServerName(DatabaseFacade)
-  href: api/Microsoft.EntityFrameworkCore.Infrastructure.DatabaseFacadeExtensions.html#Microsoft_EntityFrameworkCore_Infrastructure_DatabaseFacadeExtensions_GetServerName_Microsoft_EntityFrameworkCore_Infrastructure_DatabaseFacade_
-  commentId: M:Microsoft.EntityFrameworkCore.Infrastructure.DatabaseFacadeExtensions.GetServerName(Microsoft.EntityFrameworkCore.Infrastructure.DatabaseFacade)
-  fullName: Microsoft.EntityFrameworkCore.Infrastructure.DatabaseFacadeExtensions.GetServerName(Microsoft.EntityFrameworkCore.Infrastructure.DatabaseFacade)
+  href: api/Microsoft.EntityFrameworkCore.DatabaseFacadeExtensions.html#Microsoft_EntityFrameworkCore_DatabaseFacadeExtensions_GetServerName_DatabaseFacade_
+  commentId: M:Microsoft.EntityFrameworkCore.DatabaseFacadeExtensions.GetServerName(DatabaseFacade)
+  fullName: Microsoft.EntityFrameworkCore.DatabaseFacadeExtensions.GetServerName(DatabaseFacade)
   nameWithType: DatabaseFacadeExtensions.GetServerName(DatabaseFacade)
-- uid: Microsoft.EntityFrameworkCore.Infrastructure.DatabaseFacadeExtensions.GetServerName*
+- uid: Microsoft.EntityFrameworkCore.DatabaseFacadeExtensions.GetServerName*
   name: GetServerName
-  href: api/Microsoft.EntityFrameworkCore.Infrastructure.DatabaseFacadeExtensions.html#Microsoft_EntityFrameworkCore_Infrastructure_DatabaseFacadeExtensions_GetServerName_
-  commentId: Overload:Microsoft.EntityFrameworkCore.Infrastructure.DatabaseFacadeExtensions.GetServerName
+  href: api/Microsoft.EntityFrameworkCore.DatabaseFacadeExtensions.html#Microsoft_EntityFrameworkCore_DatabaseFacadeExtensions_GetServerName_
+  commentId: Overload:Microsoft.EntityFrameworkCore.DatabaseFacadeExtensions.GetServerName
   isSpec: "True"
-  fullName: Microsoft.EntityFrameworkCore.Infrastructure.DatabaseFacadeExtensions.GetServerName
+  fullName: Microsoft.EntityFrameworkCore.DatabaseFacadeExtensions.GetServerName
   nameWithType: DatabaseFacadeExtensions.GetServerName
+- uid: Microsoft.EntityFrameworkCore.Design
+  name: Microsoft.EntityFrameworkCore.Design
+  href: api/Microsoft.EntityFrameworkCore.Design.html
+  commentId: N:Microsoft.EntityFrameworkCore.Design
+  fullName: Microsoft.EntityFrameworkCore.Design
+  nameWithType: Microsoft.EntityFrameworkCore.Design
+- uid: Microsoft.EntityFrameworkCore.Design.DesignTimeDbContextFactory`1
+  name: DesignTimeDbContextFactory<TContext>
+  href: api/Microsoft.EntityFrameworkCore.Design.DesignTimeDbContextFactory-1.html
+  commentId: T:Microsoft.EntityFrameworkCore.Design.DesignTimeDbContextFactory`1
+  name.vb: DesignTimeDbContextFactory(Of TContext)
+  fullName: Microsoft.EntityFrameworkCore.Design.DesignTimeDbContextFactory<TContext>
+  fullName.vb: Microsoft.EntityFrameworkCore.Design.DesignTimeDbContextFactory(Of TContext)
+  nameWithType: DesignTimeDbContextFactory<TContext>
+  nameWithType.vb: DesignTimeDbContextFactory(Of TContext)
+- uid: Microsoft.EntityFrameworkCore.Design.DesignTimeDbContextFactory`1.CreateDbContext(System.String[])
+  name: CreateDbContext(String[])
+  href: api/Microsoft.EntityFrameworkCore.Design.DesignTimeDbContextFactory-1.html#Microsoft_EntityFrameworkCore_Design_DesignTimeDbContextFactory_1_CreateDbContext_System_String___
+  commentId: M:Microsoft.EntityFrameworkCore.Design.DesignTimeDbContextFactory`1.CreateDbContext(System.String[])
+  name.vb: CreateDbContext(String())
+  fullName: Microsoft.EntityFrameworkCore.Design.DesignTimeDbContextFactory<TContext>.CreateDbContext(System.String[])
+  fullName.vb: Microsoft.EntityFrameworkCore.Design.DesignTimeDbContextFactory(Of TContext).CreateDbContext(System.String())
+  nameWithType: DesignTimeDbContextFactory<TContext>.CreateDbContext(String[])
+  nameWithType.vb: DesignTimeDbContextFactory(Of TContext).CreateDbContext(String())
+- uid: Microsoft.EntityFrameworkCore.Design.DesignTimeDbContextFactory`1.CreateDbContext*
+  name: CreateDbContext
+  href: api/Microsoft.EntityFrameworkCore.Design.DesignTimeDbContextFactory-1.html#Microsoft_EntityFrameworkCore_Design_DesignTimeDbContextFactory_1_CreateDbContext_
+  commentId: Overload:Microsoft.EntityFrameworkCore.Design.DesignTimeDbContextFactory`1.CreateDbContext
+  isSpec: "True"
+  fullName: Microsoft.EntityFrameworkCore.Design.DesignTimeDbContextFactory<TContext>.CreateDbContext
+  fullName.vb: Microsoft.EntityFrameworkCore.Design.DesignTimeDbContextFactory(Of TContext).CreateDbContext
+  nameWithType: DesignTimeDbContextFactory<TContext>.CreateDbContext
+  nameWithType.vb: DesignTimeDbContextFactory(Of TContext).CreateDbContext
+- uid: Microsoft.EntityFrameworkCore.Design.DesignTimeDbContextFactory`1.OnConfigureDataContextOptions(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder{`0},IConfiguration)
+  name: OnConfigureDataContextOptions(DbContextOptionsBuilder<TContext>, IConfiguration)
+  href: api/Microsoft.EntityFrameworkCore.Design.DesignTimeDbContextFactory-1.html#Microsoft_EntityFrameworkCore_Design_DesignTimeDbContextFactory_1_OnConfigureDataContextOptions_Microsoft_EntityFrameworkCore_DbContextOptionsBuilder__0__IConfiguration_
+  commentId: M:Microsoft.EntityFrameworkCore.Design.DesignTimeDbContextFactory`1.OnConfigureDataContextOptions(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder{`0},IConfiguration)
+  name.vb: OnConfigureDataContextOptions(DbContextOptionsBuilder(Of TContext), IConfiguration)
+  fullName: Microsoft.EntityFrameworkCore.Design.DesignTimeDbContextFactory<TContext>.OnConfigureDataContextOptions(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder<TContext>, IConfiguration)
+  fullName.vb: Microsoft.EntityFrameworkCore.Design.DesignTimeDbContextFactory(Of TContext).OnConfigureDataContextOptions(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder(Of TContext), IConfiguration)
+  nameWithType: DesignTimeDbContextFactory<TContext>.OnConfigureDataContextOptions(DbContextOptionsBuilder<TContext>, IConfiguration)
+  nameWithType.vb: DesignTimeDbContextFactory(Of TContext).OnConfigureDataContextOptions(DbContextOptionsBuilder(Of TContext), IConfiguration)
+- uid: Microsoft.EntityFrameworkCore.Design.DesignTimeDbContextFactory`1.OnConfigureDataContextOptions*
+  name: OnConfigureDataContextOptions
+  href: api/Microsoft.EntityFrameworkCore.Design.DesignTimeDbContextFactory-1.html#Microsoft_EntityFrameworkCore_Design_DesignTimeDbContextFactory_1_OnConfigureDataContextOptions_
+  commentId: Overload:Microsoft.EntityFrameworkCore.Design.DesignTimeDbContextFactory`1.OnConfigureDataContextOptions
+  isSpec: "True"
+  fullName: Microsoft.EntityFrameworkCore.Design.DesignTimeDbContextFactory<TContext>.OnConfigureDataContextOptions
+  fullName.vb: Microsoft.EntityFrameworkCore.Design.DesignTimeDbContextFactory(Of TContext).OnConfigureDataContextOptions
+  nameWithType: DesignTimeDbContextFactory<TContext>.OnConfigureDataContextOptions
+  nameWithType.vb: DesignTimeDbContextFactory(Of TContext).OnConfigureDataContextOptions

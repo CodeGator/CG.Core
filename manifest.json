@@ -14,11 +14,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Microsoft.EntityFrameworkCore.Infrastructure.DatabaseFacadeExtensions.yml",
+      "source_relative_path": "api/CG.EntityFrameworkCore.EntityMapBase-1.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Microsoft.EntityFrameworkCore.Infrastructure.DatabaseFacadeExtensions.html",
-          "hash": "n+BV9nauqGG2klWXObb8WU7MeMFEuEWt50GRTAH5ci0="
+          "relative_path": "api/CG.EntityFrameworkCore.EntityMapBase-1.html",
+          "hash": "hX5yjttuCS3pg3HW2FimQYoQ4nfQgWmno3HaSc97s3M="
         }
       },
       "is_incremental": false,
@@ -26,11 +26,119 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Microsoft.EntityFrameworkCore.Infrastructure.yml",
+      "source_relative_path": "api/CG.EntityFrameworkCore.Options.DataAcessLayerOptions.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Microsoft.EntityFrameworkCore.Infrastructure.html",
-          "hash": "ZnhAaaxtwH4U7o8rWzEs0ygiAZwS0PiiIxfaxvSPsb4="
+          "relative_path": "api/CG.EntityFrameworkCore.Options.DataAcessLayerOptions.html",
+          "hash": "xuaU/76YQOQhGLLYrH/mRU9NEtePNtXvqLNsHV4o1gg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CG.EntityFrameworkCore.Options.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CG.EntityFrameworkCore.Options.html",
+          "hash": "jVEtYgxeP42o323JgHXcwKBOhOgdbshw5awQ5gxlPBw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CG.EntityFrameworkCore.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CG.EntityFrameworkCore.html",
+          "hash": "k/4N97x0x3wUW9V8DjeEocUyWIUYnwH2koXOonVZS9Y="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Microsoft.AspNetCore.Builder.WebApplicationBuilderExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Microsoft.AspNetCore.Builder.WebApplicationBuilderExtensions.html",
+          "hash": "sdVWqo2ad8uoYnBZiQzDhwrpkIkdo5SQicvLItDQOqY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Microsoft.AspNetCore.Builder.WebApplicationExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Microsoft.AspNetCore.Builder.WebApplicationExtensions.html",
+          "hash": "fYr3AWTeIFS8L0IWj8mrS6iXmhM0d2txMnuQQHxx4EA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Microsoft.AspNetCore.Builder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Microsoft.AspNetCore.Builder.html",
+          "hash": "p18zKxzibPEHlA2AJChAYp99D3KaSc7AUDixnb++5I8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Microsoft.EntityFrameworkCore.DatabaseFacadeExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Microsoft.EntityFrameworkCore.DatabaseFacadeExtensions.html",
+          "hash": "JAsAalwcptg8HsEwfSBr3dvUufdZJxtoYcyAxirBDaQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Microsoft.EntityFrameworkCore.Design.DesignTimeDbContextFactory-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Microsoft.EntityFrameworkCore.Design.DesignTimeDbContextFactory-1.html",
+          "hash": "jEQ7XdigXmGShnGSha2u/KC2H7A6jP99EDViCMejK0w="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Microsoft.EntityFrameworkCore.Design.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Microsoft.EntityFrameworkCore.Design.html",
+          "hash": "tx9Pp79Lsr4mpJonAnWmzC+fYLkGYJt/3u7WEWAxMac="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Microsoft.EntityFrameworkCore.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Microsoft.EntityFrameworkCore.html",
+          "hash": "yKrU5lFoeZ0+VRfLWzRZwwU1zAovF8ttZEH+EecB1l8="
         }
       },
       "is_incremental": false,
@@ -54,7 +162,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "SgwLP3xdn0VI2x5jgCsl9IiIjYxIDYRikkEIeaF4MDA="
+          "hash": "aGUoXELSlL9T2ZIX1p5HtFYOohWp/W5/DNTGCuzjur8="
         }
       },
       "is_incremental": false,
@@ -146,7 +254,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "CvgmtPKCduwOaEf6XnaDgML/FPruwW1jjoGt44H7q3g="
+          "hash": "DXkG/DgFo3++SxvU91L/hWcGYQnYubFb0V24IHEoiDo="
         }
       },
       "is_incremental": false,
@@ -173,7 +281,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 2,
+          "total_file_count": 11,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

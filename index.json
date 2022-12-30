@@ -67,6 +67,6 @@
   "index.html": {
     "href": "index.html",
     "title": "Introduction",
-    "keywords": "Introduction CG.EntityFrameworkCore.dll contains EFCORE extensions used by other CodeGator pacakges."
+    "keywords": "Introduction CG.EntityFrameworkCore.dll contains EFCORE extensions used by other CodeGator packages."
   }
 }

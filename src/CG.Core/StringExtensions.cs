@@ -109,25 +109,25 @@ public static partial class StringExtensions
     /// <summary>
     /// This method randomly shuffles the characters in a string.
     /// </summary>
-    /// <param name="incoming">The string to be shuffled.</param>
+    /// <param name="value">The string to be shuffled.</param>
     /// <returns>A randomly shuffled version of the specified string.</returns>
     public static string Shuffle(
-        this string incoming
+        this string value
         )
     {
         // Validate the parameters before attempting to use them.
-        Guard.Instance().ThrowIfNull(incoming, nameof(incoming));
+        Guard.Instance().ThrowIfNull(value, nameof(value));
 
         int index;
 
         var random = new RandomEx();
-        var chars = new List<char>(incoming);
+        var chars = new List<char>(value);
         var sb = new StringBuilder();
 
         // Loop through all the characters.
         while (chars.Count > 0)
         {
-            // Calculate a random nidex.
+            // Calculate a random index.
             index = random.Next(chars.Count);
 
             // Append the character to our new string.
@@ -144,7 +144,7 @@ public static partial class StringExtensions
     // *******************************************************************
 
     /// <summary>
-    /// This method obfuscates chararacters in the specified string.
+    /// This method obfuscates characters in the specified string.
     /// </summary>
     /// <param name="value">The string to obfuscate.</param>
     /// <param name="maxCharsToShow">The number of chars to leave exposed.</param>
@@ -239,17 +239,17 @@ public static partial class StringExtensions
     /// <summary>
     /// This method reverses the characters in a string.
     /// </summary>
-    /// <param name="incoming">The string to be reversed.</param>
+    /// <param name="value">The string to be reversed.</param>
     /// <returns>A reversed version of the specified string.</returns>
     public static string Reverse(
-        this string incoming
+        this string value
         )
     {
         // Validate the parameters before attempting to use them.
-        Guard.Instance().ThrowIfNull(incoming, nameof(incoming));
+        Guard.Instance().ThrowIfNull(value, nameof(value));
 
         // Reverse the characters.
-        var reversedChars = incoming.ToCharArray()
+        var reversedChars = value.ToCharArray()
             .Reverse()
             .ToArray();
 

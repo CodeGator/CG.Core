@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Namespace Microsoft.EntityFrameworkCore
+    <title>Class AppDomainExtensions
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Namespace Microsoft.EntityFrameworkCore
+    <meta name="title" content="Class AppDomainExtensions
    ">
     <meta name="generator" content="docfx 2.59.4.0">
     
@@ -78,19 +78,119 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Microsoft.EntityFrameworkCore">
+            <article class="content wrap" id="_content" data-uid="System.AppDomainExtensions">
   
-  <h1 id="Microsoft_EntityFrameworkCore" data-uid="Microsoft.EntityFrameworkCore" class="text-break">Namespace Microsoft.EntityFrameworkCore
+  
+  <h1 id="System_AppDomainExtensions" data-uid="System.AppDomainExtensions" class="text-break">Class AppDomainExtensions
   </h1>
-  <div class="markdown level0 summary"></div>
-  <div class="markdown level0 conceptual"></div>
-  <div class="markdown level0 remarks"></div>
-    <h3 id="classes">Classes
-  </h3>
-      <h4><a class="xref" href="Microsoft.EntityFrameworkCore.DatabaseFacadeExtensions.html">DatabaseFacadeExtensions</a></h4>
-      <section><p>This class contains extension methods related to the <see cref="!:DatabaseFacade"></see>
+  <div class="markdown level0 summary"><p>This class contains extension methods related to the <span class="xref">System.AppDomain</span>
 type.</p>
-</section>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">AppDomainExtensions</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="System.html">System</a></h6>
+  <h6><strong>Assembly</strong>: CG.Core.dll</h6>
+  <h5 id="System_AppDomainExtensions_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class AppDomainExtensions</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  <a id="System_AppDomainExtensions_FriendlyNameEx_" data-uid="System.AppDomainExtensions.FriendlyNameEx*"></a>
+  <h4 id="System_AppDomainExtensions_FriendlyNameEx_System_AppDomain_System_Boolean_" data-uid="System.AppDomainExtensions.FriendlyNameEx(System.AppDomain,System.Boolean)">FriendlyNameEx(AppDomain, Boolean)</h4>
+  <div class="markdown level1 summary"><p>This method gets the much friendlier name of the app-domain.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string FriendlyNameEx(this AppDomain appDomain, bool stripTrailingExtension = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.AppDomain</span></td>
+        <td><span class="parametername">appDomain</span></td>
+        <td><p>The app-domain to use for the operation.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">stripTrailingExtension</span></td>
+        <td><p>True to strip any trailing file
+extension in the friendly name; false otherwise.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>The friendly name of this application domain.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.AppDomainUnloadedException</span></td>
+        <td><p>The operation was
+attempted on an unloaded app-domain.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
 </article>
           </div>
           

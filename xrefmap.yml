@@ -1,261 +1,1427 @@
 ### YamlMime:XRefMap
 sorted: true
 references:
-- uid: CG.EntityFrameworkCore
-  name: CG.EntityFrameworkCore
-  href: api/CG.EntityFrameworkCore.html
-  commentId: N:CG.EntityFrameworkCore
-  fullName: CG.EntityFrameworkCore
-  nameWithType: CG.EntityFrameworkCore
-- uid: CG.EntityFrameworkCore.EntityMapBase`1
-  name: EntityMapBase<TEntity>
-  href: api/CG.EntityFrameworkCore.EntityMapBase-1.html
-  commentId: T:CG.EntityFrameworkCore.EntityMapBase`1
-  name.vb: EntityMapBase(Of TEntity)
-  fullName: CG.EntityFrameworkCore.EntityMapBase<TEntity>
-  fullName.vb: CG.EntityFrameworkCore.EntityMapBase(Of TEntity)
-  nameWithType: EntityMapBase<TEntity>
-  nameWithType.vb: EntityMapBase(Of TEntity)
-- uid: CG.EntityFrameworkCore.EntityMapBase`1.#ctor(ModelBuilder)
-  name: EntityMapBase(ModelBuilder)
-  href: api/CG.EntityFrameworkCore.EntityMapBase-1.html#CG_EntityFrameworkCore_EntityMapBase_1__ctor_ModelBuilder_
-  commentId: M:CG.EntityFrameworkCore.EntityMapBase`1.#ctor(ModelBuilder)
-  fullName: CG.EntityFrameworkCore.EntityMapBase<TEntity>.EntityMapBase(ModelBuilder)
-  fullName.vb: CG.EntityFrameworkCore.EntityMapBase(Of TEntity).EntityMapBase(ModelBuilder)
-  nameWithType: EntityMapBase<TEntity>.EntityMapBase(ModelBuilder)
-  nameWithType.vb: EntityMapBase(Of TEntity).EntityMapBase(ModelBuilder)
-- uid: CG.EntityFrameworkCore.EntityMapBase`1.#ctor*
-  name: EntityMapBase
-  href: api/CG.EntityFrameworkCore.EntityMapBase-1.html#CG_EntityFrameworkCore_EntityMapBase_1__ctor_
-  commentId: Overload:CG.EntityFrameworkCore.EntityMapBase`1.#ctor
+- uid: CG.Collections.Generic
+  name: CG.Collections.Generic
+  href: api/CG.Collections.Generic.html
+  commentId: N:CG.Collections.Generic
+  fullName: CG.Collections.Generic
+  nameWithType: CG.Collections.Generic
+- uid: CG.Collections.Generic.EnumerableExtensions
+  name: EnumerableExtensions
+  href: api/CG.Collections.Generic.EnumerableExtensions.html
+  commentId: T:CG.Collections.Generic.EnumerableExtensions
+  fullName: CG.Collections.Generic.EnumerableExtensions
+  nameWithType: EnumerableExtensions
+- uid: CG.Collections.Generic.EnumerableExtensions.ApplyBlackList*
+  name: ApplyBlackList
+  href: api/CG.Collections.Generic.EnumerableExtensions.html#CG_Collections_Generic_EnumerableExtensions_ApplyBlackList_
+  commentId: Overload:CG.Collections.Generic.EnumerableExtensions.ApplyBlackList
   isSpec: "True"
-  fullName: CG.EntityFrameworkCore.EntityMapBase<TEntity>.EntityMapBase
-  fullName.vb: CG.EntityFrameworkCore.EntityMapBase(Of TEntity).EntityMapBase
-  nameWithType: EntityMapBase<TEntity>.EntityMapBase
-  nameWithType.vb: EntityMapBase(Of TEntity).EntityMapBase
-- uid: CG.EntityFrameworkCore.EntityMapBase`1._modelBuilder
-  name: _modelBuilder
-  href: api/CG.EntityFrameworkCore.EntityMapBase-1.html#CG_EntityFrameworkCore_EntityMapBase_1__modelBuilder
-  commentId: F:CG.EntityFrameworkCore.EntityMapBase`1._modelBuilder
-  fullName: CG.EntityFrameworkCore.EntityMapBase<TEntity>._modelBuilder
-  fullName.vb: CG.EntityFrameworkCore.EntityMapBase(Of TEntity)._modelBuilder
-  nameWithType: EntityMapBase<TEntity>._modelBuilder
-  nameWithType.vb: EntityMapBase(Of TEntity)._modelBuilder
-- uid: CG.EntityFrameworkCore.EntityMapBase`1.Configure(EntityTypeBuilder{`0})
-  name: Configure(EntityTypeBuilder<TEntity>)
-  href: api/CG.EntityFrameworkCore.EntityMapBase-1.html#CG_EntityFrameworkCore_EntityMapBase_1_Configure_EntityTypeBuilder__0__
-  commentId: M:CG.EntityFrameworkCore.EntityMapBase`1.Configure(EntityTypeBuilder{`0})
-  name.vb: Configure(EntityTypeBuilder(Of TEntity))
-  fullName: CG.EntityFrameworkCore.EntityMapBase<TEntity>.Configure(EntityTypeBuilder<TEntity>)
-  fullName.vb: CG.EntityFrameworkCore.EntityMapBase(Of TEntity).Configure(EntityTypeBuilder(Of TEntity))
-  nameWithType: EntityMapBase<TEntity>.Configure(EntityTypeBuilder<TEntity>)
-  nameWithType.vb: EntityMapBase(Of TEntity).Configure(EntityTypeBuilder(Of TEntity))
-- uid: CG.EntityFrameworkCore.EntityMapBase`1.Configure*
-  name: Configure
-  href: api/CG.EntityFrameworkCore.EntityMapBase-1.html#CG_EntityFrameworkCore_EntityMapBase_1_Configure_
-  commentId: Overload:CG.EntityFrameworkCore.EntityMapBase`1.Configure
+  fullName: CG.Collections.Generic.EnumerableExtensions.ApplyBlackList
+  nameWithType: EnumerableExtensions.ApplyBlackList
+- uid: CG.Collections.Generic.EnumerableExtensions.ApplyBlackList``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.String},System.String)
+  name: ApplyBlackList<T>(IEnumerable<T>, Func<T, String>, String)
+  href: api/CG.Collections.Generic.EnumerableExtensions.html#CG_Collections_Generic_EnumerableExtensions_ApplyBlackList__1_System_Collections_Generic_IEnumerable___0__System_Func___0_System_String__System_String_
+  commentId: M:CG.Collections.Generic.EnumerableExtensions.ApplyBlackList``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.String},System.String)
+  name.vb: ApplyBlackList(Of T)(IEnumerable(Of T), Func(Of T, String), String)
+  fullName: CG.Collections.Generic.EnumerableExtensions.ApplyBlackList<T>(System.Collections.Generic.IEnumerable<T>, System.Func<T, System.String>, System.String)
+  fullName.vb: CG.Collections.Generic.EnumerableExtensions.ApplyBlackList(Of T)(System.Collections.Generic.IEnumerable(Of T), System.Func(Of T, System.String), System.String)
+  nameWithType: EnumerableExtensions.ApplyBlackList<T>(IEnumerable<T>, Func<T, String>, String)
+  nameWithType.vb: EnumerableExtensions.ApplyBlackList(Of T)(IEnumerable(Of T), Func(Of T, String), String)
+- uid: CG.Collections.Generic.EnumerableExtensions.ApplyWhiteList*
+  name: ApplyWhiteList
+  href: api/CG.Collections.Generic.EnumerableExtensions.html#CG_Collections_Generic_EnumerableExtensions_ApplyWhiteList_
+  commentId: Overload:CG.Collections.Generic.EnumerableExtensions.ApplyWhiteList
   isSpec: "True"
-  fullName: CG.EntityFrameworkCore.EntityMapBase<TEntity>.Configure
-  fullName.vb: CG.EntityFrameworkCore.EntityMapBase(Of TEntity).Configure
-  nameWithType: EntityMapBase<TEntity>.Configure
-  nameWithType.vb: EntityMapBase(Of TEntity).Configure
-- uid: CG.EntityFrameworkCore.Options
-  name: CG.EntityFrameworkCore.Options
-  href: api/CG.EntityFrameworkCore.Options.html
-  commentId: N:CG.EntityFrameworkCore.Options
-  fullName: CG.EntityFrameworkCore.Options
-  nameWithType: CG.EntityFrameworkCore.Options
-- uid: CG.EntityFrameworkCore.Options.DataAcessLayerOptions
-  name: DataAcessLayerOptions
-  href: api/CG.EntityFrameworkCore.Options.DataAcessLayerOptions.html
-  commentId: T:CG.EntityFrameworkCore.Options.DataAcessLayerOptions
-  fullName: CG.EntityFrameworkCore.Options.DataAcessLayerOptions
-  nameWithType: DataAcessLayerOptions
-- uid: CG.EntityFrameworkCore.Options.DataAcessLayerOptions.DropDatabaseOnStartup
-  name: DropDatabaseOnStartup
-  href: api/CG.EntityFrameworkCore.Options.DataAcessLayerOptions.html#CG_EntityFrameworkCore_Options_DataAcessLayerOptions_DropDatabaseOnStartup
-  commentId: P:CG.EntityFrameworkCore.Options.DataAcessLayerOptions.DropDatabaseOnStartup
-  fullName: CG.EntityFrameworkCore.Options.DataAcessLayerOptions.DropDatabaseOnStartup
-  nameWithType: DataAcessLayerOptions.DropDatabaseOnStartup
-- uid: CG.EntityFrameworkCore.Options.DataAcessLayerOptions.DropDatabaseOnStartup*
-  name: DropDatabaseOnStartup
-  href: api/CG.EntityFrameworkCore.Options.DataAcessLayerOptions.html#CG_EntityFrameworkCore_Options_DataAcessLayerOptions_DropDatabaseOnStartup_
-  commentId: Overload:CG.EntityFrameworkCore.Options.DataAcessLayerOptions.DropDatabaseOnStartup
+  fullName: CG.Collections.Generic.EnumerableExtensions.ApplyWhiteList
+  nameWithType: EnumerableExtensions.ApplyWhiteList
+- uid: CG.Collections.Generic.EnumerableExtensions.ApplyWhiteList``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.String},System.String)
+  name: ApplyWhiteList<T>(IEnumerable<T>, Func<T, String>, String)
+  href: api/CG.Collections.Generic.EnumerableExtensions.html#CG_Collections_Generic_EnumerableExtensions_ApplyWhiteList__1_System_Collections_Generic_IEnumerable___0__System_Func___0_System_String__System_String_
+  commentId: M:CG.Collections.Generic.EnumerableExtensions.ApplyWhiteList``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.String},System.String)
+  name.vb: ApplyWhiteList(Of T)(IEnumerable(Of T), Func(Of T, String), String)
+  fullName: CG.Collections.Generic.EnumerableExtensions.ApplyWhiteList<T>(System.Collections.Generic.IEnumerable<T>, System.Func<T, System.String>, System.String)
+  fullName.vb: CG.Collections.Generic.EnumerableExtensions.ApplyWhiteList(Of T)(System.Collections.Generic.IEnumerable(Of T), System.Func(Of T, System.String), System.String)
+  nameWithType: EnumerableExtensions.ApplyWhiteList<T>(IEnumerable<T>, Func<T, String>, String)
+  nameWithType.vb: EnumerableExtensions.ApplyWhiteList(Of T)(IEnumerable(Of T), Func(Of T, String), String)
+- uid: CG.Collections.Generic.EnumerableExtensions.DistinctOn*
+  name: DistinctOn
+  href: api/CG.Collections.Generic.EnumerableExtensions.html#CG_Collections_Generic_EnumerableExtensions_DistinctOn_
+  commentId: Overload:CG.Collections.Generic.EnumerableExtensions.DistinctOn
   isSpec: "True"
-  fullName: CG.EntityFrameworkCore.Options.DataAcessLayerOptions.DropDatabaseOnStartup
-  nameWithType: DataAcessLayerOptions.DropDatabaseOnStartup
-- uid: CG.EntityFrameworkCore.Options.DataAcessLayerOptions.MigrateDatabaseOnStartup
-  name: MigrateDatabaseOnStartup
-  href: api/CG.EntityFrameworkCore.Options.DataAcessLayerOptions.html#CG_EntityFrameworkCore_Options_DataAcessLayerOptions_MigrateDatabaseOnStartup
-  commentId: P:CG.EntityFrameworkCore.Options.DataAcessLayerOptions.MigrateDatabaseOnStartup
-  fullName: CG.EntityFrameworkCore.Options.DataAcessLayerOptions.MigrateDatabaseOnStartup
-  nameWithType: DataAcessLayerOptions.MigrateDatabaseOnStartup
-- uid: CG.EntityFrameworkCore.Options.DataAcessLayerOptions.MigrateDatabaseOnStartup*
-  name: MigrateDatabaseOnStartup
-  href: api/CG.EntityFrameworkCore.Options.DataAcessLayerOptions.html#CG_EntityFrameworkCore_Options_DataAcessLayerOptions_MigrateDatabaseOnStartup_
-  commentId: Overload:CG.EntityFrameworkCore.Options.DataAcessLayerOptions.MigrateDatabaseOnStartup
+  fullName: CG.Collections.Generic.EnumerableExtensions.DistinctOn
+  nameWithType: EnumerableExtensions.DistinctOn
+- uid: CG.Collections.Generic.EnumerableExtensions.DistinctOn``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1})
+  name: DistinctOn<T, K>(IEnumerable<T>, Func<T, K>)
+  href: api/CG.Collections.Generic.EnumerableExtensions.html#CG_Collections_Generic_EnumerableExtensions_DistinctOn__2_System_Collections_Generic_IEnumerable___0__System_Func___0___1__
+  commentId: M:CG.Collections.Generic.EnumerableExtensions.DistinctOn``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1})
+  name.vb: DistinctOn(Of T, K)(IEnumerable(Of T), Func(Of T, K))
+  fullName: CG.Collections.Generic.EnumerableExtensions.DistinctOn<T, K>(System.Collections.Generic.IEnumerable<T>, System.Func<T, K>)
+  fullName.vb: CG.Collections.Generic.EnumerableExtensions.DistinctOn(Of T, K)(System.Collections.Generic.IEnumerable(Of T), System.Func(Of T, K))
+  nameWithType: EnumerableExtensions.DistinctOn<T, K>(IEnumerable<T>, Func<T, K>)
+  nameWithType.vb: EnumerableExtensions.DistinctOn(Of T, K)(IEnumerable(Of T), Func(Of T, K))
+- uid: CG.Collections.Generic.EnumerableExtensions.ForEach*
+  name: ForEach
+  href: api/CG.Collections.Generic.EnumerableExtensions.html#CG_Collections_Generic_EnumerableExtensions_ForEach_
+  commentId: Overload:CG.Collections.Generic.EnumerableExtensions.ForEach
   isSpec: "True"
-  fullName: CG.EntityFrameworkCore.Options.DataAcessLayerOptions.MigrateDatabaseOnStartup
-  nameWithType: DataAcessLayerOptions.MigrateDatabaseOnStartup
-- uid: CG.EntityFrameworkCore.Options.DataAcessLayerOptions.Provider
-  name: Provider
-  href: api/CG.EntityFrameworkCore.Options.DataAcessLayerOptions.html#CG_EntityFrameworkCore_Options_DataAcessLayerOptions_Provider
-  commentId: P:CG.EntityFrameworkCore.Options.DataAcessLayerOptions.Provider
-  fullName: CG.EntityFrameworkCore.Options.DataAcessLayerOptions.Provider
-  nameWithType: DataAcessLayerOptions.Provider
-- uid: CG.EntityFrameworkCore.Options.DataAcessLayerOptions.Provider*
-  name: Provider
-  href: api/CG.EntityFrameworkCore.Options.DataAcessLayerOptions.html#CG_EntityFrameworkCore_Options_DataAcessLayerOptions_Provider_
-  commentId: Overload:CG.EntityFrameworkCore.Options.DataAcessLayerOptions.Provider
+  fullName: CG.Collections.Generic.EnumerableExtensions.ForEach
+  nameWithType: EnumerableExtensions.ForEach
+- uid: CG.Collections.Generic.EnumerableExtensions.ForEach``1(System.Collections.Generic.IEnumerable{``0},System.Action{``0})
+  name: ForEach<T>(IEnumerable<T>, Action<T>)
+  href: api/CG.Collections.Generic.EnumerableExtensions.html#CG_Collections_Generic_EnumerableExtensions_ForEach__1_System_Collections_Generic_IEnumerable___0__System_Action___0__
+  commentId: M:CG.Collections.Generic.EnumerableExtensions.ForEach``1(System.Collections.Generic.IEnumerable{``0},System.Action{``0})
+  name.vb: ForEach(Of T)(IEnumerable(Of T), Action(Of T))
+  fullName: CG.Collections.Generic.EnumerableExtensions.ForEach<T>(System.Collections.Generic.IEnumerable<T>, System.Action<T>)
+  fullName.vb: CG.Collections.Generic.EnumerableExtensions.ForEach(Of T)(System.Collections.Generic.IEnumerable(Of T), System.Action(Of T))
+  nameWithType: EnumerableExtensions.ForEach<T>(IEnumerable<T>, Action<T>)
+  nameWithType.vb: EnumerableExtensions.ForEach(Of T)(IEnumerable(Of T), Action(Of T))
+- uid: CG.Collections.Generic.EnumerableExtensions.ForEach``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Collections.Generic.IEnumerable{``0}},System.Action{``0})
+  name: ForEach<T>(IEnumerable<T>, Func<T, IEnumerable<T>>, Action<T>)
+  href: api/CG.Collections.Generic.EnumerableExtensions.html#CG_Collections_Generic_EnumerableExtensions_ForEach__1_System_Collections_Generic_IEnumerable___0__System_Func___0_System_Collections_Generic_IEnumerable___0___System_Action___0__
+  commentId: M:CG.Collections.Generic.EnumerableExtensions.ForEach``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Collections.Generic.IEnumerable{``0}},System.Action{``0})
+  name.vb: ForEach(Of T)(IEnumerable(Of T), Func(Of T, IEnumerable(Of T)), Action(Of T))
+  fullName: CG.Collections.Generic.EnumerableExtensions.ForEach<T>(System.Collections.Generic.IEnumerable<T>, System.Func<T, System.Collections.Generic.IEnumerable<T>>, System.Action<T>)
+  fullName.vb: CG.Collections.Generic.EnumerableExtensions.ForEach(Of T)(System.Collections.Generic.IEnumerable(Of T), System.Func(Of T, System.Collections.Generic.IEnumerable(Of T)), System.Action(Of T))
+  nameWithType: EnumerableExtensions.ForEach<T>(IEnumerable<T>, Func<T, IEnumerable<T>>, Action<T>)
+  nameWithType.vb: EnumerableExtensions.ForEach(Of T)(IEnumerable(Of T), Func(Of T, IEnumerable(Of T)), Action(Of T))
+- uid: CG.Collections.Generic.ListExtensions
+  name: ListExtensions
+  href: api/CG.Collections.Generic.ListExtensions.html
+  commentId: T:CG.Collections.Generic.ListExtensions
+  fullName: CG.Collections.Generic.ListExtensions
+  nameWithType: ListExtensions
+- uid: CG.Collections.Generic.ListExtensions.AddRange*
+  name: AddRange
+  href: api/CG.Collections.Generic.ListExtensions.html#CG_Collections_Generic_ListExtensions_AddRange_
+  commentId: Overload:CG.Collections.Generic.ListExtensions.AddRange
   isSpec: "True"
-  fullName: CG.EntityFrameworkCore.Options.DataAcessLayerOptions.Provider
-  nameWithType: DataAcessLayerOptions.Provider
-- uid: CG.EntityFrameworkCore.Options.DataAcessLayerOptions.SectionPath
-  name: SectionPath
-  href: api/CG.EntityFrameworkCore.Options.DataAcessLayerOptions.html#CG_EntityFrameworkCore_Options_DataAcessLayerOptions_SectionPath
-  commentId: P:CG.EntityFrameworkCore.Options.DataAcessLayerOptions.SectionPath
-  fullName: CG.EntityFrameworkCore.Options.DataAcessLayerOptions.SectionPath
-  nameWithType: DataAcessLayerOptions.SectionPath
-- uid: CG.EntityFrameworkCore.Options.DataAcessLayerOptions.SectionPath*
-  name: SectionPath
-  href: api/CG.EntityFrameworkCore.Options.DataAcessLayerOptions.html#CG_EntityFrameworkCore_Options_DataAcessLayerOptions_SectionPath_
-  commentId: Overload:CG.EntityFrameworkCore.Options.DataAcessLayerOptions.SectionPath
+  fullName: CG.Collections.Generic.ListExtensions.AddRange
+  nameWithType: ListExtensions.AddRange
+- uid: CG.Collections.Generic.ListExtensions.AddRange``1(System.Collections.Generic.IList{``0},System.Collections.Generic.IEnumerable{``0})
+  name: AddRange<T>(IList<T>, IEnumerable<T>)
+  href: api/CG.Collections.Generic.ListExtensions.html#CG_Collections_Generic_ListExtensions_AddRange__1_System_Collections_Generic_IList___0__System_Collections_Generic_IEnumerable___0__
+  commentId: M:CG.Collections.Generic.ListExtensions.AddRange``1(System.Collections.Generic.IList{``0},System.Collections.Generic.IEnumerable{``0})
+  name.vb: AddRange(Of T)(IList(Of T), IEnumerable(Of T))
+  fullName: CG.Collections.Generic.ListExtensions.AddRange<T>(System.Collections.Generic.IList<T>, System.Collections.Generic.IEnumerable<T>)
+  fullName.vb: CG.Collections.Generic.ListExtensions.AddRange(Of T)(System.Collections.Generic.IList(Of T), System.Collections.Generic.IEnumerable(Of T))
+  nameWithType: ListExtensions.AddRange<T>(IList<T>, IEnumerable<T>)
+  nameWithType.vb: ListExtensions.AddRange(Of T)(IList(Of T), IEnumerable(Of T))
+- uid: CG.Collections.Generic.ListExtensions.ForEach*
+  name: ForEach
+  href: api/CG.Collections.Generic.ListExtensions.html#CG_Collections_Generic_ListExtensions_ForEach_
+  commentId: Overload:CG.Collections.Generic.ListExtensions.ForEach
   isSpec: "True"
-  fullName: CG.EntityFrameworkCore.Options.DataAcessLayerOptions.SectionPath
-  nameWithType: DataAcessLayerOptions.SectionPath
-- uid: Microsoft.AspNetCore.Builder
-  name: Microsoft.AspNetCore.Builder
-  href: api/Microsoft.AspNetCore.Builder.html
-  commentId: N:Microsoft.AspNetCore.Builder
-  fullName: Microsoft.AspNetCore.Builder
-  nameWithType: Microsoft.AspNetCore.Builder
-- uid: Microsoft.AspNetCore.Builder.WebApplicationBuilderExtensions
-  name: WebApplicationBuilderExtensions
-  href: api/Microsoft.AspNetCore.Builder.WebApplicationBuilderExtensions.html
-  commentId: T:Microsoft.AspNetCore.Builder.WebApplicationBuilderExtensions
-  fullName: Microsoft.AspNetCore.Builder.WebApplicationBuilderExtensions
-  nameWithType: WebApplicationBuilderExtensions
-- uid: Microsoft.AspNetCore.Builder.WebApplicationBuilderExtensions.AddDataAccess(Microsoft.AspNetCore.Builder.WebApplicationBuilder,System.String,System.Nullable{ILogger})
-  name: AddDataAccess(WebApplicationBuilder, String, Nullable<ILogger>)
-  href: api/Microsoft.AspNetCore.Builder.WebApplicationBuilderExtensions.html#Microsoft_AspNetCore_Builder_WebApplicationBuilderExtensions_AddDataAccess_Microsoft_AspNetCore_Builder_WebApplicationBuilder_System_String_System_Nullable_ILogger__
-  commentId: M:Microsoft.AspNetCore.Builder.WebApplicationBuilderExtensions.AddDataAccess(Microsoft.AspNetCore.Builder.WebApplicationBuilder,System.String,System.Nullable{ILogger})
-  name.vb: AddDataAccess(WebApplicationBuilder, String, Nullable(Of ILogger))
-  fullName: Microsoft.AspNetCore.Builder.WebApplicationBuilderExtensions.AddDataAccess(Microsoft.AspNetCore.Builder.WebApplicationBuilder, System.String, System.Nullable<ILogger>)
-  fullName.vb: Microsoft.AspNetCore.Builder.WebApplicationBuilderExtensions.AddDataAccess(Microsoft.AspNetCore.Builder.WebApplicationBuilder, System.String, System.Nullable(Of ILogger))
-  nameWithType: WebApplicationBuilderExtensions.AddDataAccess(WebApplicationBuilder, String, Nullable<ILogger>)
-  nameWithType.vb: WebApplicationBuilderExtensions.AddDataAccess(WebApplicationBuilder, String, Nullable(Of ILogger))
-- uid: Microsoft.AspNetCore.Builder.WebApplicationBuilderExtensions.AddDataAccess*
-  name: AddDataAccess
-  href: api/Microsoft.AspNetCore.Builder.WebApplicationBuilderExtensions.html#Microsoft_AspNetCore_Builder_WebApplicationBuilderExtensions_AddDataAccess_
-  commentId: Overload:Microsoft.AspNetCore.Builder.WebApplicationBuilderExtensions.AddDataAccess
+  fullName: CG.Collections.Generic.ListExtensions.ForEach
+  nameWithType: ListExtensions.ForEach
+- uid: CG.Collections.Generic.ListExtensions.ForEach``1(System.Collections.Generic.IList{``0},System.Action{``0})
+  name: ForEach<T>(IList<T>, Action<T>)
+  href: api/CG.Collections.Generic.ListExtensions.html#CG_Collections_Generic_ListExtensions_ForEach__1_System_Collections_Generic_IList___0__System_Action___0__
+  commentId: M:CG.Collections.Generic.ListExtensions.ForEach``1(System.Collections.Generic.IList{``0},System.Action{``0})
+  name.vb: ForEach(Of T)(IList(Of T), Action(Of T))
+  fullName: CG.Collections.Generic.ListExtensions.ForEach<T>(System.Collections.Generic.IList<T>, System.Action<T>)
+  fullName.vb: CG.Collections.Generic.ListExtensions.ForEach(Of T)(System.Collections.Generic.IList(Of T), System.Action(Of T))
+  nameWithType: ListExtensions.ForEach<T>(IList<T>, Action<T>)
+  nameWithType.vb: ListExtensions.ForEach(Of T)(IList(Of T), Action(Of T))
+- uid: CG.Collections.Generic.ListExtensions.ForEach``1(System.Collections.Generic.IList{``0},System.Func{``0,System.Collections.Generic.IEnumerable{``0}},System.Action{``0})
+  name: ForEach<T>(IList<T>, Func<T, IEnumerable<T>>, Action<T>)
+  href: api/CG.Collections.Generic.ListExtensions.html#CG_Collections_Generic_ListExtensions_ForEach__1_System_Collections_Generic_IList___0__System_Func___0_System_Collections_Generic_IEnumerable___0___System_Action___0__
+  commentId: M:CG.Collections.Generic.ListExtensions.ForEach``1(System.Collections.Generic.IList{``0},System.Func{``0,System.Collections.Generic.IEnumerable{``0}},System.Action{``0})
+  name.vb: ForEach(Of T)(IList(Of T), Func(Of T, IEnumerable(Of T)), Action(Of T))
+  fullName: CG.Collections.Generic.ListExtensions.ForEach<T>(System.Collections.Generic.IList<T>, System.Func<T, System.Collections.Generic.IEnumerable<T>>, System.Action<T>)
+  fullName.vb: CG.Collections.Generic.ListExtensions.ForEach(Of T)(System.Collections.Generic.IList(Of T), System.Func(Of T, System.Collections.Generic.IEnumerable(Of T)), System.Action(Of T))
+  nameWithType: ListExtensions.ForEach<T>(IList<T>, Func<T, IEnumerable<T>>, Action<T>)
+  nameWithType.vb: ListExtensions.ForEach(Of T)(IList(Of T), Func(Of T, IEnumerable(Of T)), Action(Of T))
+- uid: CG.Collections.Generic.ListExtensions.RemoveRange*
+  name: RemoveRange
+  href: api/CG.Collections.Generic.ListExtensions.html#CG_Collections_Generic_ListExtensions_RemoveRange_
+  commentId: Overload:CG.Collections.Generic.ListExtensions.RemoveRange
   isSpec: "True"
-  fullName: Microsoft.AspNetCore.Builder.WebApplicationBuilderExtensions.AddDataAccess
-  nameWithType: WebApplicationBuilderExtensions.AddDataAccess
-- uid: Microsoft.AspNetCore.Builder.WebApplicationExtensions
-  name: WebApplicationExtensions
-  href: api/Microsoft.AspNetCore.Builder.WebApplicationExtensions.html
-  commentId: T:Microsoft.AspNetCore.Builder.WebApplicationExtensions
-  fullName: Microsoft.AspNetCore.Builder.WebApplicationExtensions
-  nameWithType: WebApplicationExtensions
-- uid: Microsoft.AspNetCore.Builder.WebApplicationExtensions.UseDataAccess(Microsoft.AspNetCore.Builder.WebApplication)
-  name: UseDataAccess(WebApplication)
-  href: api/Microsoft.AspNetCore.Builder.WebApplicationExtensions.html#Microsoft_AspNetCore_Builder_WebApplicationExtensions_UseDataAccess_Microsoft_AspNetCore_Builder_WebApplication_
-  commentId: M:Microsoft.AspNetCore.Builder.WebApplicationExtensions.UseDataAccess(Microsoft.AspNetCore.Builder.WebApplication)
-  fullName: Microsoft.AspNetCore.Builder.WebApplicationExtensions.UseDataAccess(Microsoft.AspNetCore.Builder.WebApplication)
-  nameWithType: WebApplicationExtensions.UseDataAccess(WebApplication)
-- uid: Microsoft.AspNetCore.Builder.WebApplicationExtensions.UseDataAccess*
-  name: UseDataAccess
-  href: api/Microsoft.AspNetCore.Builder.WebApplicationExtensions.html#Microsoft_AspNetCore_Builder_WebApplicationExtensions_UseDataAccess_
-  commentId: Overload:Microsoft.AspNetCore.Builder.WebApplicationExtensions.UseDataAccess
+  fullName: CG.Collections.Generic.ListExtensions.RemoveRange
+  nameWithType: ListExtensions.RemoveRange
+- uid: CG.Collections.Generic.ListExtensions.RemoveRange``1(System.Collections.Generic.IList{``0},System.Int32,System.Int32)
+  name: RemoveRange<T>(IList<T>, Int32, Int32)
+  href: api/CG.Collections.Generic.ListExtensions.html#CG_Collections_Generic_ListExtensions_RemoveRange__1_System_Collections_Generic_IList___0__System_Int32_System_Int32_
+  commentId: M:CG.Collections.Generic.ListExtensions.RemoveRange``1(System.Collections.Generic.IList{``0},System.Int32,System.Int32)
+  name.vb: RemoveRange(Of T)(IList(Of T), Int32, Int32)
+  fullName: CG.Collections.Generic.ListExtensions.RemoveRange<T>(System.Collections.Generic.IList<T>, System.Int32, System.Int32)
+  fullName.vb: CG.Collections.Generic.ListExtensions.RemoveRange(Of T)(System.Collections.Generic.IList(Of T), System.Int32, System.Int32)
+  nameWithType: ListExtensions.RemoveRange<T>(IList<T>, Int32, Int32)
+  nameWithType.vb: ListExtensions.RemoveRange(Of T)(IList(Of T), Int32, Int32)
+- uid: System
+  name: System
+  href: api/System.html
+  commentId: N:System
+  fullName: System
+  nameWithType: System
+- uid: System.ActionExtensions
+  name: ActionExtensions
+  href: api/System.ActionExtensions.html
+  commentId: T:System.ActionExtensions
+  fullName: System.ActionExtensions
+  nameWithType: ActionExtensions
+- uid: System.ActionExtensions.WaitAll(IEnumerable{System.Action},System.Int32,CancellationToken)
+  name: WaitAll(IEnumerable<Action>, Int32, CancellationToken)
+  href: api/System.ActionExtensions.html#System_ActionExtensions_WaitAll_IEnumerable_System_Action__System_Int32_CancellationToken_
+  commentId: M:System.ActionExtensions.WaitAll(IEnumerable{System.Action},System.Int32,CancellationToken)
+  name.vb: WaitAll(IEnumerable(Of Action), Int32, CancellationToken)
+  fullName: System.ActionExtensions.WaitAll(IEnumerable<System.Action>, System.Int32, CancellationToken)
+  fullName.vb: System.ActionExtensions.WaitAll(IEnumerable(Of System.Action), System.Int32, CancellationToken)
+  nameWithType: ActionExtensions.WaitAll(IEnumerable<Action>, Int32, CancellationToken)
+  nameWithType.vb: ActionExtensions.WaitAll(IEnumerable(Of Action), Int32, CancellationToken)
+- uid: System.ActionExtensions.WaitAll*
+  name: WaitAll
+  href: api/System.ActionExtensions.html#System_ActionExtensions_WaitAll_
+  commentId: Overload:System.ActionExtensions.WaitAll
   isSpec: "True"
-  fullName: Microsoft.AspNetCore.Builder.WebApplicationExtensions.UseDataAccess
-  nameWithType: WebApplicationExtensions.UseDataAccess
-- uid: Microsoft.EntityFrameworkCore
-  name: Microsoft.EntityFrameworkCore
-  href: api/Microsoft.EntityFrameworkCore.html
-  commentId: N:Microsoft.EntityFrameworkCore
-  fullName: Microsoft.EntityFrameworkCore
-  nameWithType: Microsoft.EntityFrameworkCore
-- uid: Microsoft.EntityFrameworkCore.DatabaseFacadeExtensions
-  name: DatabaseFacadeExtensions
-  href: api/Microsoft.EntityFrameworkCore.DatabaseFacadeExtensions.html
-  commentId: T:Microsoft.EntityFrameworkCore.DatabaseFacadeExtensions
-  fullName: Microsoft.EntityFrameworkCore.DatabaseFacadeExtensions
-  nameWithType: DatabaseFacadeExtensions
-- uid: Microsoft.EntityFrameworkCore.DatabaseFacadeExtensions.GetDatabaseName(DatabaseFacade)
-  name: GetDatabaseName(DatabaseFacade)
-  href: api/Microsoft.EntityFrameworkCore.DatabaseFacadeExtensions.html#Microsoft_EntityFrameworkCore_DatabaseFacadeExtensions_GetDatabaseName_DatabaseFacade_
-  commentId: M:Microsoft.EntityFrameworkCore.DatabaseFacadeExtensions.GetDatabaseName(DatabaseFacade)
-  fullName: Microsoft.EntityFrameworkCore.DatabaseFacadeExtensions.GetDatabaseName(DatabaseFacade)
-  nameWithType: DatabaseFacadeExtensions.GetDatabaseName(DatabaseFacade)
-- uid: Microsoft.EntityFrameworkCore.DatabaseFacadeExtensions.GetDatabaseName*
-  name: GetDatabaseName
-  href: api/Microsoft.EntityFrameworkCore.DatabaseFacadeExtensions.html#Microsoft_EntityFrameworkCore_DatabaseFacadeExtensions_GetDatabaseName_
-  commentId: Overload:Microsoft.EntityFrameworkCore.DatabaseFacadeExtensions.GetDatabaseName
+  fullName: System.ActionExtensions.WaitAll
+  nameWithType: ActionExtensions.WaitAll
+- uid: System.ActionExtensions.WhenAll(IEnumerable{System.Action},System.Int32,CancellationToken)
+  name: WhenAll(IEnumerable<Action>, Int32, CancellationToken)
+  href: api/System.ActionExtensions.html#System_ActionExtensions_WhenAll_IEnumerable_System_Action__System_Int32_CancellationToken_
+  commentId: M:System.ActionExtensions.WhenAll(IEnumerable{System.Action},System.Int32,CancellationToken)
+  name.vb: WhenAll(IEnumerable(Of Action), Int32, CancellationToken)
+  fullName: System.ActionExtensions.WhenAll(IEnumerable<System.Action>, System.Int32, CancellationToken)
+  fullName.vb: System.ActionExtensions.WhenAll(IEnumerable(Of System.Action), System.Int32, CancellationToken)
+  nameWithType: ActionExtensions.WhenAll(IEnumerable<Action>, Int32, CancellationToken)
+  nameWithType.vb: ActionExtensions.WhenAll(IEnumerable(Of Action), Int32, CancellationToken)
+- uid: System.ActionExtensions.WhenAll*
+  name: WhenAll
+  href: api/System.ActionExtensions.html#System_ActionExtensions_WhenAll_
+  commentId: Overload:System.ActionExtensions.WhenAll
   isSpec: "True"
-  fullName: Microsoft.EntityFrameworkCore.DatabaseFacadeExtensions.GetDatabaseName
-  nameWithType: DatabaseFacadeExtensions.GetDatabaseName
-- uid: Microsoft.EntityFrameworkCore.DatabaseFacadeExtensions.GetServerName(DatabaseFacade)
-  name: GetServerName(DatabaseFacade)
-  href: api/Microsoft.EntityFrameworkCore.DatabaseFacadeExtensions.html#Microsoft_EntityFrameworkCore_DatabaseFacadeExtensions_GetServerName_DatabaseFacade_
-  commentId: M:Microsoft.EntityFrameworkCore.DatabaseFacadeExtensions.GetServerName(DatabaseFacade)
-  fullName: Microsoft.EntityFrameworkCore.DatabaseFacadeExtensions.GetServerName(DatabaseFacade)
-  nameWithType: DatabaseFacadeExtensions.GetServerName(DatabaseFacade)
-- uid: Microsoft.EntityFrameworkCore.DatabaseFacadeExtensions.GetServerName*
-  name: GetServerName
-  href: api/Microsoft.EntityFrameworkCore.DatabaseFacadeExtensions.html#Microsoft_EntityFrameworkCore_DatabaseFacadeExtensions_GetServerName_
-  commentId: Overload:Microsoft.EntityFrameworkCore.DatabaseFacadeExtensions.GetServerName
+  fullName: System.ActionExtensions.WhenAll
+  nameWithType: ActionExtensions.WhenAll
+- uid: System.AppDomainExtensions
+  name: AppDomainExtensions
+  href: api/System.AppDomainExtensions.html
+  commentId: T:System.AppDomainExtensions
+  fullName: System.AppDomainExtensions
+  nameWithType: AppDomainExtensions
+- uid: System.AppDomainExtensions.FriendlyNameEx(System.AppDomain,System.Boolean)
+  name: FriendlyNameEx(AppDomain, Boolean)
+  href: api/System.AppDomainExtensions.html#System_AppDomainExtensions_FriendlyNameEx_System_AppDomain_System_Boolean_
+  commentId: M:System.AppDomainExtensions.FriendlyNameEx(System.AppDomain,System.Boolean)
+  fullName: System.AppDomainExtensions.FriendlyNameEx(System.AppDomain, System.Boolean)
+  nameWithType: AppDomainExtensions.FriendlyNameEx(AppDomain, Boolean)
+- uid: System.AppDomainExtensions.FriendlyNameEx*
+  name: FriendlyNameEx
+  href: api/System.AppDomainExtensions.html#System_AppDomainExtensions_FriendlyNameEx_
+  commentId: Overload:System.AppDomainExtensions.FriendlyNameEx
   isSpec: "True"
-  fullName: Microsoft.EntityFrameworkCore.DatabaseFacadeExtensions.GetServerName
-  nameWithType: DatabaseFacadeExtensions.GetServerName
-- uid: Microsoft.EntityFrameworkCore.Design
-  name: Microsoft.EntityFrameworkCore.Design
-  href: api/Microsoft.EntityFrameworkCore.Design.html
-  commentId: N:Microsoft.EntityFrameworkCore.Design
-  fullName: Microsoft.EntityFrameworkCore.Design
-  nameWithType: Microsoft.EntityFrameworkCore.Design
-- uid: Microsoft.EntityFrameworkCore.Design.DesignTimeDbContextFactory`1
-  name: DesignTimeDbContextFactory<TContext>
-  href: api/Microsoft.EntityFrameworkCore.Design.DesignTimeDbContextFactory-1.html
-  commentId: T:Microsoft.EntityFrameworkCore.Design.DesignTimeDbContextFactory`1
-  name.vb: DesignTimeDbContextFactory(Of TContext)
-  fullName: Microsoft.EntityFrameworkCore.Design.DesignTimeDbContextFactory<TContext>
-  fullName.vb: Microsoft.EntityFrameworkCore.Design.DesignTimeDbContextFactory(Of TContext)
-  nameWithType: DesignTimeDbContextFactory<TContext>
-  nameWithType.vb: DesignTimeDbContextFactory(Of TContext)
-- uid: Microsoft.EntityFrameworkCore.Design.DesignTimeDbContextFactory`1.CreateDbContext(System.String[])
-  name: CreateDbContext(String[])
-  href: api/Microsoft.EntityFrameworkCore.Design.DesignTimeDbContextFactory-1.html#Microsoft_EntityFrameworkCore_Design_DesignTimeDbContextFactory_1_CreateDbContext_System_String___
-  commentId: M:Microsoft.EntityFrameworkCore.Design.DesignTimeDbContextFactory`1.CreateDbContext(System.String[])
-  name.vb: CreateDbContext(String())
-  fullName: Microsoft.EntityFrameworkCore.Design.DesignTimeDbContextFactory<TContext>.CreateDbContext(System.String[])
-  fullName.vb: Microsoft.EntityFrameworkCore.Design.DesignTimeDbContextFactory(Of TContext).CreateDbContext(System.String())
-  nameWithType: DesignTimeDbContextFactory<TContext>.CreateDbContext(String[])
-  nameWithType.vb: DesignTimeDbContextFactory(Of TContext).CreateDbContext(String())
-- uid: Microsoft.EntityFrameworkCore.Design.DesignTimeDbContextFactory`1.CreateDbContext*
-  name: CreateDbContext
-  href: api/Microsoft.EntityFrameworkCore.Design.DesignTimeDbContextFactory-1.html#Microsoft_EntityFrameworkCore_Design_DesignTimeDbContextFactory_1_CreateDbContext_
-  commentId: Overload:Microsoft.EntityFrameworkCore.Design.DesignTimeDbContextFactory`1.CreateDbContext
+  fullName: System.AppDomainExtensions.FriendlyNameEx
+  nameWithType: AppDomainExtensions.FriendlyNameEx
+- uid: System.Collections
+  name: System.Collections
+  href: api/System.Collections.html
+  commentId: N:System.Collections
+  fullName: System.Collections
+  nameWithType: System.Collections
+- uid: System.Collections.GuardExtensions
+  name: GuardExtensions
+  href: api/System.Collections.GuardExtensions.html
+  commentId: T:System.Collections.GuardExtensions
+  fullName: System.Collections.GuardExtensions
+  nameWithType: GuardExtensions
+- uid: System.Collections.GuardExtensions.ThrowIfEmpty*
+  name: ThrowIfEmpty
+  href: api/System.Collections.GuardExtensions.html#System_Collections_GuardExtensions_ThrowIfEmpty_
+  commentId: Overload:System.Collections.GuardExtensions.ThrowIfEmpty
   isSpec: "True"
-  fullName: Microsoft.EntityFrameworkCore.Design.DesignTimeDbContextFactory<TContext>.CreateDbContext
-  fullName.vb: Microsoft.EntityFrameworkCore.Design.DesignTimeDbContextFactory(Of TContext).CreateDbContext
-  nameWithType: DesignTimeDbContextFactory<TContext>.CreateDbContext
-  nameWithType.vb: DesignTimeDbContextFactory(Of TContext).CreateDbContext
-- uid: Microsoft.EntityFrameworkCore.Design.DesignTimeDbContextFactory`1.OnConfigureDataContextOptions(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder{`0},IConfiguration)
-  name: OnConfigureDataContextOptions(DbContextOptionsBuilder<TContext>, IConfiguration)
-  href: api/Microsoft.EntityFrameworkCore.Design.DesignTimeDbContextFactory-1.html#Microsoft_EntityFrameworkCore_Design_DesignTimeDbContextFactory_1_OnConfigureDataContextOptions_Microsoft_EntityFrameworkCore_DbContextOptionsBuilder__0__IConfiguration_
-  commentId: M:Microsoft.EntityFrameworkCore.Design.DesignTimeDbContextFactory`1.OnConfigureDataContextOptions(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder{`0},IConfiguration)
-  name.vb: OnConfigureDataContextOptions(DbContextOptionsBuilder(Of TContext), IConfiguration)
-  fullName: Microsoft.EntityFrameworkCore.Design.DesignTimeDbContextFactory<TContext>.OnConfigureDataContextOptions(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder<TContext>, IConfiguration)
-  fullName.vb: Microsoft.EntityFrameworkCore.Design.DesignTimeDbContextFactory(Of TContext).OnConfigureDataContextOptions(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder(Of TContext), IConfiguration)
-  nameWithType: DesignTimeDbContextFactory<TContext>.OnConfigureDataContextOptions(DbContextOptionsBuilder<TContext>, IConfiguration)
-  nameWithType.vb: DesignTimeDbContextFactory(Of TContext).OnConfigureDataContextOptions(DbContextOptionsBuilder(Of TContext), IConfiguration)
-- uid: Microsoft.EntityFrameworkCore.Design.DesignTimeDbContextFactory`1.OnConfigureDataContextOptions*
-  name: OnConfigureDataContextOptions
-  href: api/Microsoft.EntityFrameworkCore.Design.DesignTimeDbContextFactory-1.html#Microsoft_EntityFrameworkCore_Design_DesignTimeDbContextFactory_1_OnConfigureDataContextOptions_
-  commentId: Overload:Microsoft.EntityFrameworkCore.Design.DesignTimeDbContextFactory`1.OnConfigureDataContextOptions
+  fullName: System.Collections.GuardExtensions.ThrowIfEmpty
+  nameWithType: GuardExtensions.ThrowIfEmpty
+- uid: System.Collections.GuardExtensions.ThrowIfEmpty``1(IGuard,System.Collections.IEnumerable{``0},System.String,System.String,System.String,System.Int32)
+  name: ThrowIfEmpty<T>(IGuard, IEnumerable<T>, String, String, String, Int32)
+  href: api/System.Collections.GuardExtensions.html#System_Collections_GuardExtensions_ThrowIfEmpty__1_IGuard_System_Collections_IEnumerable___0__System_String_System_String_System_String_System_Int32_
+  commentId: M:System.Collections.GuardExtensions.ThrowIfEmpty``1(IGuard,System.Collections.IEnumerable{``0},System.String,System.String,System.String,System.Int32)
+  name.vb: ThrowIfEmpty(Of T)(IGuard, IEnumerable(Of T), String, String, String, Int32)
+  fullName: System.Collections.GuardExtensions.ThrowIfEmpty<T>(IGuard, System.Collections.IEnumerable<T>, System.String, System.String, System.String, System.Int32)
+  fullName.vb: System.Collections.GuardExtensions.ThrowIfEmpty(Of T)(IGuard, System.Collections.IEnumerable(Of T), System.String, System.String, System.String, System.Int32)
+  nameWithType: GuardExtensions.ThrowIfEmpty<T>(IGuard, IEnumerable<T>, String, String, String, Int32)
+  nameWithType.vb: GuardExtensions.ThrowIfEmpty(Of T)(IGuard, IEnumerable(Of T), String, String, String, Int32)
+- uid: System.Diagnostics
+  name: System.Diagnostics
+  href: api/System.Diagnostics.html
+  commentId: N:System.Diagnostics
+  fullName: System.Diagnostics
+  nameWithType: System.Diagnostics
+- uid: System.Diagnostics.ObjectExtensions
+  name: ObjectExtensions
+  href: api/System.Diagnostics.ObjectExtensions.html
+  commentId: T:System.Diagnostics.ObjectExtensions
+  fullName: System.Diagnostics.ObjectExtensions
+  nameWithType: ObjectExtensions
+- uid: System.Diagnostics.ObjectExtensions.GetFieldValue(System.Object,System.String,System.Boolean)
+  name: GetFieldValue(Object, String, Boolean)
+  href: api/System.Diagnostics.ObjectExtensions.html#System_Diagnostics_ObjectExtensions_GetFieldValue_System_Object_System_String_System_Boolean_
+  commentId: M:System.Diagnostics.ObjectExtensions.GetFieldValue(System.Object,System.String,System.Boolean)
+  fullName: System.Diagnostics.ObjectExtensions.GetFieldValue(System.Object, System.String, System.Boolean)
+  nameWithType: ObjectExtensions.GetFieldValue(Object, String, Boolean)
+- uid: System.Diagnostics.ObjectExtensions.GetFieldValue*
+  name: GetFieldValue
+  href: api/System.Diagnostics.ObjectExtensions.html#System_Diagnostics_ObjectExtensions_GetFieldValue_
+  commentId: Overload:System.Diagnostics.ObjectExtensions.GetFieldValue
   isSpec: "True"
-  fullName: Microsoft.EntityFrameworkCore.Design.DesignTimeDbContextFactory<TContext>.OnConfigureDataContextOptions
-  fullName.vb: Microsoft.EntityFrameworkCore.Design.DesignTimeDbContextFactory(Of TContext).OnConfigureDataContextOptions
-  nameWithType: DesignTimeDbContextFactory<TContext>.OnConfigureDataContextOptions
-  nameWithType.vb: DesignTimeDbContextFactory(Of TContext).OnConfigureDataContextOptions
+  fullName: System.Diagnostics.ObjectExtensions.GetFieldValue
+  nameWithType: ObjectExtensions.GetFieldValue
+- uid: System.Diagnostics.ObjectExtensions.GetFieldValue``1(System.Object,System.String,System.Boolean)
+  name: GetFieldValue<T>(Object, String, Boolean)
+  href: api/System.Diagnostics.ObjectExtensions.html#System_Diagnostics_ObjectExtensions_GetFieldValue__1_System_Object_System_String_System_Boolean_
+  commentId: M:System.Diagnostics.ObjectExtensions.GetFieldValue``1(System.Object,System.String,System.Boolean)
+  name.vb: GetFieldValue(Of T)(Object, String, Boolean)
+  fullName: System.Diagnostics.ObjectExtensions.GetFieldValue<T>(System.Object, System.String, System.Boolean)
+  fullName.vb: System.Diagnostics.ObjectExtensions.GetFieldValue(Of T)(System.Object, System.String, System.Boolean)
+  nameWithType: ObjectExtensions.GetFieldValue<T>(Object, String, Boolean)
+  nameWithType.vb: ObjectExtensions.GetFieldValue(Of T)(Object, String, Boolean)
+- uid: System.Diagnostics.ObjectExtensions.GetPropertyValue(System.Object,System.String,System.Boolean)
+  name: GetPropertyValue(Object, String, Boolean)
+  href: api/System.Diagnostics.ObjectExtensions.html#System_Diagnostics_ObjectExtensions_GetPropertyValue_System_Object_System_String_System_Boolean_
+  commentId: M:System.Diagnostics.ObjectExtensions.GetPropertyValue(System.Object,System.String,System.Boolean)
+  fullName: System.Diagnostics.ObjectExtensions.GetPropertyValue(System.Object, System.String, System.Boolean)
+  nameWithType: ObjectExtensions.GetPropertyValue(Object, String, Boolean)
+- uid: System.Diagnostics.ObjectExtensions.GetPropertyValue*
+  name: GetPropertyValue
+  href: api/System.Diagnostics.ObjectExtensions.html#System_Diagnostics_ObjectExtensions_GetPropertyValue_
+  commentId: Overload:System.Diagnostics.ObjectExtensions.GetPropertyValue
+  isSpec: "True"
+  fullName: System.Diagnostics.ObjectExtensions.GetPropertyValue
+  nameWithType: ObjectExtensions.GetPropertyValue
+- uid: System.Diagnostics.ObjectExtensions.GetPropertyValue``1(System.Object,System.String,System.Boolean)
+  name: GetPropertyValue<T>(Object, String, Boolean)
+  href: api/System.Diagnostics.ObjectExtensions.html#System_Diagnostics_ObjectExtensions_GetPropertyValue__1_System_Object_System_String_System_Boolean_
+  commentId: M:System.Diagnostics.ObjectExtensions.GetPropertyValue``1(System.Object,System.String,System.Boolean)
+  name.vb: GetPropertyValue(Of T)(Object, String, Boolean)
+  fullName: System.Diagnostics.ObjectExtensions.GetPropertyValue<T>(System.Object, System.String, System.Boolean)
+  fullName.vb: System.Diagnostics.ObjectExtensions.GetPropertyValue(Of T)(System.Object, System.String, System.Boolean)
+  nameWithType: ObjectExtensions.GetPropertyValue<T>(Object, String, Boolean)
+  nameWithType.vb: ObjectExtensions.GetPropertyValue(Of T)(Object, String, Boolean)
+- uid: System.Diagnostics.ObjectExtensions.SetFieldValue(System.Object,System.String,System.Object,System.Boolean)
+  name: SetFieldValue(Object, String, Object, Boolean)
+  href: api/System.Diagnostics.ObjectExtensions.html#System_Diagnostics_ObjectExtensions_SetFieldValue_System_Object_System_String_System_Object_System_Boolean_
+  commentId: M:System.Diagnostics.ObjectExtensions.SetFieldValue(System.Object,System.String,System.Object,System.Boolean)
+  fullName: System.Diagnostics.ObjectExtensions.SetFieldValue(System.Object, System.String, System.Object, System.Boolean)
+  nameWithType: ObjectExtensions.SetFieldValue(Object, String, Object, Boolean)
+- uid: System.Diagnostics.ObjectExtensions.SetFieldValue*
+  name: SetFieldValue
+  href: api/System.Diagnostics.ObjectExtensions.html#System_Diagnostics_ObjectExtensions_SetFieldValue_
+  commentId: Overload:System.Diagnostics.ObjectExtensions.SetFieldValue
+  isSpec: "True"
+  fullName: System.Diagnostics.ObjectExtensions.SetFieldValue
+  nameWithType: ObjectExtensions.SetFieldValue
+- uid: System.Diagnostics.ObjectExtensions.SetPropertyValue(System.Object,System.String,System.Object,System.Boolean)
+  name: SetPropertyValue(Object, String, Object, Boolean)
+  href: api/System.Diagnostics.ObjectExtensions.html#System_Diagnostics_ObjectExtensions_SetPropertyValue_System_Object_System_String_System_Object_System_Boolean_
+  commentId: M:System.Diagnostics.ObjectExtensions.SetPropertyValue(System.Object,System.String,System.Object,System.Boolean)
+  fullName: System.Diagnostics.ObjectExtensions.SetPropertyValue(System.Object, System.String, System.Object, System.Boolean)
+  nameWithType: ObjectExtensions.SetPropertyValue(Object, String, Object, Boolean)
+- uid: System.Diagnostics.ObjectExtensions.SetPropertyValue*
+  name: SetPropertyValue
+  href: api/System.Diagnostics.ObjectExtensions.html#System_Diagnostics_ObjectExtensions_SetPropertyValue_
+  commentId: Overload:System.Diagnostics.ObjectExtensions.SetPropertyValue
+  isSpec: "True"
+  fullName: System.Diagnostics.ObjectExtensions.SetPropertyValue
+  nameWithType: ObjectExtensions.SetPropertyValue
+- uid: System.Diagnostics.ObjectExtensions.TryGetFieldValue*
+  name: TryGetFieldValue
+  href: api/System.Diagnostics.ObjectExtensions.html#System_Diagnostics_ObjectExtensions_TryGetFieldValue_
+  commentId: Overload:System.Diagnostics.ObjectExtensions.TryGetFieldValue
+  isSpec: "True"
+  fullName: System.Diagnostics.ObjectExtensions.TryGetFieldValue
+  nameWithType: ObjectExtensions.TryGetFieldValue
+- uid: System.Diagnostics.ObjectExtensions.TryGetFieldValue``2(``0,Expression{System.Func{``0,``1}},``1@)
+  name: TryGetFieldValue<TSource, TFld>(TSource, Expression<Func<TSource, TFld>>, out TFld)
+  href: api/System.Diagnostics.ObjectExtensions.html#System_Diagnostics_ObjectExtensions_TryGetFieldValue__2___0_Expression_System_Func___0___1_____1__
+  commentId: M:System.Diagnostics.ObjectExtensions.TryGetFieldValue``2(``0,Expression{System.Func{``0,``1}},``1@)
+  name.vb: TryGetFieldValue(Of TSource, TFld)(TSource, Expression(Of Func(Of TSource, TFld)), ByRef TFld)
+  fullName: System.Diagnostics.ObjectExtensions.TryGetFieldValue<TSource, TFld>(TSource, Expression<System.Func<TSource, TFld>>, out TFld)
+  fullName.vb: System.Diagnostics.ObjectExtensions.TryGetFieldValue(Of TSource, TFld)(TSource, Expression(Of System.Func(Of TSource, TFld)), ByRef TFld)
+  nameWithType: ObjectExtensions.TryGetFieldValue<TSource, TFld>(TSource, Expression<Func<TSource, TFld>>, out TFld)
+  nameWithType.vb: ObjectExtensions.TryGetFieldValue(Of TSource, TFld)(TSource, Expression(Of Func(Of TSource, TFld)), ByRef TFld)
+- uid: System.Diagnostics.ObjectExtensions.TryGetPropertyValue*
+  name: TryGetPropertyValue
+  href: api/System.Diagnostics.ObjectExtensions.html#System_Diagnostics_ObjectExtensions_TryGetPropertyValue_
+  commentId: Overload:System.Diagnostics.ObjectExtensions.TryGetPropertyValue
+  isSpec: "True"
+  fullName: System.Diagnostics.ObjectExtensions.TryGetPropertyValue
+  nameWithType: ObjectExtensions.TryGetPropertyValue
+- uid: System.Diagnostics.ObjectExtensions.TryGetPropertyValue``2(``0,Expression{System.Func{``0,``1}},``1@)
+  name: TryGetPropertyValue<TSource, TProp>(TSource, Expression<Func<TSource, TProp>>, out TProp)
+  href: api/System.Diagnostics.ObjectExtensions.html#System_Diagnostics_ObjectExtensions_TryGetPropertyValue__2___0_Expression_System_Func___0___1_____1__
+  commentId: M:System.Diagnostics.ObjectExtensions.TryGetPropertyValue``2(``0,Expression{System.Func{``0,``1}},``1@)
+  name.vb: TryGetPropertyValue(Of TSource, TProp)(TSource, Expression(Of Func(Of TSource, TProp)), ByRef TProp)
+  fullName: System.Diagnostics.ObjectExtensions.TryGetPropertyValue<TSource, TProp>(TSource, Expression<System.Func<TSource, TProp>>, out TProp)
+  fullName.vb: System.Diagnostics.ObjectExtensions.TryGetPropertyValue(Of TSource, TProp)(TSource, Expression(Of System.Func(Of TSource, TProp)), ByRef TProp)
+  nameWithType: ObjectExtensions.TryGetPropertyValue<TSource, TProp>(TSource, Expression<Func<TSource, TProp>>, out TProp)
+  nameWithType.vb: ObjectExtensions.TryGetPropertyValue(Of TSource, TProp)(TSource, Expression(Of Func(Of TSource, TProp)), ByRef TProp)
+- uid: System.DisposableBase
+  name: DisposableBase
+  href: api/System.DisposableBase.html
+  commentId: T:System.DisposableBase
+  fullName: System.DisposableBase
+  nameWithType: DisposableBase
+- uid: System.DisposableBase.Dispose(System.Boolean)
+  name: Dispose(Boolean)
+  href: api/System.DisposableBase.html#System_DisposableBase_Dispose_System_Boolean_
+  commentId: M:System.DisposableBase.Dispose(System.Boolean)
+  fullName: System.DisposableBase.Dispose(System.Boolean)
+  nameWithType: DisposableBase.Dispose(Boolean)
+- uid: System.DisposableBase.Dispose*
+  name: Dispose
+  href: api/System.DisposableBase.html#System_DisposableBase_Dispose_
+  commentId: Overload:System.DisposableBase.Dispose
+  isSpec: "True"
+  fullName: System.DisposableBase.Dispose
+  nameWithType: DisposableBase.Dispose
+- uid: System.DisposableBase.IsDisposed
+  name: IsDisposed
+  href: api/System.DisposableBase.html#System_DisposableBase_IsDisposed
+  commentId: P:System.DisposableBase.IsDisposed
+  fullName: System.DisposableBase.IsDisposed
+  nameWithType: DisposableBase.IsDisposed
+- uid: System.DisposableBase.IsDisposed*
+  name: IsDisposed
+  href: api/System.DisposableBase.html#System_DisposableBase_IsDisposed_
+  commentId: Overload:System.DisposableBase.IsDisposed
+  isSpec: "True"
+  fullName: System.DisposableBase.IsDisposed
+  nameWithType: DisposableBase.IsDisposed
+- uid: System.DisposableBase.System#IDisposable#Dispose
+  name: IDisposable.Dispose()
+  href: api/System.DisposableBase.html#System_DisposableBase_System_IDisposable_Dispose
+  commentId: M:System.DisposableBase.System#IDisposable#Dispose
+  name.vb: System.IDisposable.Dispose()
+  fullName: System.DisposableBase.System.IDisposable.Dispose()
+  nameWithType: DisposableBase.IDisposable.Dispose()
+  nameWithType.vb: DisposableBase.System.IDisposable.Dispose()
+- uid: System.DisposableBase.System#IDisposable#Dispose*
+  name: IDisposable.Dispose
+  href: api/System.DisposableBase.html#System_DisposableBase_System_IDisposable_Dispose_
+  commentId: Overload:System.DisposableBase.System#IDisposable#Dispose
+  isSpec: "True"
+  name.vb: System.IDisposable.Dispose
+  fullName: System.DisposableBase.System.IDisposable.Dispose
+  nameWithType: DisposableBase.IDisposable.Dispose
+  nameWithType.vb: DisposableBase.System.IDisposable.Dispose
+- uid: System.ExceptionExtensions
+  name: ExceptionExtensions
+  href: api/System.ExceptionExtensions.html
+  commentId: T:System.ExceptionExtensions
+  fullName: System.ExceptionExtensions
+  nameWithType: ExceptionExtensions
+- uid: System.ExceptionExtensions.GetCallerInfo(System.Exception,System.String@,System.String@,System.Int32@)
+  name: GetCallerInfo(Exception, out String, out String, out Int32)
+  href: api/System.ExceptionExtensions.html#System_ExceptionExtensions_GetCallerInfo_System_Exception_System_String__System_String__System_Int32__
+  commentId: M:System.ExceptionExtensions.GetCallerInfo(System.Exception,System.String@,System.String@,System.Int32@)
+  name.vb: GetCallerInfo(Exception, ByRef String, ByRef String, ByRef Int32)
+  fullName: System.ExceptionExtensions.GetCallerInfo(System.Exception, out System.String, out System.String, out System.Int32)
+  fullName.vb: System.ExceptionExtensions.GetCallerInfo(System.Exception, ByRef System.String, ByRef System.String, ByRef System.Int32)
+  nameWithType: ExceptionExtensions.GetCallerInfo(Exception, out String, out String, out Int32)
+  nameWithType.vb: ExceptionExtensions.GetCallerInfo(Exception, ByRef String, ByRef String, ByRef Int32)
+- uid: System.ExceptionExtensions.GetCallerInfo*
+  name: GetCallerInfo
+  href: api/System.ExceptionExtensions.html#System_ExceptionExtensions_GetCallerInfo_
+  commentId: Overload:System.ExceptionExtensions.GetCallerInfo
+  isSpec: "True"
+  fullName: System.ExceptionExtensions.GetCallerInfo
+  nameWithType: ExceptionExtensions.GetCallerInfo
+- uid: System.ExceptionExtensions.GetDateTime(System.Exception,System.DateTime@)
+  name: GetDateTime(Exception, out DateTime)
+  href: api/System.ExceptionExtensions.html#System_ExceptionExtensions_GetDateTime_System_Exception_System_DateTime__
+  commentId: M:System.ExceptionExtensions.GetDateTime(System.Exception,System.DateTime@)
+  name.vb: GetDateTime(Exception, ByRef DateTime)
+  fullName: System.ExceptionExtensions.GetDateTime(System.Exception, out System.DateTime)
+  fullName.vb: System.ExceptionExtensions.GetDateTime(System.Exception, ByRef System.DateTime)
+  nameWithType: ExceptionExtensions.GetDateTime(Exception, out DateTime)
+  nameWithType.vb: ExceptionExtensions.GetDateTime(Exception, ByRef DateTime)
+- uid: System.ExceptionExtensions.GetDateTime*
+  name: GetDateTime
+  href: api/System.ExceptionExtensions.html#System_ExceptionExtensions_GetDateTime_
+  commentId: Overload:System.ExceptionExtensions.GetDateTime
+  isSpec: "True"
+  fullName: System.ExceptionExtensions.GetDateTime
+  nameWithType: ExceptionExtensions.GetDateTime
+- uid: System.ExceptionExtensions.GetMachineName(System.Exception,System.String@)
+  name: GetMachineName(Exception, out String)
+  href: api/System.ExceptionExtensions.html#System_ExceptionExtensions_GetMachineName_System_Exception_System_String__
+  commentId: M:System.ExceptionExtensions.GetMachineName(System.Exception,System.String@)
+  name.vb: GetMachineName(Exception, ByRef String)
+  fullName: System.ExceptionExtensions.GetMachineName(System.Exception, out System.String)
+  fullName.vb: System.ExceptionExtensions.GetMachineName(System.Exception, ByRef System.String)
+  nameWithType: ExceptionExtensions.GetMachineName(Exception, out String)
+  nameWithType.vb: ExceptionExtensions.GetMachineName(Exception, ByRef String)
+- uid: System.ExceptionExtensions.GetMachineName*
+  name: GetMachineName
+  href: api/System.ExceptionExtensions.html#System_ExceptionExtensions_GetMachineName_
+  commentId: Overload:System.ExceptionExtensions.GetMachineName
+  isSpec: "True"
+  fullName: System.ExceptionExtensions.GetMachineName
+  nameWithType: ExceptionExtensions.GetMachineName
+- uid: System.ExceptionExtensions.GetMethodArguments(System.Exception,System.ValueTuple{System.String,System.Object}[]@)
+  name: GetMethodArguments(Exception, out (String, Object)[])
+  href: api/System.ExceptionExtensions.html#System_ExceptionExtensions_GetMethodArguments_System_Exception_System_ValueTuple_System_String_System_Object_____
+  commentId: M:System.ExceptionExtensions.GetMethodArguments(System.Exception,System.ValueTuple{System.String,System.Object}[]@)
+  name.vb: GetMethodArguments(Exception, ByRef (String, Object)(Of String, Object)())
+  fullName: System.ExceptionExtensions.GetMethodArguments(System.Exception, out System.ValueTuple<System.String, System.Object>[])
+  fullName.vb: System.ExceptionExtensions.GetMethodArguments(System.Exception, ByRef System.ValueTuple(Of System.String, System.Object)())
+  nameWithType: ExceptionExtensions.GetMethodArguments(Exception, out (String, Object)[])
+  nameWithType.vb: ExceptionExtensions.GetMethodArguments(Exception, ByRef (String, Object)(Of String, Object)())
+- uid: System.ExceptionExtensions.GetMethodArguments*
+  name: GetMethodArguments
+  href: api/System.ExceptionExtensions.html#System_ExceptionExtensions_GetMethodArguments_
+  commentId: Overload:System.ExceptionExtensions.GetMethodArguments
+  isSpec: "True"
+  fullName: System.ExceptionExtensions.GetMethodArguments
+  nameWithType: ExceptionExtensions.GetMethodArguments
+- uid: System.ExceptionExtensions.GetOriginator(System.Exception,System.String@)
+  name: GetOriginator(Exception, out String)
+  href: api/System.ExceptionExtensions.html#System_ExceptionExtensions_GetOriginator_System_Exception_System_String__
+  commentId: M:System.ExceptionExtensions.GetOriginator(System.Exception,System.String@)
+  name.vb: GetOriginator(Exception, ByRef String)
+  fullName: System.ExceptionExtensions.GetOriginator(System.Exception, out System.String)
+  fullName.vb: System.ExceptionExtensions.GetOriginator(System.Exception, ByRef System.String)
+  nameWithType: ExceptionExtensions.GetOriginator(Exception, out String)
+  nameWithType.vb: ExceptionExtensions.GetOriginator(Exception, ByRef String)
+- uid: System.ExceptionExtensions.GetOriginator*
+  name: GetOriginator
+  href: api/System.ExceptionExtensions.html#System_ExceptionExtensions_GetOriginator_
+  commentId: Overload:System.ExceptionExtensions.GetOriginator
+  isSpec: "True"
+  fullName: System.ExceptionExtensions.GetOriginator
+  nameWithType: ExceptionExtensions.GetOriginator
+- uid: System.ExceptionExtensions.MessageEx(System.Exception,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean)
+  name: MessageEx(Exception, Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, Boolean)
+  href: api/System.ExceptionExtensions.html#System_ExceptionExtensions_MessageEx_System_Exception_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_
+  commentId: M:System.ExceptionExtensions.MessageEx(System.Exception,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean)
+  fullName: System.ExceptionExtensions.MessageEx(System.Exception, System.Boolean, System.Boolean, System.Boolean, System.Boolean, System.Boolean, System.Boolean, System.Boolean, System.Boolean, System.Boolean, System.Boolean)
+  nameWithType: ExceptionExtensions.MessageEx(Exception, Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, Boolean)
+- uid: System.ExceptionExtensions.MessageEx*
+  name: MessageEx
+  href: api/System.ExceptionExtensions.html#System_ExceptionExtensions_MessageEx_
+  commentId: Overload:System.ExceptionExtensions.MessageEx
+  isSpec: "True"
+  fullName: System.ExceptionExtensions.MessageEx
+  nameWithType: ExceptionExtensions.MessageEx
+- uid: System.ExceptionExtensions.SetCallerInfo(System.Exception,System.String,System.String,System.Int32)
+  name: SetCallerInfo(Exception, String, String, Int32)
+  href: api/System.ExceptionExtensions.html#System_ExceptionExtensions_SetCallerInfo_System_Exception_System_String_System_String_System_Int32_
+  commentId: M:System.ExceptionExtensions.SetCallerInfo(System.Exception,System.String,System.String,System.Int32)
+  fullName: System.ExceptionExtensions.SetCallerInfo(System.Exception, System.String, System.String, System.Int32)
+  nameWithType: ExceptionExtensions.SetCallerInfo(Exception, String, String, Int32)
+- uid: System.ExceptionExtensions.SetCallerInfo*
+  name: SetCallerInfo
+  href: api/System.ExceptionExtensions.html#System_ExceptionExtensions_SetCallerInfo_
+  commentId: Overload:System.ExceptionExtensions.SetCallerInfo
+  isSpec: "True"
+  fullName: System.ExceptionExtensions.SetCallerInfo
+  nameWithType: ExceptionExtensions.SetCallerInfo
+- uid: System.ExceptionExtensions.SetDateTime(System.Exception)
+  name: SetDateTime(Exception)
+  href: api/System.ExceptionExtensions.html#System_ExceptionExtensions_SetDateTime_System_Exception_
+  commentId: M:System.ExceptionExtensions.SetDateTime(System.Exception)
+  fullName: System.ExceptionExtensions.SetDateTime(System.Exception)
+  nameWithType: ExceptionExtensions.SetDateTime(Exception)
+- uid: System.ExceptionExtensions.SetDateTime*
+  name: SetDateTime
+  href: api/System.ExceptionExtensions.html#System_ExceptionExtensions_SetDateTime_
+  commentId: Overload:System.ExceptionExtensions.SetDateTime
+  isSpec: "True"
+  fullName: System.ExceptionExtensions.SetDateTime
+  nameWithType: ExceptionExtensions.SetDateTime
+- uid: System.ExceptionExtensions.SetMachineName(System.Exception)
+  name: SetMachineName(Exception)
+  href: api/System.ExceptionExtensions.html#System_ExceptionExtensions_SetMachineName_System_Exception_
+  commentId: M:System.ExceptionExtensions.SetMachineName(System.Exception)
+  fullName: System.ExceptionExtensions.SetMachineName(System.Exception)
+  nameWithType: ExceptionExtensions.SetMachineName(Exception)
+- uid: System.ExceptionExtensions.SetMachineName*
+  name: SetMachineName
+  href: api/System.ExceptionExtensions.html#System_ExceptionExtensions_SetMachineName_
+  commentId: Overload:System.ExceptionExtensions.SetMachineName
+  isSpec: "True"
+  fullName: System.ExceptionExtensions.SetMachineName
+  nameWithType: ExceptionExtensions.SetMachineName
+- uid: System.ExceptionExtensions.SetMethodArguments(System.Exception,System.ValueTuple{System.String,System.Object}[])
+  name: SetMethodArguments(Exception, (String, Object)[])
+  href: api/System.ExceptionExtensions.html#System_ExceptionExtensions_SetMethodArguments_System_Exception_System_ValueTuple_System_String_System_Object____
+  commentId: M:System.ExceptionExtensions.SetMethodArguments(System.Exception,System.ValueTuple{System.String,System.Object}[])
+  name.vb: SetMethodArguments(Exception, (String, Object)(Of String, Object)())
+  fullName: System.ExceptionExtensions.SetMethodArguments(System.Exception, System.ValueTuple<System.String, System.Object>[])
+  fullName.vb: System.ExceptionExtensions.SetMethodArguments(System.Exception, System.ValueTuple(Of System.String, System.Object)())
+  nameWithType: ExceptionExtensions.SetMethodArguments(Exception, (String, Object)[])
+  nameWithType.vb: ExceptionExtensions.SetMethodArguments(Exception, (String, Object)(Of String, Object)())
+- uid: System.ExceptionExtensions.SetMethodArguments*
+  name: SetMethodArguments
+  href: api/System.ExceptionExtensions.html#System_ExceptionExtensions_SetMethodArguments_
+  commentId: Overload:System.ExceptionExtensions.SetMethodArguments
+  isSpec: "True"
+  fullName: System.ExceptionExtensions.SetMethodArguments
+  nameWithType: ExceptionExtensions.SetMethodArguments
+- uid: System.ExceptionExtensions.SetOriginator(System.Exception,System.String)
+  name: SetOriginator(Exception, String)
+  href: api/System.ExceptionExtensions.html#System_ExceptionExtensions_SetOriginator_System_Exception_System_String_
+  commentId: M:System.ExceptionExtensions.SetOriginator(System.Exception,System.String)
+  fullName: System.ExceptionExtensions.SetOriginator(System.Exception, System.String)
+  nameWithType: ExceptionExtensions.SetOriginator(Exception, String)
+- uid: System.ExceptionExtensions.SetOriginator*
+  name: SetOriginator
+  href: api/System.ExceptionExtensions.html#System_ExceptionExtensions_SetOriginator_
+  commentId: Overload:System.ExceptionExtensions.SetOriginator
+  isSpec: "True"
+  fullName: System.ExceptionExtensions.SetOriginator
+  nameWithType: ExceptionExtensions.SetOriginator
+- uid: System.IO
+  name: System.IO
+  href: api/System.IO.html
+  commentId: N:System.IO
+  fullName: System.IO
+  nameWithType: System.IO
+- uid: System.IO.GuardExtensions
+  name: GuardExtensions
+  href: api/System.IO.GuardExtensions.html
+  commentId: T:System.IO.GuardExtensions
+  fullName: System.IO.GuardExtensions
+  nameWithType: GuardExtensions
+- uid: System.IO.GuardExtensions.ThrowIfInvalidFileExtension(IGuard,System.String,System.String,System.String,System.String,System.Int32)
+  name: ThrowIfInvalidFileExtension(IGuard, String, String, String, String, Int32)
+  href: api/System.IO.GuardExtensions.html#System_IO_GuardExtensions_ThrowIfInvalidFileExtension_IGuard_System_String_System_String_System_String_System_String_System_Int32_
+  commentId: M:System.IO.GuardExtensions.ThrowIfInvalidFileExtension(IGuard,System.String,System.String,System.String,System.String,System.Int32)
+  fullName: System.IO.GuardExtensions.ThrowIfInvalidFileExtension(IGuard, System.String, System.String, System.String, System.String, System.Int32)
+  nameWithType: GuardExtensions.ThrowIfInvalidFileExtension(IGuard, String, String, String, String, Int32)
+- uid: System.IO.GuardExtensions.ThrowIfInvalidFileExtension*
+  name: ThrowIfInvalidFileExtension
+  href: api/System.IO.GuardExtensions.html#System_IO_GuardExtensions_ThrowIfInvalidFileExtension_
+  commentId: Overload:System.IO.GuardExtensions.ThrowIfInvalidFileExtension
+  isSpec: "True"
+  fullName: System.IO.GuardExtensions.ThrowIfInvalidFileExtension
+  nameWithType: GuardExtensions.ThrowIfInvalidFileExtension
+- uid: System.IO.GuardExtensions.ThrowIfInvalidFilePath(IGuard,System.String,System.String,System.String,System.String,System.Int32)
+  name: ThrowIfInvalidFilePath(IGuard, String, String, String, String, Int32)
+  href: api/System.IO.GuardExtensions.html#System_IO_GuardExtensions_ThrowIfInvalidFilePath_IGuard_System_String_System_String_System_String_System_String_System_Int32_
+  commentId: M:System.IO.GuardExtensions.ThrowIfInvalidFilePath(IGuard,System.String,System.String,System.String,System.String,System.Int32)
+  fullName: System.IO.GuardExtensions.ThrowIfInvalidFilePath(IGuard, System.String, System.String, System.String, System.String, System.Int32)
+  nameWithType: GuardExtensions.ThrowIfInvalidFilePath(IGuard, String, String, String, String, Int32)
+- uid: System.IO.GuardExtensions.ThrowIfInvalidFilePath*
+  name: ThrowIfInvalidFilePath
+  href: api/System.IO.GuardExtensions.html#System_IO_GuardExtensions_ThrowIfInvalidFilePath_
+  commentId: Overload:System.IO.GuardExtensions.ThrowIfInvalidFilePath
+  isSpec: "True"
+  fullName: System.IO.GuardExtensions.ThrowIfInvalidFilePath
+  nameWithType: GuardExtensions.ThrowIfInvalidFilePath
+- uid: System.IO.GuardExtensions.ThrowIfInvalidFolderPath(IGuard,System.String,System.String,System.String,System.String,System.Int32)
+  name: ThrowIfInvalidFolderPath(IGuard, String, String, String, String, Int32)
+  href: api/System.IO.GuardExtensions.html#System_IO_GuardExtensions_ThrowIfInvalidFolderPath_IGuard_System_String_System_String_System_String_System_String_System_Int32_
+  commentId: M:System.IO.GuardExtensions.ThrowIfInvalidFolderPath(IGuard,System.String,System.String,System.String,System.String,System.Int32)
+  fullName: System.IO.GuardExtensions.ThrowIfInvalidFolderPath(IGuard, System.String, System.String, System.String, System.String, System.Int32)
+  nameWithType: GuardExtensions.ThrowIfInvalidFolderPath(IGuard, String, String, String, String, Int32)
+- uid: System.IO.GuardExtensions.ThrowIfInvalidFolderPath*
+  name: ThrowIfInvalidFolderPath
+  href: api/System.IO.GuardExtensions.html#System_IO_GuardExtensions_ThrowIfInvalidFolderPath_
+  commentId: Overload:System.IO.GuardExtensions.ThrowIfInvalidFolderPath
+  isSpec: "True"
+  fullName: System.IO.GuardExtensions.ThrowIfInvalidFolderPath
+  nameWithType: GuardExtensions.ThrowIfInvalidFolderPath
+- uid: System.IO.GuardExtensions.ThrowIfNotReadable(IGuard,System.IO.Stream,System.String,System.String,System.String,System.Int32)
+  name: ThrowIfNotReadable(IGuard, Stream, String, String, String, Int32)
+  href: api/System.IO.GuardExtensions.html#System_IO_GuardExtensions_ThrowIfNotReadable_IGuard_System_IO_Stream_System_String_System_String_System_String_System_Int32_
+  commentId: M:System.IO.GuardExtensions.ThrowIfNotReadable(IGuard,System.IO.Stream,System.String,System.String,System.String,System.Int32)
+  fullName: System.IO.GuardExtensions.ThrowIfNotReadable(IGuard, System.IO.Stream, System.String, System.String, System.String, System.Int32)
+  nameWithType: GuardExtensions.ThrowIfNotReadable(IGuard, Stream, String, String, String, Int32)
+- uid: System.IO.GuardExtensions.ThrowIfNotReadable*
+  name: ThrowIfNotReadable
+  href: api/System.IO.GuardExtensions.html#System_IO_GuardExtensions_ThrowIfNotReadable_
+  commentId: Overload:System.IO.GuardExtensions.ThrowIfNotReadable
+  isSpec: "True"
+  fullName: System.IO.GuardExtensions.ThrowIfNotReadable
+  nameWithType: GuardExtensions.ThrowIfNotReadable
+- uid: System.IO.GuardExtensions.ThrowIfNotWritable(IGuard,System.IO.Stream,System.String,System.String,System.String,System.Int32)
+  name: ThrowIfNotWritable(IGuard, Stream, String, String, String, Int32)
+  href: api/System.IO.GuardExtensions.html#System_IO_GuardExtensions_ThrowIfNotWritable_IGuard_System_IO_Stream_System_String_System_String_System_String_System_Int32_
+  commentId: M:System.IO.GuardExtensions.ThrowIfNotWritable(IGuard,System.IO.Stream,System.String,System.String,System.String,System.Int32)
+  fullName: System.IO.GuardExtensions.ThrowIfNotWritable(IGuard, System.IO.Stream, System.String, System.String, System.String, System.Int32)
+  nameWithType: GuardExtensions.ThrowIfNotWritable(IGuard, Stream, String, String, String, Int32)
+- uid: System.IO.GuardExtensions.ThrowIfNotWritable*
+  name: ThrowIfNotWritable
+  href: api/System.IO.GuardExtensions.html#System_IO_GuardExtensions_ThrowIfNotWritable_
+  commentId: Overload:System.IO.GuardExtensions.ThrowIfNotWritable
+  isSpec: "True"
+  fullName: System.IO.GuardExtensions.ThrowIfNotWritable
+  nameWithType: GuardExtensions.ThrowIfNotWritable
+- uid: System.IO.StringStream
+  name: StringStream
+  href: api/System.IO.StringStream.html
+  commentId: T:System.IO.StringStream
+  fullName: System.IO.StringStream
+  nameWithType: StringStream
+- uid: System.IO.StringStream.#ctor(System.String)
+  name: StringStream(String)
+  href: api/System.IO.StringStream.html#System_IO_StringStream__ctor_System_String_
+  commentId: M:System.IO.StringStream.#ctor(System.String)
+  fullName: System.IO.StringStream.StringStream(System.String)
+  nameWithType: StringStream.StringStream(String)
+- uid: System.IO.StringStream.#ctor*
+  name: StringStream
+  href: api/System.IO.StringStream.html#System_IO_StringStream__ctor_
+  commentId: Overload:System.IO.StringStream.#ctor
+  isSpec: "True"
+  fullName: System.IO.StringStream.StringStream
+  nameWithType: StringStream.StringStream
+- uid: System.IO.TemporaryStream
+  name: TemporaryStream
+  href: api/System.IO.TemporaryStream.html
+  commentId: T:System.IO.TemporaryStream
+  fullName: System.IO.TemporaryStream
+  nameWithType: TemporaryStream
+- uid: System.IO.TemporaryStream.#ctor(System.String)
+  name: TemporaryStream(String)
+  href: api/System.IO.TemporaryStream.html#System_IO_TemporaryStream__ctor_System_String_
+  commentId: M:System.IO.TemporaryStream.#ctor(System.String)
+  fullName: System.IO.TemporaryStream.TemporaryStream(System.String)
+  nameWithType: TemporaryStream.TemporaryStream(String)
+- uid: System.IO.TemporaryStream.#ctor*
+  name: TemporaryStream
+  href: api/System.IO.TemporaryStream.html#System_IO_TemporaryStream__ctor_
+  commentId: Overload:System.IO.TemporaryStream.#ctor
+  isSpec: "True"
+  fullName: System.IO.TemporaryStream.TemporaryStream
+  nameWithType: TemporaryStream.TemporaryStream
+- uid: System.IO.TemporaryStream.BaseStream
+  name: BaseStream
+  href: api/System.IO.TemporaryStream.html#System_IO_TemporaryStream_BaseStream
+  commentId: P:System.IO.TemporaryStream.BaseStream
+  fullName: System.IO.TemporaryStream.BaseStream
+  nameWithType: TemporaryStream.BaseStream
+- uid: System.IO.TemporaryStream.BaseStream*
+  name: BaseStream
+  href: api/System.IO.TemporaryStream.html#System_IO_TemporaryStream_BaseStream_
+  commentId: Overload:System.IO.TemporaryStream.BaseStream
+  isSpec: "True"
+  fullName: System.IO.TemporaryStream.BaseStream
+  nameWithType: TemporaryStream.BaseStream
+- uid: System.IO.TemporaryStream.CanRead
+  name: CanRead
+  href: api/System.IO.TemporaryStream.html#System_IO_TemporaryStream_CanRead
+  commentId: P:System.IO.TemporaryStream.CanRead
+  fullName: System.IO.TemporaryStream.CanRead
+  nameWithType: TemporaryStream.CanRead
+- uid: System.IO.TemporaryStream.CanRead*
+  name: CanRead
+  href: api/System.IO.TemporaryStream.html#System_IO_TemporaryStream_CanRead_
+  commentId: Overload:System.IO.TemporaryStream.CanRead
+  isSpec: "True"
+  fullName: System.IO.TemporaryStream.CanRead
+  nameWithType: TemporaryStream.CanRead
+- uid: System.IO.TemporaryStream.CanSeek
+  name: CanSeek
+  href: api/System.IO.TemporaryStream.html#System_IO_TemporaryStream_CanSeek
+  commentId: P:System.IO.TemporaryStream.CanSeek
+  fullName: System.IO.TemporaryStream.CanSeek
+  nameWithType: TemporaryStream.CanSeek
+- uid: System.IO.TemporaryStream.CanSeek*
+  name: CanSeek
+  href: api/System.IO.TemporaryStream.html#System_IO_TemporaryStream_CanSeek_
+  commentId: Overload:System.IO.TemporaryStream.CanSeek
+  isSpec: "True"
+  fullName: System.IO.TemporaryStream.CanSeek
+  nameWithType: TemporaryStream.CanSeek
+- uid: System.IO.TemporaryStream.CanWrite
+  name: CanWrite
+  href: api/System.IO.TemporaryStream.html#System_IO_TemporaryStream_CanWrite
+  commentId: P:System.IO.TemporaryStream.CanWrite
+  fullName: System.IO.TemporaryStream.CanWrite
+  nameWithType: TemporaryStream.CanWrite
+- uid: System.IO.TemporaryStream.CanWrite*
+  name: CanWrite
+  href: api/System.IO.TemporaryStream.html#System_IO_TemporaryStream_CanWrite_
+  commentId: Overload:System.IO.TemporaryStream.CanWrite
+  isSpec: "True"
+  fullName: System.IO.TemporaryStream.CanWrite
+  nameWithType: TemporaryStream.CanWrite
+- uid: System.IO.TemporaryStream.Dispose(System.Boolean)
+  name: Dispose(Boolean)
+  href: api/System.IO.TemporaryStream.html#System_IO_TemporaryStream_Dispose_System_Boolean_
+  commentId: M:System.IO.TemporaryStream.Dispose(System.Boolean)
+  fullName: System.IO.TemporaryStream.Dispose(System.Boolean)
+  nameWithType: TemporaryStream.Dispose(Boolean)
+- uid: System.IO.TemporaryStream.Dispose*
+  name: Dispose
+  href: api/System.IO.TemporaryStream.html#System_IO_TemporaryStream_Dispose_
+  commentId: Overload:System.IO.TemporaryStream.Dispose
+  isSpec: "True"
+  fullName: System.IO.TemporaryStream.Dispose
+  nameWithType: TemporaryStream.Dispose
+- uid: System.IO.TemporaryStream.Flush
+  name: Flush()
+  href: api/System.IO.TemporaryStream.html#System_IO_TemporaryStream_Flush
+  commentId: M:System.IO.TemporaryStream.Flush
+  fullName: System.IO.TemporaryStream.Flush()
+  nameWithType: TemporaryStream.Flush()
+- uid: System.IO.TemporaryStream.Flush*
+  name: Flush
+  href: api/System.IO.TemporaryStream.html#System_IO_TemporaryStream_Flush_
+  commentId: Overload:System.IO.TemporaryStream.Flush
+  isSpec: "True"
+  fullName: System.IO.TemporaryStream.Flush
+  nameWithType: TemporaryStream.Flush
+- uid: System.IO.TemporaryStream.Length
+  name: Length
+  href: api/System.IO.TemporaryStream.html#System_IO_TemporaryStream_Length
+  commentId: P:System.IO.TemporaryStream.Length
+  fullName: System.IO.TemporaryStream.Length
+  nameWithType: TemporaryStream.Length
+- uid: System.IO.TemporaryStream.Length*
+  name: Length
+  href: api/System.IO.TemporaryStream.html#System_IO_TemporaryStream_Length_
+  commentId: Overload:System.IO.TemporaryStream.Length
+  isSpec: "True"
+  fullName: System.IO.TemporaryStream.Length
+  nameWithType: TemporaryStream.Length
+- uid: System.IO.TemporaryStream.Name
+  name: Name
+  href: api/System.IO.TemporaryStream.html#System_IO_TemporaryStream_Name
+  commentId: P:System.IO.TemporaryStream.Name
+  fullName: System.IO.TemporaryStream.Name
+  nameWithType: TemporaryStream.Name
+- uid: System.IO.TemporaryStream.Name*
+  name: Name
+  href: api/System.IO.TemporaryStream.html#System_IO_TemporaryStream_Name_
+  commentId: Overload:System.IO.TemporaryStream.Name
+  isSpec: "True"
+  fullName: System.IO.TemporaryStream.Name
+  nameWithType: TemporaryStream.Name
+- uid: System.IO.TemporaryStream.Position
+  name: Position
+  href: api/System.IO.TemporaryStream.html#System_IO_TemporaryStream_Position
+  commentId: P:System.IO.TemporaryStream.Position
+  fullName: System.IO.TemporaryStream.Position
+  nameWithType: TemporaryStream.Position
+- uid: System.IO.TemporaryStream.Position*
+  name: Position
+  href: api/System.IO.TemporaryStream.html#System_IO_TemporaryStream_Position_
+  commentId: Overload:System.IO.TemporaryStream.Position
+  isSpec: "True"
+  fullName: System.IO.TemporaryStream.Position
+  nameWithType: TemporaryStream.Position
+- uid: System.IO.TemporaryStream.Read(System.Byte[],System.Int32,System.Int32)
+  name: Read(Byte[], Int32, Int32)
+  href: api/System.IO.TemporaryStream.html#System_IO_TemporaryStream_Read_System_Byte___System_Int32_System_Int32_
+  commentId: M:System.IO.TemporaryStream.Read(System.Byte[],System.Int32,System.Int32)
+  name.vb: Read(Byte(), Int32, Int32)
+  fullName: System.IO.TemporaryStream.Read(System.Byte[], System.Int32, System.Int32)
+  fullName.vb: System.IO.TemporaryStream.Read(System.Byte(), System.Int32, System.Int32)
+  nameWithType: TemporaryStream.Read(Byte[], Int32, Int32)
+  nameWithType.vb: TemporaryStream.Read(Byte(), Int32, Int32)
+- uid: System.IO.TemporaryStream.Read*
+  name: Read
+  href: api/System.IO.TemporaryStream.html#System_IO_TemporaryStream_Read_
+  commentId: Overload:System.IO.TemporaryStream.Read
+  isSpec: "True"
+  fullName: System.IO.TemporaryStream.Read
+  nameWithType: TemporaryStream.Read
+- uid: System.IO.TemporaryStream.Seek(System.Int64,System.IO.SeekOrigin)
+  name: Seek(Int64, SeekOrigin)
+  href: api/System.IO.TemporaryStream.html#System_IO_TemporaryStream_Seek_System_Int64_System_IO_SeekOrigin_
+  commentId: M:System.IO.TemporaryStream.Seek(System.Int64,System.IO.SeekOrigin)
+  fullName: System.IO.TemporaryStream.Seek(System.Int64, System.IO.SeekOrigin)
+  nameWithType: TemporaryStream.Seek(Int64, SeekOrigin)
+- uid: System.IO.TemporaryStream.Seek*
+  name: Seek
+  href: api/System.IO.TemporaryStream.html#System_IO_TemporaryStream_Seek_
+  commentId: Overload:System.IO.TemporaryStream.Seek
+  isSpec: "True"
+  fullName: System.IO.TemporaryStream.Seek
+  nameWithType: TemporaryStream.Seek
+- uid: System.IO.TemporaryStream.SetLength(System.Int64)
+  name: SetLength(Int64)
+  href: api/System.IO.TemporaryStream.html#System_IO_TemporaryStream_SetLength_System_Int64_
+  commentId: M:System.IO.TemporaryStream.SetLength(System.Int64)
+  fullName: System.IO.TemporaryStream.SetLength(System.Int64)
+  nameWithType: TemporaryStream.SetLength(Int64)
+- uid: System.IO.TemporaryStream.SetLength*
+  name: SetLength
+  href: api/System.IO.TemporaryStream.html#System_IO_TemporaryStream_SetLength_
+  commentId: Overload:System.IO.TemporaryStream.SetLength
+  isSpec: "True"
+  fullName: System.IO.TemporaryStream.SetLength
+  nameWithType: TemporaryStream.SetLength
+- uid: System.IO.TemporaryStream.Write(System.Byte[],System.Int32,System.Int32)
+  name: Write(Byte[], Int32, Int32)
+  href: api/System.IO.TemporaryStream.html#System_IO_TemporaryStream_Write_System_Byte___System_Int32_System_Int32_
+  commentId: M:System.IO.TemporaryStream.Write(System.Byte[],System.Int32,System.Int32)
+  name.vb: Write(Byte(), Int32, Int32)
+  fullName: System.IO.TemporaryStream.Write(System.Byte[], System.Int32, System.Int32)
+  fullName.vb: System.IO.TemporaryStream.Write(System.Byte(), System.Int32, System.Int32)
+  nameWithType: TemporaryStream.Write(Byte[], Int32, Int32)
+  nameWithType.vb: TemporaryStream.Write(Byte(), Int32, Int32)
+- uid: System.IO.TemporaryStream.Write*
+  name: Write
+  href: api/System.IO.TemporaryStream.html#System_IO_TemporaryStream_Write_
+  commentId: Overload:System.IO.TemporaryStream.Write
+  isSpec: "True"
+  fullName: System.IO.TemporaryStream.Write
+  nameWithType: TemporaryStream.Write
+- uid: System.NumberExtensions
+  name: NumberExtensions
+  href: api/System.NumberExtensions.html
+  commentId: T:System.NumberExtensions
+  fullName: System.NumberExtensions
+  nameWithType: NumberExtensions
+- uid: System.NumberExtensions.FormattedAsBytes(System.Double,System.Int32)
+  name: FormattedAsBytes(Double, Int32)
+  href: api/System.NumberExtensions.html#System_NumberExtensions_FormattedAsBytes_System_Double_System_Int32_
+  commentId: M:System.NumberExtensions.FormattedAsBytes(System.Double,System.Int32)
+  fullName: System.NumberExtensions.FormattedAsBytes(System.Double, System.Int32)
+  nameWithType: NumberExtensions.FormattedAsBytes(Double, Int32)
+- uid: System.NumberExtensions.FormattedAsBytes(System.Int16,System.Int32)
+  name: FormattedAsBytes(Int16, Int32)
+  href: api/System.NumberExtensions.html#System_NumberExtensions_FormattedAsBytes_System_Int16_System_Int32_
+  commentId: M:System.NumberExtensions.FormattedAsBytes(System.Int16,System.Int32)
+  fullName: System.NumberExtensions.FormattedAsBytes(System.Int16, System.Int32)
+  nameWithType: NumberExtensions.FormattedAsBytes(Int16, Int32)
+- uid: System.NumberExtensions.FormattedAsBytes(System.Int32,System.Int32)
+  name: FormattedAsBytes(Int32, Int32)
+  href: api/System.NumberExtensions.html#System_NumberExtensions_FormattedAsBytes_System_Int32_System_Int32_
+  commentId: M:System.NumberExtensions.FormattedAsBytes(System.Int32,System.Int32)
+  fullName: System.NumberExtensions.FormattedAsBytes(System.Int32, System.Int32)
+  nameWithType: NumberExtensions.FormattedAsBytes(Int32, Int32)
+- uid: System.NumberExtensions.FormattedAsBytes(System.Int64,System.Int32)
+  name: FormattedAsBytes(Int64, Int32)
+  href: api/System.NumberExtensions.html#System_NumberExtensions_FormattedAsBytes_System_Int64_System_Int32_
+  commentId: M:System.NumberExtensions.FormattedAsBytes(System.Int64,System.Int32)
+  fullName: System.NumberExtensions.FormattedAsBytes(System.Int64, System.Int32)
+  nameWithType: NumberExtensions.FormattedAsBytes(Int64, Int32)
+- uid: System.NumberExtensions.FormattedAsBytes(System.Single,System.Int32)
+  name: FormattedAsBytes(Single, Int32)
+  href: api/System.NumberExtensions.html#System_NumberExtensions_FormattedAsBytes_System_Single_System_Int32_
+  commentId: M:System.NumberExtensions.FormattedAsBytes(System.Single,System.Int32)
+  fullName: System.NumberExtensions.FormattedAsBytes(System.Single, System.Int32)
+  nameWithType: NumberExtensions.FormattedAsBytes(Single, Int32)
+- uid: System.NumberExtensions.FormattedAsBytes*
+  name: FormattedAsBytes
+  href: api/System.NumberExtensions.html#System_NumberExtensions_FormattedAsBytes_
+  commentId: Overload:System.NumberExtensions.FormattedAsBytes
+  isSpec: "True"
+  fullName: System.NumberExtensions.FormattedAsBytes
+  nameWithType: NumberExtensions.FormattedAsBytes
+- uid: System.ObjectExtensions
+  name: ObjectExtensions
+  href: api/System.ObjectExtensions.html
+  commentId: T:System.ObjectExtensions
+  fullName: System.ObjectExtensions
+  nameWithType: ObjectExtensions
+- uid: System.ObjectExtensions.QuickClone(System.Object,System.Type)
+  name: QuickClone(Object, Type)
+  href: api/System.ObjectExtensions.html#System_ObjectExtensions_QuickClone_System_Object_System_Type_
+  commentId: M:System.ObjectExtensions.QuickClone(System.Object,System.Type)
+  fullName: System.ObjectExtensions.QuickClone(System.Object, System.Type)
+  nameWithType: ObjectExtensions.QuickClone(Object, Type)
+- uid: System.ObjectExtensions.QuickClone*
+  name: QuickClone
+  href: api/System.ObjectExtensions.html#System_ObjectExtensions_QuickClone_
+  commentId: Overload:System.ObjectExtensions.QuickClone
+  isSpec: "True"
+  fullName: System.ObjectExtensions.QuickClone
+  nameWithType: ObjectExtensions.QuickClone
+- uid: System.ObjectExtensions.QuickClone``1(``0)
+  name: QuickClone<T>(T)
+  href: api/System.ObjectExtensions.html#System_ObjectExtensions_QuickClone__1___0_
+  commentId: M:System.ObjectExtensions.QuickClone``1(``0)
+  name.vb: QuickClone(Of T)(T)
+  fullName: System.ObjectExtensions.QuickClone<T>(T)
+  fullName.vb: System.ObjectExtensions.QuickClone(Of T)(T)
+  nameWithType: ObjectExtensions.QuickClone<T>(T)
+  nameWithType.vb: ObjectExtensions.QuickClone(Of T)(T)
+- uid: System.ObjectExtensions.QuickCopyTo(System.Object,System.Object)
+  name: QuickCopyTo(Object, Object)
+  href: api/System.ObjectExtensions.html#System_ObjectExtensions_QuickCopyTo_System_Object_System_Object_
+  commentId: M:System.ObjectExtensions.QuickCopyTo(System.Object,System.Object)
+  fullName: System.ObjectExtensions.QuickCopyTo(System.Object, System.Object)
+  nameWithType: ObjectExtensions.QuickCopyTo(Object, Object)
+- uid: System.ObjectExtensions.QuickCopyTo*
+  name: QuickCopyTo
+  href: api/System.ObjectExtensions.html#System_ObjectExtensions_QuickCopyTo_
+  commentId: Overload:System.ObjectExtensions.QuickCopyTo
+  isSpec: "True"
+  fullName: System.ObjectExtensions.QuickCopyTo
+  nameWithType: ObjectExtensions.QuickCopyTo
+- uid: System.RandomEx
+  name: RandomEx
+  href: api/System.RandomEx.html
+  commentId: T:System.RandomEx
+  fullName: System.RandomEx
+  nameWithType: RandomEx
+- uid: System.RandomEx.#ctor
+  name: RandomEx()
+  href: api/System.RandomEx.html#System_RandomEx__ctor
+  commentId: M:System.RandomEx.#ctor
+  fullName: System.RandomEx.RandomEx()
+  nameWithType: RandomEx.RandomEx()
+- uid: System.RandomEx.#ctor(System.Int32)
+  name: RandomEx(Int32)
+  href: api/System.RandomEx.html#System_RandomEx__ctor_System_Int32_
+  commentId: M:System.RandomEx.#ctor(System.Int32)
+  fullName: System.RandomEx.RandomEx(System.Int32)
+  nameWithType: RandomEx.RandomEx(Int32)
+- uid: System.RandomEx.#ctor*
+  name: RandomEx
+  href: api/System.RandomEx.html#System_RandomEx__ctor_
+  commentId: Overload:System.RandomEx.#ctor
+  isSpec: "True"
+  fullName: System.RandomEx.RandomEx
+  nameWithType: RandomEx.RandomEx
+- uid: System.RandomExtensions
+  name: RandomExtensions
+  href: api/System.RandomExtensions.html
+  commentId: T:System.RandomExtensions
+  fullName: System.RandomExtensions
+  nameWithType: RandomExtensions
+- uid: System.RandomExtensions.NextString(System.Random,System.Int32)
+  name: NextString(Random, Int32)
+  href: api/System.RandomExtensions.html#System_RandomExtensions_NextString_System_Random_System_Int32_
+  commentId: M:System.RandomExtensions.NextString(System.Random,System.Int32)
+  fullName: System.RandomExtensions.NextString(System.Random, System.Int32)
+  nameWithType: RandomExtensions.NextString(Random, Int32)
+- uid: System.RandomExtensions.NextString*
+  name: NextString
+  href: api/System.RandomExtensions.html#System_RandomExtensions_NextString_
+  commentId: Overload:System.RandomExtensions.NextString
+  isSpec: "True"
+  fullName: System.RandomExtensions.NextString
+  nameWithType: RandomExtensions.NextString
+- uid: System.Reflection
+  name: System.Reflection
+  href: api/System.Reflection.html
+  commentId: N:System.Reflection
+  fullName: System.Reflection
+  nameWithType: System.Reflection
+- uid: System.Reflection.AssemblyExtensions
+  name: AssemblyExtensions
+  href: api/System.Reflection.AssemblyExtensions.html
+  commentId: T:System.Reflection.AssemblyExtensions
+  fullName: System.Reflection.AssemblyExtensions
+  nameWithType: AssemblyExtensions
+- uid: System.Reflection.AssemblyExtensions.ReadFileVersion(System.Reflection.Assembly)
+  name: ReadFileVersion(Assembly)
+  href: api/System.Reflection.AssemblyExtensions.html#System_Reflection_AssemblyExtensions_ReadFileVersion_System_Reflection_Assembly_
+  commentId: M:System.Reflection.AssemblyExtensions.ReadFileVersion(System.Reflection.Assembly)
+  fullName: System.Reflection.AssemblyExtensions.ReadFileVersion(System.Reflection.Assembly)
+  nameWithType: AssemblyExtensions.ReadFileVersion(Assembly)
+- uid: System.Reflection.AssemblyExtensions.ReadFileVersion*
+  name: ReadFileVersion
+  href: api/System.Reflection.AssemblyExtensions.html#System_Reflection_AssemblyExtensions_ReadFileVersion_
+  commentId: Overload:System.Reflection.AssemblyExtensions.ReadFileVersion
+  isSpec: "True"
+  fullName: System.Reflection.AssemblyExtensions.ReadFileVersion
+  nameWithType: AssemblyExtensions.ReadFileVersion
+- uid: System.Security.Claims
+  name: System.Security.Claims
+  href: api/System.Security.Claims.html
+  commentId: N:System.Security.Claims
+  fullName: System.Security.Claims
+  nameWithType: System.Security.Claims
+- uid: System.Security.Claims.ClaimsPrincipalExtensions
+  name: ClaimsPrincipalExtensions
+  href: api/System.Security.Claims.ClaimsPrincipalExtensions.html
+  commentId: T:System.Security.Claims.ClaimsPrincipalExtensions
+  fullName: System.Security.Claims.ClaimsPrincipalExtensions
+  nameWithType: ClaimsPrincipalExtensions
+- uid: System.Security.Claims.ClaimsPrincipalExtensions.GetEmail(System.Security.Claims.ClaimsPrincipal)
+  name: GetEmail(ClaimsPrincipal)
+  href: api/System.Security.Claims.ClaimsPrincipalExtensions.html#System_Security_Claims_ClaimsPrincipalExtensions_GetEmail_System_Security_Claims_ClaimsPrincipal_
+  commentId: M:System.Security.Claims.ClaimsPrincipalExtensions.GetEmail(System.Security.Claims.ClaimsPrincipal)
+  fullName: System.Security.Claims.ClaimsPrincipalExtensions.GetEmail(System.Security.Claims.ClaimsPrincipal)
+  nameWithType: ClaimsPrincipalExtensions.GetEmail(ClaimsPrincipal)
+- uid: System.Security.Claims.ClaimsPrincipalExtensions.GetEmail*
+  name: GetEmail
+  href: api/System.Security.Claims.ClaimsPrincipalExtensions.html#System_Security_Claims_ClaimsPrincipalExtensions_GetEmail_
+  commentId: Overload:System.Security.Claims.ClaimsPrincipalExtensions.GetEmail
+  isSpec: "True"
+  fullName: System.Security.Claims.ClaimsPrincipalExtensions.GetEmail
+  nameWithType: ClaimsPrincipalExtensions.GetEmail
+- uid: System.Security.Claims.ClaimsPrincipalExtensions.GetName(System.Security.Claims.ClaimsPrincipal)
+  name: GetName(ClaimsPrincipal)
+  href: api/System.Security.Claims.ClaimsPrincipalExtensions.html#System_Security_Claims_ClaimsPrincipalExtensions_GetName_System_Security_Claims_ClaimsPrincipal_
+  commentId: M:System.Security.Claims.ClaimsPrincipalExtensions.GetName(System.Security.Claims.ClaimsPrincipal)
+  fullName: System.Security.Claims.ClaimsPrincipalExtensions.GetName(System.Security.Claims.ClaimsPrincipal)
+  nameWithType: ClaimsPrincipalExtensions.GetName(ClaimsPrincipal)
+- uid: System.Security.Claims.ClaimsPrincipalExtensions.GetName*
+  name: GetName
+  href: api/System.Security.Claims.ClaimsPrincipalExtensions.html#System_Security_Claims_ClaimsPrincipalExtensions_GetName_
+  commentId: Overload:System.Security.Claims.ClaimsPrincipalExtensions.GetName
+  isSpec: "True"
+  fullName: System.Security.Claims.ClaimsPrincipalExtensions.GetName
+  nameWithType: ClaimsPrincipalExtensions.GetName
+- uid: System.Security.Claims.ClaimsPrincipalExtensions.GetNameIdentifier(System.Security.Claims.ClaimsPrincipal)
+  name: GetNameIdentifier(ClaimsPrincipal)
+  href: api/System.Security.Claims.ClaimsPrincipalExtensions.html#System_Security_Claims_ClaimsPrincipalExtensions_GetNameIdentifier_System_Security_Claims_ClaimsPrincipal_
+  commentId: M:System.Security.Claims.ClaimsPrincipalExtensions.GetNameIdentifier(System.Security.Claims.ClaimsPrincipal)
+  fullName: System.Security.Claims.ClaimsPrincipalExtensions.GetNameIdentifier(System.Security.Claims.ClaimsPrincipal)
+  nameWithType: ClaimsPrincipalExtensions.GetNameIdentifier(ClaimsPrincipal)
+- uid: System.Security.Claims.ClaimsPrincipalExtensions.GetNameIdentifier*
+  name: GetNameIdentifier
+  href: api/System.Security.Claims.ClaimsPrincipalExtensions.html#System_Security_Claims_ClaimsPrincipalExtensions_GetNameIdentifier_
+  commentId: Overload:System.Security.Claims.ClaimsPrincipalExtensions.GetNameIdentifier
+  isSpec: "True"
+  fullName: System.Security.Claims.ClaimsPrincipalExtensions.GetNameIdentifier
+  nameWithType: ClaimsPrincipalExtensions.GetNameIdentifier
+- uid: System.Security.Claims.ClaimsPrincipalExtensions.GetNickName(System.Security.Claims.ClaimsPrincipal)
+  name: GetNickName(ClaimsPrincipal)
+  href: api/System.Security.Claims.ClaimsPrincipalExtensions.html#System_Security_Claims_ClaimsPrincipalExtensions_GetNickName_System_Security_Claims_ClaimsPrincipal_
+  commentId: M:System.Security.Claims.ClaimsPrincipalExtensions.GetNickName(System.Security.Claims.ClaimsPrincipal)
+  fullName: System.Security.Claims.ClaimsPrincipalExtensions.GetNickName(System.Security.Claims.ClaimsPrincipal)
+  nameWithType: ClaimsPrincipalExtensions.GetNickName(ClaimsPrincipal)
+- uid: System.Security.Claims.ClaimsPrincipalExtensions.GetNickName*
+  name: GetNickName
+  href: api/System.Security.Claims.ClaimsPrincipalExtensions.html#System_Security_Claims_ClaimsPrincipalExtensions_GetNickName_
+  commentId: Overload:System.Security.Claims.ClaimsPrincipalExtensions.GetNickName
+  isSpec: "True"
+  fullName: System.Security.Claims.ClaimsPrincipalExtensions.GetNickName
+  nameWithType: ClaimsPrincipalExtensions.GetNickName
+- uid: System.Security.Claims.ClaimsPrincipalExtensions.GetPicture(System.Security.Claims.ClaimsPrincipal)
+  name: GetPicture(ClaimsPrincipal)
+  href: api/System.Security.Claims.ClaimsPrincipalExtensions.html#System_Security_Claims_ClaimsPrincipalExtensions_GetPicture_System_Security_Claims_ClaimsPrincipal_
+  commentId: M:System.Security.Claims.ClaimsPrincipalExtensions.GetPicture(System.Security.Claims.ClaimsPrincipal)
+  fullName: System.Security.Claims.ClaimsPrincipalExtensions.GetPicture(System.Security.Claims.ClaimsPrincipal)
+  nameWithType: ClaimsPrincipalExtensions.GetPicture(ClaimsPrincipal)
+- uid: System.Security.Claims.ClaimsPrincipalExtensions.GetPicture*
+  name: GetPicture
+  href: api/System.Security.Claims.ClaimsPrincipalExtensions.html#System_Security_Claims_ClaimsPrincipalExtensions_GetPicture_
+  commentId: Overload:System.Security.Claims.ClaimsPrincipalExtensions.GetPicture
+  isSpec: "True"
+  fullName: System.Security.Claims.ClaimsPrincipalExtensions.GetPicture
+  nameWithType: ClaimsPrincipalExtensions.GetPicture
+- uid: System.Security.Cryptography
+  name: System.Security.Cryptography
+  href: api/System.Security.Cryptography.html
+  commentId: N:System.Security.Cryptography
+  fullName: System.Security.Cryptography
+  nameWithType: System.Security.Cryptography
+- uid: System.Security.Cryptography.RandomNumberGeneratorExtensions
+  name: RandomNumberGeneratorExtensions
+  href: api/System.Security.Cryptography.RandomNumberGeneratorExtensions.html
+  commentId: T:System.Security.Cryptography.RandomNumberGeneratorExtensions
+  fullName: System.Security.Cryptography.RandomNumberGeneratorExtensions
+  nameWithType: RandomNumberGeneratorExtensions
+- uid: System.Security.Cryptography.RandomNumberGeneratorExtensions.Next(System.Security.Cryptography.RandomNumberGenerator)
+  name: Next(RandomNumberGenerator)
+  href: api/System.Security.Cryptography.RandomNumberGeneratorExtensions.html#System_Security_Cryptography_RandomNumberGeneratorExtensions_Next_System_Security_Cryptography_RandomNumberGenerator_
+  commentId: M:System.Security.Cryptography.RandomNumberGeneratorExtensions.Next(System.Security.Cryptography.RandomNumberGenerator)
+  fullName: System.Security.Cryptography.RandomNumberGeneratorExtensions.Next(System.Security.Cryptography.RandomNumberGenerator)
+  nameWithType: RandomNumberGeneratorExtensions.Next(RandomNumberGenerator)
+- uid: System.Security.Cryptography.RandomNumberGeneratorExtensions.Next(System.Security.Cryptography.RandomNumberGenerator,System.Int32,System.Int32)
+  name: Next(RandomNumberGenerator, Int32, Int32)
+  href: api/System.Security.Cryptography.RandomNumberGeneratorExtensions.html#System_Security_Cryptography_RandomNumberGeneratorExtensions_Next_System_Security_Cryptography_RandomNumberGenerator_System_Int32_System_Int32_
+  commentId: M:System.Security.Cryptography.RandomNumberGeneratorExtensions.Next(System.Security.Cryptography.RandomNumberGenerator,System.Int32,System.Int32)
+  fullName: System.Security.Cryptography.RandomNumberGeneratorExtensions.Next(System.Security.Cryptography.RandomNumberGenerator, System.Int32, System.Int32)
+  nameWithType: RandomNumberGeneratorExtensions.Next(RandomNumberGenerator, Int32, Int32)
+- uid: System.Security.Cryptography.RandomNumberGeneratorExtensions.Next*
+  name: Next
+  href: api/System.Security.Cryptography.RandomNumberGeneratorExtensions.html#System_Security_Cryptography_RandomNumberGeneratorExtensions_Next_
+  commentId: Overload:System.Security.Cryptography.RandomNumberGeneratorExtensions.Next
+  isSpec: "True"
+  fullName: System.Security.Cryptography.RandomNumberGeneratorExtensions.Next
+  nameWithType: RandomNumberGeneratorExtensions.Next
+- uid: System.Security.Cryptography.RandomNumberGeneratorExtensions.NextDigits(System.Security.Cryptography.RandomNumberGenerator,System.Int32)
+  name: NextDigits(RandomNumberGenerator, Int32)
+  href: api/System.Security.Cryptography.RandomNumberGeneratorExtensions.html#System_Security_Cryptography_RandomNumberGeneratorExtensions_NextDigits_System_Security_Cryptography_RandomNumberGenerator_System_Int32_
+  commentId: M:System.Security.Cryptography.RandomNumberGeneratorExtensions.NextDigits(System.Security.Cryptography.RandomNumberGenerator,System.Int32)
+  fullName: System.Security.Cryptography.RandomNumberGeneratorExtensions.NextDigits(System.Security.Cryptography.RandomNumberGenerator, System.Int32)
+  nameWithType: RandomNumberGeneratorExtensions.NextDigits(RandomNumberGenerator, Int32)
+- uid: System.Security.Cryptography.RandomNumberGeneratorExtensions.NextDigits*
+  name: NextDigits
+  href: api/System.Security.Cryptography.RandomNumberGeneratorExtensions.html#System_Security_Cryptography_RandomNumberGeneratorExtensions_NextDigits_
+  commentId: Overload:System.Security.Cryptography.RandomNumberGeneratorExtensions.NextDigits
+  isSpec: "True"
+  fullName: System.Security.Cryptography.RandomNumberGeneratorExtensions.NextDigits
+  nameWithType: RandomNumberGeneratorExtensions.NextDigits
+- uid: System.Security.Cryptography.RandomNumberGeneratorExtensions.NextLower(System.Security.Cryptography.RandomNumberGenerator,System.Int32)
+  name: NextLower(RandomNumberGenerator, Int32)
+  href: api/System.Security.Cryptography.RandomNumberGeneratorExtensions.html#System_Security_Cryptography_RandomNumberGeneratorExtensions_NextLower_System_Security_Cryptography_RandomNumberGenerator_System_Int32_
+  commentId: M:System.Security.Cryptography.RandomNumberGeneratorExtensions.NextLower(System.Security.Cryptography.RandomNumberGenerator,System.Int32)
+  fullName: System.Security.Cryptography.RandomNumberGeneratorExtensions.NextLower(System.Security.Cryptography.RandomNumberGenerator, System.Int32)
+  nameWithType: RandomNumberGeneratorExtensions.NextLower(RandomNumberGenerator, Int32)
+- uid: System.Security.Cryptography.RandomNumberGeneratorExtensions.NextLower*
+  name: NextLower
+  href: api/System.Security.Cryptography.RandomNumberGeneratorExtensions.html#System_Security_Cryptography_RandomNumberGeneratorExtensions_NextLower_
+  commentId: Overload:System.Security.Cryptography.RandomNumberGeneratorExtensions.NextLower
+  isSpec: "True"
+  fullName: System.Security.Cryptography.RandomNumberGeneratorExtensions.NextLower
+  nameWithType: RandomNumberGeneratorExtensions.NextLower
+- uid: System.Security.Cryptography.RandomNumberGeneratorExtensions.NextString(System.Security.Cryptography.RandomNumberGenerator,System.Int32)
+  name: NextString(RandomNumberGenerator, Int32)
+  href: api/System.Security.Cryptography.RandomNumberGeneratorExtensions.html#System_Security_Cryptography_RandomNumberGeneratorExtensions_NextString_System_Security_Cryptography_RandomNumberGenerator_System_Int32_
+  commentId: M:System.Security.Cryptography.RandomNumberGeneratorExtensions.NextString(System.Security.Cryptography.RandomNumberGenerator,System.Int32)
+  fullName: System.Security.Cryptography.RandomNumberGeneratorExtensions.NextString(System.Security.Cryptography.RandomNumberGenerator, System.Int32)
+  nameWithType: RandomNumberGeneratorExtensions.NextString(RandomNumberGenerator, Int32)
+- uid: System.Security.Cryptography.RandomNumberGeneratorExtensions.NextString*
+  name: NextString
+  href: api/System.Security.Cryptography.RandomNumberGeneratorExtensions.html#System_Security_Cryptography_RandomNumberGeneratorExtensions_NextString_
+  commentId: Overload:System.Security.Cryptography.RandomNumberGeneratorExtensions.NextString
+  isSpec: "True"
+  fullName: System.Security.Cryptography.RandomNumberGeneratorExtensions.NextString
+  nameWithType: RandomNumberGeneratorExtensions.NextString
+- uid: System.Security.Cryptography.RandomNumberGeneratorExtensions.NextSymbols(System.Security.Cryptography.RandomNumberGenerator,System.Int32)
+  name: NextSymbols(RandomNumberGenerator, Int32)
+  href: api/System.Security.Cryptography.RandomNumberGeneratorExtensions.html#System_Security_Cryptography_RandomNumberGeneratorExtensions_NextSymbols_System_Security_Cryptography_RandomNumberGenerator_System_Int32_
+  commentId: M:System.Security.Cryptography.RandomNumberGeneratorExtensions.NextSymbols(System.Security.Cryptography.RandomNumberGenerator,System.Int32)
+  fullName: System.Security.Cryptography.RandomNumberGeneratorExtensions.NextSymbols(System.Security.Cryptography.RandomNumberGenerator, System.Int32)
+  nameWithType: RandomNumberGeneratorExtensions.NextSymbols(RandomNumberGenerator, Int32)
+- uid: System.Security.Cryptography.RandomNumberGeneratorExtensions.NextSymbols*
+  name: NextSymbols
+  href: api/System.Security.Cryptography.RandomNumberGeneratorExtensions.html#System_Security_Cryptography_RandomNumberGeneratorExtensions_NextSymbols_
+  commentId: Overload:System.Security.Cryptography.RandomNumberGeneratorExtensions.NextSymbols
+  isSpec: "True"
+  fullName: System.Security.Cryptography.RandomNumberGeneratorExtensions.NextSymbols
+  nameWithType: RandomNumberGeneratorExtensions.NextSymbols
+- uid: System.Security.Cryptography.RandomNumberGeneratorExtensions.NextUpper(System.Security.Cryptography.RandomNumberGenerator,System.Int32)
+  name: NextUpper(RandomNumberGenerator, Int32)
+  href: api/System.Security.Cryptography.RandomNumberGeneratorExtensions.html#System_Security_Cryptography_RandomNumberGeneratorExtensions_NextUpper_System_Security_Cryptography_RandomNumberGenerator_System_Int32_
+  commentId: M:System.Security.Cryptography.RandomNumberGeneratorExtensions.NextUpper(System.Security.Cryptography.RandomNumberGenerator,System.Int32)
+  fullName: System.Security.Cryptography.RandomNumberGeneratorExtensions.NextUpper(System.Security.Cryptography.RandomNumberGenerator, System.Int32)
+  nameWithType: RandomNumberGeneratorExtensions.NextUpper(RandomNumberGenerator, Int32)
+- uid: System.Security.Cryptography.RandomNumberGeneratorExtensions.NextUpper*
+  name: NextUpper
+  href: api/System.Security.Cryptography.RandomNumberGeneratorExtensions.html#System_Security_Cryptography_RandomNumberGeneratorExtensions_NextUpper_
+  commentId: Overload:System.Security.Cryptography.RandomNumberGeneratorExtensions.NextUpper
+  isSpec: "True"
+  fullName: System.Security.Cryptography.RandomNumberGeneratorExtensions.NextUpper
+  nameWithType: RandomNumberGeneratorExtensions.NextUpper
+- uid: System.Security.Cryptography.RandomNumberGeneratorExtensions.Shuffle(System.Security.Cryptography.RandomNumberGenerator,System.String)
+  name: Shuffle(RandomNumberGenerator, String)
+  href: api/System.Security.Cryptography.RandomNumberGeneratorExtensions.html#System_Security_Cryptography_RandomNumberGeneratorExtensions_Shuffle_System_Security_Cryptography_RandomNumberGenerator_System_String_
+  commentId: M:System.Security.Cryptography.RandomNumberGeneratorExtensions.Shuffle(System.Security.Cryptography.RandomNumberGenerator,System.String)
+  fullName: System.Security.Cryptography.RandomNumberGeneratorExtensions.Shuffle(System.Security.Cryptography.RandomNumberGenerator, System.String)
+  nameWithType: RandomNumberGeneratorExtensions.Shuffle(RandomNumberGenerator, String)
+- uid: System.Security.Cryptography.RandomNumberGeneratorExtensions.Shuffle*
+  name: Shuffle
+  href: api/System.Security.Cryptography.RandomNumberGeneratorExtensions.html#System_Security_Cryptography_RandomNumberGeneratorExtensions_Shuffle_
+  commentId: Overload:System.Security.Cryptography.RandomNumberGeneratorExtensions.Shuffle
+  isSpec: "True"
+  fullName: System.Security.Cryptography.RandomNumberGeneratorExtensions.Shuffle
+  nameWithType: RandomNumberGeneratorExtensions.Shuffle
+- uid: System.Security.Cryptography.StringExtensions
+  name: StringExtensions
+  href: api/System.Security.Cryptography.StringExtensions.html
+  commentId: T:System.Security.Cryptography.StringExtensions
+  fullName: System.Security.Cryptography.StringExtensions
+  nameWithType: StringExtensions
+- uid: System.Security.Cryptography.StringExtensions.ToSha256(System.String)
+  name: ToSha256(String)
+  href: api/System.Security.Cryptography.StringExtensions.html#System_Security_Cryptography_StringExtensions_ToSha256_System_String_
+  commentId: M:System.Security.Cryptography.StringExtensions.ToSha256(System.String)
+  fullName: System.Security.Cryptography.StringExtensions.ToSha256(System.String)
+  nameWithType: StringExtensions.ToSha256(String)
+- uid: System.Security.Cryptography.StringExtensions.ToSha256*
+  name: ToSha256
+  href: api/System.Security.Cryptography.StringExtensions.html#System_Security_Cryptography_StringExtensions_ToSha256_
+  commentId: Overload:System.Security.Cryptography.StringExtensions.ToSha256
+  isSpec: "True"
+  fullName: System.Security.Cryptography.StringExtensions.ToSha256
+  nameWithType: StringExtensions.ToSha256
+- uid: System.Security.Cryptography.StringExtensions.ToSha512(System.String)
+  name: ToSha512(String)
+  href: api/System.Security.Cryptography.StringExtensions.html#System_Security_Cryptography_StringExtensions_ToSha512_System_String_
+  commentId: M:System.Security.Cryptography.StringExtensions.ToSha512(System.String)
+  fullName: System.Security.Cryptography.StringExtensions.ToSha512(System.String)
+  nameWithType: StringExtensions.ToSha512(String)
+- uid: System.Security.Cryptography.StringExtensions.ToSha512*
+  name: ToSha512
+  href: api/System.Security.Cryptography.StringExtensions.html#System_Security_Cryptography_StringExtensions_ToSha512_
+  commentId: Overload:System.Security.Cryptography.StringExtensions.ToSha512
+  isSpec: "True"
+  fullName: System.Security.Cryptography.StringExtensions.ToSha512
+  nameWithType: StringExtensions.ToSha512
+- uid: System.SingletonBase`1
+  name: SingletonBase<T>
+  href: api/System.SingletonBase-1.html
+  commentId: T:System.SingletonBase`1
+  name.vb: SingletonBase(Of T)
+  fullName: System.SingletonBase<T>
+  fullName.vb: System.SingletonBase(Of T)
+  nameWithType: SingletonBase<T>
+  nameWithType.vb: SingletonBase(Of T)
+- uid: System.SingletonBase`1._instance
+  name: _instance
+  href: api/System.SingletonBase-1.html#System_SingletonBase_1__instance
+  commentId: F:System.SingletonBase`1._instance
+  fullName: System.SingletonBase<T>._instance
+  fullName.vb: System.SingletonBase(Of T)._instance
+  nameWithType: SingletonBase<T>._instance
+  nameWithType.vb: SingletonBase(Of T)._instance
+- uid: System.SingletonBase`1.Instance
+  name: Instance()
+  href: api/System.SingletonBase-1.html#System_SingletonBase_1_Instance
+  commentId: M:System.SingletonBase`1.Instance
+  fullName: System.SingletonBase<T>.Instance()
+  fullName.vb: System.SingletonBase(Of T).Instance()
+  nameWithType: SingletonBase<T>.Instance()
+  nameWithType.vb: SingletonBase(Of T).Instance()
+- uid: System.SingletonBase`1.Instance*
+  name: Instance
+  href: api/System.SingletonBase-1.html#System_SingletonBase_1_Instance_
+  commentId: Overload:System.SingletonBase`1.Instance
+  isSpec: "True"
+  fullName: System.SingletonBase<T>.Instance
+  fullName.vb: System.SingletonBase(Of T).Instance
+  nameWithType: SingletonBase<T>.Instance
+  nameWithType.vb: SingletonBase(Of T).Instance
+- uid: System.StringExtensions
+  name: StringExtensions
+  href: api/System.StringExtensions.html
+  commentId: T:System.StringExtensions
+  fullName: System.StringExtensions
+  nameWithType: StringExtensions
+- uid: System.StringExtensions.HammingDistance(System.String,System.String)
+  name: HammingDistance(String, String)
+  href: api/System.StringExtensions.html#System_StringExtensions_HammingDistance_System_String_System_String_
+  commentId: M:System.StringExtensions.HammingDistance(System.String,System.String)
+  fullName: System.StringExtensions.HammingDistance(System.String, System.String)
+  nameWithType: StringExtensions.HammingDistance(String, String)
+- uid: System.StringExtensions.HammingDistance*
+  name: HammingDistance
+  href: api/System.StringExtensions.html#System_StringExtensions_HammingDistance_
+  commentId: Overload:System.StringExtensions.HammingDistance
+  isSpec: "True"
+  fullName: System.StringExtensions.HammingDistance
+  nameWithType: StringExtensions.HammingDistance
+- uid: System.StringExtensions.IsHTML(System.String)
+  name: IsHTML(String)
+  href: api/System.StringExtensions.html#System_StringExtensions_IsHTML_System_String_
+  commentId: M:System.StringExtensions.IsHTML(System.String)
+  fullName: System.StringExtensions.IsHTML(System.String)
+  nameWithType: StringExtensions.IsHTML(String)
+- uid: System.StringExtensions.IsHTML*
+  name: IsHTML
+  href: api/System.StringExtensions.html#System_StringExtensions_IsHTML_
+  commentId: Overload:System.StringExtensions.IsHTML
+  isSpec: "True"
+  fullName: System.StringExtensions.IsHTML
+  nameWithType: StringExtensions.IsHTML
+- uid: System.StringExtensions.IsMatch(System.String,System.String)
+  name: IsMatch(String, String)
+  href: api/System.StringExtensions.html#System_StringExtensions_IsMatch_System_String_System_String_
+  commentId: M:System.StringExtensions.IsMatch(System.String,System.String)
+  fullName: System.StringExtensions.IsMatch(System.String, System.String)
+  nameWithType: StringExtensions.IsMatch(String, String)
+- uid: System.StringExtensions.IsMatch*
+  name: IsMatch
+  href: api/System.StringExtensions.html#System_StringExtensions_IsMatch_
+  commentId: Overload:System.StringExtensions.IsMatch
+  isSpec: "True"
+  fullName: System.StringExtensions.IsMatch
+  nameWithType: StringExtensions.IsMatch
+- uid: System.StringExtensions.Obfuscate(System.String,System.Int32)
+  name: Obfuscate(String, Int32)
+  href: api/System.StringExtensions.html#System_StringExtensions_Obfuscate_System_String_System_Int32_
+  commentId: M:System.StringExtensions.Obfuscate(System.String,System.Int32)
+  fullName: System.StringExtensions.Obfuscate(System.String, System.Int32)
+  nameWithType: StringExtensions.Obfuscate(String, Int32)
+- uid: System.StringExtensions.Obfuscate*
+  name: Obfuscate
+  href: api/System.StringExtensions.html#System_StringExtensions_Obfuscate_
+  commentId: Overload:System.StringExtensions.Obfuscate
+  isSpec: "True"
+  fullName: System.StringExtensions.Obfuscate
+  nameWithType: StringExtensions.Obfuscate
+- uid: System.StringExtensions.Reverse(System.String)
+  name: Reverse(String)
+  href: api/System.StringExtensions.html#System_StringExtensions_Reverse_System_String_
+  commentId: M:System.StringExtensions.Reverse(System.String)
+  fullName: System.StringExtensions.Reverse(System.String)
+  nameWithType: StringExtensions.Reverse(String)
+- uid: System.StringExtensions.Reverse*
+  name: Reverse
+  href: api/System.StringExtensions.html#System_StringExtensions_Reverse_
+  commentId: Overload:System.StringExtensions.Reverse
+  isSpec: "True"
+  fullName: System.StringExtensions.Reverse
+  nameWithType: StringExtensions.Reverse
+- uid: System.StringExtensions.Shuffle(System.String)
+  name: Shuffle(String)
+  href: api/System.StringExtensions.html#System_StringExtensions_Shuffle_System_String_
+  commentId: M:System.StringExtensions.Shuffle(System.String)
+  fullName: System.StringExtensions.Shuffle(System.String)
+  nameWithType: StringExtensions.Shuffle(String)
+- uid: System.StringExtensions.Shuffle*
+  name: Shuffle
+  href: api/System.StringExtensions.html#System_StringExtensions_Shuffle_
+  commentId: Overload:System.StringExtensions.Shuffle
+  isSpec: "True"
+  fullName: System.StringExtensions.Shuffle
+  nameWithType: StringExtensions.Shuffle
+- uid: System.StringExtensions.ToBase64(System.String)
+  name: ToBase64(String)
+  href: api/System.StringExtensions.html#System_StringExtensions_ToBase64_System_String_
+  commentId: M:System.StringExtensions.ToBase64(System.String)
+  fullName: System.StringExtensions.ToBase64(System.String)
+  nameWithType: StringExtensions.ToBase64(String)
+- uid: System.StringExtensions.ToBase64*
+  name: ToBase64
+  href: api/System.StringExtensions.html#System_StringExtensions_ToBase64_
+  commentId: Overload:System.StringExtensions.ToBase64
+  isSpec: "True"
+  fullName: System.StringExtensions.ToBase64
+  nameWithType: StringExtensions.ToBase64
+- uid: System.Threading.Tasks
+  name: System.Threading.Tasks
+  href: api/System.Threading.Tasks.html
+  commentId: N:System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+- uid: System.Threading.Tasks.TaskExtensions
+  name: TaskExtensions
+  href: api/System.Threading.Tasks.TaskExtensions.html
+  commentId: T:System.Threading.Tasks.TaskExtensions
+  fullName: System.Threading.Tasks.TaskExtensions
+  nameWithType: TaskExtensions
+- uid: System.Threading.Tasks.TaskExtensions.WaitAll(IEnumerable{System.Threading.Tasks.Task},System.Int32,System.Int32,System.Threading.CancellationToken)
+  name: WaitAll(IEnumerable<Task>, Int32, Int32, CancellationToken)
+  href: api/System.Threading.Tasks.TaskExtensions.html#System_Threading_Tasks_TaskExtensions_WaitAll_IEnumerable_System_Threading_Tasks_Task__System_Int32_System_Int32_System_Threading_CancellationToken_
+  commentId: M:System.Threading.Tasks.TaskExtensions.WaitAll(IEnumerable{System.Threading.Tasks.Task},System.Int32,System.Int32,System.Threading.CancellationToken)
+  name.vb: WaitAll(IEnumerable(Of Task), Int32, Int32, CancellationToken)
+  fullName: System.Threading.Tasks.TaskExtensions.WaitAll(IEnumerable<System.Threading.Tasks.Task>, System.Int32, System.Int32, System.Threading.CancellationToken)
+  fullName.vb: System.Threading.Tasks.TaskExtensions.WaitAll(IEnumerable(Of System.Threading.Tasks.Task), System.Int32, System.Int32, System.Threading.CancellationToken)
+  nameWithType: TaskExtensions.WaitAll(IEnumerable<Task>, Int32, Int32, CancellationToken)
+  nameWithType.vb: TaskExtensions.WaitAll(IEnumerable(Of Task), Int32, Int32, CancellationToken)
+- uid: System.Threading.Tasks.TaskExtensions.WaitAll*
+  name: WaitAll
+  href: api/System.Threading.Tasks.TaskExtensions.html#System_Threading_Tasks_TaskExtensions_WaitAll_
+  commentId: Overload:System.Threading.Tasks.TaskExtensions.WaitAll
+  isSpec: "True"
+  fullName: System.Threading.Tasks.TaskExtensions.WaitAll
+  nameWithType: TaskExtensions.WaitAll
+- uid: System.Threading.Tasks.TaskExtensions.WhenAll(IEnumerable{System.Threading.Tasks.Task},System.Int32,System.Int32,System.Threading.CancellationToken)
+  name: WhenAll(IEnumerable<Task>, Int32, Int32, CancellationToken)
+  href: api/System.Threading.Tasks.TaskExtensions.html#System_Threading_Tasks_TaskExtensions_WhenAll_IEnumerable_System_Threading_Tasks_Task__System_Int32_System_Int32_System_Threading_CancellationToken_
+  commentId: M:System.Threading.Tasks.TaskExtensions.WhenAll(IEnumerable{System.Threading.Tasks.Task},System.Int32,System.Int32,System.Threading.CancellationToken)
+  name.vb: WhenAll(IEnumerable(Of Task), Int32, Int32, CancellationToken)
+  fullName: System.Threading.Tasks.TaskExtensions.WhenAll(IEnumerable<System.Threading.Tasks.Task>, System.Int32, System.Int32, System.Threading.CancellationToken)
+  fullName.vb: System.Threading.Tasks.TaskExtensions.WhenAll(IEnumerable(Of System.Threading.Tasks.Task), System.Int32, System.Int32, System.Threading.CancellationToken)
+  nameWithType: TaskExtensions.WhenAll(IEnumerable<Task>, Int32, Int32, CancellationToken)
+  nameWithType.vb: TaskExtensions.WhenAll(IEnumerable(Of Task), Int32, Int32, CancellationToken)
+- uid: System.Threading.Tasks.TaskExtensions.WhenAll*
+  name: WhenAll
+  href: api/System.Threading.Tasks.TaskExtensions.html#System_Threading_Tasks_TaskExtensions_WhenAll_
+  commentId: Overload:System.Threading.Tasks.TaskExtensions.WhenAll
+  isSpec: "True"
+  fullName: System.Threading.Tasks.TaskExtensions.WhenAll
+  nameWithType: TaskExtensions.WhenAll
+- uid: System.TypeExtensions
+  name: TypeExtensions
+  href: api/System.TypeExtensions.html
+  commentId: T:System.TypeExtensions
+  fullName: System.TypeExtensions
+  nameWithType: TypeExtensions
+- uid: System.TypeExtensions.DerivedTypes(System.Type,System.String,System.String)
+  name: DerivedTypes(Type, String, String)
+  href: api/System.TypeExtensions.html#System_TypeExtensions_DerivedTypes_System_Type_System_String_System_String_
+  commentId: M:System.TypeExtensions.DerivedTypes(System.Type,System.String,System.String)
+  fullName: System.TypeExtensions.DerivedTypes(System.Type, System.String, System.String)
+  nameWithType: TypeExtensions.DerivedTypes(Type, String, String)
+- uid: System.TypeExtensions.DerivedTypes*
+  name: DerivedTypes
+  href: api/System.TypeExtensions.html#System_TypeExtensions_DerivedTypes_
+  commentId: Overload:System.TypeExtensions.DerivedTypes
+  isSpec: "True"
+  fullName: System.TypeExtensions.DerivedTypes
+  nameWithType: TypeExtensions.DerivedTypes

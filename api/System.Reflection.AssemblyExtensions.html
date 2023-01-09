@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class WebApplicationBuilderExtensions
+    <title>Class AssemblyExtensions
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class WebApplicationBuilderExtensions
+    <meta name="title" content="Class AssemblyExtensions
    ">
     <meta name="generator" content="docfx 2.59.4.0">
     
@@ -78,19 +78,19 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Microsoft.AspNetCore.Builder.WebApplicationBuilderExtensions">
+            <article class="content wrap" id="_content" data-uid="System.Reflection.AssemblyExtensions">
   
   
-  <h1 id="Microsoft_AspNetCore_Builder_WebApplicationBuilderExtensions" data-uid="Microsoft.AspNetCore.Builder.WebApplicationBuilderExtensions" class="text-break">Class WebApplicationBuilderExtensions
+  <h1 id="System_Reflection_AssemblyExtensions" data-uid="System.Reflection.AssemblyExtensions" class="text-break">Class AssemblyExtensions
   </h1>
-  <div class="markdown level0 summary"><p>This class contains extension methods related to the <span class="xref">Microsoft.AspNetCore.Builder.WebApplicationBuilder</span>
+  <div class="markdown level0 summary"><p>This class contains extension methods related to the <span class="xref">System.Reflection.Assembly</span>
 type.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">WebApplicationBuilderExtensions</span></div>
+    <div class="level1"><span class="xref">AssemblyExtensions</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -116,25 +116,23 @@ type.</p>
       <span class="xref">System.Object.ToString()</span>
     </div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="Microsoft.AspNetCore.Builder.html">Microsoft.AspNetCore.Builder</a></h6>
-  <h6><strong>Assembly</strong>: CG.EntityFrameworkCore.dll</h6>
-  <h5 id="Microsoft_AspNetCore_Builder_WebApplicationBuilderExtensions_syntax">Syntax</h5>
+  <h6><strong>Namespace</strong>: <a class="xref" href="System.Reflection.html">System.Reflection</a></h6>
+  <h6><strong>Assembly</strong>: CG.Core.dll</h6>
+  <h5 id="System_Reflection_AssemblyExtensions_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static class WebApplicationBuilderExtensions</code></pre>
+    <pre><code class="lang-csharp hljs">public static class AssemblyExtensions</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
-  <a id="Microsoft_AspNetCore_Builder_WebApplicationBuilderExtensions_AddDataAccess_" data-uid="Microsoft.AspNetCore.Builder.WebApplicationBuilderExtensions.AddDataAccess*"></a>
-  <h4 id="Microsoft_AspNetCore_Builder_WebApplicationBuilderExtensions_AddDataAccess_Microsoft_AspNetCore_Builder_WebApplicationBuilder_System_String_System_Nullable_ILogger__" data-uid="Microsoft.AspNetCore.Builder.WebApplicationBuilderExtensions.AddDataAccess(Microsoft.AspNetCore.Builder.WebApplicationBuilder,System.String,System.Nullable{ILogger})">AddDataAccess(WebApplicationBuilder, String, Nullable&lt;ILogger&gt;)</h4>
-  <div class="markdown level1 summary"><p>This method uses the information in the specified configuration
-section to call the <code>AddXXXDataAcess</code> method, for the currently
-configured provider, where the <code>XXX</code> part is dynamically replaced
-with the value of the <code>DAL:Provider</code> key, in the configuration.</p>
+  <a id="System_Reflection_AssemblyExtensions_ReadFileVersion_" data-uid="System.Reflection.AssemblyExtensions.ReadFileVersion*"></a>
+  <h4 id="System_Reflection_AssemblyExtensions_ReadFileVersion_System_Reflection_Assembly_" data-uid="System.Reflection.AssemblyExtensions.ReadFileVersion(System.Reflection.Assembly)">ReadFileVersion(Assembly)</h4>
+  <div class="markdown level1 summary"><p>Reads the value of the <span class="xref">System.Reflection.AssemblyFileVersionAttribute</span>
+attribute for the given assembly.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static WebApplicationBuilder AddDataAccess(this WebApplicationBuilder webApplicationBuilder, string sectionPath = &quot;DAL&quot;, ILogger? bootstrapLogger = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public static string ReadFileVersion(this Assembly assembly)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -147,24 +145,9 @@ with the value of the <code>DAL:Provider</code> key, in the configuration.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Microsoft.AspNetCore.Builder.WebApplicationBuilder</span></td>
-        <td><span class="parametername">webApplicationBuilder</span></td>
-        <td><p>The web application builder to
-use for the operation.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">sectionPath</span></td>
-        <td><p>The configuration section path to use for
-the operation. Defaults to <code>DAL</code>.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">ILogger</span>&gt;</td>
-        <td><span class="parametername">bootstrapLogger</span></td>
-        <td><p>An optional bootstrap logger to use
-for the operation.</p>
+        <td><span class="xref">System.Reflection.Assembly</span></td>
+        <td><span class="parametername">assembly</span></td>
+        <td><p>The assembly to read from.</p>
 </td>
       </tr>
     </tbody>
@@ -179,50 +162,12 @@ for the operation.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Microsoft.AspNetCore.Builder.WebApplicationBuilder</span></td>
-        <td><p>The value of the <code data-dev-comment-type="paramref" class="paramref">webApplicationBuilder</code>
-parameter, for chaining calls together, Fluent style.</p>
+        <td><span class="xref">System.String</span></td>
+        <td><p>The value of the given assembly's file version attribute.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 id="Microsoft_AspNetCore_Builder_WebApplicationBuilderExtensions_AddDataAccess_Microsoft_AspNetCore_Builder_WebApplicationBuilder_System_String_System_Nullable_ILogger___remarks">Remarks</h5>
-  <div class="markdown level1 remarks"><p>
-There is a convention that says the target extension method, in your
-assembly, should look like this:
-<pre><code>public static WebApplicationBuilder AddMyProviderDataAccess(
-    this WebApplicationBuilder webApplicationBuilder,
-    string sectionName = &quot;DAL:MyProvider&quot;,
-    ILogger? bootstrapLogger = null
-    );</code></pre>
-Where the <code>AddMyProviderDataAccess</code> method name is derived from
-the corresponding provider (<code>MyProvider</code> in this example).
-</p>
-<p>
-The <code>SectionName</code> parameter can by anything you like, but it should
-be legal a JSON name, since it must match a corresponding section in the 
-application&apos;s configuration. 
-</p>
-<p>
-The <code>bootstrapLogger</code> parameter can be provided if you want to 
-log the internal actions of the method. That can be useful for troubleshooting,
-when the method fails to find, or call, your extension method.
-</p>
-</div>
-  <h5 id="Microsoft_AspNetCore_Builder_WebApplicationBuilderExtensions_AddDataAccess_Microsoft_AspNetCore_Builder_WebApplicationBuilder_System_String_System_Nullable_ILogger___examples">Examples</h5>
-  <p>This example demonstrates using the method in a typical ASP.NET application:</p>
-<pre><code>    var builder = WebApplication.CreateBuilder(args);
-
-    builder.AddDataAccess();
-
-    // Normal builder configuration code removed, for clarity
-
-    var app = builder.Build();
-
-    // Normal app startup code removed, for clarity
-
-    app.Run();</code></pre>
-
 </article>
           </div>
           
